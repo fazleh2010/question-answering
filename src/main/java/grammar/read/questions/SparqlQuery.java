@@ -26,13 +26,20 @@ import java.util.logging.Logger;
  *
  * @author elahi
  */
-public class TriggerSparqlQuery {
+public class SparqlQuery {
 
     private static String endpoint = "https://dbpedia.org/sparql";
     private String objectOfProperty;
+    public static String FIND_ANY_ANSWER = "FIND_ANY_ANSWER";
+    public static String FIND_LABEL = "FIND_LABEL";
 
-    public TriggerSparqlQuery(String entityUrl, String property) {
-        String sparqlQuery = this.setSparqlQueryProperty(entityUrl, property);
+    public SparqlQuery(String entityUrl, String property, String type) {
+        String sparqlQuery = null;
+        if (type.contains(FIND_ANY_ANSWER)) {
+            sparqlQuery = this.setSparqlQueryProperty(entityUrl, property);
+        } else if (type.contains(FIND_LABEL)) {
+            sparqlQuery = this.setSparqlQueryForLabel(entityUrl);
+        }
         //System.out.println("sparqlQuery:"+sparqlQuery);
         String resultSparql = executeSparqlQuery(sparqlQuery);
         //System.out.println(resultSparql);
@@ -48,7 +55,7 @@ public class TriggerSparqlQuery {
             process = Runtime.getRuntime().exec(command);
             //System.out.print(command);
         } catch (Exception ex) {
-            Logger.getLogger(TriggerSparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(SparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("error in unicode in sparql query!" + ex.getMessage());
             ex.printStackTrace();
         }
@@ -63,7 +70,7 @@ public class TriggerSparqlQuery {
             }
             result = builder.toString();
         } catch (IOException ex) {
-            Logger.getLogger(TriggerSparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(SparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("error in reading sparql query!" + ex.getMessage());
             ex.printStackTrace();
         }
@@ -78,7 +85,7 @@ public class TriggerSparqlQuery {
             builder = factory.newDocumentBuilder();
             this.parseResult(builder, xmlStr);
         } catch (Exception ex) {
-            Logger.getLogger(TriggerSparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(SparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
             System.out.println("error in parsing sparql in XML!" + ex.getMessage());
             ex.printStackTrace();
         }
@@ -101,12 +108,14 @@ public class TriggerSparqlQuery {
         Document document = builder.parse(new InputSource(new StringReader(
                 xmlStr)));
         NodeList results = document.getElementsByTagName("results");
+        //System.out.println("xmlStr!!!!!!!!!!!!!" + xmlStr);
 
         for (int i = 0; i < results.getLength(); i++) {
             NodeList childList = results.item(i).getChildNodes();
             for (int j = 0; j < childList.getLength(); j++) {
                 Node childNode = childList.item(j);
                 if ("result".equals(childNode.getNodeName())) {
+                    //System.out.println("label!!!!!!!!!!!!!" + childList.item(j).getTextContent().trim());
                     this.objectOfProperty = childList.item(j).getTextContent().trim();
                 }
             }
@@ -119,6 +128,21 @@ public class TriggerSparqlQuery {
                 + "    {\n"
                 + "    " + "<" + entityUrl + ">" + " " + "<" + property + ">" + "  " + "?o" + "\n"
                 + "    }";
+
+    }
+
+    public String setSparqlQueryForLabel(String entityUrl) {
+        String sparql = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"
+                + "   PREFIX dbo: <http://dbpedia.org/ontology/>\n"
+                + "   PREFIX dbpedia: <http://dbpedia.org/resource/>\n"
+                + "\n"
+                + "   SELECT DISTINCT ?label \n"
+                + "   WHERE {  \n"
+                + "       <" + entityUrl + "> rdfs:label ?label .     \n"
+                + "       filter(langMatches(lang(?label),\"EN\"))         \n"
+                + "   }";
+
+        return sparql;
 
     }
 

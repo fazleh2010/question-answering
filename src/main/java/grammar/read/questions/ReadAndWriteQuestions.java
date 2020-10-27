@@ -8,7 +8,6 @@ package grammar.read.questions;
 import util.io.FileUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
-import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
@@ -35,7 +34,6 @@ public class ReadAndWriteQuestions {
             this.readQuestionAnswers(list);
         }
         this.content =this.prepareQuestionAnswerStr();
-
         FileUtils.stringToFile(this.content, questionAnswerFile);
     }
 
@@ -75,24 +73,34 @@ public class ReadAndWriteQuestions {
                     flag=true;
                 }*/
             questionT = questionT.replace("$x", uriLabel.getLabel());
+            System.out.println(questionT);
             String answer = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
-            //if(!flag){
-            System.out.println("questionT:" + questionT);
-            System.out.println("answer:" + answer);
-            //}
-
             questionAnswers.put(questionT, answer);
-
         }
 
     }
 
     public String getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
         String property = null;
+        String answer = null;
         if (syntacticFrame.contains(FRAMETYPE_NPP)) {
             property = StringUtils.substringBetween(sparql, "<", ">");
         }
-        return new TriggerSparqlQuery(subjProp, property).getObject();
+        SparqlQuery sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER);
+        answer = sparqlQuery.getObject();
+        if (answer != null) {
+            if(answer.contains("http:")){
+                System.out.println(answer);
+                SparqlQuery sparqlQueryLabel=new SparqlQuery(answer,property,SparqlQuery.FIND_LABEL);
+                answer=sparqlQueryLabel.getObject();
+                System.out.println(answer);
+            }
+            return answer;
+        } else {
+            return "No answer found for this question!!";
+        }
+
+        //return new SparqlQuery(subjProp, property,SparqlQuery.FIND_ANY_ANSWER).getObject();
     }
 
     private String prepareQuestionAnswerStr() {
