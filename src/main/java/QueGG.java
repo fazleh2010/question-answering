@@ -52,7 +52,7 @@ public class QueGG {
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
 
         ReadAndWriteQuestions readAndWriteQuestions = null;
-        Integer task=2;
+        Integer task=3;
         String content = "";
 
         if (task.equals(1)) {
