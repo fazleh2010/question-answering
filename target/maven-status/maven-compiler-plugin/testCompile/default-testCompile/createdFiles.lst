@@ -1,0 +1,9 @@
+util/sparql/RequestCompilerTest.class
+EvaluateAgainstQALDTest.class
+grammar/generator/helper/datasets/questionword/QuestionWordFactoryTest.class
+grammar/generator/GrammarRuleGeneratorRootTest.class
+grammar/generator/helper/parser/SentenceTokenImplTest.class
+grammar/generator/helper/parser/SentenceTemplateParserTest.class
+grammar/generator/helper/datasets/sentencetemplates/SentenceTemplateFactoryTest.class
+grammar/generator/BindingResolverTest.class
+grammar/generator/helper/SubjectTypeTest.class
