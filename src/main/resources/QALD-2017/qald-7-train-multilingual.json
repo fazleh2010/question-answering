@@ -1031,7 +1031,7 @@
 							}
 						},
 						{
-							"uri": {
+						"uri": {
 								"type": "uri",
 								"value": "http://dbpedia.org/resource/Hann._Münden"
 							}
