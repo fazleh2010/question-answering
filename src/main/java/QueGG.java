@@ -49,31 +49,8 @@ public class QueGG {
         System.out.println(answer);
          */
         QueGG queGG = new QueGG();
-        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
-
-        ReadAndWriteQuestions readAndWriteQuestions = null;
-        Integer task=3;
-        String content = "";
-
-        if (task.equals(1)) {
-            generateQuestions(args, queGG);
-        } else if (task.equals(2)) {
-            try {
-                readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN");
-                //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
-                //content = output(createTree.getInputTupples());
-            } catch (Exception ex) {
-                java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
-            }
-
-        } else if (task.equals(3)) {
-            readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
-            System.out.println(readAndWriteQuestions.getContent());
-        }
-    }
-
-    private static void generateQuestions(String[] args, QueGG queGG) {
-        Language language = Language.stringToLanguage("EN");
+     
+         Language language = Language.stringToLanguage("EN");
 
         try {
             if (args.length < 3) {
@@ -98,6 +75,36 @@ public class QueGG {
             System.err.printf("%s: %s%n", e.getClass().getSimpleName(), e.getMessage());
             System.err.printf("Usage: <%s> <input directory> <output directory>%n", Arrays.toString(Language.values()));
         }
+        //Here is the function of generating question answer.
+           //questionAnsweringInterface(args, queGG);
+    }
+
+    private static void questionAnsweringInterface(String[] args, QueGG queGG) {
+        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
+        
+        ReadAndWriteQuestions readAndWriteQuestions = null;
+        Integer task=3;
+        String content = "";
+
+        if (task.equals(1)) {
+            generateQuestions(args, queGG);
+        } else if (task.equals(2)) {
+            try {
+                readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN");
+                //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
+                //content = output(createTree.getInputTupples());
+            } catch (Exception ex) {
+                java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
+            }
+
+        } else if (task.equals(3)) {
+            readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
+            System.out.println(readAndWriteQuestions.getContent());
+        }
+    }
+
+    private static void generateQuestions(String[] args, QueGG queGG) {
+       
     }
 
     private void init(Language language, String inputDir, String outputDir) throws IOException {
