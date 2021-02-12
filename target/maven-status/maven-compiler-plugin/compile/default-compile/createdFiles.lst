@@ -61,6 +61,7 @@ evaluation/QALD$QALDQuery.class
 grammar/generator/helper/datasets/questionword/QuestionWordFactoryDE.class
 grammar/generator/GrammarRuleGeneratorRoot.class
 grammar/generator/helper/datasets/Factory.class
+QaInterface.class
 grammar/generator/helper/sentencetemplates/AnnotatedInterrogativeDeterminer.class
 util/exceptions/QueGGMissingFieldDeclarationException.class
 grammar/generator/helper/datasets/sentencetemplates/SentenceTemplateFactoryEN.class
@@ -81,11 +82,13 @@ grammar/read/questions/SentenceToSparql.class
 grammar/generator/helper/SubjectType.class
 lexicon/LexiconSearch.class
 grammar/generator/helper/SentenceBuilderCopulativePP.class
+grammar/read/questions/Trie.class
 grammar/generator/helper/SentenceBuilderAdjectiveAttributiveEN.class
 evaluation/QALD$QALDDatasetDefinition.class
 grammar/generator/NPPGrammarRuleGenerator.class
 grammar/read/questions/SentenceBindings.class
 grammar/generator/helper/sentencetemplates/AnnotatedWord.class
 grammar/generator/helper/datasets/questionword/QuestionWord.class
+grammar/read/questions/TrieNode.class
 grammar/structure/component/Binding.class
 grammar/generator/helper/sentencetemplates/AnnotatedNounOrQuestionWord.class

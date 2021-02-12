@@ -36,23 +36,28 @@ public class FileUtils {
 
     public static String fileToString(String fileName) {
         InputStream is;String fileAsString=null;
+        Integer index=0;
         try {
             is = new FileInputStream(fileName);
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
             String line = buf.readLine();
             StringBuilder sb = new StringBuilder();
             while (line != null) {
+                System.out.println("line:"+line);
                 sb.append(line).append("\n");
                 line = buf.readLine();
+                index=index+1;
             }
             fileAsString = sb.toString();
-            System.out.println("Contents : " + fileAsString);
         } catch (Exception ex) {
             Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, ex);
         }
+        System.out.println("index:"+index);
 
         return fileAsString;
     }
+    
+   
 
     public static List<File> getFiles(String fileDir, String category, String extension) {
         String[] files = new File(fileDir).list();

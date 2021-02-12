@@ -1,0 +1,88 @@
+
+import grammar.read.questions.ReadAndWriteQuestions;
+import grammar.read.questions.Trie;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import util.io.FileUtils;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+/**
+ *
+ * @author elahi
+ */
+public class QaInterface {
+
+    //temporarly closed. becuase it does not work from command line
+    //private static final Logger LOG = LogManager.getLogger(QueGG.class);
+    private static String inputDir = "src/main/resources/lexicon/en/nouns/input/";
+    //this is a temporary solution. it will be removed later..
+    private static String BaseDir = "/var/www/html//question-answering/";
+    private static String outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
+
+    public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
+    public static String QUESTION_ANSWER_FILE = "questions.txt";
+
+    public static void main(String[] args) {
+        String BaseDir = "";
+        outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
+        QUESTION_ANSWER_LOCATION= BaseDir + "src/main/resources";
+
+        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
+
+        ReadAndWriteQuestions readAndWriteQuestions = null;
+        Integer task = 3;
+        String content = "";
+
+        if (task.equals(2)) {
+            try {
+                readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN");
+                //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
+                //content = output(createTree.getInputTupples());
+            } catch (Exception ex) {
+                java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
+            }
+
+        } else if (task.equals(3)) {
+            //readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
+            Trie trie = createTrie(questionAnswerFile);
+            List autoCompletionList = trie.autocomplete("Which city was the capital of Republic");
+            for (int i = 0; i < autoCompletionList.size(); i++) {
+                System.out.println(autoCompletionList.get(i));
+            }
+        }
+    }
+     public static Trie createTrie(String fileName) {
+            Trie trie = new Trie();
+        try {
+            InputStream is = new FileInputStream(fileName);
+            BufferedReader buf = new BufferedReader(new InputStreamReader(is));
+            String line = buf.readLine();
+            StringBuilder sb = new StringBuilder();
+            while (line != null) {
+                if (line.contains("=")) {
+                    
+                    String[] info = line.split("=");
+                    String question = info[0];
+                     trie.insert(question);
+                     line = buf.readLine();
+                }
+            }
+        } catch (Exception ex) {
+            Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        return trie;
+    }
+
+}
