@@ -63,13 +63,16 @@ public class QueGG {
         QueGG queGG = new QueGG();
 
         try {
-            if (args.length == 3) {
+            /*if (args.length == 3) {
                 language = Language.stringToLanguage(args[0]);
                 inputDir = Path.of(args[1]).toString();
                 outputDir = Path.of(args[2]).toString();
-            } else if (args.length == 2) {
-                language = Language.stringToLanguage(args[0]);
-                String tokenStr = args[1];
+            } else*/ if (args.length == 4) {
+                String search = args[0];
+                language = Language.stringToLanguage(args[1]);
+                questionAnswerFile = args[2];
+                String tokenStr = args[3];
+                
                 Trie trie = createTrie(questionAnswerFile);
                 List autoCompletionList = trie.autocomplete(tokenStr);
                 for (int i = 0; i < autoCompletionList.size(); i++) {
