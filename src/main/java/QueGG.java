@@ -4,26 +4,34 @@ import grammar.generator.BindingResolver;
 import grammar.generator.GrammarRuleGeneratorRoot;
 import grammar.generator.GrammarRuleGeneratorRootImpl;
 import grammar.read.questions.ReadAndWriteQuestions;
+import grammar.read.questions.Trie;
 import grammar.structure.component.DomainOrRangeType;
 import grammar.structure.component.FrameType;
 import grammar.structure.component.GrammarEntry;
 import grammar.structure.component.GrammarWrapper;
 import grammar.structure.component.Language;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import lexicon.LexiconImporter;
 import lombok.NoArgsConstructor;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URISyntaxException;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.util.Objects.isNull;
 import java.util.logging.Level;
+import util.io.FileUtils;
 
 @NoArgsConstructor
 public class QueGG {
@@ -43,47 +51,87 @@ public class QueGG {
     //PREPARE_QUESTION_ANSWER =1
     //QUESTIONS_ANSWERS=2;
     public static void main(String[] args) {
-        /*ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions();
-        String subjProp="http://dbpedia.org/resource/Henri_Becquerel";
-        String sparql = "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> ?objOfProp))";
-        String answer=readAndWriteQuestions.getAnswer(subjProp,sparql,"NOUN");
-        System.out.println(answer);
-         */
+        String BaseDir = "";
+        outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
+        QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
+        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
+
+        ReadAndWriteQuestions readAndWriteQuestions = null;
+        Integer task = 3;
+        String content = "";
+        Language language = null;
         QueGG queGG = new QueGG();
-        Language language = Language.stringToLanguage("EN");
 
         try {
-            if (args.length < 3) {
-                System.out.println("running on default parameter!!");
+            if (args.length == 3) {
+                language = Language.stringToLanguage(args[0]);
+                inputDir = Path.of(args[1]).toString();
+                outputDir = Path.of(args[2]).toString();
+            } else if (args.length == 2) {
+                language = Language.stringToLanguage(args[0]);
+                String tokenStr = args[1];
+                Trie trie = createTrie(questionAnswerFile);
+                List autoCompletionList = trie.autocomplete(tokenStr);
+                for (int i = 0; i < autoCompletionList.size(); i++) {
+                    content += autoCompletionList.get(i) + "\n";
+                }
+                System.out.println(content);
+                //System.out.println("tokenStr:"+tokenStr);
+                //System.out.println("autoCompletionList:"+autoCompletionList);
+            } else if (args.length < 3) {
+                System.out.println("provide correct parameter!!!!");
                 /*System.out.println("language:"+language);
                 System.out.println("inputDir:"+inputDir);
                 System.out.println("outputDir:"+outputDir);  */
             } else {
-                language = Language.stringToLanguage(args[0]);
-                inputDir = Path.of(args[1]).toString();
-                outputDir = Path.of(args[2]).toString();
+                //LOG.info("Starting {} with language parameter '{}'", QueGG.class.getName(), language);
+                //LOG.info("Input directory: {}", inputDir);
+                //LOG.info("Output directory: {}", outputDir);
+                queGG.init(language, inputDir, outputDir);
+                //LOG.warn("To get optimal combinations of sentences please add the following types to {}\n{}",
+                //        DomainOrRangeType.class.getName(), DomainOrRangeType.MISSING_TYPES.toString()
+                // );     
             }
 
-            //LOG.info("Starting {} with language parameter '{}'", QueGG.class.getName(), language);
-            //LOG.info("Input directory: {}", inputDir);
-            //LOG.info("Output directory: {}", outputDir);
-            queGG.init(language, inputDir, outputDir);
-            //LOG.warn("To get optimal combinations of sentences please add the following types to {}\n{}",
-            //        DomainOrRangeType.class.getName(), DomainOrRangeType.MISSING_TYPES.toString()
-            // );
         } catch (IllegalArgumentException | IOException e) {
             System.err.printf("%s: %s%n", e.getClass().getSimpleName(), e.getMessage());
             System.err.printf("Usage: <%s> <input directory> <output directory>%n", Arrays.toString(Language.values()));
         }
         //Here is the function of generating question answer.
-           //questionAnsweringInterface(args, queGG);
+        //questionAnsweringInterface(args, queGG);
     }
+
+    public static Trie createTrie(String fileName) {
+        Trie trie = new Trie();
+        Integer index = 0;
+        try {
+            InputStream is = new FileInputStream(fileName);
+            BufferedReader buf = new BufferedReader(new InputStreamReader(is));
+            String line = buf.readLine();
+            StringBuilder sb = new StringBuilder();
+            while (line != null) {
+                if (line.contains("=")) {
+                    String[] info = line.split("=");
+                    String question = info[0];
+                    trie.insert(question);
+                    line = buf.readLine();
+                    index = index + 1;
+                    //System.err.println("index:" + index + " line:" + line);
+                }
+            }
+        } catch (Exception ex) {
+            java.util.logging.Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        return trie;
+    }
+
 
     private static void questionAnsweringInterface(String[] args, QueGG queGG) {
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
-        
+
         ReadAndWriteQuestions readAndWriteQuestions = null;
-        Integer task=3;
+        Integer task = 3;
         String content = "";
 
         if (task.equals(1)) {
@@ -104,7 +152,7 @@ public class QueGG {
     }
 
     private static void generateQuestions(String[] args, QueGG queGG) {
-       
+
     }
 
     public void init(Language language, String inputDir, String outputDir) throws IOException {

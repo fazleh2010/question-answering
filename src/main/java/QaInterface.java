@@ -37,8 +37,8 @@ public class QaInterface {
     public static void main(String[] args) {
         String BaseDir = "";
         outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
-        QUESTION_ANSWER_LOCATION= BaseDir + "src/main/resources";
-          QueGG queGG = new QueGG();
+        QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
+        QueGG queGG = new QueGG();
         Language language = Language.stringToLanguage("EN");
 
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
@@ -46,19 +46,17 @@ public class QaInterface {
         ReadAndWriteQuestions readAndWriteQuestions = null;
         Integer task = 3;
         String content = "";
-        
-         if (task.equals(1)) {
+
+        if (task.equals(1)) {
             try {
-                 queGG.init(language, inputDir, outputDir);
+                queGG.init(language, inputDir, outputDir);
                 //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
                 //content = output(createTree.getInputTupples());
             } catch (Exception ex) {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
             }
 
-        }
-
-         else if (task.equals(2)) {
+        } else if (task.equals(2)) {
             try {
                 readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN");
                 //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
@@ -72,7 +70,7 @@ public class QaInterface {
             Trie trie = createTrie(questionAnswerFile);
             List autoCompletionList = trie.autocomplete("Give me");
             for (int i = 0; i < autoCompletionList.size(); i++) {
-                System.out.println(i+" auto completion:"+autoCompletionList.get(i));
+                System.out.println(i + " auto completion:" + autoCompletionList.get(i));
             }
         }
     }
