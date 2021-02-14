@@ -1,6 +1,7 @@
 
 import grammar.read.questions.ReadAndWriteQuestions;
 import grammar.read.questions.Trie;
+import grammar.structure.component.Language;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -37,14 +38,27 @@ public class QaInterface {
         String BaseDir = "";
         outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
         QUESTION_ANSWER_LOCATION= BaseDir + "src/main/resources";
+          QueGG queGG = new QueGG();
+        Language language = Language.stringToLanguage("EN");
 
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
 
         ReadAndWriteQuestions readAndWriteQuestions = null;
         Integer task = 3;
         String content = "";
+        
+         if (task.equals(1)) {
+            try {
+                 queGG.init(language, inputDir, outputDir);
+                //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
+                //content = output(createTree.getInputTupples());
+            } catch (Exception ex) {
+                java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
+            }
 
-        if (task.equals(2)) {
+        }
+
+         else if (task.equals(2)) {
             try {
                 readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN");
                 //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
@@ -56,14 +70,15 @@ public class QaInterface {
         } else if (task.equals(3)) {
             //readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
             Trie trie = createTrie(questionAnswerFile);
-            List autoCompletionList = trie.autocomplete("Which city was the capital of Republic");
+            List autoCompletionList = trie.autocomplete("Give me");
             for (int i = 0; i < autoCompletionList.size(); i++) {
-                System.out.println(autoCompletionList.get(i));
+                System.out.println(i+" auto completion:"+autoCompletionList.get(i));
             }
         }
     }
      public static Trie createTrie(String fileName) {
             Trie trie = new Trie();
+            Integer index=0;
         try {
             InputStream is = new FileInputStream(fileName);
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
@@ -71,16 +86,18 @@ public class QaInterface {
             StringBuilder sb = new StringBuilder();
             while (line != null) {
                 if (line.contains("=")) {
-                    
                     String[] info = line.split("=");
                     String question = info[0];
                      trie.insert(question);
                      line = buf.readLine();
+                     index=index+1;
+                     System.err.println("index:"+index+" line:"+line);
                 }
             }
         } catch (Exception ex) {
             Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, ex);
         }
+      
 
         return trie;
     }

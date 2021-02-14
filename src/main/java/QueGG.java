@@ -32,7 +32,8 @@ public class QueGG {
 
     private static String inputDir = "src/main/resources/lexicon/en/nouns/input/";
     //this is a temporary solution. it will be removed later..
-    private static String BaseDir = "/var/www/html//question-answering/";
+    //private static String BaseDir = "/var/www/html//question-answering/";
+    private static String BaseDir = "";
     private static String outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
 
     public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
@@ -40,7 +41,7 @@ public class QueGG {
 
     //GENERATE_QUESTION_ANSWER_FROM_GRAMMAR=1
     //PREPARE_QUESTION_ANSWER =1
-    // QUESTIONS_ANSWERS=2;
+    //QUESTIONS_ANSWERS=2;
     public static void main(String[] args) {
         /*ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions();
         String subjProp="http://dbpedia.org/resource/Henri_Becquerel";
@@ -49,8 +50,7 @@ public class QueGG {
         System.out.println(answer);
          */
         QueGG queGG = new QueGG();
-     
-         Language language = Language.stringToLanguage("EN");
+        Language language = Language.stringToLanguage("EN");
 
         try {
             if (args.length < 3) {
@@ -107,7 +107,7 @@ public class QueGG {
        
     }
 
-    private void init(Language language, String inputDir, String outputDir) throws IOException {
+    public void init(Language language, String inputDir, String outputDir) throws IOException {
         try {
             loadInputAndGenerate(language, inputDir, outputDir);
         } catch (URISyntaxException | InvocationTargetException | NoSuchMethodException | InstantiationException | IllegalAccessException e) {
