@@ -33,6 +33,8 @@ import static java.util.Objects.isNull;
 import java.util.logging.Level;
 import util.io.FileUtils;
 
+//index location /var/www/html/
+
 @NoArgsConstructor
 public class QueGG {
     //temporarly closed. becuase it does not work from command line
@@ -51,6 +53,7 @@ public class QueGG {
     //PREPARE_QUESTION_ANSWER =1
     //QUESTIONS_ANSWERS=2;
     public static void main(String[] args) {
+        
         String BaseDir = "";
         outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
         QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
@@ -72,7 +75,7 @@ public class QueGG {
                     Trie trie = createTrie(questionAnswerFile);
                     List autoCompletionList = trie.autocomplete(tokenStr);
                     for (int i = 0; i < autoCompletionList.size(); i++)
-                        content += autoCompletionList.get(i) + "\n";
+                        content += autoCompletionList.get(i) +"="+"answer"+ "\n";
                     System.out.println(content);
                 } else {
                     language = Language.stringToLanguage(args[0]);
