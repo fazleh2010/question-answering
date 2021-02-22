@@ -62,11 +62,16 @@ public class QueGG {
         ReadAndWriteQuestions readAndWriteQuestions = null;
         Integer task = 3;
         String content = "";
-        Language language = null;
         QueGG queGG = new QueGG();
+        Language language = Language.stringToLanguage("EN");
+       
 
         try {
-            if (args.length > 3) {
+            System.out.println("inputDir:"+inputDir);
+             System.out.println("outputDir:"+outputDir);
+            queGG.init(language, inputDir, outputDir);
+
+           /* if (args.length > 3) {
                 String search = args[0];
                 if (search.contains("search")) {
                     language = Language.stringToLanguage(args[1]);
@@ -74,8 +79,9 @@ public class QueGG {
                     String tokenStr = args[3];
                     Trie trie = createTrie(questionAnswerFile);
                     List autoCompletionList = trie.autocomplete(tokenStr);
-                    for (int i = 0; i < autoCompletionList.size(); i++)
-                        content += autoCompletionList.get(i) +"="+"answer"+ "\n";
+                    for (int i = 0; i < autoCompletionList.size(); i++) {
+                        content += autoCompletionList.get(i) + "=" + "answer" + "\n";
+                    }
                     System.out.println(content);
                 } else {
                     language = Language.stringToLanguage(args[0]);
@@ -83,41 +89,30 @@ public class QueGG {
                     outputDir = Path.of(args[2]).toString();
                 }
 
-            }/* else if (args.length == 4) {
+            } else if (args.length == 4) {
                 String search = args[0];
                 language = Language.stringToLanguage(args[1]);
                 questionAnswerFile = args[2];
                 String tokenStr = args[3];
-                
+
                 Trie trie = createTrie(questionAnswerFile);
                 List autoCompletionList = trie.autocomplete(tokenStr);
                 for (int i = 0; i < autoCompletionList.size(); i++) {
                     content += autoCompletionList.get(i) + "\n";
                 }
                 System.out.println(content);
-                //System.out.println("tokenStr:"+tokenStr);
-                //System.out.println("autoCompletionList:"+autoCompletionList);
-            } */else if (args.length < 3) {
+            } else if (args.length < 3) {
                 System.out.println("provide correct parameter!!!!");
-                /*System.out.println("language:"+language);
-                System.out.println("inputDir:"+inputDir);
-                System.out.println("outputDir:"+outputDir);  */
             } else {
-                //LOG.info("Starting {} with language parameter '{}'", QueGG.class.getName(), language);
-                //LOG.info("Input directory: {}", inputDir);
-                //LOG.info("Output directory: {}", outputDir);
                 queGG.init(language, inputDir, outputDir);
-                //LOG.warn("To get optimal combinations of sentences please add the following types to {}\n{}",
-                //        DomainOrRangeType.class.getName(), DomainOrRangeType.MISSING_TYPES.toString()
-                // );     
-            }
+
+            }*/
 
         } catch (IllegalArgumentException | IOException e) {
             System.err.printf("%s: %s%n", e.getClass().getSimpleName(), e.getMessage());
             System.err.printf("Usage: <%s> <input directory> <output directory>%n", Arrays.toString(Language.values()));
         }
-        //Here is the function of generating question answer.
-        //questionAnsweringInterface(args, queGG);
+       
     }
 
     public static Trie createTrie(String fileName) {

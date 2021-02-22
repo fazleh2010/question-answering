@@ -22,7 +22,7 @@ import util.io.FileUtils;
  *
  * @author elahi
  */
-public class QaInterface {
+public class AutoCompletion {
 
     //temporarly closed. becuase it does not work from command line
     //private static final Logger LOG = LogManager.getLogger(QueGG.class);
