@@ -32,17 +32,15 @@ public class SparqlQuery {
     private String objectOfProperty;
     public static String FIND_ANY_ANSWER = "FIND_ANY_ANSWER";
     public static String FIND_LABEL = "FIND_LABEL";
+    public  String sparqlQuery = null;
 
     public SparqlQuery(String entityUrl, String property, String type) {
-        String sparqlQuery = null;
         if (type.contains(FIND_ANY_ANSWER)) {
             sparqlQuery = this.setSparqlQueryProperty(entityUrl, property);
         } else if (type.contains(FIND_LABEL)) {
             sparqlQuery = this.setSparqlQueryForLabel(entityUrl);
         }
-        System.out.println("sparqlQuery:"+sparqlQuery);
         String resultSparql = executeSparqlQuery(sparqlQuery);
-        System.out.println(resultSparql);
         parseResult(resultSparql);
     }
 
@@ -154,5 +152,11 @@ public class SparqlQuery {
     public String getObject() {
         return this.objectOfProperty;
     }
+
+    public String getSparqlQuery() {
+        return sparqlQuery;
+    }
+
+   
 
 }

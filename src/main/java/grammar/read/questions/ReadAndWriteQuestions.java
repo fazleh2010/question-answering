@@ -7,6 +7,7 @@ package grammar.read.questions;
  */
 import util.io.FileUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.andrewoma.dexx.collection.Pair;
 import com.opencsv.CSVWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -70,7 +71,7 @@ public class ReadAndWriteQuestions {
             Integer total = grammarEntries.getGrammarEntries().size();
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
                 sparql = grammarEntryUnit.getSparqlQuery();
-                Map<String, String> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
+                Map<String, Pair<String,String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
                 this.makeQuestionAnswer(grammarEntryUnit.getId(), grammarEntryUnit.getSentences(), uriAnswer, sparql);
                 System.out.println("Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
                 break;
@@ -108,7 +109,7 @@ public class ReadAndWriteQuestions {
     
  
     
-    private void makeQuestionAnswer(Integer id, List<String> questions, Map<String, String> uriAnswer, String sparql) {
+    private void makeQuestionAnswer(Integer id, List<String> questions,Map<String, Pair<String,String>> uriAnswer, String sparql) {
 
         for (String question : questions) {
             String result = null;
@@ -122,13 +123,20 @@ public class ReadAndWriteQuestions {
             for (String uriLabel : uriAnswer.keySet()) {
                 id = id + 1;
                 String answer="no answer found";
-                answer = uriAnswer.get(uriLabel);
+                Pair<String,String> pair=uriAnswer.get(uriLabel);
+                sparql=pair.component1();
+                answer = pair.component2();
                 String questionT = question.replaceAll("(X)", uriLabel);
                 questionT = questionT.replace("(", "");
                 questionT = questionT.replace(")", "");
                 questionT = questionT.replace("$x", uriLabel);
                 questionT=questionT.stripLeading().trim();
                 sparql=sparql.stripLeading().trim();
+                sparql=sparql.replace("\n","");
+                sparql=sparql.replace(" ","+");
+                sparql=sparql.replace("+"," ");
+                
+                System.out.print("sparql:"+sparql);
                 String[] record = {id.toString(), questionT, sparql, answer};
                 csvRows.add(record);
                 questionAnswers.put(questionT, answer);
@@ -137,16 +145,18 @@ public class ReadAndWriteQuestions {
 
     }
     
-    private Map<String,String> replaceVariables(List<UriLabel> uriLabels, String sparql, String frameType) {
-        Map<String,String> xValues = new TreeMap<String,String>();
+    private Map<String, Pair<String,String>> replaceVariables(List<UriLabel> uriLabels, String sparql, String frameType) {
+        Map<String, Pair<String,String>> xValues = new TreeMap<String, Pair<String,String>>();
         for (UriLabel uriLabel : uriLabels) {
-            String answer = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
-            xValues.put(uriLabel.getLabel(),answer);
+            Pair<String,String> pair=this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
+            String sparqlQuery = pair.component1();
+            String answer = pair.component2();
+            xValues.put(uriLabel.getLabel(),pair);
         }
         return xValues;
     }
 
-    public String getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
+    public Pair<String,String> getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
         String property = null;
         String answer = null;
         SparqlQuery sparqlQuery =null;
@@ -163,9 +173,9 @@ public class ReadAndWriteQuestions {
                 //System.out.println(answer);
                 
             }
-            return answer;
+            return new Pair<String,String>(sparqlQuery.sparqlQuery,answer);
         } else {
-            return "No answer found for this question!!";
+            return new Pair<String,String>(null,null);
         }
         
       
