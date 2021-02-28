@@ -5,6 +5,7 @@
  */
 package util.io;
 
+import com.opencsv.CSVWriter;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -71,5 +72,19 @@ public class FileUtils {
         return selectedFiles;
 
     }
+
+    public static void stringToCSVFile(List<String[]> csvRows, String questionAnswerFile) {
+
+        if (csvRows.isEmpty()) {
+            System.out.println("writing csv file failed!!!");
+            return;
+        }
+        try ( CSVWriter writer = new CSVWriter(new FileWriter(questionAnswerFile))) {
+            writer.writeAll(csvRows);
+        } catch (IOException ex) {
+            System.out.println("writing csv file failed!!!" + ex.getMessage());
+        }
+    }
+    
 
 }

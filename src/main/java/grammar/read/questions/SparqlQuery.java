@@ -40,9 +40,9 @@ public class SparqlQuery {
         } else if (type.contains(FIND_LABEL)) {
             sparqlQuery = this.setSparqlQueryForLabel(entityUrl);
         }
-        //System.out.println("sparqlQuery:"+sparqlQuery);
+        System.out.println("sparqlQuery:"+sparqlQuery);
         String resultSparql = executeSparqlQuery(sparqlQuery);
-        //System.out.println(resultSparql);
+        System.out.println(resultSparql);
         parseResult(resultSparql);
     }
 

@@ -7,7 +7,10 @@ package grammar.read.questions;
  */
 import util.io.FileUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.opencsv.CSVWriter;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -24,27 +27,42 @@ public class ReadAndWriteQuestions {
     private LinkedHashMap<String, String> questionAnswers = new LinkedHashMap<String, String>();
     private String content = null;
     private Trie trie = new Trie();
+    public String[] header = new String[]{id, question, sparql,answer};
+    private List<String[]> csvRows = new ArrayList<String[]>();
     public static String FRAMETYPE_NPP = "NPP";
+    public static final String id = "id";
+    public static final String question = "question";
+    public static final String sparql = "sparql";
+    public static final String answer = "answer";
+    public   String questionAnswerFile;
 
     public ReadAndWriteQuestions(String questionAnswerFile) {
         this.content = FileUtils.fileToString(questionAnswerFile);
 
     }
 
-    public ReadAndWriteQuestions(String questionAnswerFile, String inputFileDir, String inputFile) throws Exception {
+    public ReadAndWriteQuestions(String questionAnswerFile, String inputFileDir, String inputFile, String type) throws Exception {
+        this.questionAnswerFile = questionAnswerFile;
         List<File> list = FileUtils.getFiles(inputFileDir, inputFile, ".json");
         if (list.isEmpty()) {
             throw new Exception("No files to process for question answering system!!");
         } else {
             this.readQuestionAnswers(list);
         }
-        this.content = this.prepareQuestionAnswerStr();
-        FileUtils.stringToFile(this.content, questionAnswerFile);
+        if (type.contains(".txt")) {
+            this.content = this.prepareQuestionAnswerStr();
+            FileUtils.stringToFile(this.content, questionAnswerFile);
+        }
+        else if(type.contains(".csv")){
+           FileUtils.stringToCSVFile(this.csvRows, questionAnswerFile); 
+        }  
+
     }
 
     private void readQuestionAnswers(List<File> fileList) throws Exception {
         String sparql = null;
         Integer index = 0;
+        csvRows.add(header);
         for (File file : fileList) {
             index = index + 1;
             ObjectMapper mapper = new ObjectMapper();
@@ -53,12 +71,16 @@ public class ReadAndWriteQuestions {
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
                 sparql = grammarEntryUnit.getSparqlQuery();
                 Map<String, String> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
-                this.makeQuestionAnswer(grammarEntryUnit.getSentences(), uriAnswer);
-                System.out.println("Id:" + grammarEntryUnit.getId() + " total:" + total+" example:"+grammarEntryUnit.getSentences().iterator().next());
+                this.makeQuestionAnswer(grammarEntryUnit.getId(), grammarEntryUnit.getSentences(), uriAnswer, sparql);
+                System.out.println("Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
+                break;
             }
-
+            break;
         }
+        
     }
+    
+ 
 
     /*private void replaceVariables(String question, List<UriLabel> uriLabels, String sparql, String frameType) {
         String result = null;
@@ -84,7 +106,9 @@ public class ReadAndWriteQuestions {
 
     }*/
     
-    private void makeQuestionAnswer(List<String> questions, Map<String, String> uriAnswer) {
+ 
+    
+    private void makeQuestionAnswer(Integer id, List<String> questions, Map<String, String> uriAnswer, String sparql) {
 
         for (String question : questions) {
             String result = null;
@@ -96,11 +120,17 @@ public class ReadAndWriteQuestions {
 
             }
             for (String uriLabel : uriAnswer.keySet()) {
-                String answer = uriAnswer.get(uriLabel);
+                id = id + 1;
+                String answer="no answer found";
+                answer = uriAnswer.get(uriLabel);
                 String questionT = question.replaceAll("(X)", uriLabel);
                 questionT = questionT.replace("(", "");
                 questionT = questionT.replace(")", "");
                 questionT = questionT.replace("$x", uriLabel);
+                questionT=questionT.stripLeading().trim();
+                sparql=sparql.stripLeading().trim();
+                String[] record = {id.toString(), questionT, sparql, answer};
+                csvRows.add(record);
                 questionAnswers.put(questionT, answer);
             }
         }
@@ -111,8 +141,7 @@ public class ReadAndWriteQuestions {
         Map<String,String> xValues = new TreeMap<String,String>();
         for (UriLabel uriLabel : uriLabels) {
             String answer = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
-            //System.out.println("uriLabel:" + uriLabel + " answer:" + answer);
-            xValues.put(uriLabel.getUri(),answer);
+            xValues.put(uriLabel.getLabel(),answer);
         }
         return xValues;
     }
@@ -120,10 +149,11 @@ public class ReadAndWriteQuestions {
     public String getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
         String property = null;
         String answer = null;
+        SparqlQuery sparqlQuery =null;
         if (syntacticFrame.contains(FRAMETYPE_NPP)) {
             property = StringUtils.substringBetween(sparql, "<", ">");
         }
-        SparqlQuery sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER);
+        sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER);        
         answer = sparqlQuery.getObject();
         if (answer != null) {
             if (answer.contains("http:")) {
@@ -131,11 +161,14 @@ public class ReadAndWriteQuestions {
                 SparqlQuery sparqlQueryLabel = new SparqlQuery(answer, property, SparqlQuery.FIND_LABEL);
                 answer = sparqlQueryLabel.getObject();
                 //System.out.println(answer);
+                
             }
             return answer;
         } else {
             return "No answer found for this question!!";
         }
+        
+      
 
         //return new SparqlQuery(subjProp, property,SparqlQuery.FIND_ANY_ANSWER).getObject();
     }
@@ -153,6 +186,10 @@ public class ReadAndWriteQuestions {
     public String getContent() {
         return content;
     }
+
+   
+
+   
 
     
 }

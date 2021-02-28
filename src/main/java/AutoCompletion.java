@@ -33,6 +33,8 @@ public class AutoCompletion {
 
     public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
     public static String QUESTION_ANSWER_FILE = "questions.txt";
+    public static String QUESTION_ANSWER_CSV_FILE = "questions.csv";
+
 
     public static void main(String[] args) {
         String BaseDir = "";
@@ -41,10 +43,10 @@ public class AutoCompletion {
         QueGG queGG = new QueGG();
         Language language = Language.stringToLanguage("EN");
 
-        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
+        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
 
         ReadAndWriteQuestions readAndWriteQuestions = null;
-        Integer task = 3;
+        Integer task = 2;
         String content = "";
 
         if (task.equals(1)) {
@@ -58,7 +60,7 @@ public class AutoCompletion {
 
         } else if (task.equals(2)) {
             try {
-                readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN");
+                readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN",".csv");
                 //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
                 //content = output(createTree.getInputTupples());
             } catch (Exception ex) {

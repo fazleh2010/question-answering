@@ -141,7 +141,7 @@ public class QueGG {
     }
 
 
-    private static void questionAnsweringInterface(String[] args, QueGG queGG) {
+    /*private static void questionAnsweringInterface(String[] args, QueGG queGG) {
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
 
         ReadAndWriteQuestions readAndWriteQuestions = null;
@@ -163,7 +163,7 @@ public class QueGG {
             readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
             System.out.println(readAndWriteQuestions.getContent());
         }
-    }
+    }*/
 
     private static void generateQuestions(String[] args, QueGG queGG) {
 
