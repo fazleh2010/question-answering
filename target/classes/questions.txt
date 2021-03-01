@@ -1,600 +1,401 @@
-Give me the capital of http://dbpedia.org/resource/Catepanate_of_Ras?=Stari Ras
-Give me the capital of http://dbpedia.org/resource/Cook_Islands_Federation?=Avarua
-Give me the capital of http://dbpedia.org/resource/Lower_Canada?=Quebec City
-Give me the capital of http://dbpedia.org/resource/Lower_Danube_Circle?=Passau
-Give me the capital of http://dbpedia.org/resource/Lower_Egypt?=Memphis, Egypt
-Give me the capital of http://dbpedia.org/resource/Lower_Yafa?=Jaʿār
-Give me the capital of http://dbpedia.org/resource/Lu_state?=Qufu
-Give me the capital of http://dbpedia.org/resource/Luhansk_People's_Republic?=Luhansk
-Give me the capital of http://dbpedia.org/resource/Luhuti?=Tell Afis
-Give me the capital of http://dbpedia.org/resource/Luo_state?=Yicheng, Hubei
-Give me the capital of http://dbpedia.org/resource/Lupaca?=Chucuito
-Give me the capital of http://dbpedia.org/resource/Lupah_Sug?=Jolo, Sulu
-Give me the capital of http://dbpedia.org/resource/Lusitania?=Emerita Augusta
-Give me the capital of http://dbpedia.org/resource/Lutici?=Cape Arkona
-Give me the capital of http://dbpedia.org/resource/Luwu?=Palopo
-Give me the capital of http://dbpedia.org/resource/Luxembourg?=Luxembourg City
-Give me the capital of http://dbpedia.org/resource/Lycia_et_Pamphylia?=Antalya
-Give me the capital of http://dbpedia.org/resource/Lê_dynasty?=Đông Kinh
-Give me the capital of http://dbpedia.org/resource/Lü_state?=Nanyang, Henan
-Give me the capital of http://dbpedia.org/resource/Ma-i?=Mindoro
-Give me the capital of http://dbpedia.org/resource/Ma_Chu?=Changsha
-Give me the capital of http://dbpedia.org/resource/Macedonia_Roman_province?=Thessalonica
-Give me the capital of http://dbpedia.org/resource/Macedonia_ancient_kingdom?=Pella
-Give me the capital of http://dbpedia.org/resource/Macedonia_theme?=Adrianople
-Give me the capital of http://dbpedia.org/resource/Madagascar?=Antananarivo
-Give me the capital of http://dbpedia.org/resource/Madrid_Defense_Council?=Madrid
-Give me the capital of http://dbpedia.org/resource/Magadha?=Pataliputra
-Give me the capital of http://dbpedia.org/resource/Magyar_Autonomous_Region?=Târgu Mureș
-Give me the capital of http://dbpedia.org/resource/Mahdist_State?=Omdurman
-Give me the capital of http://dbpedia.org/resource/Mahra_Sultanate?=Qishn
-Give me the capital of http://dbpedia.org/resource/Maine?=Augusta, Maine
-Give me the capital of http://dbpedia.org/resource/Mainkreis_Bavaria?=Bayreuth
-Give me the capital of http://dbpedia.org/resource/Maitraka_dynasty?=Vallabhi
-Give me the capital of http://dbpedia.org/resource/Majapahit?=Trowulan
-Give me the capital of http://dbpedia.org/resource/Majeerteen_Sultanate?=Aluula
-Give me the capital of http://dbpedia.org/resource/Makhnovia?=Huliaipole
-Give me the capital of http://dbpedia.org/resource/Makuria?=Old Dongola
-Give me the capital of http://dbpedia.org/resource/Malacca_Sultanate?=Malacca City
-Give me the capital of http://dbpedia.org/resource/Malagasy_Republic?=Tananarive
-Give me the capital of http://dbpedia.org/resource/Malawi?=Lilongwe
-Give me the capital of http://dbpedia.org/resource/Malayan_Union?=Kuala Lumpur
-Give me the capital of http://dbpedia.org/resource/Malaysia?=Kuala Lumpur
-Give me the capital of http://dbpedia.org/resource/Maldives?=Malé
-Give me the capital of http://dbpedia.org/resource/Malerkotla_State?=Malerkotla
-Give me the capital of http://dbpedia.org/resource/Mali?=Bamako
-Give me the capital of http://dbpedia.org/resource/Mali_Empire?=Niani, Guinea
-Give me the capital of http://dbpedia.org/resource/Mali_Federation?=Dakar
-Give me the capital of http://dbpedia.org/resource/Uawa_County?=Tolaga Bay
-Give me the capital of http://dbpedia.org/resource/Ueda_Domain?=Ueda Castle
-Give me the capital of http://dbpedia.org/resource/Uganda?=Kampala
-Give me the capital of http://dbpedia.org/resource/Uganda_Protectorate?=Entebbe
-Give me the capital of http://dbpedia.org/resource/Ugocsa_County?=Vynohradiv
-Give me the capital of http://dbpedia.org/resource/Ukraine?=Kyiv
-Give me the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic?=Kyiv
-Give me the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic_of_Soviets?=Kharkiv
-Give me the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Republic?=Kharkiv
-Give me the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic?=Kyiv
-Give me the capital of http://dbpedia.org/resource/Ukrainian_State?=Kyiv
-Give me the capital of http://dbpedia.org/resource/Ukrainian_national_government_1941?=Lviv
-Give me the capital of http://dbpedia.org/resource/Umayyad_Caliphate?=Damascus
-Give me the capital of http://dbpedia.org/resource/Unification_of_Norway?=Avaldsnes
-Give me the capital of http://dbpedia.org/resource/Union_between_Sweden_and_Norway?=Stockholm
-Give me the capital of http://dbpedia.org/resource/Union_of_South_Africa?=Pietermaritzburg
-Give me the capital of http://dbpedia.org/resource/United_Arab_Emirates?=Abu Dhabi
-Give me the capital of http://dbpedia.org/resource/United_Arab_Republic?=Damascus
-Give me the capital of http://dbpedia.org/resource/United_Arab_States?=Cairo
-Give me the capital of http://dbpedia.org/resource/United_Kingdom?=London
-Give me the capital of http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland?=London
-Give me the capital of http://dbpedia.org/resource/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves?=Rio de Janeiro
-Give me the capital of http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands?=Brussels
-Give me the capital of http://dbpedia.org/resource/United_Nations_Temporary_Executive_Authority?=Jayapura
-Give me the capital of http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor?=Dili
-Give me the capital of http://dbpedia.org/resource/United_Nations_Transitional_Authority_in_Cambodia?=Phnom Penh
-Give me the capital of http://dbpedia.org/resource/United_Provinces_of_Central_Italy?=Modena
-Give me the capital of http://dbpedia.org/resource/United_Provinces_of_the_Rio_de_la_Plata?=Buenos Aires
-Give me the capital of http://dbpedia.org/resource/United_States?=Washington, D.C.
-Give me the capital of http://dbpedia.org/resource/United_States_Civil_Administration_of_the_Ryukyu_Islands?=Naha
-Give me the capital of http://dbpedia.org/resource/United_States_Military_Government_in_Cuba?=Havana
-Give me the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Philippine_Islands?=Manila (province)
-Give me the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Ryukyu_Islands?=Naha
-Give me the capital of http://dbpedia.org/resource/United_States_occupation_of_Haiti?=Port-au-Prince
-Give me the capital of http://dbpedia.org/resource/United_States_of_Colombia?=Bogotá
-Give me the capital of http://dbpedia.org/resource/United_States_of_Indonesia?=Jakarta
-Give me the capital of http://dbpedia.org/resource/United_States_of_Venezuela?=Caracas
-Give me the capital of http://dbpedia.org/resource/United_States_of_the_Ionian_Islands?=Corfu (city)
-Give me the capital of http://dbpedia.org/resource/United_Suvadive_Republic?=Hithadhoo (Addu)
-Give me the capital of http://dbpedia.org/resource/United_Tribes_of_New_Zealand?=Waitangi, Northland
-Give me the capital of http://dbpedia.org/resource/Unterelsaß?=Strasbourg
-Give me the capital of http://dbpedia.org/resource/Untermainkreis?=Würzburg
-Give me the capital of http://dbpedia.org/resource/Upper_Canada?=York, Upper Canada
-Give me the capital of http://dbpedia.org/resource/Upper_Egypt?=Thinis
-Give me the capital of http://dbpedia.org/resource/Upper_Senegal_and_Niger?=Bamako
-Give me the capital of http://dbpedia.org/resource/Ural_Oblast?=Yekaterinburg
-Give me the capital of http://dbpedia.org/resource/Urartu?=Arzashkun
-Give me the capital of http://dbpedia.org/resource/Urfa_Sanjak?=Urfa
-Give me the capital of http://dbpedia.org/resource/Uruguay?=Montevideo
-Give me the capital of http://dbpedia.org/resource/Utik?=null
-Give me the capital of http://dbpedia.org/resource/Uyghur_Khaganate?=Ordu-Baliq
-Give me the capital of http://dbpedia.org/resource/Uyvar_Eyalet?=Nové Zámky
-Give me the capital of http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic?=Tashkent
-Tell me the capital of http://dbpedia.org/resource/Catepanate_of_Ras?=Stari Ras
-Tell me the capital of http://dbpedia.org/resource/Cook_Islands_Federation?=Avarua
-Tell me the capital of http://dbpedia.org/resource/Lower_Canada?=Quebec City
-Tell me the capital of http://dbpedia.org/resource/Lower_Danube_Circle?=Passau
-Tell me the capital of http://dbpedia.org/resource/Lower_Egypt?=Memphis, Egypt
-Tell me the capital of http://dbpedia.org/resource/Lower_Yafa?=Jaʿār
-Tell me the capital of http://dbpedia.org/resource/Lu_state?=Qufu
-Tell me the capital of http://dbpedia.org/resource/Luhansk_People's_Republic?=Luhansk
-Tell me the capital of http://dbpedia.org/resource/Luhuti?=Tell Afis
-Tell me the capital of http://dbpedia.org/resource/Luo_state?=Yicheng, Hubei
-Tell me the capital of http://dbpedia.org/resource/Lupaca?=Chucuito
-Tell me the capital of http://dbpedia.org/resource/Lupah_Sug?=Jolo, Sulu
-Tell me the capital of http://dbpedia.org/resource/Lusitania?=Emerita Augusta
-Tell me the capital of http://dbpedia.org/resource/Lutici?=Cape Arkona
-Tell me the capital of http://dbpedia.org/resource/Luwu?=Palopo
-Tell me the capital of http://dbpedia.org/resource/Luxembourg?=Luxembourg City
-Tell me the capital of http://dbpedia.org/resource/Lycia_et_Pamphylia?=Antalya
-Tell me the capital of http://dbpedia.org/resource/Lê_dynasty?=Đông Kinh
-Tell me the capital of http://dbpedia.org/resource/Lü_state?=Nanyang, Henan
-Tell me the capital of http://dbpedia.org/resource/Ma-i?=Mindoro
-Tell me the capital of http://dbpedia.org/resource/Ma_Chu?=Changsha
-Tell me the capital of http://dbpedia.org/resource/Macedonia_Roman_province?=Thessalonica
-Tell me the capital of http://dbpedia.org/resource/Macedonia_ancient_kingdom?=Pella
-Tell me the capital of http://dbpedia.org/resource/Macedonia_theme?=Adrianople
-Tell me the capital of http://dbpedia.org/resource/Madagascar?=Antananarivo
-Tell me the capital of http://dbpedia.org/resource/Madrid_Defense_Council?=Madrid
-Tell me the capital of http://dbpedia.org/resource/Magadha?=Pataliputra
-Tell me the capital of http://dbpedia.org/resource/Magyar_Autonomous_Region?=Târgu Mureș
-Tell me the capital of http://dbpedia.org/resource/Mahdist_State?=Omdurman
-Tell me the capital of http://dbpedia.org/resource/Mahra_Sultanate?=Qishn
-Tell me the capital of http://dbpedia.org/resource/Maine?=Augusta, Maine
-Tell me the capital of http://dbpedia.org/resource/Mainkreis_Bavaria?=Bayreuth
-Tell me the capital of http://dbpedia.org/resource/Maitraka_dynasty?=Vallabhi
-Tell me the capital of http://dbpedia.org/resource/Majapahit?=Trowulan
-Tell me the capital of http://dbpedia.org/resource/Majeerteen_Sultanate?=Aluula
-Tell me the capital of http://dbpedia.org/resource/Makhnovia?=Huliaipole
-Tell me the capital of http://dbpedia.org/resource/Makuria?=Old Dongola
-Tell me the capital of http://dbpedia.org/resource/Malacca_Sultanate?=Malacca City
-Tell me the capital of http://dbpedia.org/resource/Malagasy_Republic?=Tananarive
-Tell me the capital of http://dbpedia.org/resource/Malawi?=Lilongwe
-Tell me the capital of http://dbpedia.org/resource/Malayan_Union?=Kuala Lumpur
-Tell me the capital of http://dbpedia.org/resource/Malaysia?=Kuala Lumpur
-Tell me the capital of http://dbpedia.org/resource/Maldives?=Malé
-Tell me the capital of http://dbpedia.org/resource/Malerkotla_State?=Malerkotla
-Tell me the capital of http://dbpedia.org/resource/Mali?=Bamako
-Tell me the capital of http://dbpedia.org/resource/Mali_Empire?=Niani, Guinea
-Tell me the capital of http://dbpedia.org/resource/Mali_Federation?=Dakar
-Tell me the capital of http://dbpedia.org/resource/Uawa_County?=Tolaga Bay
-Tell me the capital of http://dbpedia.org/resource/Ueda_Domain?=Ueda Castle
-Tell me the capital of http://dbpedia.org/resource/Uganda?=Kampala
-Tell me the capital of http://dbpedia.org/resource/Uganda_Protectorate?=Entebbe
-Tell me the capital of http://dbpedia.org/resource/Ugocsa_County?=Vynohradiv
-Tell me the capital of http://dbpedia.org/resource/Ukraine?=Kyiv
-Tell me the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic?=Kyiv
-Tell me the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic_of_Soviets?=Kharkiv
-Tell me the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Republic?=Kharkiv
-Tell me the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic?=Kyiv
-Tell me the capital of http://dbpedia.org/resource/Ukrainian_State?=Kyiv
-Tell me the capital of http://dbpedia.org/resource/Ukrainian_national_government_1941?=Lviv
-Tell me the capital of http://dbpedia.org/resource/Umayyad_Caliphate?=Damascus
-Tell me the capital of http://dbpedia.org/resource/Unification_of_Norway?=Avaldsnes
-Tell me the capital of http://dbpedia.org/resource/Union_between_Sweden_and_Norway?=Stockholm
-Tell me the capital of http://dbpedia.org/resource/Union_of_South_Africa?=Pietermaritzburg
-Tell me the capital of http://dbpedia.org/resource/United_Arab_Emirates?=Abu Dhabi
-Tell me the capital of http://dbpedia.org/resource/United_Arab_Republic?=Damascus
-Tell me the capital of http://dbpedia.org/resource/United_Arab_States?=Cairo
-Tell me the capital of http://dbpedia.org/resource/United_Kingdom?=London
-Tell me the capital of http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland?=London
-Tell me the capital of http://dbpedia.org/resource/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves?=Rio de Janeiro
-Tell me the capital of http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands?=Brussels
-Tell me the capital of http://dbpedia.org/resource/United_Nations_Temporary_Executive_Authority?=Jayapura
-Tell me the capital of http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor?=Dili
-Tell me the capital of http://dbpedia.org/resource/United_Nations_Transitional_Authority_in_Cambodia?=Phnom Penh
-Tell me the capital of http://dbpedia.org/resource/United_Provinces_of_Central_Italy?=Modena
-Tell me the capital of http://dbpedia.org/resource/United_Provinces_of_the_Rio_de_la_Plata?=Buenos Aires
-Tell me the capital of http://dbpedia.org/resource/United_States?=Washington, D.C.
-Tell me the capital of http://dbpedia.org/resource/United_States_Civil_Administration_of_the_Ryukyu_Islands?=Naha
-Tell me the capital of http://dbpedia.org/resource/United_States_Military_Government_in_Cuba?=Havana
-Tell me the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Philippine_Islands?=Manila (province)
-Tell me the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Ryukyu_Islands?=Naha
-Tell me the capital of http://dbpedia.org/resource/United_States_occupation_of_Haiti?=Port-au-Prince
-Tell me the capital of http://dbpedia.org/resource/United_States_of_Colombia?=Bogotá
-Tell me the capital of http://dbpedia.org/resource/United_States_of_Indonesia?=Jakarta
-Tell me the capital of http://dbpedia.org/resource/United_States_of_Venezuela?=Caracas
-Tell me the capital of http://dbpedia.org/resource/United_States_of_the_Ionian_Islands?=Corfu (city)
-Tell me the capital of http://dbpedia.org/resource/United_Suvadive_Republic?=Hithadhoo (Addu)
-Tell me the capital of http://dbpedia.org/resource/United_Tribes_of_New_Zealand?=Waitangi, Northland
-Tell me the capital of http://dbpedia.org/resource/Unterelsaß?=Strasbourg
-Tell me the capital of http://dbpedia.org/resource/Untermainkreis?=Würzburg
-Tell me the capital of http://dbpedia.org/resource/Upper_Canada?=York, Upper Canada
-Tell me the capital of http://dbpedia.org/resource/Upper_Egypt?=Thinis
-Tell me the capital of http://dbpedia.org/resource/Upper_Senegal_and_Niger?=Bamako
-Tell me the capital of http://dbpedia.org/resource/Ural_Oblast?=Yekaterinburg
-Tell me the capital of http://dbpedia.org/resource/Urartu?=Arzashkun
-Tell me the capital of http://dbpedia.org/resource/Urfa_Sanjak?=Urfa
-Tell me the capital of http://dbpedia.org/resource/Uruguay?=Montevideo
-Tell me the capital of http://dbpedia.org/resource/Utik?=null
-Tell me the capital of http://dbpedia.org/resource/Uyghur_Khaganate?=Ordu-Baliq
-Tell me the capital of http://dbpedia.org/resource/Uyvar_Eyalet?=Nové Zámky
-Tell me the capital of http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic?=Tashkent
-What is the capital of http://dbpedia.org/resource/Catepanate_of_Ras?=Stari Ras
-What is the capital of http://dbpedia.org/resource/Cook_Islands_Federation?=Avarua
-What is the capital of http://dbpedia.org/resource/Lower_Canada?=Quebec City
-What is the capital of http://dbpedia.org/resource/Lower_Danube_Circle?=Passau
-What is the capital of http://dbpedia.org/resource/Lower_Egypt?=Memphis, Egypt
-What is the capital of http://dbpedia.org/resource/Lower_Yafa?=Jaʿār
-What is the capital of http://dbpedia.org/resource/Lu_state?=Qufu
-What is the capital of http://dbpedia.org/resource/Luhansk_People's_Republic?=Luhansk
-What is the capital of http://dbpedia.org/resource/Luhuti?=Tell Afis
-What is the capital of http://dbpedia.org/resource/Luo_state?=Yicheng, Hubei
-What is the capital of http://dbpedia.org/resource/Lupaca?=Chucuito
-What is the capital of http://dbpedia.org/resource/Lupah_Sug?=Jolo, Sulu
-What is the capital of http://dbpedia.org/resource/Lusitania?=Emerita Augusta
-What is the capital of http://dbpedia.org/resource/Lutici?=Cape Arkona
-What is the capital of http://dbpedia.org/resource/Luwu?=Palopo
-What is the capital of http://dbpedia.org/resource/Luxembourg?=Luxembourg City
-What is the capital of http://dbpedia.org/resource/Lycia_et_Pamphylia?=Antalya
-What is the capital of http://dbpedia.org/resource/Lê_dynasty?=Đông Kinh
-What is the capital of http://dbpedia.org/resource/Lü_state?=Nanyang, Henan
-What is the capital of http://dbpedia.org/resource/Ma-i?=Mindoro
-What is the capital of http://dbpedia.org/resource/Ma_Chu?=Changsha
-What is the capital of http://dbpedia.org/resource/Macedonia_Roman_province?=Thessalonica
-What is the capital of http://dbpedia.org/resource/Macedonia_ancient_kingdom?=Pella
-What is the capital of http://dbpedia.org/resource/Macedonia_theme?=Adrianople
-What is the capital of http://dbpedia.org/resource/Madagascar?=Antananarivo
-What is the capital of http://dbpedia.org/resource/Madrid_Defense_Council?=Madrid
-What is the capital of http://dbpedia.org/resource/Magadha?=Pataliputra
-What is the capital of http://dbpedia.org/resource/Magyar_Autonomous_Region?=Târgu Mureș
-What is the capital of http://dbpedia.org/resource/Mahdist_State?=Omdurman
-What is the capital of http://dbpedia.org/resource/Mahra_Sultanate?=Qishn
-What is the capital of http://dbpedia.org/resource/Maine?=Augusta, Maine
-What is the capital of http://dbpedia.org/resource/Mainkreis_Bavaria?=Bayreuth
-What is the capital of http://dbpedia.org/resource/Maitraka_dynasty?=Vallabhi
-What is the capital of http://dbpedia.org/resource/Majapahit?=Trowulan
-What is the capital of http://dbpedia.org/resource/Majeerteen_Sultanate?=Aluula
-What is the capital of http://dbpedia.org/resource/Makhnovia?=Huliaipole
-What is the capital of http://dbpedia.org/resource/Makuria?=Old Dongola
-What is the capital of http://dbpedia.org/resource/Malacca_Sultanate?=Malacca City
-What is the capital of http://dbpedia.org/resource/Malagasy_Republic?=Tananarive
-What is the capital of http://dbpedia.org/resource/Malawi?=Lilongwe
-What is the capital of http://dbpedia.org/resource/Malayan_Union?=Kuala Lumpur
-What is the capital of http://dbpedia.org/resource/Malaysia?=Kuala Lumpur
-What is the capital of http://dbpedia.org/resource/Maldives?=Malé
-What is the capital of http://dbpedia.org/resource/Malerkotla_State?=Malerkotla
-What is the capital of http://dbpedia.org/resource/Mali?=Bamako
-What is the capital of http://dbpedia.org/resource/Mali_Empire?=Niani, Guinea
-What is the capital of http://dbpedia.org/resource/Mali_Federation?=Dakar
-What is the capital of http://dbpedia.org/resource/Uawa_County?=Tolaga Bay
-What is the capital of http://dbpedia.org/resource/Ueda_Domain?=Ueda Castle
-What is the capital of http://dbpedia.org/resource/Uganda?=Kampala
-What is the capital of http://dbpedia.org/resource/Uganda_Protectorate?=Entebbe
-What is the capital of http://dbpedia.org/resource/Ugocsa_County?=Vynohradiv
-What is the capital of http://dbpedia.org/resource/Ukraine?=Kyiv
-What is the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic?=Kyiv
-What is the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic_of_Soviets?=Kharkiv
-What is the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Republic?=Kharkiv
-What is the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic?=Kyiv
-What is the capital of http://dbpedia.org/resource/Ukrainian_State?=Kyiv
-What is the capital of http://dbpedia.org/resource/Ukrainian_national_government_1941?=Lviv
-What is the capital of http://dbpedia.org/resource/Umayyad_Caliphate?=Damascus
-What is the capital of http://dbpedia.org/resource/Unification_of_Norway?=Avaldsnes
-What is the capital of http://dbpedia.org/resource/Union_between_Sweden_and_Norway?=Stockholm
-What is the capital of http://dbpedia.org/resource/Union_of_South_Africa?=Pietermaritzburg
-What is the capital of http://dbpedia.org/resource/United_Arab_Emirates?=Abu Dhabi
-What is the capital of http://dbpedia.org/resource/United_Arab_Republic?=Damascus
-What is the capital of http://dbpedia.org/resource/United_Arab_States?=Cairo
-What is the capital of http://dbpedia.org/resource/United_Kingdom?=London
-What is the capital of http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland?=London
-What is the capital of http://dbpedia.org/resource/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves?=Rio de Janeiro
-What is the capital of http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands?=Brussels
-What is the capital of http://dbpedia.org/resource/United_Nations_Temporary_Executive_Authority?=Jayapura
-What is the capital of http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor?=Dili
-What is the capital of http://dbpedia.org/resource/United_Nations_Transitional_Authority_in_Cambodia?=Phnom Penh
-What is the capital of http://dbpedia.org/resource/United_Provinces_of_Central_Italy?=Modena
-What is the capital of http://dbpedia.org/resource/United_Provinces_of_the_Rio_de_la_Plata?=Buenos Aires
-What is the capital of http://dbpedia.org/resource/United_States?=Washington, D.C.
-What is the capital of http://dbpedia.org/resource/United_States_Civil_Administration_of_the_Ryukyu_Islands?=Naha
-What is the capital of http://dbpedia.org/resource/United_States_Military_Government_in_Cuba?=Havana
-What is the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Philippine_Islands?=Manila (province)
-What is the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Ryukyu_Islands?=Naha
-What is the capital of http://dbpedia.org/resource/United_States_occupation_of_Haiti?=Port-au-Prince
-What is the capital of http://dbpedia.org/resource/United_States_of_Colombia?=Bogotá
-What is the capital of http://dbpedia.org/resource/United_States_of_Indonesia?=Jakarta
-What is the capital of http://dbpedia.org/resource/United_States_of_Venezuela?=Caracas
-What is the capital of http://dbpedia.org/resource/United_States_of_the_Ionian_Islands?=Corfu (city)
-What is the capital of http://dbpedia.org/resource/United_Suvadive_Republic?=Hithadhoo (Addu)
-What is the capital of http://dbpedia.org/resource/United_Tribes_of_New_Zealand?=Waitangi, Northland
-What is the capital of http://dbpedia.org/resource/Unterelsaß?=Strasbourg
-What is the capital of http://dbpedia.org/resource/Untermainkreis?=Würzburg
-What is the capital of http://dbpedia.org/resource/Upper_Canada?=York, Upper Canada
-What is the capital of http://dbpedia.org/resource/Upper_Egypt?=Thinis
-What is the capital of http://dbpedia.org/resource/Upper_Senegal_and_Niger?=Bamako
-What is the capital of http://dbpedia.org/resource/Ural_Oblast?=Yekaterinburg
-What is the capital of http://dbpedia.org/resource/Urartu?=Arzashkun
-What is the capital of http://dbpedia.org/resource/Urfa_Sanjak?=Urfa
-What is the capital of http://dbpedia.org/resource/Uruguay?=Montevideo
-What is the capital of http://dbpedia.org/resource/Utik?=null
-What is the capital of http://dbpedia.org/resource/Uyghur_Khaganate?=Ordu-Baliq
-What is the capital of http://dbpedia.org/resource/Uyvar_Eyalet?=Nové Zámky
-What is the capital of http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic?=Tashkent
-What was the capital of http://dbpedia.org/resource/Catepanate_of_Ras?=Stari Ras
-What was the capital of http://dbpedia.org/resource/Cook_Islands_Federation?=Avarua
-What was the capital of http://dbpedia.org/resource/Lower_Canada?=Quebec City
-What was the capital of http://dbpedia.org/resource/Lower_Danube_Circle?=Passau
-What was the capital of http://dbpedia.org/resource/Lower_Egypt?=Memphis, Egypt
-What was the capital of http://dbpedia.org/resource/Lower_Yafa?=Jaʿār
-What was the capital of http://dbpedia.org/resource/Lu_state?=Qufu
-What was the capital of http://dbpedia.org/resource/Luhansk_People's_Republic?=Luhansk
-What was the capital of http://dbpedia.org/resource/Luhuti?=Tell Afis
-What was the capital of http://dbpedia.org/resource/Luo_state?=Yicheng, Hubei
-What was the capital of http://dbpedia.org/resource/Lupaca?=Chucuito
-What was the capital of http://dbpedia.org/resource/Lupah_Sug?=Jolo, Sulu
-What was the capital of http://dbpedia.org/resource/Lusitania?=Emerita Augusta
-What was the capital of http://dbpedia.org/resource/Lutici?=Cape Arkona
-What was the capital of http://dbpedia.org/resource/Luwu?=Palopo
-What was the capital of http://dbpedia.org/resource/Luxembourg?=Luxembourg City
-What was the capital of http://dbpedia.org/resource/Lycia_et_Pamphylia?=Antalya
-What was the capital of http://dbpedia.org/resource/Lê_dynasty?=Đông Kinh
-What was the capital of http://dbpedia.org/resource/Lü_state?=Nanyang, Henan
-What was the capital of http://dbpedia.org/resource/Ma-i?=Mindoro
-What was the capital of http://dbpedia.org/resource/Ma_Chu?=Changsha
-What was the capital of http://dbpedia.org/resource/Macedonia_Roman_province?=Thessalonica
-What was the capital of http://dbpedia.org/resource/Macedonia_ancient_kingdom?=Pella
-What was the capital of http://dbpedia.org/resource/Macedonia_theme?=Adrianople
-What was the capital of http://dbpedia.org/resource/Madagascar?=Antananarivo
-What was the capital of http://dbpedia.org/resource/Madrid_Defense_Council?=Madrid
-What was the capital of http://dbpedia.org/resource/Magadha?=Pataliputra
-What was the capital of http://dbpedia.org/resource/Magyar_Autonomous_Region?=Târgu Mureș
-What was the capital of http://dbpedia.org/resource/Mahdist_State?=Omdurman
-What was the capital of http://dbpedia.org/resource/Mahra_Sultanate?=Qishn
-What was the capital of http://dbpedia.org/resource/Maine?=Augusta, Maine
-What was the capital of http://dbpedia.org/resource/Mainkreis_Bavaria?=Bayreuth
-What was the capital of http://dbpedia.org/resource/Maitraka_dynasty?=Vallabhi
-What was the capital of http://dbpedia.org/resource/Majapahit?=Trowulan
-What was the capital of http://dbpedia.org/resource/Majeerteen_Sultanate?=Aluula
-What was the capital of http://dbpedia.org/resource/Makhnovia?=Huliaipole
-What was the capital of http://dbpedia.org/resource/Makuria?=Old Dongola
-What was the capital of http://dbpedia.org/resource/Malacca_Sultanate?=Malacca City
-What was the capital of http://dbpedia.org/resource/Malagasy_Republic?=Tananarive
-What was the capital of http://dbpedia.org/resource/Malawi?=Lilongwe
-What was the capital of http://dbpedia.org/resource/Malayan_Union?=Kuala Lumpur
-What was the capital of http://dbpedia.org/resource/Malaysia?=Kuala Lumpur
-What was the capital of http://dbpedia.org/resource/Maldives?=Malé
-What was the capital of http://dbpedia.org/resource/Malerkotla_State?=Malerkotla
-What was the capital of http://dbpedia.org/resource/Mali?=Bamako
-What was the capital of http://dbpedia.org/resource/Mali_Empire?=Niani, Guinea
-What was the capital of http://dbpedia.org/resource/Mali_Federation?=Dakar
-What was the capital of http://dbpedia.org/resource/Uawa_County?=Tolaga Bay
-What was the capital of http://dbpedia.org/resource/Ueda_Domain?=Ueda Castle
-What was the capital of http://dbpedia.org/resource/Uganda?=Kampala
-What was the capital of http://dbpedia.org/resource/Uganda_Protectorate?=Entebbe
-What was the capital of http://dbpedia.org/resource/Ugocsa_County?=Vynohradiv
-What was the capital of http://dbpedia.org/resource/Ukraine?=Kyiv
-What was the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic?=Kyiv
-What was the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic_of_Soviets?=Kharkiv
-What was the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Republic?=Kharkiv
-What was the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic?=Kyiv
-What was the capital of http://dbpedia.org/resource/Ukrainian_State?=Kyiv
-What was the capital of http://dbpedia.org/resource/Ukrainian_national_government_1941?=Lviv
-What was the capital of http://dbpedia.org/resource/Umayyad_Caliphate?=Damascus
-What was the capital of http://dbpedia.org/resource/Unification_of_Norway?=Avaldsnes
-What was the capital of http://dbpedia.org/resource/Union_between_Sweden_and_Norway?=Stockholm
-What was the capital of http://dbpedia.org/resource/Union_of_South_Africa?=Pietermaritzburg
-What was the capital of http://dbpedia.org/resource/United_Arab_Emirates?=Abu Dhabi
-What was the capital of http://dbpedia.org/resource/United_Arab_Republic?=Damascus
-What was the capital of http://dbpedia.org/resource/United_Arab_States?=Cairo
-What was the capital of http://dbpedia.org/resource/United_Kingdom?=London
-What was the capital of http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland?=London
-What was the capital of http://dbpedia.org/resource/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves?=Rio de Janeiro
-What was the capital of http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands?=Brussels
-What was the capital of http://dbpedia.org/resource/United_Nations_Temporary_Executive_Authority?=Jayapura
-What was the capital of http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor?=Dili
-What was the capital of http://dbpedia.org/resource/United_Nations_Transitional_Authority_in_Cambodia?=Phnom Penh
-What was the capital of http://dbpedia.org/resource/United_Provinces_of_Central_Italy?=Modena
-What was the capital of http://dbpedia.org/resource/United_Provinces_of_the_Rio_de_la_Plata?=Buenos Aires
-What was the capital of http://dbpedia.org/resource/United_States?=Washington, D.C.
-What was the capital of http://dbpedia.org/resource/United_States_Civil_Administration_of_the_Ryukyu_Islands?=Naha
-What was the capital of http://dbpedia.org/resource/United_States_Military_Government_in_Cuba?=Havana
-What was the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Philippine_Islands?=Manila (province)
-What was the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Ryukyu_Islands?=Naha
-What was the capital of http://dbpedia.org/resource/United_States_occupation_of_Haiti?=Port-au-Prince
-What was the capital of http://dbpedia.org/resource/United_States_of_Colombia?=Bogotá
-What was the capital of http://dbpedia.org/resource/United_States_of_Indonesia?=Jakarta
-What was the capital of http://dbpedia.org/resource/United_States_of_Venezuela?=Caracas
-What was the capital of http://dbpedia.org/resource/United_States_of_the_Ionian_Islands?=Corfu (city)
-What was the capital of http://dbpedia.org/resource/United_Suvadive_Republic?=Hithadhoo (Addu)
-What was the capital of http://dbpedia.org/resource/United_Tribes_of_New_Zealand?=Waitangi, Northland
-What was the capital of http://dbpedia.org/resource/Unterelsaß?=Strasbourg
-What was the capital of http://dbpedia.org/resource/Untermainkreis?=Würzburg
-What was the capital of http://dbpedia.org/resource/Upper_Canada?=York, Upper Canada
-What was the capital of http://dbpedia.org/resource/Upper_Egypt?=Thinis
-What was the capital of http://dbpedia.org/resource/Upper_Senegal_and_Niger?=Bamako
-What was the capital of http://dbpedia.org/resource/Ural_Oblast?=Yekaterinburg
-What was the capital of http://dbpedia.org/resource/Urartu?=Arzashkun
-What was the capital of http://dbpedia.org/resource/Urfa_Sanjak?=Urfa
-What was the capital of http://dbpedia.org/resource/Uruguay?=Montevideo
-What was the capital of http://dbpedia.org/resource/Utik?=null
-What was the capital of http://dbpedia.org/resource/Uyghur_Khaganate?=Ordu-Baliq
-What was the capital of http://dbpedia.org/resource/Uyvar_Eyalet?=Nové Zámky
-What was the capital of http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic?=Tashkent
-Which city is the capital of http://dbpedia.org/resource/Catepanate_of_Ras?=Stari Ras
-Which city is the capital of http://dbpedia.org/resource/Cook_Islands_Federation?=Avarua
-Which city is the capital of http://dbpedia.org/resource/Lower_Canada?=Quebec City
-Which city is the capital of http://dbpedia.org/resource/Lower_Danube_Circle?=Passau
-Which city is the capital of http://dbpedia.org/resource/Lower_Egypt?=Memphis, Egypt
-Which city is the capital of http://dbpedia.org/resource/Lower_Yafa?=Jaʿār
-Which city is the capital of http://dbpedia.org/resource/Lu_state?=Qufu
-Which city is the capital of http://dbpedia.org/resource/Luhansk_People's_Republic?=Luhansk
-Which city is the capital of http://dbpedia.org/resource/Luhuti?=Tell Afis
-Which city is the capital of http://dbpedia.org/resource/Luo_state?=Yicheng, Hubei
-Which city is the capital of http://dbpedia.org/resource/Lupaca?=Chucuito
-Which city is the capital of http://dbpedia.org/resource/Lupah_Sug?=Jolo, Sulu
-Which city is the capital of http://dbpedia.org/resource/Lusitania?=Emerita Augusta
-Which city is the capital of http://dbpedia.org/resource/Lutici?=Cape Arkona
-Which city is the capital of http://dbpedia.org/resource/Luwu?=Palopo
-Which city is the capital of http://dbpedia.org/resource/Luxembourg?=Luxembourg City
-Which city is the capital of http://dbpedia.org/resource/Lycia_et_Pamphylia?=Antalya
-Which city is the capital of http://dbpedia.org/resource/Lê_dynasty?=Đông Kinh
-Which city is the capital of http://dbpedia.org/resource/Lü_state?=Nanyang, Henan
-Which city is the capital of http://dbpedia.org/resource/Ma-i?=Mindoro
-Which city is the capital of http://dbpedia.org/resource/Ma_Chu?=Changsha
-Which city is the capital of http://dbpedia.org/resource/Macedonia_Roman_province?=Thessalonica
-Which city is the capital of http://dbpedia.org/resource/Macedonia_ancient_kingdom?=Pella
-Which city is the capital of http://dbpedia.org/resource/Macedonia_theme?=Adrianople
-Which city is the capital of http://dbpedia.org/resource/Madagascar?=Antananarivo
-Which city is the capital of http://dbpedia.org/resource/Madrid_Defense_Council?=Madrid
-Which city is the capital of http://dbpedia.org/resource/Magadha?=Pataliputra
-Which city is the capital of http://dbpedia.org/resource/Magyar_Autonomous_Region?=Târgu Mureș
-Which city is the capital of http://dbpedia.org/resource/Mahdist_State?=Omdurman
-Which city is the capital of http://dbpedia.org/resource/Mahra_Sultanate?=Qishn
-Which city is the capital of http://dbpedia.org/resource/Maine?=Augusta, Maine
-Which city is the capital of http://dbpedia.org/resource/Mainkreis_Bavaria?=Bayreuth
-Which city is the capital of http://dbpedia.org/resource/Maitraka_dynasty?=Vallabhi
-Which city is the capital of http://dbpedia.org/resource/Majapahit?=Trowulan
-Which city is the capital of http://dbpedia.org/resource/Majeerteen_Sultanate?=Aluula
-Which city is the capital of http://dbpedia.org/resource/Makhnovia?=Huliaipole
-Which city is the capital of http://dbpedia.org/resource/Makuria?=Old Dongola
-Which city is the capital of http://dbpedia.org/resource/Malacca_Sultanate?=Malacca City
-Which city is the capital of http://dbpedia.org/resource/Malagasy_Republic?=Tananarive
-Which city is the capital of http://dbpedia.org/resource/Malawi?=Lilongwe
-Which city is the capital of http://dbpedia.org/resource/Malayan_Union?=Kuala Lumpur
-Which city is the capital of http://dbpedia.org/resource/Malaysia?=Kuala Lumpur
-Which city is the capital of http://dbpedia.org/resource/Maldives?=Malé
-Which city is the capital of http://dbpedia.org/resource/Malerkotla_State?=Malerkotla
-Which city is the capital of http://dbpedia.org/resource/Mali?=Bamako
-Which city is the capital of http://dbpedia.org/resource/Mali_Empire?=Niani, Guinea
-Which city is the capital of http://dbpedia.org/resource/Mali_Federation?=Dakar
-Which city is the capital of http://dbpedia.org/resource/Uawa_County?=Tolaga Bay
-Which city is the capital of http://dbpedia.org/resource/Ueda_Domain?=Ueda Castle
-Which city is the capital of http://dbpedia.org/resource/Uganda?=Kampala
-Which city is the capital of http://dbpedia.org/resource/Uganda_Protectorate?=Entebbe
-Which city is the capital of http://dbpedia.org/resource/Ugocsa_County?=Vynohradiv
-Which city is the capital of http://dbpedia.org/resource/Ukraine?=Kyiv
-Which city is the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic?=Kyiv
-Which city is the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic_of_Soviets?=Kharkiv
-Which city is the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Republic?=Kharkiv
-Which city is the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic?=Kyiv
-Which city is the capital of http://dbpedia.org/resource/Ukrainian_State?=Kyiv
-Which city is the capital of http://dbpedia.org/resource/Ukrainian_national_government_1941?=Lviv
-Which city is the capital of http://dbpedia.org/resource/Umayyad_Caliphate?=Damascus
-Which city is the capital of http://dbpedia.org/resource/Unification_of_Norway?=Avaldsnes
-Which city is the capital of http://dbpedia.org/resource/Union_between_Sweden_and_Norway?=Stockholm
-Which city is the capital of http://dbpedia.org/resource/Union_of_South_Africa?=Pietermaritzburg
-Which city is the capital of http://dbpedia.org/resource/United_Arab_Emirates?=Abu Dhabi
-Which city is the capital of http://dbpedia.org/resource/United_Arab_Republic?=Damascus
-Which city is the capital of http://dbpedia.org/resource/United_Arab_States?=Cairo
-Which city is the capital of http://dbpedia.org/resource/United_Kingdom?=London
-Which city is the capital of http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland?=London
-Which city is the capital of http://dbpedia.org/resource/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves?=Rio de Janeiro
-Which city is the capital of http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands?=Brussels
-Which city is the capital of http://dbpedia.org/resource/United_Nations_Temporary_Executive_Authority?=Jayapura
-Which city is the capital of http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor?=Dili
-Which city is the capital of http://dbpedia.org/resource/United_Nations_Transitional_Authority_in_Cambodia?=Phnom Penh
-Which city is the capital of http://dbpedia.org/resource/United_Provinces_of_Central_Italy?=Modena
-Which city is the capital of http://dbpedia.org/resource/United_Provinces_of_the_Rio_de_la_Plata?=Buenos Aires
-Which city is the capital of http://dbpedia.org/resource/United_States?=Washington, D.C.
-Which city is the capital of http://dbpedia.org/resource/United_States_Civil_Administration_of_the_Ryukyu_Islands?=Naha
-Which city is the capital of http://dbpedia.org/resource/United_States_Military_Government_in_Cuba?=Havana
-Which city is the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Philippine_Islands?=Manila (province)
-Which city is the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Ryukyu_Islands?=Naha
-Which city is the capital of http://dbpedia.org/resource/United_States_occupation_of_Haiti?=Port-au-Prince
-Which city is the capital of http://dbpedia.org/resource/United_States_of_Colombia?=Bogotá
-Which city is the capital of http://dbpedia.org/resource/United_States_of_Indonesia?=Jakarta
-Which city is the capital of http://dbpedia.org/resource/United_States_of_Venezuela?=Caracas
-Which city is the capital of http://dbpedia.org/resource/United_States_of_the_Ionian_Islands?=Corfu (city)
-Which city is the capital of http://dbpedia.org/resource/United_Suvadive_Republic?=Hithadhoo (Addu)
-Which city is the capital of http://dbpedia.org/resource/United_Tribes_of_New_Zealand?=Waitangi, Northland
-Which city is the capital of http://dbpedia.org/resource/Unterelsaß?=Strasbourg
-Which city is the capital of http://dbpedia.org/resource/Untermainkreis?=Würzburg
-Which city is the capital of http://dbpedia.org/resource/Upper_Canada?=York, Upper Canada
-Which city is the capital of http://dbpedia.org/resource/Upper_Egypt?=Thinis
-Which city is the capital of http://dbpedia.org/resource/Upper_Senegal_and_Niger?=Bamako
-Which city is the capital of http://dbpedia.org/resource/Ural_Oblast?=Yekaterinburg
-Which city is the capital of http://dbpedia.org/resource/Urartu?=Arzashkun
-Which city is the capital of http://dbpedia.org/resource/Urfa_Sanjak?=Urfa
-Which city is the capital of http://dbpedia.org/resource/Uruguay?=Montevideo
-Which city is the capital of http://dbpedia.org/resource/Utik?=null
-Which city is the capital of http://dbpedia.org/resource/Uyghur_Khaganate?=Ordu-Baliq
-Which city is the capital of http://dbpedia.org/resource/Uyvar_Eyalet?=Nové Zámky
-Which city is the capital of http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic?=Tashkent
-Which city was the capital of http://dbpedia.org/resource/Catepanate_of_Ras?=Stari Ras
-Which city was the capital of http://dbpedia.org/resource/Cook_Islands_Federation?=Avarua
-Which city was the capital of http://dbpedia.org/resource/Lower_Canada?=Quebec City
-Which city was the capital of http://dbpedia.org/resource/Lower_Danube_Circle?=Passau
-Which city was the capital of http://dbpedia.org/resource/Lower_Egypt?=Memphis, Egypt
-Which city was the capital of http://dbpedia.org/resource/Lower_Yafa?=Jaʿār
-Which city was the capital of http://dbpedia.org/resource/Lu_state?=Qufu
-Which city was the capital of http://dbpedia.org/resource/Luhansk_People's_Republic?=Luhansk
-Which city was the capital of http://dbpedia.org/resource/Luhuti?=Tell Afis
-Which city was the capital of http://dbpedia.org/resource/Luo_state?=Yicheng, Hubei
-Which city was the capital of http://dbpedia.org/resource/Lupaca?=Chucuito
-Which city was the capital of http://dbpedia.org/resource/Lupah_Sug?=Jolo, Sulu
-Which city was the capital of http://dbpedia.org/resource/Lusitania?=Emerita Augusta
-Which city was the capital of http://dbpedia.org/resource/Lutici?=Cape Arkona
-Which city was the capital of http://dbpedia.org/resource/Luwu?=Palopo
-Which city was the capital of http://dbpedia.org/resource/Luxembourg?=Luxembourg City
-Which city was the capital of http://dbpedia.org/resource/Lycia_et_Pamphylia?=Antalya
-Which city was the capital of http://dbpedia.org/resource/Lê_dynasty?=Đông Kinh
-Which city was the capital of http://dbpedia.org/resource/Lü_state?=Nanyang, Henan
-Which city was the capital of http://dbpedia.org/resource/Ma-i?=Mindoro
-Which city was the capital of http://dbpedia.org/resource/Ma_Chu?=Changsha
-Which city was the capital of http://dbpedia.org/resource/Macedonia_Roman_province?=Thessalonica
-Which city was the capital of http://dbpedia.org/resource/Macedonia_ancient_kingdom?=Pella
-Which city was the capital of http://dbpedia.org/resource/Macedonia_theme?=Adrianople
-Which city was the capital of http://dbpedia.org/resource/Madagascar?=Antananarivo
-Which city was the capital of http://dbpedia.org/resource/Madrid_Defense_Council?=Madrid
-Which city was the capital of http://dbpedia.org/resource/Magadha?=Pataliputra
-Which city was the capital of http://dbpedia.org/resource/Magyar_Autonomous_Region?=Târgu Mureș
-Which city was the capital of http://dbpedia.org/resource/Mahdist_State?=Omdurman
-Which city was the capital of http://dbpedia.org/resource/Mahra_Sultanate?=Qishn
-Which city was the capital of http://dbpedia.org/resource/Maine?=Augusta, Maine
-Which city was the capital of http://dbpedia.org/resource/Mainkreis_Bavaria?=Bayreuth
-Which city was the capital of http://dbpedia.org/resource/Maitraka_dynasty?=Vallabhi
-Which city was the capital of http://dbpedia.org/resource/Majapahit?=Trowulan
-Which city was the capital of http://dbpedia.org/resource/Majeerteen_Sultanate?=Aluula
-Which city was the capital of http://dbpedia.org/resource/Makhnovia?=Huliaipole
-Which city was the capital of http://dbpedia.org/resource/Makuria?=Old Dongola
-Which city was the capital of http://dbpedia.org/resource/Malacca_Sultanate?=Malacca City
-Which city was the capital of http://dbpedia.org/resource/Malagasy_Republic?=Tananarive
-Which city was the capital of http://dbpedia.org/resource/Malawi?=Lilongwe
-Which city was the capital of http://dbpedia.org/resource/Malayan_Union?=Kuala Lumpur
-Which city was the capital of http://dbpedia.org/resource/Malaysia?=Kuala Lumpur
-Which city was the capital of http://dbpedia.org/resource/Maldives?=Malé
-Which city was the capital of http://dbpedia.org/resource/Malerkotla_State?=Malerkotla
-Which city was the capital of http://dbpedia.org/resource/Mali?=Bamako
-Which city was the capital of http://dbpedia.org/resource/Mali_Empire?=Niani, Guinea
-Which city was the capital of http://dbpedia.org/resource/Mali_Federation?=Dakar
-Which city was the capital of http://dbpedia.org/resource/Uawa_County?=Tolaga Bay
-Which city was the capital of http://dbpedia.org/resource/Ueda_Domain?=Ueda Castle
-Which city was the capital of http://dbpedia.org/resource/Uganda?=Kampala
-Which city was the capital of http://dbpedia.org/resource/Uganda_Protectorate?=Entebbe
-Which city was the capital of http://dbpedia.org/resource/Ugocsa_County?=Vynohradiv
-Which city was the capital of http://dbpedia.org/resource/Ukraine?=Kyiv
-Which city was the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic?=Kyiv
-Which city was the capital of http://dbpedia.org/resource/Ukrainian_People's_Republic_of_Soviets?=Kharkiv
-Which city was the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Republic?=Kharkiv
-Which city was the capital of http://dbpedia.org/resource/Ukrainian_Soviet_Socialist_Republic?=Kyiv
-Which city was the capital of http://dbpedia.org/resource/Ukrainian_State?=Kyiv
-Which city was the capital of http://dbpedia.org/resource/Ukrainian_national_government_1941?=Lviv
-Which city was the capital of http://dbpedia.org/resource/Umayyad_Caliphate?=Damascus
-Which city was the capital of http://dbpedia.org/resource/Unification_of_Norway?=Avaldsnes
-Which city was the capital of http://dbpedia.org/resource/Union_between_Sweden_and_Norway?=Stockholm
-Which city was the capital of http://dbpedia.org/resource/Union_of_South_Africa?=Pietermaritzburg
-Which city was the capital of http://dbpedia.org/resource/United_Arab_Emirates?=Abu Dhabi
-Which city was the capital of http://dbpedia.org/resource/United_Arab_Republic?=Damascus
-Which city was the capital of http://dbpedia.org/resource/United_Arab_States?=Cairo
-Which city was the capital of http://dbpedia.org/resource/United_Kingdom?=London
-Which city was the capital of http://dbpedia.org/resource/United_Kingdom_of_Great_Britain_and_Ireland?=London
-Which city was the capital of http://dbpedia.org/resource/United_Kingdom_of_Portugal,_Brazil_and_the_Algarves?=Rio de Janeiro
-Which city was the capital of http://dbpedia.org/resource/United_Kingdom_of_the_Netherlands?=Brussels
-Which city was the capital of http://dbpedia.org/resource/United_Nations_Temporary_Executive_Authority?=Jayapura
-Which city was the capital of http://dbpedia.org/resource/United_Nations_Transitional_Administration_in_East_Timor?=Dili
-Which city was the capital of http://dbpedia.org/resource/United_Nations_Transitional_Authority_in_Cambodia?=Phnom Penh
-Which city was the capital of http://dbpedia.org/resource/United_Provinces_of_Central_Italy?=Modena
-Which city was the capital of http://dbpedia.org/resource/United_Provinces_of_the_Rio_de_la_Plata?=Buenos Aires
-Which city was the capital of http://dbpedia.org/resource/United_States?=Washington, D.C.
-Which city was the capital of http://dbpedia.org/resource/United_States_Civil_Administration_of_the_Ryukyu_Islands?=Naha
-Which city was the capital of http://dbpedia.org/resource/United_States_Military_Government_in_Cuba?=Havana
-Which city was the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Philippine_Islands?=Manila (province)
-Which city was the capital of http://dbpedia.org/resource/United_States_Military_Government_of_the_Ryukyu_Islands?=Naha
-Which city was the capital of http://dbpedia.org/resource/United_States_occupation_of_Haiti?=Port-au-Prince
-Which city was the capital of http://dbpedia.org/resource/United_States_of_Colombia?=Bogotá
-Which city was the capital of http://dbpedia.org/resource/United_States_of_Indonesia?=Jakarta
-Which city was the capital of http://dbpedia.org/resource/United_States_of_Venezuela?=Caracas
-Which city was the capital of http://dbpedia.org/resource/United_States_of_the_Ionian_Islands?=Corfu (city)
-Which city was the capital of http://dbpedia.org/resource/United_Suvadive_Republic?=Hithadhoo (Addu)
-Which city was the capital of http://dbpedia.org/resource/United_Tribes_of_New_Zealand?=Waitangi, Northland
-Which city was the capital of http://dbpedia.org/resource/Unterelsaß?=Strasbourg
-Which city was the capital of http://dbpedia.org/resource/Untermainkreis?=Würzburg
-Which city was the capital of http://dbpedia.org/resource/Upper_Canada?=York, Upper Canada
-Which city was the capital of http://dbpedia.org/resource/Upper_Egypt?=Thinis
-Which city was the capital of http://dbpedia.org/resource/Upper_Senegal_and_Niger?=Bamako
-Which city was the capital of http://dbpedia.org/resource/Ural_Oblast?=Yekaterinburg
-Which city was the capital of http://dbpedia.org/resource/Urartu?=Arzashkun
-Which city was the capital of http://dbpedia.org/resource/Urfa_Sanjak?=Urfa
-Which city was the capital of http://dbpedia.org/resource/Uruguay?=Montevideo
-Which city was the capital of http://dbpedia.org/resource/Utik?=null
-Which city was the capital of http://dbpedia.org/resource/Uyghur_Khaganate?=Ordu-Baliq
-Which city was the capital of http://dbpedia.org/resource/Uyvar_Eyalet?=Nové Zámky
-Which city was the capital of http://dbpedia.org/resource/Uzbek_Soviet_Socialist_Republic?=Tashkent
+"id","question","sparql","answer"
+"2","When was the 620 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/620_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1924"
+"3","When was the 655 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/655_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1924"
+"4","When was the 66 Portland Place completed?","select  ?o    {    <http://dbpedia.org/resource/66_Portland_Place> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1934"
+"5","When was the 680 N Lake Shore Drive completed?","select  ?o    {    <http://dbpedia.org/resource/680_N_Lake_Shore_Drive> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1926"
+"6","When was the 69-71 Bondway completed?","select  ?o    {    <http://dbpedia.org/resource/69-71_Bondway> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2020 (estimate)"
+"7","When was the 7 Rideau Gate completed?","select  ?o    {    <http://dbpedia.org/resource/7_Rideau_Gate> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1862"
+"8","When was the 720 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/720_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1928"
+"9","When was the 810 Fifth Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/810_Fifth_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1926"
+"10","When was the 91-93 Fifth Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/91-93_Fifth_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1896"
+"11","When was the 980 Madison Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/980_Madison_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1950"
+"12","When was the 9–11 East 16th Street completed?","select  ?o    {    <http://dbpedia.org/resource/9–11_East_16th_Street> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1896"
+"13","When was the APA Building, Melbourne completed?","select  ?o    {    <http://dbpedia.org/resource/APA_Building,_Melbourne> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1889"
+"14","When was the Lovells Island Range Lights completed?","select  ?o    {    <http://dbpedia.org/resource/Lovells_Island_Range_Lights> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1903"
+"15","When was the Lovett Tower completed?","select  ?o    {    <http://dbpedia.org/resource/Lovett_Tower> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1973"
+"16","When was the Low Flight Strip completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Flight_Strip> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1942"
+"17","When was the Low Head Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Head_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1833"
+"18","When was the Low Isles Light completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Isles_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1874"
+"19","When was the Low Light of the Hook of Holland completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1899"
+"20","When was the Low Point Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Point_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1832 (first)"
+"21","When was the Lower Barracks completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Barracks> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1796"
+"22","When was the Lower Dock Street drill hall, Newport completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Dock_Street_drill_hall,_Newport> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1867"
+"23","When was the Lower Hutt Central Fire Station completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Hutt_Central_Fire_Station> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1955"
+"24","When was the Lower Huxley Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Huxley_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","15th century"
+"25","When was the Lower Tüchersfeld Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Tüchersfeld_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"26","When was the Lowestoft Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lowestoft_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1676 (third)"
+"27","When was the Lowry Air Force Base completed?","select  ?o    {    <http://dbpedia.org/resource/Lowry_Air_Force_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1937-1941"
+"28","When was the Lowville Masonic Temple completed?","select  ?o    {    <http://dbpedia.org/resource/Lowville_Masonic_Temple> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1928"
+"29","When was the Loyettes Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Loyettes_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1944"
+"30","When was the Lualualei VLF transmitter completed?","select  ?o    {    <http://dbpedia.org/resource/Lualualei_VLF_transmitter> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1972"
+"31","When was the Lubec Channel Light completed?","select  ?o    {    <http://dbpedia.org/resource/Lubec_Channel_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1890"
+"32","When was the Lubomirski Palace Opole Lubelskie completed?","select  ?o    {    <http://dbpedia.org/resource/Lubomirski_Palace_(Opole_Lubelskie)> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1773"
+"33","When was the Lubomirski Palace, Warsaw completed?","select  ?o    {    <http://dbpedia.org/resource/Lubomirski_Palace,_Warsaw> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","Before 1712"
+"34","When was the Lucan Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lucan_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1814"
+"35","When was the Lucens Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lucens_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"36","When was the Lucera Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Lucera_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1943"
+"37","When was the Lucky Knot Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lucky_Knot_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","October 2016"
+"38","When was the Lucky One Mall completed?","select  ?o    {    <http://dbpedia.org/resource/Lucky_One_Mall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2017"
+"39","When was the Ludendorff Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Ludendorff_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1919"
+"40","When was the Ludington Light completed?","select  ?o    {    <http://dbpedia.org/resource/Ludington_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1871"
+"41","When was the Ludlam's Beach Light completed?","select  ?o    {    <http://dbpedia.org/resource/Ludlam's_Beach_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1885"
+"42","When was the Ludlow Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Ludlow_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1066–85"
+"43","When was the Ludwigsburg Palace completed?","select  ?o    {    <http://dbpedia.org/resource/Ludwigsburg_Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1733"
+"44","When was the Ludza Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Ludza_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1433"
+"45","When was the Lufkin Air Force Station completed?","select  ?o    {    <http://dbpedia.org/resource/Lufkin_Air_Force_Station> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1957"
+"46","When was the Luganville Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Luganville_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1943"
+"47","When was the Luganville Seaplane Base completed?","select  ?o    {    <http://dbpedia.org/resource/Luganville_Seaplane_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1942"
+"48","When was the Lugard Road completed?","select  ?o    {    <http://dbpedia.org/resource/Lugard_Road> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","March 1921"
+"49","When was the Luins Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Luins_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","14th century"
+"50","When was the Lukang Ai Gate completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Ai_Gate> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1839"
+"51","When was the Lukang Kinmen Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Kinmen_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1805"
+"52","When was the Lukang Rimao Hang completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Rimao_Hang> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1784"
+"53","When was the Luke Air Force Base completed?","select  ?o    {    <http://dbpedia.org/resource/Luke_Air_Force_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","(as Luke Field)"
+"54","When was the Lululaund completed?","select  ?o    {    <http://dbpedia.org/resource/Lululaund> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1894"
+"55","When was the Lulworth Camp completed?","select  ?o    {    <http://dbpedia.org/resource/Lulworth_Camp> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1918"
+"56","When was the Lulworth Ranges completed?","select  ?o    {    <http://dbpedia.org/resource/Lulworth_Ranges> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1917"
+"57","When was the Luma Tower completed?","select  ?o    {    <http://dbpedia.org/resource/Luma_Tower> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1938"
+"58","When was the Lumbia Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Lumbia_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1930s"
+"59","When was the Luna Gardens completed?","select  ?o    {    <http://dbpedia.org/resource/Luna_Gardens> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1999"
+"60","When was the Luna Leederville completed?","select  ?o    {    <http://dbpedia.org/resource/Luna_Leederville> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1927"
+"61","When was the Lundbygård completed?","select  ?o    {    <http://dbpedia.org/resource/Lundbygård> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1833 (Ny Oremandsgaard)"
+"62","When was the Luneta Hotel completed?","select  ?o    {    <http://dbpedia.org/resource/Luneta_Hotel> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1919"
+"63","When was the Lungholm completed?","select  ?o    {    <http://dbpedia.org/resource/Lungholm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1756"
+"64","When was the Lunna Holm completed?","select  ?o    {    <http://dbpedia.org/resource/Lunna_Holm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1985"
+"65","When was the Luokou Yellow River Railway Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Luokou_Yellow_River_Railway_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","November 16, 1912"
+"66","When was the Lurie Biomedical Engineering Center completed?","select  ?o    {    <http://dbpedia.org/resource/Lurie_Biomedical_Engineering_Center> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2006"
+"67","When was the Lusted Road Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lusted_Road_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1894"
+"68","When was the Lutry Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lutry_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","16th century"
+"69","When was the Luxembourg Palace completed?","select  ?o    {    <http://dbpedia.org/resource/Luxembourg_Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1645"
+"70","When was the Luzon Building completed?","select  ?o    {    <http://dbpedia.org/resource/Luzon_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","approx. 8 February 1891"
+"71","When was the Lviv Theatre of Opera and Ballet completed?","select  ?o    {    <http://dbpedia.org/resource/Lviv_Theatre_of_Opera_and_Ballet> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"72","When was the Lyle H. Fulton Memorial Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lyle_H._Fulton_Memorial_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","March 15, 1971"
+"73","When was the Lynde Point Light completed?","select  ?o    {    <http://dbpedia.org/resource/Lynde_Point_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1803 (first)"
+"74","When was the Lyndon Baines Johnson Department of Education Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyndon_Baines_Johnson_Department_of_Education_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1961"
+"75","When was the Lyne Viaduct completed?","select  ?o    {    <http://dbpedia.org/resource/Lyne_Viaduct> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1863"
+"76","When was the Lyngør Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lyngør_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1879"
+"77","When was the Lynmouth Foreland Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lynmouth_Foreland_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"78","When was the Lynn Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lynn_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1868"
+"79","When was the Lynn Shore Drive completed?","select  ?o    {    <http://dbpedia.org/resource/Lynn_Shore_Drive> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1907"
+"80","When was the Lynnewood Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lynnewood_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"81","When was the Lyons Demesne completed?","select  ?o    {    <http://dbpedia.org/resource/Lyons_Demesne> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1797"
+"82","When was the Lysefjord Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lysefjord_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1997"
+"83","When was the Lystrup, Faxe Municipality completed?","select  ?o    {    <http://dbpedia.org/resource/Lystrup,_Faxe_Municipality> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1579"
+"84","When was the Lytes Cary completed?","select  ?o    {    <http://dbpedia.org/resource/Lytes_Cary> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","19th century"
+"85","When was the Lyttelton Road Tunnel Administration Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyttelton_Road_Tunnel_Administration_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1963-64"
+"86","When was the Lyttelton Times Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyttelton_Times_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1904"
+"87","When was the Lågskär Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lågskär_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1840 (first)"
+"88","When was the Långe Erik completed?","select  ?o    {    <http://dbpedia.org/resource/Långe_Erik> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1845"
+"89","When was the Långe Jan completed?","select  ?o    {    <http://dbpedia.org/resource/Långe_Jan> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1785"
+"90","When was the Lépine Towers completed?","select  ?o    {    <http://dbpedia.org/resource/Lépine_Towers> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2005"
+"91","When was the Línea P completed?","select  ?o    {    <http://dbpedia.org/resource/Línea_P> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1944-1948"
+"92","When was the López Serrano Building completed?","select  ?o    {    <http://dbpedia.org/resource/López_Serrano_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1932"
+"93","When was the Löberöd Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Löberöd_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","17th century"
+"94","When was the Löwenberg Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Löwenberg_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","15th century"
+"95","When was the Löwenburg and Philippsburg completed?","select  ?o    {    <http://dbpedia.org/resource/Löwenburg_and_Philippsburg> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"96","When was the Løve House completed?","select  ?o    {    <http://dbpedia.org/resource/Løve_House> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1757"
+"97","When was the Løvenborg, Holbæk Municipality completed?","select  ?o    {    <http://dbpedia.org/resource/Løvenborg,_Holbæk_Municipality> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1630s"
+"98","When was the Løvenholm completed?","select  ?o    {    <http://dbpedia.org/resource/Løvenholm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1633"
+"99","When was the Lüdao Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lüdao_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1939 (first)"
+"100","When was the M&T Bank Building completed?","select  ?o    {    <http://dbpedia.org/resource/M&T_Bank_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1972"
+"101","When was the M-Palace completed?","select  ?o    {    <http://dbpedia.org/resource/M-Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1997"
+"102","When were the 620 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/620_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1924"
+"103","When were the 655 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/655_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1924"
+"104","When were the 66 Portland Place completed?","select  ?o    {    <http://dbpedia.org/resource/66_Portland_Place> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1934"
+"105","When were the 680 N Lake Shore Drive completed?","select  ?o    {    <http://dbpedia.org/resource/680_N_Lake_Shore_Drive> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1926"
+"106","When were the 69-71 Bondway completed?","select  ?o    {    <http://dbpedia.org/resource/69-71_Bondway> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2020 (estimate)"
+"107","When were the 7 Rideau Gate completed?","select  ?o    {    <http://dbpedia.org/resource/7_Rideau_Gate> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1862"
+"108","When were the 720 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/720_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1928"
+"109","When were the 810 Fifth Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/810_Fifth_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1926"
+"110","When were the 91-93 Fifth Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/91-93_Fifth_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1896"
+"111","When were the 980 Madison Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/980_Madison_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1950"
+"112","When were the 9–11 East 16th Street completed?","select  ?o    {    <http://dbpedia.org/resource/9–11_East_16th_Street> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1896"
+"113","When were the APA Building, Melbourne completed?","select  ?o    {    <http://dbpedia.org/resource/APA_Building,_Melbourne> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1889"
+"114","When were the Lovells Island Range Lights completed?","select  ?o    {    <http://dbpedia.org/resource/Lovells_Island_Range_Lights> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1903"
+"115","When were the Lovett Tower completed?","select  ?o    {    <http://dbpedia.org/resource/Lovett_Tower> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1973"
+"116","When were the Low Flight Strip completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Flight_Strip> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1942"
+"117","When were the Low Head Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Head_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1833"
+"118","When were the Low Isles Light completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Isles_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1874"
+"119","When were the Low Light of the Hook of Holland completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1899"
+"120","When were the Low Point Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Point_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1832 (first)"
+"121","When were the Lower Barracks completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Barracks> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1796"
+"122","When were the Lower Dock Street drill hall, Newport completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Dock_Street_drill_hall,_Newport> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1867"
+"123","When were the Lower Hutt Central Fire Station completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Hutt_Central_Fire_Station> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1955"
+"124","When were the Lower Huxley Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Huxley_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","15th century"
+"125","When were the Lower Tüchersfeld Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Tüchersfeld_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"126","When were the Lowestoft Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lowestoft_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1676 (third)"
+"127","When were the Lowry Air Force Base completed?","select  ?o    {    <http://dbpedia.org/resource/Lowry_Air_Force_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1937-1941"
+"128","When were the Lowville Masonic Temple completed?","select  ?o    {    <http://dbpedia.org/resource/Lowville_Masonic_Temple> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1928"
+"129","When were the Loyettes Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Loyettes_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1944"
+"130","When were the Lualualei VLF transmitter completed?","select  ?o    {    <http://dbpedia.org/resource/Lualualei_VLF_transmitter> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1972"
+"131","When were the Lubec Channel Light completed?","select  ?o    {    <http://dbpedia.org/resource/Lubec_Channel_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1890"
+"132","When were the Lubomirski Palace Opole Lubelskie completed?","select  ?o    {    <http://dbpedia.org/resource/Lubomirski_Palace_(Opole_Lubelskie)> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1773"
+"133","When were the Lubomirski Palace, Warsaw completed?","select  ?o    {    <http://dbpedia.org/resource/Lubomirski_Palace,_Warsaw> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","Before 1712"
+"134","When were the Lucan Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lucan_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1814"
+"135","When were the Lucens Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lucens_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"136","When were the Lucera Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Lucera_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1943"
+"137","When were the Lucky Knot Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lucky_Knot_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","October 2016"
+"138","When were the Lucky One Mall completed?","select  ?o    {    <http://dbpedia.org/resource/Lucky_One_Mall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2017"
+"139","When were the Ludendorff Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Ludendorff_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1919"
+"140","When were the Ludington Light completed?","select  ?o    {    <http://dbpedia.org/resource/Ludington_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1871"
+"141","When were the Ludlam's Beach Light completed?","select  ?o    {    <http://dbpedia.org/resource/Ludlam's_Beach_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1885"
+"142","When were the Ludlow Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Ludlow_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1066–85"
+"143","When were the Ludwigsburg Palace completed?","select  ?o    {    <http://dbpedia.org/resource/Ludwigsburg_Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1733"
+"144","When were the Ludza Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Ludza_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1433"
+"145","When were the Lufkin Air Force Station completed?","select  ?o    {    <http://dbpedia.org/resource/Lufkin_Air_Force_Station> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1957"
+"146","When were the Luganville Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Luganville_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1943"
+"147","When were the Luganville Seaplane Base completed?","select  ?o    {    <http://dbpedia.org/resource/Luganville_Seaplane_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1942"
+"148","When were the Lugard Road completed?","select  ?o    {    <http://dbpedia.org/resource/Lugard_Road> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","March 1921"
+"149","When were the Luins Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Luins_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","14th century"
+"150","When were the Lukang Ai Gate completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Ai_Gate> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1839"
+"151","When were the Lukang Kinmen Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Kinmen_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1805"
+"152","When were the Lukang Rimao Hang completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Rimao_Hang> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1784"
+"153","When were the Luke Air Force Base completed?","select  ?o    {    <http://dbpedia.org/resource/Luke_Air_Force_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","(as Luke Field)"
+"154","When were the Lululaund completed?","select  ?o    {    <http://dbpedia.org/resource/Lululaund> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1894"
+"155","When were the Lulworth Camp completed?","select  ?o    {    <http://dbpedia.org/resource/Lulworth_Camp> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1918"
+"156","When were the Lulworth Ranges completed?","select  ?o    {    <http://dbpedia.org/resource/Lulworth_Ranges> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1917"
+"157","When were the Luma Tower completed?","select  ?o    {    <http://dbpedia.org/resource/Luma_Tower> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1938"
+"158","When were the Lumbia Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Lumbia_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1930s"
+"159","When were the Luna Gardens completed?","select  ?o    {    <http://dbpedia.org/resource/Luna_Gardens> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1999"
+"160","When were the Luna Leederville completed?","select  ?o    {    <http://dbpedia.org/resource/Luna_Leederville> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1927"
+"161","When were the Lundbygård completed?","select  ?o    {    <http://dbpedia.org/resource/Lundbygård> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1833 (Ny Oremandsgaard)"
+"162","When were the Luneta Hotel completed?","select  ?o    {    <http://dbpedia.org/resource/Luneta_Hotel> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1919"
+"163","When were the Lungholm completed?","select  ?o    {    <http://dbpedia.org/resource/Lungholm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1756"
+"164","When were the Lunna Holm completed?","select  ?o    {    <http://dbpedia.org/resource/Lunna_Holm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1985"
+"165","When were the Luokou Yellow River Railway Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Luokou_Yellow_River_Railway_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","November 16, 1912"
+"166","When were the Lurie Biomedical Engineering Center completed?","select  ?o    {    <http://dbpedia.org/resource/Lurie_Biomedical_Engineering_Center> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2006"
+"167","When were the Lusted Road Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lusted_Road_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1894"
+"168","When were the Lutry Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lutry_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","16th century"
+"169","When were the Luxembourg Palace completed?","select  ?o    {    <http://dbpedia.org/resource/Luxembourg_Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1645"
+"170","When were the Luzon Building completed?","select  ?o    {    <http://dbpedia.org/resource/Luzon_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","approx. 8 February 1891"
+"171","When were the Lviv Theatre of Opera and Ballet completed?","select  ?o    {    <http://dbpedia.org/resource/Lviv_Theatre_of_Opera_and_Ballet> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"172","When were the Lyle H. Fulton Memorial Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lyle_H._Fulton_Memorial_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","March 15, 1971"
+"173","When were the Lynde Point Light completed?","select  ?o    {    <http://dbpedia.org/resource/Lynde_Point_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1803 (first)"
+"174","When were the Lyndon Baines Johnson Department of Education Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyndon_Baines_Johnson_Department_of_Education_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1961"
+"175","When were the Lyne Viaduct completed?","select  ?o    {    <http://dbpedia.org/resource/Lyne_Viaduct> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1863"
+"176","When were the Lyngør Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lyngør_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1879"
+"177","When were the Lynmouth Foreland Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lynmouth_Foreland_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"178","When were the Lynn Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lynn_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1868"
+"179","When were the Lynn Shore Drive completed?","select  ?o    {    <http://dbpedia.org/resource/Lynn_Shore_Drive> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1907"
+"180","When were the Lynnewood Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lynnewood_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"181","When were the Lyons Demesne completed?","select  ?o    {    <http://dbpedia.org/resource/Lyons_Demesne> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1797"
+"182","When were the Lysefjord Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lysefjord_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1997"
+"183","When were the Lystrup, Faxe Municipality completed?","select  ?o    {    <http://dbpedia.org/resource/Lystrup,_Faxe_Municipality> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1579"
+"184","When were the Lytes Cary completed?","select  ?o    {    <http://dbpedia.org/resource/Lytes_Cary> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","19th century"
+"185","When were the Lyttelton Road Tunnel Administration Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyttelton_Road_Tunnel_Administration_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1963-64"
+"186","When were the Lyttelton Times Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyttelton_Times_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1904"
+"187","When were the Lågskär Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lågskär_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1840 (first)"
+"188","When were the Långe Erik completed?","select  ?o    {    <http://dbpedia.org/resource/Långe_Erik> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1845"
+"189","When were the Långe Jan completed?","select  ?o    {    <http://dbpedia.org/resource/Långe_Jan> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1785"
+"190","When were the Lépine Towers completed?","select  ?o    {    <http://dbpedia.org/resource/Lépine_Towers> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2005"
+"191","When were the Línea P completed?","select  ?o    {    <http://dbpedia.org/resource/Línea_P> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1944-1948"
+"192","When were the López Serrano Building completed?","select  ?o    {    <http://dbpedia.org/resource/López_Serrano_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1932"
+"193","When were the Löberöd Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Löberöd_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","17th century"
+"194","When were the Löwenberg Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Löwenberg_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","15th century"
+"195","When were the Löwenburg and Philippsburg completed?","select  ?o    {    <http://dbpedia.org/resource/Löwenburg_and_Philippsburg> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"196","When were the Løve House completed?","select  ?o    {    <http://dbpedia.org/resource/Løve_House> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1757"
+"197","When were the Løvenborg, Holbæk Municipality completed?","select  ?o    {    <http://dbpedia.org/resource/Løvenborg,_Holbæk_Municipality> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1630s"
+"198","When were the Løvenholm completed?","select  ?o    {    <http://dbpedia.org/resource/Løvenholm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1633"
+"199","When were the Lüdao Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lüdao_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1939 (first)"
+"200","When were the M&T Bank Building completed?","select  ?o    {    <http://dbpedia.org/resource/M&T_Bank_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1972"
+"201","When were the M-Palace completed?","select  ?o    {    <http://dbpedia.org/resource/M-Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1997"
+"202","Which year was the 620 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/620_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1924"
+"203","Which year was the 655 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/655_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1924"
+"204","Which year was the 66 Portland Place completed?","select  ?o    {    <http://dbpedia.org/resource/66_Portland_Place> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1934"
+"205","Which year was the 680 N Lake Shore Drive completed?","select  ?o    {    <http://dbpedia.org/resource/680_N_Lake_Shore_Drive> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1926"
+"206","Which year was the 69-71 Bondway completed?","select  ?o    {    <http://dbpedia.org/resource/69-71_Bondway> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2020 (estimate)"
+"207","Which year was the 7 Rideau Gate completed?","select  ?o    {    <http://dbpedia.org/resource/7_Rideau_Gate> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1862"
+"208","Which year was the 720 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/720_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1928"
+"209","Which year was the 810 Fifth Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/810_Fifth_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1926"
+"210","Which year was the 91-93 Fifth Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/91-93_Fifth_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1896"
+"211","Which year was the 980 Madison Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/980_Madison_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1950"
+"212","Which year was the 9–11 East 16th Street completed?","select  ?o    {    <http://dbpedia.org/resource/9–11_East_16th_Street> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1896"
+"213","Which year was the APA Building, Melbourne completed?","select  ?o    {    <http://dbpedia.org/resource/APA_Building,_Melbourne> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1889"
+"214","Which year was the Lovells Island Range Lights completed?","select  ?o    {    <http://dbpedia.org/resource/Lovells_Island_Range_Lights> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1903"
+"215","Which year was the Lovett Tower completed?","select  ?o    {    <http://dbpedia.org/resource/Lovett_Tower> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1973"
+"216","Which year was the Low Flight Strip completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Flight_Strip> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1942"
+"217","Which year was the Low Head Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Head_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1833"
+"218","Which year was the Low Isles Light completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Isles_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1874"
+"219","Which year was the Low Light of the Hook of Holland completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1899"
+"220","Which year was the Low Point Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Point_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1832 (first)"
+"221","Which year was the Lower Barracks completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Barracks> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1796"
+"222","Which year was the Lower Dock Street drill hall, Newport completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Dock_Street_drill_hall,_Newport> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1867"
+"223","Which year was the Lower Hutt Central Fire Station completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Hutt_Central_Fire_Station> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1955"
+"224","Which year was the Lower Huxley Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Huxley_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","15th century"
+"225","Which year was the Lower Tüchersfeld Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Tüchersfeld_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"226","Which year was the Lowestoft Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lowestoft_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1676 (third)"
+"227","Which year was the Lowry Air Force Base completed?","select  ?o    {    <http://dbpedia.org/resource/Lowry_Air_Force_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1937-1941"
+"228","Which year was the Lowville Masonic Temple completed?","select  ?o    {    <http://dbpedia.org/resource/Lowville_Masonic_Temple> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1928"
+"229","Which year was the Loyettes Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Loyettes_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1944"
+"230","Which year was the Lualualei VLF transmitter completed?","select  ?o    {    <http://dbpedia.org/resource/Lualualei_VLF_transmitter> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1972"
+"231","Which year was the Lubec Channel Light completed?","select  ?o    {    <http://dbpedia.org/resource/Lubec_Channel_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1890"
+"232","Which year was the Lubomirski Palace Opole Lubelskie completed?","select  ?o    {    <http://dbpedia.org/resource/Lubomirski_Palace_(Opole_Lubelskie)> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1773"
+"233","Which year was the Lubomirski Palace, Warsaw completed?","select  ?o    {    <http://dbpedia.org/resource/Lubomirski_Palace,_Warsaw> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","Before 1712"
+"234","Which year was the Lucan Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lucan_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1814"
+"235","Which year was the Lucens Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lucens_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"236","Which year was the Lucera Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Lucera_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1943"
+"237","Which year was the Lucky Knot Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lucky_Knot_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","October 2016"
+"238","Which year was the Lucky One Mall completed?","select  ?o    {    <http://dbpedia.org/resource/Lucky_One_Mall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2017"
+"239","Which year was the Ludendorff Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Ludendorff_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1919"
+"240","Which year was the Ludington Light completed?","select  ?o    {    <http://dbpedia.org/resource/Ludington_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1871"
+"241","Which year was the Ludlam's Beach Light completed?","select  ?o    {    <http://dbpedia.org/resource/Ludlam's_Beach_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1885"
+"242","Which year was the Ludlow Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Ludlow_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1066–85"
+"243","Which year was the Ludwigsburg Palace completed?","select  ?o    {    <http://dbpedia.org/resource/Ludwigsburg_Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1733"
+"244","Which year was the Ludza Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Ludza_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1433"
+"245","Which year was the Lufkin Air Force Station completed?","select  ?o    {    <http://dbpedia.org/resource/Lufkin_Air_Force_Station> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1957"
+"246","Which year was the Luganville Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Luganville_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1943"
+"247","Which year was the Luganville Seaplane Base completed?","select  ?o    {    <http://dbpedia.org/resource/Luganville_Seaplane_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1942"
+"248","Which year was the Lugard Road completed?","select  ?o    {    <http://dbpedia.org/resource/Lugard_Road> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","March 1921"
+"249","Which year was the Luins Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Luins_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","14th century"
+"250","Which year was the Lukang Ai Gate completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Ai_Gate> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1839"
+"251","Which year was the Lukang Kinmen Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Kinmen_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1805"
+"252","Which year was the Lukang Rimao Hang completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Rimao_Hang> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1784"
+"253","Which year was the Luke Air Force Base completed?","select  ?o    {    <http://dbpedia.org/resource/Luke_Air_Force_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","(as Luke Field)"
+"254","Which year was the Lululaund completed?","select  ?o    {    <http://dbpedia.org/resource/Lululaund> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1894"
+"255","Which year was the Lulworth Camp completed?","select  ?o    {    <http://dbpedia.org/resource/Lulworth_Camp> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1918"
+"256","Which year was the Lulworth Ranges completed?","select  ?o    {    <http://dbpedia.org/resource/Lulworth_Ranges> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1917"
+"257","Which year was the Luma Tower completed?","select  ?o    {    <http://dbpedia.org/resource/Luma_Tower> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1938"
+"258","Which year was the Lumbia Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Lumbia_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1930s"
+"259","Which year was the Luna Gardens completed?","select  ?o    {    <http://dbpedia.org/resource/Luna_Gardens> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1999"
+"260","Which year was the Luna Leederville completed?","select  ?o    {    <http://dbpedia.org/resource/Luna_Leederville> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1927"
+"261","Which year was the Lundbygård completed?","select  ?o    {    <http://dbpedia.org/resource/Lundbygård> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1833 (Ny Oremandsgaard)"
+"262","Which year was the Luneta Hotel completed?","select  ?o    {    <http://dbpedia.org/resource/Luneta_Hotel> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1919"
+"263","Which year was the Lungholm completed?","select  ?o    {    <http://dbpedia.org/resource/Lungholm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1756"
+"264","Which year was the Lunna Holm completed?","select  ?o    {    <http://dbpedia.org/resource/Lunna_Holm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1985"
+"265","Which year was the Luokou Yellow River Railway Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Luokou_Yellow_River_Railway_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","November 16, 1912"
+"266","Which year was the Lurie Biomedical Engineering Center completed?","select  ?o    {    <http://dbpedia.org/resource/Lurie_Biomedical_Engineering_Center> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2006"
+"267","Which year was the Lusted Road Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lusted_Road_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1894"
+"268","Which year was the Lutry Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lutry_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","16th century"
+"269","Which year was the Luxembourg Palace completed?","select  ?o    {    <http://dbpedia.org/resource/Luxembourg_Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1645"
+"270","Which year was the Luzon Building completed?","select  ?o    {    <http://dbpedia.org/resource/Luzon_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","approx. 8 February 1891"
+"271","Which year was the Lviv Theatre of Opera and Ballet completed?","select  ?o    {    <http://dbpedia.org/resource/Lviv_Theatre_of_Opera_and_Ballet> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"272","Which year was the Lyle H. Fulton Memorial Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lyle_H._Fulton_Memorial_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","March 15, 1971"
+"273","Which year was the Lynde Point Light completed?","select  ?o    {    <http://dbpedia.org/resource/Lynde_Point_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1803 (first)"
+"274","Which year was the Lyndon Baines Johnson Department of Education Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyndon_Baines_Johnson_Department_of_Education_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1961"
+"275","Which year was the Lyne Viaduct completed?","select  ?o    {    <http://dbpedia.org/resource/Lyne_Viaduct> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1863"
+"276","Which year was the Lyngør Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lyngør_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1879"
+"277","Which year was the Lynmouth Foreland Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lynmouth_Foreland_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"278","Which year was the Lynn Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lynn_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1868"
+"279","Which year was the Lynn Shore Drive completed?","select  ?o    {    <http://dbpedia.org/resource/Lynn_Shore_Drive> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1907"
+"280","Which year was the Lynnewood Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lynnewood_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"281","Which year was the Lyons Demesne completed?","select  ?o    {    <http://dbpedia.org/resource/Lyons_Demesne> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1797"
+"282","Which year was the Lysefjord Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lysefjord_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1997"
+"283","Which year was the Lystrup, Faxe Municipality completed?","select  ?o    {    <http://dbpedia.org/resource/Lystrup,_Faxe_Municipality> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1579"
+"284","Which year was the Lytes Cary completed?","select  ?o    {    <http://dbpedia.org/resource/Lytes_Cary> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","19th century"
+"285","Which year was the Lyttelton Road Tunnel Administration Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyttelton_Road_Tunnel_Administration_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1963-64"
+"286","Which year was the Lyttelton Times Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyttelton_Times_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1904"
+"287","Which year was the Lågskär Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lågskär_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1840 (first)"
+"288","Which year was the Långe Erik completed?","select  ?o    {    <http://dbpedia.org/resource/Långe_Erik> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1845"
+"289","Which year was the Långe Jan completed?","select  ?o    {    <http://dbpedia.org/resource/Långe_Jan> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1785"
+"290","Which year was the Lépine Towers completed?","select  ?o    {    <http://dbpedia.org/resource/Lépine_Towers> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2005"
+"291","Which year was the Línea P completed?","select  ?o    {    <http://dbpedia.org/resource/Línea_P> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1944-1948"
+"292","Which year was the López Serrano Building completed?","select  ?o    {    <http://dbpedia.org/resource/López_Serrano_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1932"
+"293","Which year was the Löberöd Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Löberöd_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","17th century"
+"294","Which year was the Löwenberg Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Löwenberg_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","15th century"
+"295","Which year was the Löwenburg and Philippsburg completed?","select  ?o    {    <http://dbpedia.org/resource/Löwenburg_and_Philippsburg> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"296","Which year was the Løve House completed?","select  ?o    {    <http://dbpedia.org/resource/Løve_House> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1757"
+"297","Which year was the Løvenborg, Holbæk Municipality completed?","select  ?o    {    <http://dbpedia.org/resource/Løvenborg,_Holbæk_Municipality> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1630s"
+"298","Which year was the Løvenholm completed?","select  ?o    {    <http://dbpedia.org/resource/Løvenholm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1633"
+"299","Which year was the Lüdao Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lüdao_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1939 (first)"
+"300","Which year was the M&T Bank Building completed?","select  ?o    {    <http://dbpedia.org/resource/M&T_Bank_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1972"
+"301","Which year was the M-Palace completed?","select  ?o    {    <http://dbpedia.org/resource/M-Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1997"
+"302","Which year were the 620 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/620_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1924"
+"303","Which year were the 655 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/655_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1924"
+"304","Which year were the 66 Portland Place completed?","select  ?o    {    <http://dbpedia.org/resource/66_Portland_Place> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1934"
+"305","Which year were the 680 N Lake Shore Drive completed?","select  ?o    {    <http://dbpedia.org/resource/680_N_Lake_Shore_Drive> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1926"
+"306","Which year were the 69-71 Bondway completed?","select  ?o    {    <http://dbpedia.org/resource/69-71_Bondway> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2020 (estimate)"
+"307","Which year were the 7 Rideau Gate completed?","select  ?o    {    <http://dbpedia.org/resource/7_Rideau_Gate> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1862"
+"308","Which year were the 720 Park Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/720_Park_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1928"
+"309","Which year were the 810 Fifth Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/810_Fifth_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1926"
+"310","Which year were the 91-93 Fifth Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/91-93_Fifth_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1896"
+"311","Which year were the 980 Madison Avenue completed?","select  ?o    {    <http://dbpedia.org/resource/980_Madison_Avenue> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1950"
+"312","Which year were the 9–11 East 16th Street completed?","select  ?o    {    <http://dbpedia.org/resource/9–11_East_16th_Street> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1896"
+"313","Which year were the APA Building, Melbourne completed?","select  ?o    {    <http://dbpedia.org/resource/APA_Building,_Melbourne> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1889"
+"314","Which year were the Lovells Island Range Lights completed?","select  ?o    {    <http://dbpedia.org/resource/Lovells_Island_Range_Lights> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1903"
+"315","Which year were the Lovett Tower completed?","select  ?o    {    <http://dbpedia.org/resource/Lovett_Tower> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1973"
+"316","Which year were the Low Flight Strip completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Flight_Strip> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1942"
+"317","Which year were the Low Head Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Head_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1833"
+"318","Which year were the Low Isles Light completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Isles_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1874"
+"319","Which year were the Low Light of the Hook of Holland completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1899"
+"320","Which year were the Low Point Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Low_Point_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1832 (first)"
+"321","Which year were the Lower Barracks completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Barracks> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1796"
+"322","Which year were the Lower Dock Street drill hall, Newport completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Dock_Street_drill_hall,_Newport> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1867"
+"323","Which year were the Lower Hutt Central Fire Station completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Hutt_Central_Fire_Station> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1955"
+"324","Which year were the Lower Huxley Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Huxley_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","15th century"
+"325","Which year were the Lower Tüchersfeld Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lower_Tüchersfeld_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"326","Which year were the Lowestoft Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lowestoft_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1676 (third)"
+"327","Which year were the Lowry Air Force Base completed?","select  ?o    {    <http://dbpedia.org/resource/Lowry_Air_Force_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1937-1941"
+"328","Which year were the Lowville Masonic Temple completed?","select  ?o    {    <http://dbpedia.org/resource/Lowville_Masonic_Temple> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1928"
+"329","Which year were the Loyettes Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Loyettes_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1944"
+"330","Which year were the Lualualei VLF transmitter completed?","select  ?o    {    <http://dbpedia.org/resource/Lualualei_VLF_transmitter> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1972"
+"331","Which year were the Lubec Channel Light completed?","select  ?o    {    <http://dbpedia.org/resource/Lubec_Channel_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1890"
+"332","Which year were the Lubomirski Palace Opole Lubelskie completed?","select  ?o    {    <http://dbpedia.org/resource/Lubomirski_Palace_(Opole_Lubelskie)> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1773"
+"333","Which year were the Lubomirski Palace, Warsaw completed?","select  ?o    {    <http://dbpedia.org/resource/Lubomirski_Palace,_Warsaw> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","Before 1712"
+"334","Which year were the Lucan Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lucan_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1814"
+"335","Which year were the Lucens Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lucens_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"336","Which year were the Lucera Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Lucera_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1943"
+"337","Which year were the Lucky Knot Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lucky_Knot_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","October 2016"
+"338","Which year were the Lucky One Mall completed?","select  ?o    {    <http://dbpedia.org/resource/Lucky_One_Mall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2017"
+"339","Which year were the Ludendorff Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Ludendorff_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1919"
+"340","Which year were the Ludington Light completed?","select  ?o    {    <http://dbpedia.org/resource/Ludington_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1871"
+"341","Which year were the Ludlam's Beach Light completed?","select  ?o    {    <http://dbpedia.org/resource/Ludlam's_Beach_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1885"
+"342","Which year were the Ludlow Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Ludlow_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1066–85"
+"343","Which year were the Ludwigsburg Palace completed?","select  ?o    {    <http://dbpedia.org/resource/Ludwigsburg_Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1733"
+"344","Which year were the Ludza Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Ludza_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1433"
+"345","Which year were the Lufkin Air Force Station completed?","select  ?o    {    <http://dbpedia.org/resource/Lufkin_Air_Force_Station> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1957"
+"346","Which year were the Luganville Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Luganville_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1943"
+"347","Which year were the Luganville Seaplane Base completed?","select  ?o    {    <http://dbpedia.org/resource/Luganville_Seaplane_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1942"
+"348","Which year were the Lugard Road completed?","select  ?o    {    <http://dbpedia.org/resource/Lugard_Road> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","March 1921"
+"349","Which year were the Luins Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Luins_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","14th century"
+"350","Which year were the Lukang Ai Gate completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Ai_Gate> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1839"
+"351","Which year were the Lukang Kinmen Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Kinmen_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1805"
+"352","Which year were the Lukang Rimao Hang completed?","select  ?o    {    <http://dbpedia.org/resource/Lukang_Rimao_Hang> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1784"
+"353","Which year were the Luke Air Force Base completed?","select  ?o    {    <http://dbpedia.org/resource/Luke_Air_Force_Base> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","(as Luke Field)"
+"354","Which year were the Lululaund completed?","select  ?o    {    <http://dbpedia.org/resource/Lululaund> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1894"
+"355","Which year were the Lulworth Camp completed?","select  ?o    {    <http://dbpedia.org/resource/Lulworth_Camp> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1918"
+"356","Which year were the Lulworth Ranges completed?","select  ?o    {    <http://dbpedia.org/resource/Lulworth_Ranges> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1917"
+"357","Which year were the Luma Tower completed?","select  ?o    {    <http://dbpedia.org/resource/Luma_Tower> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1938"
+"358","Which year were the Lumbia Airfield completed?","select  ?o    {    <http://dbpedia.org/resource/Lumbia_Airfield> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1930s"
+"359","Which year were the Luna Gardens completed?","select  ?o    {    <http://dbpedia.org/resource/Luna_Gardens> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1999"
+"360","Which year were the Luna Leederville completed?","select  ?o    {    <http://dbpedia.org/resource/Luna_Leederville> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1927"
+"361","Which year were the Lundbygård completed?","select  ?o    {    <http://dbpedia.org/resource/Lundbygård> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1833 (Ny Oremandsgaard)"
+"362","Which year were the Luneta Hotel completed?","select  ?o    {    <http://dbpedia.org/resource/Luneta_Hotel> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1919"
+"363","Which year were the Lungholm completed?","select  ?o    {    <http://dbpedia.org/resource/Lungholm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1756"
+"364","Which year were the Lunna Holm completed?","select  ?o    {    <http://dbpedia.org/resource/Lunna_Holm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1985"
+"365","Which year were the Luokou Yellow River Railway Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Luokou_Yellow_River_Railway_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","November 16, 1912"
+"366","Which year were the Lurie Biomedical Engineering Center completed?","select  ?o    {    <http://dbpedia.org/resource/Lurie_Biomedical_Engineering_Center> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2006"
+"367","Which year were the Lusted Road Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lusted_Road_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1894"
+"368","Which year were the Lutry Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Lutry_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","16th century"
+"369","Which year were the Luxembourg Palace completed?","select  ?o    {    <http://dbpedia.org/resource/Luxembourg_Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1645"
+"370","Which year were the Luzon Building completed?","select  ?o    {    <http://dbpedia.org/resource/Luzon_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","approx. 8 February 1891"
+"371","Which year were the Lviv Theatre of Opera and Ballet completed?","select  ?o    {    <http://dbpedia.org/resource/Lviv_Theatre_of_Opera_and_Ballet> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"372","Which year were the Lyle H. Fulton Memorial Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lyle_H._Fulton_Memorial_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","March 15, 1971"
+"373","Which year were the Lynde Point Light completed?","select  ?o    {    <http://dbpedia.org/resource/Lynde_Point_Light> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1803 (first)"
+"374","Which year were the Lyndon Baines Johnson Department of Education Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyndon_Baines_Johnson_Department_of_Education_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1961"
+"375","Which year were the Lyne Viaduct completed?","select  ?o    {    <http://dbpedia.org/resource/Lyne_Viaduct> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1863"
+"376","Which year were the Lyngør Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lyngør_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1879"
+"377","Which year were the Lynmouth Foreland Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lynmouth_Foreland_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"378","Which year were the Lynn Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lynn_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1868"
+"379","Which year were the Lynn Shore Drive completed?","select  ?o    {    <http://dbpedia.org/resource/Lynn_Shore_Drive> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1907"
+"380","Which year were the Lynnewood Hall completed?","select  ?o    {    <http://dbpedia.org/resource/Lynnewood_Hall> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1900"
+"381","Which year were the Lyons Demesne completed?","select  ?o    {    <http://dbpedia.org/resource/Lyons_Demesne> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1797"
+"382","Which year were the Lysefjord Bridge completed?","select  ?o    {    <http://dbpedia.org/resource/Lysefjord_Bridge> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1997"
+"383","Which year were the Lystrup, Faxe Municipality completed?","select  ?o    {    <http://dbpedia.org/resource/Lystrup,_Faxe_Municipality> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1579"
+"384","Which year were the Lytes Cary completed?","select  ?o    {    <http://dbpedia.org/resource/Lytes_Cary> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","19th century"
+"385","Which year were the Lyttelton Road Tunnel Administration Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyttelton_Road_Tunnel_Administration_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1963-64"
+"386","Which year were the Lyttelton Times Building completed?","select  ?o    {    <http://dbpedia.org/resource/Lyttelton_Times_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1904"
+"387","Which year were the Lågskär Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lågskär_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1840 (first)"
+"388","Which year were the Långe Erik completed?","select  ?o    {    <http://dbpedia.org/resource/Långe_Erik> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1845"
+"389","Which year were the Långe Jan completed?","select  ?o    {    <http://dbpedia.org/resource/Långe_Jan> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1785"
+"390","Which year were the Lépine Towers completed?","select  ?o    {    <http://dbpedia.org/resource/Lépine_Towers> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","2005"
+"391","Which year were the Línea P completed?","select  ?o    {    <http://dbpedia.org/resource/Línea_P> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1944-1948"
+"392","Which year were the López Serrano Building completed?","select  ?o    {    <http://dbpedia.org/resource/López_Serrano_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1932"
+"393","Which year were the Löberöd Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Löberöd_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","17th century"
+"394","Which year were the Löwenberg Castle completed?","select  ?o    {    <http://dbpedia.org/resource/Löwenberg_Castle> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","15th century"
+"395","Which year were the Löwenburg and Philippsburg completed?","select  ?o    {    <http://dbpedia.org/resource/Löwenburg_and_Philippsburg> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","13th century"
+"396","Which year were the Løve House completed?","select  ?o    {    <http://dbpedia.org/resource/Løve_House> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1757"
+"397","Which year were the Løvenborg, Holbæk Municipality completed?","select  ?o    {    <http://dbpedia.org/resource/Løvenborg,_Holbæk_Municipality> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1630s"
+"398","Which year were the Løvenholm completed?","select  ?o    {    <http://dbpedia.org/resource/Løvenholm> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1633"
+"399","Which year were the Lüdao Lighthouse completed?","select  ?o    {    <http://dbpedia.org/resource/Lüdao_Lighthouse> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1939 (first)"
+"400","Which year were the M&T Bank Building completed?","select  ?o    {    <http://dbpedia.org/resource/M&T_Bank_Building> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1972"
+"401","Which year were the M-Palace completed?","select  ?o    {    <http://dbpedia.org/resource/M-Palace> <http://dbpedia.org/ontology/buildingEndDate>  ?o    }","1997"

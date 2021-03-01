@@ -73,7 +73,9 @@ public class ReadAndWriteQuestions {
                 Map<String, Pair<String, String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
                 this.makeQuestionAnswer(grammarEntryUnit.getId(), grammarEntryUnit.getSentences(), uriAnswer, sparql);
                 System.out.println("Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
+            break;
             }
+            break;
         }
 
     }

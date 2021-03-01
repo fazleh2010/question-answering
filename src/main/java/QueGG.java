@@ -34,43 +34,62 @@ import java.util.logging.Level;
 import util.io.FileUtils;
 
 //index location /var/www/html/
-
 @NoArgsConstructor
 public class QueGG {
     //temporarly closed. becuase it does not work from command line
     //private static final Logger LOG = LogManager.getLogger(QueGG.class);
 
+    //temporarly closed. becuase it does not work from command line
+    //private static final Logger LOG = LogManager.getLogger(QueGG.class);
     private static String inputDir = "src/main/resources/test/input/";
     //this is a temporary solution. it will be removed later..
     //private static String BaseDir = "/var/www/html//question-answering/";
     private static String BaseDir = "";
     private static String outputDir = BaseDir + "src/main/resources/test/output/";
 
-    public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
+    public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources/";
     public static String QUESTION_ANSWER_FILE = "questions.txt";
+    public static String QUESTION_ANSWER_CSV_FILE = "questions.csv";
 
     //GENERATE_QUESTION_ANSWER_FROM_GRAMMAR=1
     //PREPARE_QUESTION_ANSWER =1
     //QUESTIONS_ANSWERS=2;
     public static void main(String[] args) {
-        
-        String BaseDir = "";
-        QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
-        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
-
-        ReadAndWriteQuestions readAndWriteQuestions = null;
-        Integer task = 3;
-        String content = "";
         QueGG queGG = new QueGG();
         Language language = Language.stringToLanguage("EN");
-       
+        String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
 
-        try {
-            System.out.println("inputDir:"+inputDir);
-             System.out.println("outputDir:"+outputDir);
-            queGG.init(language, inputDir, outputDir);
+        ReadAndWriteQuestions readAndWriteQuestions = null;
+        Integer task = 2;
+        String content = "";
 
-           /* if (args.length > 3) {
+        if (task.equals(1)) {
+            try {
+                queGG.init(language, inputDir, outputDir);
+                //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
+                //content = output(createTree.getInputTupples());
+            } catch (Exception ex) {
+                java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
+            }
+
+        } else if (task.equals(2)) {
+            try {
+                readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN", ".csv");
+                //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
+                //content = output(createTree.getInputTupples());
+            } catch (Exception ex) {
+                java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
+            }
+
+        } else if (task.equals(3)) {
+            //readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
+            Trie trie = createTrie(questionAnswerFile);
+            List autoCompletionList = trie.autocomplete("Give me");
+            for (int i = 0; i < autoCompletionList.size(); i++) {
+                System.out.println(i + " auto completion:" + autoCompletionList.get(i));
+            }
+        }
+        /* if (args.length > 3) {
                 String search = args[0];
                 if (search.contains("search")) {
                     language = Language.stringToLanguage(args[1]);
@@ -106,17 +125,16 @@ public class QueGG {
                 queGG.init(language, inputDir, outputDir);
 
             }*/
-
-        } catch (IllegalArgumentException | IOException e) {
+ /*catch (IllegalArgumentException | IOException e) {
             System.err.printf("%s: %s%n", e.getClass().getSimpleName(), e.getMessage());
             System.err.printf("Usage: <%s> <input directory> <output directory>%n", Arrays.toString(Language.values()));
-        }
-       
+        }*/
+
     }
 
-    public static Trie createTrie(String fileName) {
-        Trie trie = new Trie();
-        Integer index = 0;
+      public static Trie createTrie(String fileName) {
+            Trie trie = new Trie();
+            Integer index=0;
         try {
             InputStream is = new FileInputStream(fileName);
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
@@ -126,19 +144,19 @@ public class QueGG {
                 if (line.contains("=")) {
                     String[] info = line.split("=");
                     String question = info[0];
-                    trie.insert(question);
-                    line = buf.readLine();
-                    index = index + 1;
-                    //System.err.println("index:" + index + " line:" + line);
+                     trie.insert(question);
+                     line = buf.readLine();
+                     index=index+1;
+                     System.err.println("index:"+index+" line:"+line);
                 }
             }
         } catch (Exception ex) {
             java.util.logging.Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, ex);
         }
+      
 
         return trie;
     }
-
 
     /*private static void questionAnsweringInterface(String[] args, QueGG queGG) {
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
@@ -163,7 +181,6 @@ public class QueGG {
             System.out.println(readAndWriteQuestions.getContent());
         }
     }*/
-
     private static void generateQuestions(String[] args, QueGG queGG) {
 
     }
