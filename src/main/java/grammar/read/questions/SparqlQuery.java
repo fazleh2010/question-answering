@@ -34,9 +34,15 @@ public class SparqlQuery {
     public static String FIND_LABEL = "FIND_LABEL";
     public  String sparqlQuery = null;
 
-    public SparqlQuery(String entityUrl, String property, String type) {
+    public SparqlQuery(String entityUrl, String property, String type,String returnType) {
         if (type.contains(FIND_ANY_ANSWER)) {
-            sparqlQuery = this.setSparqlQueryProperty(entityUrl, property);
+            if(returnType.contains( "objOfProp")){
+               sparqlQuery = this.setSparqlQueryPropertyObject(entityUrl, property);    
+            }
+            else if(returnType.contains("subjOfProp")){
+               sparqlQuery = this.setSparqlQueryPropertyWithSubject(entityUrl, property);    
+            }
+            
         } else if (type.contains(FIND_LABEL)) {
             sparqlQuery = this.setSparqlQueryForLabel(entityUrl);
         }
@@ -102,29 +108,56 @@ public class SparqlQuery {
         return null;
     }
 
-    private void parseResult(DocumentBuilder builder, String xmlStr) throws SAXException, IOException, DOMException, Exception {
-        Document document = builder.parse(new InputSource(new StringReader(
-                xmlStr)));
-        NodeList results = document.getElementsByTagName("results");
-        //System.out.println("xmlStr!!!!!!!!!!!!!" + xmlStr);
+    private void parseResult(DocumentBuilder builder, String xmlStr) {
 
-        for (int i = 0; i < results.getLength(); i++) {
-            NodeList childList = results.item(i).getChildNodes();
-            for (int j = 0; j < childList.getLength(); j++) {
-                Node childNode = childList.item(j);
-                if ("result".equals(childNode.getNodeName())) {
-                    //System.out.println("label!!!!!!!!!!!!!" + childList.item(j).getTextContent().trim());
-                    this.objectOfProperty = childList.item(j).getTextContent().trim();
+        try {
+            Document document = builder.parse(new InputSource(new StringReader(
+                    xmlStr)));
+            NodeList results = document.getElementsByTagName("results");
+            for (int i = 0; i < results.getLength(); i++) {
+                NodeList childList = results.item(i).getChildNodes();
+                for (int j = 0; j < childList.getLength(); j++) {
+                    Node childNode = childList.item(j);
+                    if ("result".equals(childNode.getNodeName())) {
+                        //System.out.println("label!!!!!!!!!!!!!" + childList.item(j).getTextContent().trim());
+                        this.objectOfProperty = childList.item(j).getTextContent().trim();
+                    }
                 }
-            }
 
+            }
+        } catch (SAXException ex) {
+            Logger.getLogger(SparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("no result after sparql query!" + ex.getMessage());
+            return;
+        } catch (IOException ex) {
+            Logger.getLogger(SparqlQuery.class.getName()).log(Level.SEVERE, null, ex);
+             System.out.println("no result after sparql query!" + ex.getMessage());
+            return;
         }
+
+        //System.out.println("xmlStr!!!!!!!!!!!!!" + xmlStr);
     }
 
-    public static String setSparqlQueryProperty(String entityUrl, String property) {
+    public  String setSparqlQueryPropertyObject(String entityUrl, String property) {
         return "select  ?o\n"
                 + "    {\n"
                 + "    " + "<" + entityUrl + ">" + " " + "<" + property + ">" + "  " + "?o" + "\n"
+                + "    }";
+
+    }
+    
+     /*public  String setSparqlQueryPropertyWithSubject(String entityUrl, String property) {
+        return "select  ?s\n"
+                + "    {\n"
+                 + "   " + "?s" + " " + "<" + property + ">" + "  " + "<" +  "http://www.w3.org/2001/XMLSchema#"+entityUrl + ">" + "\n"
+                + "    }";
+
+    }*/
+    
+    public  String setSparqlQueryPropertyWithSubject(String entityUrl, String property) {
+        return "select  ?s\n"
+                + "    {\n"
+                 + "   " + "?s" + " " + "<" + property + ">" + "  " +entityUrl + "\n"
                 + "    }";
 
     }

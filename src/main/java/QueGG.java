@@ -49,7 +49,7 @@ public class QueGG {
 
     public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources/";
     public static String QUESTION_ANSWER_FILE = "questions.txt";
-    public static String QUESTION_ANSWER_CSV_FILE = "questions.csv";
+    public static String QUESTION_ANSWER_CSV_FILE = "questionsTest.csv";
 
     //GENERATE_QUESTION_ANSWER_FROM_GRAMMAR=1
     //PREPARE_QUESTION_ANSWER =1

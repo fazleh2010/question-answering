@@ -79,7 +79,8 @@ public class ReadAndWriteQuestions {
             Integer total = grammarEntries.getGrammarEntries().size();
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
                 sparql = grammarEntryUnit.getSparqlQuery();
-                Map<String, Pair<String, String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
+                String returnVairable=grammarEntryUnit.getReturnVariable();
+                Map<String, Pair<String, String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, returnVairable);
                 this.makeQuestionAnswer(grammarEntryUnit.getId(), grammarEntryUnit.getSentences(), uriAnswer, sparql);
                 System.out.println("Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
             }
@@ -139,19 +140,19 @@ public class ReadAndWriteQuestions {
         return xValues;
     }
 
-    public Pair<String, String> getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
+    public Pair<String, String> getAnswerFromWikipedia(String subjProp, String sparql, String returnType) {
         String property = null;
         String answer = null;
         SparqlQuery sparqlQuery = null;
         property = StringUtils.substringBetween(sparql, "<", ">");
-        sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER);
+        sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER,returnType);
         //System.out.println("original sparql:: "+sparql);
         //System.out.println("sparqlQuery:: "+sparqlQuery.getSparqlQuery());
         answer = sparqlQuery.getObject();
         if (answer != null) {
             if (answer.contains("http:")) {
                 //System.out.println(answer);
-                SparqlQuery sparqlQueryLabel = new SparqlQuery(answer, property, SparqlQuery.FIND_LABEL);
+                SparqlQuery sparqlQueryLabel = new SparqlQuery(answer, property, SparqlQuery.FIND_LABEL,null);
                 answer = sparqlQueryLabel.getObject();
                 //System.out.println(answer);
 

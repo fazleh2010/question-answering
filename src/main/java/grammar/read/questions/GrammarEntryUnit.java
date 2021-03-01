@@ -103,4 +103,9 @@ public class GrammarEntryUnit {
         return combination;
     }
 
+    @Override
+    public String toString() {
+        return "GrammarEntryUnit{" + "sentenceToSparqlParameterMapping=" + sentenceToSparqlParameterMapping + ", returnVariable=" + returnVariable + ", sentenceBindings=" + sentenceBindings + '}';
+    }
+
 }
