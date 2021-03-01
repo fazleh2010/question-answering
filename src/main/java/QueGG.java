@@ -40,11 +40,11 @@ public class QueGG {
     //temporarly closed. becuase it does not work from command line
     //private static final Logger LOG = LogManager.getLogger(QueGG.class);
 
-    private static String inputDir = "src/main/resources/lexicon/en/nouns/input/";
+    private static String inputDir = "src/main/resources/test/input/";
     //this is a temporary solution. it will be removed later..
     //private static String BaseDir = "/var/www/html//question-answering/";
     private static String BaseDir = "";
-    private static String outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
+    private static String outputDir = BaseDir + "src/main/resources/test/output/";
 
     public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
     public static String QUESTION_ANSWER_FILE = "questions.txt";
@@ -55,7 +55,6 @@ public class QueGG {
     public static void main(String[] args) {
         
         String BaseDir = "";
-        outputDir = BaseDir + "src/main/resources/lexicon/en/nouns/new/output/";
         QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources";
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_FILE;
 

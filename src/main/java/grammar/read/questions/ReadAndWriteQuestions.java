@@ -28,14 +28,14 @@ public class ReadAndWriteQuestions {
     private LinkedHashMap<String, String> questionAnswers = new LinkedHashMap<String, String>();
     private String content = null;
     private Trie trie = new Trie();
-    public String[] header = new String[]{id, question, sparql,answer};
+    public String[] header = new String[]{id, question, sparql, answer};
     private List<String[]> csvRows = new ArrayList<String[]>();
     public static String FRAMETYPE_NPP = "NPP";
     public static final String id = "id";
     public static final String question = "question";
     public static final String sparql = "sparql";
     public static final String answer = "answer";
-    public   String questionAnswerFile;
+    public String questionAnswerFile;
 
     public ReadAndWriteQuestions(String questionAnswerFile) {
         this.content = FileUtils.fileToString(questionAnswerFile);
@@ -53,10 +53,9 @@ public class ReadAndWriteQuestions {
         if (type.contains(".txt")) {
             this.content = this.prepareQuestionAnswerStr();
             FileUtils.stringToFile(this.content, questionAnswerFile);
+        } else if (type.contains(".csv")) {
+            FileUtils.stringToCSVFile(this.csvRows, questionAnswerFile);
         }
-        else if(type.contains(".csv")){
-           FileUtils.stringToCSVFile(this.csvRows, questionAnswerFile); 
-        }  
 
     }
 
@@ -71,17 +70,103 @@ public class ReadAndWriteQuestions {
             Integer total = grammarEntries.getGrammarEntries().size();
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
                 sparql = grammarEntryUnit.getSparqlQuery();
-                Map<String, Pair<String,String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
+                Map<String, Pair<String, String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
                 this.makeQuestionAnswer(grammarEntryUnit.getId(), grammarEntryUnit.getSentences(), uriAnswer, sparql);
                 System.out.println("Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
-                break;
             }
-            break;
         }
-        
+
     }
-    
- 
+
+    private void makeQuestionAnswer(Integer id, List<String> questions, Map<String, Pair<String, String>> uriAnswer, String sparql) {
+
+        for (String question : questions) {
+            String result = null;
+            if (question.contains("(") && question.contains(")")) {
+                result = StringUtils.substringBetween(question, "(", ")");
+                question = question.replace(result, "X");
+            } else if (question.contains("$x")) {
+                //System.out.println(question);
+
+            }
+            for (String uriLabel : uriAnswer.keySet()) {
+                id = id + 1;
+                String answer = "no answer found";
+                Pair<String, String> pair = uriAnswer.get(uriLabel);
+                sparql = pair.component1();
+                answer = pair.component2();
+                String questionT = null;
+                try {
+                    questionT = question.replaceAll("(X)", uriLabel);
+                    questionT = questionT.replace("(", "");
+                    questionT = questionT.replace(")", "");
+                    questionT = questionT.replace("$x", uriLabel);
+                    questionT = questionT.stripLeading().trim();
+                    sparql = sparql.stripLeading().trim();
+                    sparql = sparql.replace("\n", "");
+                    sparql = sparql.replace(" ", "+");
+                    sparql = sparql.replace("+", " ");
+                    String[] record = {id.toString(), questionT, sparql, answer};
+                    csvRows.add(record);
+                    questionAnswers.put(questionT, answer);
+                } catch (Exception ex) {
+                    System.err.println(id.toString() + " " + questionT + " " + sparql + " " + answer);
+                }
+
+            }
+        }
+
+    }
+
+    private Map<String, Pair<String, String>> replaceVariables(List<UriLabel> uriLabels, String sparql, String frameType) {
+        Map<String, Pair<String, String>> xValues = new TreeMap<String, Pair<String, String>>();
+        for (UriLabel uriLabel : uriLabels) {
+            Pair<String, String> pair = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
+            String sparqlQuery = pair.component1();
+            String answer = pair.component2();
+            xValues.put(uriLabel.getLabel(), pair);
+        }
+        return xValues;
+    }
+
+    public Pair<String, String> getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
+        String property = null;
+        String answer = null;
+        SparqlQuery sparqlQuery = null;
+        property = StringUtils.substringBetween(sparql, "<", ">");
+        sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER);
+        //System.out.println("original sparql:: "+sparql);
+        //System.out.println("sparqlQuery:: "+sparqlQuery.getSparqlQuery());
+        answer = sparqlQuery.getObject();
+        if (answer != null) {
+            if (answer.contains("http:")) {
+                //System.out.println(answer);
+                SparqlQuery sparqlQueryLabel = new SparqlQuery(answer, property, SparqlQuery.FIND_LABEL);
+                answer = sparqlQueryLabel.getObject();
+                //System.out.println(answer);
+
+            }
+            return new Pair<String, String>(sparqlQuery.sparqlQuery, answer);
+        } else {
+            return new Pair<String, String>(sparqlQuery.sparqlQuery, "no answer found");
+        }
+
+        //return new SparqlQuery(subjProp, property,SparqlQuery.FIND_ANY_ANSWER).getObject();
+    }
+
+    private String prepareQuestionAnswerStr() {
+        String quesAnsStr = "";
+        Integer totalLimit = questionAnswers.size();
+        for (String question : questionAnswers.keySet()) {
+            String line = question + "=" + questionAnswers.get(question) + "\n";
+            quesAnsStr += line;
+        }
+        return quesAnsStr;
+    }
+
+    public String getContent() {
+        return content;
+    }
 
     /*private void replaceVariables(String question, List<UriLabel> uriLabels, String sparql, String frameType) {
         String result = null;
@@ -106,100 +191,4 @@ public class ReadAndWriteQuestions {
         }
 
     }*/
-    
- 
-    
-    private void makeQuestionAnswer(Integer id, List<String> questions,Map<String, Pair<String,String>> uriAnswer, String sparql) {
-
-        for (String question : questions) {
-            String result = null;
-            if (question.contains("(") && question.contains(")")) {
-                result = StringUtils.substringBetween(question, "(", ")");
-                question = question.replace(result, "X");
-            } else if (question.contains("$x")) {
-                //System.out.println(question);
-
-            }
-            for (String uriLabel : uriAnswer.keySet()) {
-                id = id + 1;
-                String answer="no answer found";
-                Pair<String,String> pair=uriAnswer.get(uriLabel);
-                sparql=pair.component1();
-                answer = pair.component2();
-                String questionT = question.replaceAll("(X)", uriLabel);
-                questionT = questionT.replace("(", "");
-                questionT = questionT.replace(")", "");
-                questionT = questionT.replace("$x", uriLabel);
-                questionT=questionT.stripLeading().trim();
-                sparql=sparql.stripLeading().trim();
-                sparql=sparql.replace("\n","");
-                sparql=sparql.replace(" ","+");
-                sparql=sparql.replace("+"," ");
-                
-                System.out.print("sparql:"+sparql);
-                String[] record = {id.toString(), questionT, sparql, answer};
-                csvRows.add(record);
-                questionAnswers.put(questionT, answer);
-            }
-        }
-
-    }
-    
-    private Map<String, Pair<String,String>> replaceVariables(List<UriLabel> uriLabels, String sparql, String frameType) {
-        Map<String, Pair<String,String>> xValues = new TreeMap<String, Pair<String,String>>();
-        for (UriLabel uriLabel : uriLabels) {
-            Pair<String,String> pair=this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
-            String sparqlQuery = pair.component1();
-            String answer = pair.component2();
-            xValues.put(uriLabel.getLabel(),pair);
-        }
-        return xValues;
-    }
-
-    public Pair<String,String> getAnswerFromWikipedia(String subjProp, String sparql, String syntacticFrame) {
-        String property = null;
-        String answer = null;
-        SparqlQuery sparqlQuery =null;
-        if (syntacticFrame.contains(FRAMETYPE_NPP)) {
-            property = StringUtils.substringBetween(sparql, "<", ">");
-        }
-        sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER);        
-        answer = sparqlQuery.getObject();
-        if (answer != null) {
-            if (answer.contains("http:")) {
-                //System.out.println(answer);
-                SparqlQuery sparqlQueryLabel = new SparqlQuery(answer, property, SparqlQuery.FIND_LABEL);
-                answer = sparqlQueryLabel.getObject();
-                //System.out.println(answer);
-                
-            }
-            return new Pair<String,String>(sparqlQuery.sparqlQuery,answer);
-        } else {
-            return new Pair<String,String>(null,null);
-        }
-        
-      
-
-        //return new SparqlQuery(subjProp, property,SparqlQuery.FIND_ANY_ANSWER).getObject();
-    }
-
-    private String prepareQuestionAnswerStr() {
-        String quesAnsStr = "";
-        Integer totalLimit = questionAnswers.size();
-        for (String question : questionAnswers.keySet()) {
-            String line = question + "=" + questionAnswers.get(question) + "\n";
-            quesAnsStr += line;
-        }
-        return quesAnsStr;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-   
-
-   
-
-    
 }
