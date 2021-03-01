@@ -85,6 +85,7 @@ grammar/read/questions/Trie.class
 AutoCompletion.class
 grammar/generator/helper/SentenceBuilderAdjectiveAttributiveEN.class
 evaluation/QALD$QALDDatasetDefinition.class
+util/io/OpenCsvWriterByAppend.class
 grammar/generator/NPPGrammarRuleGenerator.class
 grammar/read/questions/SentenceBindings.class
 grammar/generator/helper/sentencetemplates/AnnotatedWord.class

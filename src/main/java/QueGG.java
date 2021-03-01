@@ -58,8 +58,6 @@ public class QueGG {
         QueGG queGG = new QueGG();
         Language language = Language.stringToLanguage("EN");
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
-
-        ReadAndWriteQuestions readAndWriteQuestions = null;
         Integer task = 2;
         String content = "";
 
@@ -74,7 +72,7 @@ public class QueGG {
 
         } else if (task.equals(2)) {
             try {
-                readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN", ".csv");
+                ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile, outputDir, "grammar_FULL_DATASET_EN", ".csv");
                 //CreateTree createTree = new CreateTree(readAndWriteQuestions.getInputFileName());
                 //content = output(createTree.getInputTupples());
             } catch (Exception ex) {

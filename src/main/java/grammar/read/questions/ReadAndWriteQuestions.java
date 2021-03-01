@@ -35,34 +35,43 @@ public class ReadAndWriteQuestions {
     public static final String question = "question";
     public static final String sparql = "sparql";
     public static final String answer = "answer";
-    public String questionAnswerFile;
+    public  CSVWriter csvWriter;
+    public  String  type;
 
-    public ReadAndWriteQuestions(String questionAnswerFile) {
-        this.content = FileUtils.fileToString(questionAnswerFile);
-
-    }
 
     public ReadAndWriteQuestions(String questionAnswerFile, String inputFileDir, String inputFile, String type) throws Exception {
-        this.questionAnswerFile = questionAnswerFile;
-        List<File> list = FileUtils.getFiles(inputFileDir, inputFile, ".json");
+        this.type=type;
+        /*List<File> list = FileUtils.getFiles(inputFileDir, inputFile, ".json");
         if (list.isEmpty()) {
             throw new Exception("No files to process for question answering system!!");
-        } else {
-            this.readQuestionAnswers(list);
-        }
+        } */
         if (type.contains(".txt")) {
+            this.readQuestionAnswers(inputFileDir,inputFile);
             this.content = this.prepareQuestionAnswerStr();
             FileUtils.stringToFile(this.content, questionAnswerFile);
         } else if (type.contains(".csv")) {
-            FileUtils.stringToCSVFile(this.csvRows, questionAnswerFile);
+            //FileUtils.stringToCSVFile(this.csvRows, questionAnswerFile);
+            try {
+                csvWriter = new CSVWriter(new FileWriter(questionAnswerFile));
+                //csvRows.add(header);
+                this.csvWriter.writeNext(header);
+                this.readQuestionAnswers(inputFileDir,inputFile);
+                //this.readQuestionAnswers(list);
+            } catch (IOException ex) {
+                System.out.println("writing csv file failed!!!" + ex.getMessage());
+            }
         }
 
     }
 
-    private void readQuestionAnswers(List<File> fileList) throws Exception {
+    private void readQuestionAnswers(String inputFileDir,String inputFile) throws Exception {
         String sparql = null;
         Integer index = 0;
-        csvRows.add(header);
+        List<File> fileList = FileUtils.getFiles(inputFileDir, inputFile, ".json");
+        if (fileList.isEmpty()) {
+            throw new Exception("No files to process for question answering system!!");
+        } 
+        
         for (File file : fileList) {
             index = index + 1;
             ObjectMapper mapper = new ObjectMapper();
@@ -73,15 +82,12 @@ public class ReadAndWriteQuestions {
                 Map<String, Pair<String, String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, grammarEntryUnit.getFrameType());
                 this.makeQuestionAnswer(grammarEntryUnit.getId(), grammarEntryUnit.getSentences(), uriAnswer, sparql);
                 System.out.println("Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
-            break;
             }
-            break;
         }
 
     }
 
     private void makeQuestionAnswer(Integer id, List<String> questions, Map<String, Pair<String, String>> uriAnswer, String sparql) {
-
         for (String question : questions) {
             String result = null;
             if (question.contains("(") && question.contains(")")) {
@@ -108,16 +114,18 @@ public class ReadAndWriteQuestions {
                     sparql = sparql.replace("\n", "");
                     sparql = sparql.replace(" ", "+");
                     sparql = sparql.replace("+", " ");
-                    String[] record = {id.toString(), questionT, sparql, answer};
-                    csvRows.add(record);
-                    questionAnswers.put(questionT, answer);
+                    if (type.contains(".csv")) {
+                        String[] record = {id.toString(), questionT, sparql, answer};
+                        this.csvWriter.writeNext(record);
+                    } else if (type.contains(".txt")) {
+                        questionAnswers.put(questionT, answer);
+                    }
+                    //csvRows.add(record);
                 } catch (Exception ex) {
-                    System.err.println(id.toString() + " " + questionT + " " + sparql + " " + answer);
+                    System.err.println(ex.getMessage()+" "+id.toString() + " " + questionT + " " + sparql + " " + answer);
                 }
-
             }
         }
-
     }
 
     private Map<String, Pair<String, String>> replaceVariables(List<UriLabel> uriLabels, String sparql, String frameType) {

@@ -86,5 +86,13 @@ public class FileUtils {
         }
     }
     
+    public static void stringToAppendCSVFile(CSVWriter writer, String[] nextLine, String questionAnswerFile) {
+        if (nextLine.length < 1) {
+            System.out.println("appending csv file failed!!!");
+            return;
+        }
+        writer.writeNext(nextLine);
+    }
+    
 
 }
