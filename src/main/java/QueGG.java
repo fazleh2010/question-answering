@@ -50,6 +50,7 @@ public class QueGG {
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
         Integer task = 3;
         String content = "";
+        String search =args[0];
 
         if (task.equals(1)) {
             try {
@@ -58,7 +59,7 @@ public class QueGG {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
             }
 
-        } else if (task.equals(2)) {
+        }/* else if (task.equals(2)) {
             try {
                 ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
                 readAndWriteQuestions.readQuestionAnswers(outputDir, "grammar_FULL_DATASET_EN");
@@ -66,8 +67,28 @@ public class QueGG {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
             }
 
-        } else if (task.equals(3)) {
-            try {
+        }*/ else if (search.contains("search")) {
+            if (args.length < 3) {
+                System.out.println("less number of parameters!!");
+            } else {
+                language = Language.stringToLanguage(args[1]);
+                questionAnswerFile = args[2];
+                String tokenStr = args[3];
+                ReadAndWriteQuestions readAndWriteQuestions;
+                try {
+                    readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
+                    readAndWriteQuestions.createTrieCsv();
+                    List autoCompletionList = readAndWriteQuestions.getTrie().autocomplete("Give me");
+                    for (int i = 0; i < autoCompletionList.size(); i++) {
+                        System.out.println(i + " " + autoCompletionList.get(i));
+                    }
+                } catch (Exception ex) {
+                    java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+
+        }
+            /*try {
                 ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
                 readAndWriteQuestions.createTrieCsv();
                 List autoCompletionList = readAndWriteQuestions.getTrie().autocomplete("Give me");
@@ -76,9 +97,8 @@ public class QueGG {
                 }
             } catch (Exception ex) {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
-            }
+            }*/
 
-        }
 
     }
 
