@@ -154,13 +154,24 @@ public class SparqlQuery {
 
     }*/
     
-    public  String setSparqlQueryPropertyWithSubject(String entityUrl, String property) {
-        return "select  ?s\n"
-                + "    {\n"
-                 + "   " + "?s" + " " + "<" + property + ">" + "  " +entityUrl + "\n"
-                + "    }";
+    public String setSparqlQueryPropertyWithSubject(String entityUrl, String property) {
+        String sparql = null;
+        if (entityUrl.contains("http:")) {
+            sparql = "select  ?s\n"
+                    + "    {\n"
+                    + "   " + "?s" + " " + "<" + property + ">" + "  " + "<" + entityUrl + ">" + "\n"
+                    + "    }";
+        } else {
+            sparql = "select  ?s\n"
+                    + "    {\n"
+                    + "   " + "?s" + " " + "<" + property + ">" + "  " + entityUrl + "\n"
+                    + "    }";
+        }
+        return sparql;
 
     }
+    
+     
 
     public String setSparqlQueryForLabel(String entityUrl) {
         String sparql = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n"

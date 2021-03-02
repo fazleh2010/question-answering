@@ -3,12 +3,50 @@
             "id": "1",
             "language": "EN",
             "type": "SENTENCE",
-            "bindingType": "BUILDING",
+            "bindingType": "RIVER",
             "returnType": "THING",
-            "frameType": "IPP",
-            "sentences": ["When was the ($x | BUILDING_NP) completed?", "When were the ($x | BUILDING_NP) completed?", "Which year was the ($x | BUILDING_NP) completed?", "Which year were the ($x | BUILDING_NP) completed?"],
+            "frameType": "NPP",
+            "sentences": ["Give me the discharge of ($x | RIVER_NP)?", "Tell me the discharge of ($x | RIVER_NP)?", "What is the discharge of ($x | RIVER_NP)?", "What was the discharge of ($x | RIVER_NP)?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingEndDate> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/discharge> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "RIVER",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the discharge of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/discharge> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -16,624 +54,305 @@
             "sentenceBindings": {
                 "bindingVariableName": "$x",
                 "bindingList": [{
-                        "label": "620 Park Avenue",
-                        "uri": "http://dbpedia.org/resource/620_Park_Avenue"
+                        "label": "Luxembourg (canton)",
+                        "uri": "http://dbpedia.org/resource/Luxembourg_(canton)"
                     }, {
-                        "label": "655 Park Avenue",
-                        "uri": "http://dbpedia.org/resource/655_Park_Avenue"
+                        "label": "Luxembourg City",
+                        "uri": "http://dbpedia.org/resource/Luxembourg_City"
                     }, {
-                        "label": "66 Portland Place",
-                        "uri": "http://dbpedia.org/resource/66_Portland_Place"
+                        "label": "Luzon Strait",
+                        "uri": "http://dbpedia.org/resource/Luzon_Strait"
                     }, {
-                        "label": "680 N Lake Shore Drive",
-                        "uri": "http://dbpedia.org/resource/680_N_Lake_Shore_Drive"
+                        "label": "Madiromirafy",
+                        "uri": "http://dbpedia.org/resource/Madiromirafy"
                     }, {
-                        "label": "69-71 Bondway",
-                        "uri": "http://dbpedia.org/resource/69-71_Bondway"
+                        "label": "Madirovalo",
+                        "uri": "http://dbpedia.org/resource/Madirovalo"
                     }, {
-                        "label": "720 Park Avenue",
-                        "uri": "http://dbpedia.org/resource/720_Park_Avenue"
+                        "label": "Maevaranohely",
+                        "uri": "http://dbpedia.org/resource/Maevaranohely"
                     }, {
-                        "label": "7 Rideau Gate",
-                        "uri": "http://dbpedia.org/resource/7_Rideau_Gate"
+                        "label": "Maevatanana",
+                        "uri": "http://dbpedia.org/resource/Maevatanana"
                     }, {
-                        "label": "810 Fifth Avenue",
-                        "uri": "http://dbpedia.org/resource/810_Fifth_Avenue"
+                        "label": "Maevatanana (district)",
+                        "uri": "http://dbpedia.org/resource/Maevatanana_(district)"
                     }, {
-                        "label": "91-93 Fifth Avenue",
-                        "uri": "http://dbpedia.org/resource/91-93_Fifth_Avenue"
+                        "label": "Maevatanana II",
+                        "uri": "http://dbpedia.org/resource/Maevatanana_II"
                     }, {
-                        "label": "980 Madison Avenue",
-                        "uri": "http://dbpedia.org/resource/980_Madison_Avenue"
+                        "label": "Mafaijijo",
+                        "uri": "http://dbpedia.org/resource/Mafaijijo"
                     }, {
-                        "label": "9–11 East 16th Street",
-                        "uri": "http://dbpedia.org/resource/9–11_East_16th_Street"
+                        "label": "Mahabako",
+                        "uri": "http://dbpedia.org/resource/Mahabako"
                     }, {
-                        "label": "APA Building, Melbourne",
-                        "uri": "http://dbpedia.org/resource/APA_Building,_Melbourne"
+                        "label": "Mahabe",
+                        "uri": "http://dbpedia.org/resource/Mahabe"
                     }, {
-                        "label": "Lovells Island Range Lights",
-                        "uri": "http://dbpedia.org/resource/Lovells_Island_Range_Lights"
+                        "label": "Mahabo, Betroka",
+                        "uri": "http://dbpedia.org/resource/Mahabo,_Betroka"
                     }, {
-                        "label": "Lovett Tower",
-                        "uri": "http://dbpedia.org/resource/Lovett_Tower"
+                        "label": "Mahabo, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahabo,_Vohipeno"
                     }, {
-                        "label": "Low Flight Strip",
-                        "uri": "http://dbpedia.org/resource/Low_Flight_Strip"
+                        "label": "Mahabo (district)",
+                        "uri": "http://dbpedia.org/resource/Mahabo_(district)"
                     }, {
-                        "label": "Low Head Lighthouse",
-                        "uri": "http://dbpedia.org/resource/Low_Head_Lighthouse"
+                        "label": "Mahabo Mananivo",
+                        "uri": "http://dbpedia.org/resource/Mahabo_Mananivo"
                     }, {
-                        "label": "Low Isles Light",
-                        "uri": "http://dbpedia.org/resource/Low_Isles_Light"
+                        "label": "Mahaboboka",
+                        "uri": "http://dbpedia.org/resource/Mahaboboka"
                     }, {
-                        "label": "Low Light of the Hook of Holland",
-                        "uri": "http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland"
+                        "label": "Mahaditra",
+                        "uri": "http://dbpedia.org/resource/Mahaditra"
                     }, {
-                        "label": "Low Point Lighthouse",
-                        "uri": "http://dbpedia.org/resource/Low_Point_Lighthouse"
+                        "label": "Mahadrodroka",
+                        "uri": "http://dbpedia.org/resource/Mahadrodroka"
                     }, {
-                        "label": "Lower Barracks",
-                        "uri": "http://dbpedia.org/resource/Lower_Barracks"
+                        "label": "Mahaela",
+                        "uri": "http://dbpedia.org/resource/Mahaela"
                     }, {
-                        "label": "Lower Dock Street drill hall, Newport",
-                        "uri": "http://dbpedia.org/resource/Lower_Dock_Street_drill_hall,_Newport"
+                        "label": "Mahafasa Centre",
+                        "uri": "http://dbpedia.org/resource/Mahafasa_Centre"
                     }, {
-                        "label": "Lower Hutt Central Fire Station",
-                        "uri": "http://dbpedia.org/resource/Lower_Hutt_Central_Fire_Station"
+                        "label": "Mahaiza",
+                        "uri": "http://dbpedia.org/resource/Mahaiza"
                     }, {
-                        "label": "Lower Huxley Hall",
-                        "uri": "http://dbpedia.org/resource/Lower_Huxley_Hall"
+                        "label": "Mahajamba Usine",
+                        "uri": "http://dbpedia.org/resource/Mahajamba_Usine"
                     }, {
-                        "label": "Lower Tüchersfeld Castle",
-                        "uri": "http://dbpedia.org/resource/Lower_Tüchersfeld_Castle"
+                        "label": "Mahajanga",
+                        "uri": "http://dbpedia.org/resource/Mahajanga"
                     }, {
-                        "label": "Lowestoft Lighthouse",
-                        "uri": "http://dbpedia.org/resource/Lowestoft_Lighthouse"
+                        "label": "Mahajanga II (district)",
+                        "uri": "http://dbpedia.org/resource/Mahajanga_II_(district)"
                     }, {
-                        "label": "Lowry Air Force Base",
-                        "uri": "http://dbpedia.org/resource/Lowry_Air_Force_Base"
+                        "label": "Mahajanga Province",
+                        "uri": "http://dbpedia.org/resource/Mahajanga_Province"
                     }, {
-                        "label": "Lowville Masonic Temple",
-                        "uri": "http://dbpedia.org/resource/Lowville_Masonic_Temple"
+                        "label": "Mahalaza-Fanimana",
+                        "uri": "http://dbpedia.org/resource/Mahalaza-Fanimana"
                     }, {
-                        "label": "Loyettes Airfield",
-                        "uri": "http://dbpedia.org/resource/Loyettes_Airfield"
+                        "label": "Mahalina",
+                        "uri": "http://dbpedia.org/resource/Mahalina"
                     }, {
-                        "label": "Lualualei VLF transmitter",
-                        "uri": "http://dbpedia.org/resource/Lualualei_VLF_transmitter"
+                        "label": "Mahaly",
+                        "uri": "http://dbpedia.org/resource/Mahaly"
                     }, {
-                        "label": "Lubec Channel Light",
-                        "uri": "http://dbpedia.org/resource/Lubec_Channel_Light"
+                        "label": "Mahamaibe",
+                        "uri": "http://dbpedia.org/resource/Mahamaibe"
                     }, {
-                        "label": "Lubomirski Palace, Warsaw",
-                        "uri": "http://dbpedia.org/resource/Lubomirski_Palace,_Warsaw"
+                        "label": "Mahambo",
+                        "uri": "http://dbpedia.org/resource/Mahambo"
                     }, {
-                        "label": "Lubomirski Palace (Opole Lubelskie)",
-                        "uri": "http://dbpedia.org/resource/Lubomirski_Palace_(Opole_Lubelskie)"
+                        "label": "Mahanoro",
+                        "uri": "http://dbpedia.org/resource/Mahanoro"
                     }, {
-                        "label": "Lucan Bridge",
-                        "uri": "http://dbpedia.org/resource/Lucan_Bridge"
+                        "label": "Mahanoro (district)",
+                        "uri": "http://dbpedia.org/resource/Mahanoro_(district)"
                     }, {
-                        "label": "Lucens Castle",
-                        "uri": "http://dbpedia.org/resource/Lucens_Castle"
+                        "label": "Mahasoa",
+                        "uri": "http://dbpedia.org/resource/Mahasoa"
                     }, {
-                        "label": "Lucera Airfield",
-                        "uri": "http://dbpedia.org/resource/Lucera_Airfield"
+                        "label": "Mahasoa Est",
+                        "uri": "http://dbpedia.org/resource/Mahasoa_Est"
                     }, {
-                        "label": "Lucky Knot Bridge",
-                        "uri": "http://dbpedia.org/resource/Lucky_Knot_Bridge"
+                        "label": "Mahasoabe, Fianarantsoa II",
+                        "uri": "http://dbpedia.org/resource/Mahasoabe,_Fianarantsoa_II"
                     }, {
-                        "label": "Lucky One Mall",
-                        "uri": "http://dbpedia.org/resource/Lucky_One_Mall"
+                        "label": "Mahasoabe, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahasoabe,_Vohipeno"
                     }, {
-                        "label": "Ludendorff Bridge",
-                        "uri": "http://dbpedia.org/resource/Ludendorff_Bridge"
+                        "label": "Mahasolo",
+                        "uri": "http://dbpedia.org/resource/Mahasolo"
                     }, {
-                        "label": "Ludington Light",
-                        "uri": "http://dbpedia.org/resource/Ludington_Light"
+                        "label": "Mahatalaky",
+                        "uri": "http://dbpedia.org/resource/Mahatalaky"
                     }, {
-                        "label": "Ludlam's Beach Light",
-                        "uri": "http://dbpedia.org/resource/Ludlam's_Beach_Light"
+                        "label": "Mahatsara Iefaka",
+                        "uri": "http://dbpedia.org/resource/Mahatsara_Iefaka"
                     }, {
-                        "label": "Ludlow Castle",
-                        "uri": "http://dbpedia.org/resource/Ludlow_Castle"
+                        "label": "Mahatsara Sud",
+                        "uri": "http://dbpedia.org/resource/Mahatsara_Sud"
                     }, {
-                        "label": "Ludwigsburg Palace",
-                        "uri": "http://dbpedia.org/resource/Ludwigsburg_Palace"
+                        "label": "Mahatsinjo, Maevatanana",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo,_Maevatanana"
                     }, {
-                        "label": "Ludza Castle",
-                        "uri": "http://dbpedia.org/resource/Ludza_Castle"
+                        "label": "Mahatsinjo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo,_Vondrozo"
                     }, {
-                        "label": "Lufkin Air Force Station",
-                        "uri": "http://dbpedia.org/resource/Lufkin_Air_Force_Station"
+                        "label": "Mahatsinjo Est",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo_Est"
                     }, {
-                        "label": "Luganville Airfield",
-                        "uri": "http://dbpedia.org/resource/Luganville_Airfield"
+                        "label": "Mahatsinjony",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjony"
                     }, {
-                        "label": "Luganville Seaplane Base",
-                        "uri": "http://dbpedia.org/resource/Luganville_Seaplane_Base"
+                        "label": "Mahavanona",
+                        "uri": "http://dbpedia.org/resource/Mahavanona"
                     }, {
-                        "label": "Lugard Road",
-                        "uri": "http://dbpedia.org/resource/Lugard_Road"
+                        "label": "Mahavelo, Farafangana",
+                        "uri": "http://dbpedia.org/resource/Mahavelo,_Farafangana"
                     }, {
-                        "label": "Luins Castle",
-                        "uri": "http://dbpedia.org/resource/Luins_Castle"
+                        "label": "Mahavelo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahavelo,_Vondrozo"
                     }, {
-                        "label": "Lukang Ai Gate",
-                        "uri": "http://dbpedia.org/resource/Lukang_Ai_Gate"
+                        "label": "Mahavelona",
+                        "uri": "http://dbpedia.org/resource/Mahavelona"
                     }, {
-                        "label": "Lukang Kinmen Hall",
-                        "uri": "http://dbpedia.org/resource/Lukang_Kinmen_Hall"
+                        "label": "Mahavelona, Soavinandriana",
+                        "uri": "http://dbpedia.org/resource/Mahavelona,_Soavinandriana"
                     }, {
-                        "label": "Lukang Rimao Hang",
-                        "uri": "http://dbpedia.org/resource/Lukang_Rimao_Hang"
+                        "label": "Mahavoky Nord",
+                        "uri": "http://dbpedia.org/resource/Mahavoky_Nord"
                     }, {
-                        "label": "Luke Air Force Base",
-                        "uri": "http://dbpedia.org/resource/Luke_Air_Force_Base"
+                        "label": "Mahazina Ambohipierenana",
+                        "uri": "http://dbpedia.org/resource/Mahazina_Ambohipierenana"
                     }, {
-                        "label": "Lululaund",
-                        "uri": "http://dbpedia.org/resource/Lululaund"
+                        "label": "Mahazoarivo, Fandriana",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Fandriana"
                     }, {
-                        "label": "Lulworth Camp",
-                        "uri": "http://dbpedia.org/resource/Lulworth_Camp"
+                        "label": "Mahazoarivo, Fianarantsoa II",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Fianarantsoa_II"
                     }, {
-                        "label": "Lulworth Ranges",
-                        "uri": "http://dbpedia.org/resource/Lulworth_Ranges"
+                        "label": "Mahazoarivo, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Vohipeno"
                     }, {
-                        "label": "Luma Tower",
-                        "uri": "http://dbpedia.org/resource/Luma_Tower"
+                        "label": "Mahazoarivo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Vondrozo"
                     }, {
-                        "label": "Lumbia Airfield",
-                        "uri": "http://dbpedia.org/resource/Lumbia_Airfield"
+                        "label": "Mahazoma",
+                        "uri": "http://dbpedia.org/resource/Mahazoma"
                     }, {
-                        "label": "Luna Gardens",
-                        "uri": "http://dbpedia.org/resource/Luna_Gardens"
+                        "label": "Mahazony",
+                        "uri": "http://dbpedia.org/resource/Mahazony"
                     }, {
-                        "label": "Luna Leederville",
-                        "uri": "http://dbpedia.org/resource/Luna_Leederville"
+                        "label": "Maheriraty",
+                        "uri": "http://dbpedia.org/resource/Maheriraty"
                     }, {
-                        "label": "Lundbygård",
-                        "uri": "http://dbpedia.org/resource/Lundbygård"
+                        "label": "Maherivaratra",
+                        "uri": "http://dbpedia.org/resource/Maherivaratra"
                     }, {
-                        "label": "Luneta Hotel",
-                        "uri": "http://dbpedia.org/resource/Luneta_Hotel"
+                        "label": "Maintinandry",
+                        "uri": "http://dbpedia.org/resource/Maintinandry"
                     }, {
-                        "label": "Lungholm",
-                        "uri": "http://dbpedia.org/resource/Lungholm"
+                        "label": "Maintirano",
+                        "uri": "http://dbpedia.org/resource/Maintirano"
                     }, {
-                        "label": "Lunna Holm",
-                        "uri": "http://dbpedia.org/resource/Lunna_Holm"
+                        "label": "Maintirano District",
+                        "uri": "http://dbpedia.org/resource/Maintirano_District"
                     }, {
-                        "label": "Luokou Yellow River Railway Bridge",
-                        "uri": "http://dbpedia.org/resource/Luokou_Yellow_River_Railway_Bridge"
+                        "label": "Maintsokely",
+                        "uri": "http://dbpedia.org/resource/Maintsokely"
                     }, {
-                        "label": "Lurie Biomedical Engineering Center",
-                        "uri": "http://dbpedia.org/resource/Lurie_Biomedical_Engineering_Center"
+                        "label": "Malaimbandy",
+                        "uri": "http://dbpedia.org/resource/Malaimbandy"
                     }, {
-                        "label": "Lusted Road Bridge",
-                        "uri": "http://dbpedia.org/resource/Lusted_Road_Bridge"
+                        "label": "Consthum",
+                        "uri": "http://dbpedia.org/resource/Consthum"
                     }, {
-                        "label": "Lutry Castle",
-                        "uri": "http://dbpedia.org/resource/Lutry_Castle"
+                        "label": "Useldange",
+                        "uri": "http://dbpedia.org/resource/Useldange"
                     }, {
-                        "label": "Luxembourg Palace",
-                        "uri": "http://dbpedia.org/resource/Luxembourg_Palace"
+                        "label": "Vakinankaratra",
+                        "uri": "http://dbpedia.org/resource/Vakinankaratra"
                     }, {
-                        "label": "Luzon Building",
-                        "uri": "http://dbpedia.org/resource/Luzon_Building"
+                        "label": "Valabetokana",
+                        "uri": "http://dbpedia.org/resource/Valabetokana"
                     }, {
-                        "label": "Lviv Theatre of Opera and Ballet",
-                        "uri": "http://dbpedia.org/resource/Lviv_Theatre_of_Opera_and_Ballet"
+                        "label": "Vallée de l'Ernz",
+                        "uri": "http://dbpedia.org/resource/Vallée_de_l'Ernz"
                     }, {
-                        "label": "Lyle H. Fulton Memorial Bridge",
-                        "uri": "http://dbpedia.org/resource/Lyle_H._Fulton_Memorial_Bridge"
+                        "label": "Vangaindrano (district)",
+                        "uri": "http://dbpedia.org/resource/Vangaindrano_(district)"
                     }, {
-                        "label": "Lynde Point Light",
-                        "uri": "http://dbpedia.org/resource/Lynde_Point_Light"
+                        "label": "Vanono",
+                        "uri": "http://dbpedia.org/resource/Vanono"
                     }, {
-                        "label": "Lyndon Baines Johnson Department of Education Building",
-                        "uri": "http://dbpedia.org/resource/Lyndon_Baines_Johnson_Department_of_Education_Building"
+                        "label": "Vasiana",
+                        "uri": "http://dbpedia.org/resource/Vasiana"
                     }, {
-                        "label": "Lyne Viaduct",
-                        "uri": "http://dbpedia.org/resource/Lyne_Viaduct"
+                        "label": "Vatana, Madagascar",
+                        "uri": "http://dbpedia.org/resource/Vatana,_Madagascar"
                     }, {
-                        "label": "Lyngør Lighthouse",
-                        "uri": "http://dbpedia.org/resource/Lyngør_Lighthouse"
+                        "label": "Vatanato",
+                        "uri": "http://dbpedia.org/resource/Vatanato"
                     }, {
-                        "label": "Lynmouth Foreland Lighthouse",
-                        "uri": "http://dbpedia.org/resource/Lynmouth_Foreland_Lighthouse"
+                        "label": "Vatohandrina",
+                        "uri": "http://dbpedia.org/resource/Vatohandrina"
                     }, {
-                        "label": "Lynn Building",
-                        "uri": "http://dbpedia.org/resource/Lynn_Building"
+                        "label": "Vatolatsaka",
+                        "uri": "http://dbpedia.org/resource/Vatolatsaka"
                     }, {
-                        "label": "Lynn Shore Drive",
-                        "uri": "http://dbpedia.org/resource/Lynn_Shore_Drive"
+                        "label": "Vatomandry",
+                        "uri": "http://dbpedia.org/resource/Vatomandry"
                     }, {
-                        "label": "Lynnewood Hall",
-                        "uri": "http://dbpedia.org/resource/Lynnewood_Hall"
+                        "label": "Vatomandry (district)",
+                        "uri": "http://dbpedia.org/resource/Vatomandry_(district)"
                     }, {
-                        "label": "Lyons Demesne",
-                        "uri": "http://dbpedia.org/resource/Lyons_Demesne"
+                        "label": "Vatovavy-Fitovinany",
+                        "uri": "http://dbpedia.org/resource/Vatovavy-Fitovinany"
                     }, {
-                        "label": "Lysefjord Bridge",
-                        "uri": "http://dbpedia.org/resource/Lysefjord_Bridge"
+                        "label": "Vavatenina",
+                        "uri": "http://dbpedia.org/resource/Vavatenina"
                     }, {
-                        "label": "Lystrup, Faxe Municipality",
-                        "uri": "http://dbpedia.org/resource/Lystrup,_Faxe_Municipality"
+                        "label": "Vavatenina District",
+                        "uri": "http://dbpedia.org/resource/Vavatenina_District"
                     }, {
-                        "label": "Lytes Cary",
-                        "uri": "http://dbpedia.org/resource/Lytes_Cary"
+                        "label": "Veromanga",
+                        "uri": "http://dbpedia.org/resource/Veromanga"
                     }, {
-                        "label": "Lyttelton Road Tunnel Administration Building",
-                        "uri": "http://dbpedia.org/resource/Lyttelton_Road_Tunnel_Administration_Building"
+                        "label": "Folschette",
+                        "uri": "http://dbpedia.org/resource/Folschette"
                     }, {
-                        "label": "Lyttelton Times Building",
-                        "uri": "http://dbpedia.org/resource/Lyttelton_Times_Building"
+                        "label": "Khodoriv",
+                        "uri": "http://dbpedia.org/resource/Khodoriv"
                     }, {
-                        "label": "Lågskär Lighthouse",
-                        "uri": "http://dbpedia.org/resource/Lågskär_Lighthouse"
+                        "label": "Bissen",
+                        "uri": "http://dbpedia.org/resource/Bissen"
                     }, {
-                        "label": "Långe Erik",
-                        "uri": "http://dbpedia.org/resource/Långe_Erik"
+                        "label": "Biwer",
+                        "uri": "http://dbpedia.org/resource/Biwer"
                     }, {
-                        "label": "Långe Jan",
-                        "uri": "http://dbpedia.org/resource/Långe_Jan"
+                        "label": "Boanamary",
+                        "uri": "http://dbpedia.org/resource/Boanamary"
                     }, {
-                        "label": "Lépine Towers",
-                        "uri": "http://dbpedia.org/resource/Lépine_Towers"
+                        "label": "Bobakindro",
+                        "uri": "http://dbpedia.org/resource/Bobakindro"
                     }, {
-                        "label": "Línea P",
-                        "uri": "http://dbpedia.org/resource/Línea_P"
+                        "label": "Bobasakoa",
+                        "uri": "http://dbpedia.org/resource/Bobasakoa"
                     }, {
-                        "label": "López Serrano Building",
-                        "uri": "http://dbpedia.org/resource/López_Serrano_Building"
+                        "label": "Boeny",
+                        "uri": "http://dbpedia.org/resource/Boeny"
                     }, {
-                        "label": "Löberöd Castle",
-                        "uri": "http://dbpedia.org/resource/Löberöd_Castle"
+                        "label": "Bongolava",
+                        "uri": "http://dbpedia.org/resource/Bongolava"
                     }, {
-                        "label": "Löwenberg Castle",
-                        "uri": "http://dbpedia.org/resource/Löwenberg_Castle"
+                        "label": "Boriziny-Vaovao (district)",
+                        "uri": "http://dbpedia.org/resource/Boriziny-Vaovao_(district)"
                     }, {
-                        "label": "Löwenburg and Philippsburg",
-                        "uri": "http://dbpedia.org/resource/Löwenburg_and_Philippsburg"
+                        "label": "Borynia, Turka Raion",
+                        "uri": "http://dbpedia.org/resource/Borynia,_Turka_Raion"
                     }, {
-                        "label": "Løve House",
-                        "uri": "http://dbpedia.org/resource/Løve_House"
+                        "label": "Boulaide",
+                        "uri": "http://dbpedia.org/resource/Boulaide"
                     }, {
-                        "label": "Løvenborg, Holbæk Municipality",
-                        "uri": "http://dbpedia.org/resource/Løvenborg,_Holbæk_Municipality"
+                        "label": "Bourscheid, Luxembourg",
+                        "uri": "http://dbpedia.org/resource/Bourscheid,_Luxembourg"
                     }, {
-                        "label": "Løvenholm",
-                        "uri": "http://dbpedia.org/resource/Løvenholm"
+                        "label": "Bous, Luxembourg",
+                        "uri": "http://dbpedia.org/resource/Bous,_Luxembourg"
                     }, {
-                        "label": "Lüdao Lighthouse",
-                        "uri": "http://dbpedia.org/resource/Lüdao_Lighthouse"
+                        "label": "Diana Region",
+                        "uri": "http://dbpedia.org/resource/Diana_Region"
                     }, {
-                        "label": "M&T Bank Building",
-                        "uri": "http://dbpedia.org/resource/M&T_Bank_Building"
+                        "label": "Didy",
+                        "uri": "http://dbpedia.org/resource/Didy"
                     }, {
-                        "label": "M-Palace",
-                        "uri": "http://dbpedia.org/resource/M-Palace"
-                    }]
-            },
-            "combination": false
-        }, {
-            "id": "2",
-            "language": "EN",
-            "type": "SENTENCE",
-            "bindingType": "THING",
-            "returnType": "BUILDING",
-            "frameType": "IPP",
-            "sentences": ["What was completed in $x?", "What were completed in $x?", "Which architectural structure was completed in $x?", "Which architectural structures were completed in $x?"],
-            "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/buildingEndDate> ?objOfProp))\n",
-            "sentenceToSparqlParameterMapping": {
-                "$x": "objOfProp"
-            },
-            "returnVariable": "subjOfProp",
-            "sentenceBindings": {
-                "bindingVariableName": "$x",
-                "bindingList": [{
-                        "label": "",
-                        "uri": ""
-                    }, {
-                        "label": "()",
-                        "uri": "()"
-                    }, {
-                        "label": "(est. 2018–2020)",
-                        "uri": "(est. 2018–2020)"
-                    }, {
-                        "label": ".",
-                        "uri": "."
-                    }, {
-                        "label": "1100",
-                        "uri": "1100"
-                    }, {
-                        "label": "1600",
-                        "uri": "1600"
-                    }, {
-                        "label": "1665",
-                        "uri": "1665"
-                    }, {
-                        "label": "16th century",
-                        "uri": "16th century"
-                    }, {
-                        "label": "1784",
-                        "uri": "1784"
-                    }, {
-                        "label": "1825",
-                        "uri": "1825"
-                    }, {
-                        "label": "1838",
-                        "uri": "1838"
-                    }, {
-                        "label": "1851",
-                        "uri": "1851"
-                    }, {
-                        "label": "1882",
-                        "uri": "1882"
-                    }, {
-                        "label": "1883",
-                        "uri": "1883"
-                    }, {
-                        "label": "1887",
-                        "uri": "1887"
-                    }, {
-                        "label": "1892",
-                        "uri": "1892"
-                    }, {
-                        "label": "1893",
-                        "uri": "1893"
-                    }, {
-                        "label": "1894",
-                        "uri": "1894"
-                    }, {
-                        "label": "1895",
-                        "uri": "1895"
-                    }, {
-                        "label": "1900",
-                        "uri": "1900"
-                    }, {
-                        "label": "1901",
-                        "uri": "1901"
-                    }, {
-                        "label": "1903",
-                        "uri": "1903"
-                    }, {
-                        "label": "1908 (viaduct)",
-                        "uri": "1908 (viaduct)"
-                    }, {
-                        "label": "1910",
-                        "uri": "1910"
-                    }, {
-                        "label": "1912",
-                        "uri": "1912"
-                    }, {
-                        "label": "1912 (west tower)",
-                        "uri": "1912 (west tower)"
-                    }, {
-                        "label": "1915",
-                        "uri": "1915"
-                    }, {
-                        "label": "1916",
-                        "uri": "1916"
-                    }, {
-                        "label": "1920s",
-                        "uri": "1920s"
-                    }, {
-                        "label": "1921",
-                        "uri": "1921"
-                    }, {
-                        "label": "1922",
-                        "uri": "1922"
-                    }, {
-                        "label": "1923",
-                        "uri": "1923"
-                    }, {
-                        "label": "1924",
-                        "uri": "1924"
-                    }, {
-                        "label": "1925",
-                        "uri": "1925"
-                    }, {
-                        "label": "1926",
-                        "uri": "1926"
-                    }, {
-                        "label": "1927",
-                        "uri": "1927"
-                    }, {
-                        "label": "1928",
-                        "uri": "1928"
-                    }, {
-                        "label": "1929",
-                        "uri": "1929"
-                    }, {
-                        "label": "1931",
-                        "uri": "1931"
-                    }, {
-                        "label": "1932",
-                        "uri": "1932"
-                    }, {
-                        "label": "1933",
-                        "uri": "1933"
-                    }, {
-                        "label": "1934",
-                        "uri": "1934"
-                    }, {
-                        "label": "1935",
-                        "uri": "1935"
-                    }, {
-                        "label": "1937",
-                        "uri": "1937"
-                    }, {
-                        "label": "1938",
-                        "uri": "1938"
-                    }, {
-                        "label": "1942",
-                        "uri": "1942"
-                    }, {
-                        "label": "1944",
-                        "uri": "1944"
-                    }, {
-                        "label": "1950",
-                        "uri": "1950"
-                    }, {
-                        "label": "1955",
-                        "uri": "1955"
-                    }, {
-                        "label": "1957",
-                        "uri": "1957"
-                    }, {
-                        "label": "1958",
-                        "uri": "1958"
-                    }, {
-                        "label": "1961",
-                        "uri": "1961"
-                    }, {
-                        "label": "1962",
-                        "uri": "1962"
-                    }, {
-                        "label": "1963",
-                        "uri": "1963"
-                    }, {
-                        "label": "1964",
-                        "uri": "1964"
-                    }, {
-                        "label": "1965",
-                        "uri": "1965"
-                    }, {
-                        "label": "1966",
-                        "uri": "1966"
-                    }, {
-                        "label": "1967",
-                        "uri": "1967"
-                    }, {
-                        "label": "1968",
-                        "uri": "1968"
-                    }, {
-                        "label": "1969",
-                        "uri": "1969"
-                    }, {
-                        "label": "1969 – 1974",
-                        "uri": "1969 – 1974"
-                    }, {
-                        "label": "1970",
-                        "uri": "1970"
-                    }, {
-                        "label": "1971",
-                        "uri": "1971"
-                    }, {
-                        "label": "1972",
-                        "uri": "1972"
-                    }, {
-                        "label": "1973",
-                        "uri": "1973"
-                    }, {
-                        "label": "1974",
-                        "uri": "1974"
-                    }, {
-                        "label": "1975",
-                        "uri": "1975"
-                    }, {
-                        "label": "1976",
-                        "uri": "1976"
-                    }, {
-                        "label": "1979",
-                        "uri": "1979"
-                    }, {
-                        "label": "1980",
-                        "uri": "1980"
-                    }, {
-                        "label": "1981",
-                        "uri": "1981"
-                    }, {
-                        "label": "1982",
-                        "uri": "1982"
-                    }, {
-                        "label": "1982 (east tower)",
-                        "uri": "1982 (east tower)"
-                    }, {
-                        "label": "1983",
-                        "uri": "1983"
-                    }, {
-                        "label": "1984",
-                        "uri": "1984"
-                    }, {
-                        "label": "1985",
-                        "uri": "1985"
-                    }, {
-                        "label": "1985-1987",
-                        "uri": "1985-1987"
-                    }, {
-                        "label": "1986",
-                        "uri": "1986"
-                    }, {
-                        "label": "1987",
-                        "uri": "1987"
-                    }, {
-                        "label": "1988",
-                        "uri": "1988"
-                    }, {
-                        "label": "1989",
-                        "uri": "1989"
-                    }, {
-                        "label": "1990",
-                        "uri": "1990"
-                    }, {
-                        "label": "1991",
-                        "uri": "1991"
-                    }, {
-                        "label": "1992",
-                        "uri": "1992"
-                    }, {
-                        "label": "1993",
-                        "uri": "1993"
-                    }, {
-                        "label": "1995",
-                        "uri": "1995"
-                    }, {
-                        "label": "1996",
-                        "uri": "1996"
-                    }, {
-                        "label": "1997",
-                        "uri": "1997"
-                    }, {
-                        "label": "1998",
-                        "uri": "1998"
-                    }, {
-                        "label": "1999",
-                        "uri": "1999"
-                    }, {
-                        "label": "2000",
-                        "uri": "2000"
-                    }, {
-                        "label": "2001",
-                        "uri": "2001"
-                    }, {
-                        "label": "2002",
-                        "uri": "2002"
-                    }, {
-                        "label": "2003",
-                        "uri": "2003"
-                    }, {
-                        "label": "2004",
-                        "uri": "2004"
-                    }, {
-                        "label": "2005",
-                        "uri": "2005"
-                    }, {
-                        "label": "2006",
-                        "uri": "2006"
-                    }, {
-                        "label": "2007",
-                        "uri": "2007"
-                    }, {
-                        "label": "2008",
-                        "uri": "2008"
-                    }, {
-                        "label": "2009",
-                        "uri": "2009"
+                        "label": "Diekirch",
+                        "uri": "http://dbpedia.org/resource/Diekirch"
                     }]
             },
             "combination": false

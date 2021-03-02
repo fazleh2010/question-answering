@@ -24,6 +24,7 @@ grammar/read/questions/ReadAndWriteQuestions.class
 grammar/generator/helper/SentenceBuilderImpl.class
 grammar/generator/GrammarRuleGenerator.class
 util/io/LanguageDetector.class
+util/io/CreateLexicon.class
 grammar/generator/helper/datasets/sentencetemplates/SentenceTemplateRepository.class
 evaluation/Entry.class
 evaluation/QALDImporter.class
@@ -82,7 +83,6 @@ grammar/generator/helper/SubjectType.class
 lexicon/LexiconSearch.class
 grammar/generator/helper/SentenceBuilderCopulativePP.class
 grammar/read/questions/Trie.class
-AutoCompletion.class
 grammar/generator/helper/SentenceBuilderAdjectiveAttributiveEN.class
 evaluation/QALD$QALDDatasetDefinition.class
 util/io/OpenCsvWriterByAppend.class

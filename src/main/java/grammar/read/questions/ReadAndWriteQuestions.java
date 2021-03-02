@@ -8,15 +8,26 @@ package grammar.read.questions;
 import util.io.FileUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.andrewoma.dexx.collection.Pair;
+import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
+import com.opencsv.exceptions.CsvException;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Stack;
 import java.util.TreeMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.apache.commons.lang3.StringUtils;
 
 /**
@@ -25,53 +36,33 @@ import org.apache.commons.lang3.StringUtils;
  */
 public class ReadAndWriteQuestions {
 
-    private LinkedHashMap<String, String> questionAnswers = new LinkedHashMap<String, String>();
-    private String content = null;
     private Trie trie = new Trie();
     public String[] header = new String[]{id, question, sparql, answer};
-    private List<String[]> csvRows = new ArrayList<String[]>();
     public static String FRAMETYPE_NPP = "NPP";
     public static final String id = "id";
     public static final String question = "question";
     public static final String sparql = "sparql";
     public static final String answer = "answer";
-    public  CSVWriter csvWriter;
-    public  String  type;
+    public CSVWriter csvWriter;
+    public String questionAnswerFile=null;
 
-
-    public ReadAndWriteQuestions(String questionAnswerFile, String inputFileDir, String inputFile, String type) throws Exception {
-        this.type=type;
-        /*List<File> list = FileUtils.getFiles(inputFileDir, inputFile, ".json");
-        if (list.isEmpty()) {
-            throw new Exception("No files to process for question answering system!!");
-        } */
-        if (type.contains(".txt")) {
-            this.readQuestionAnswers(inputFileDir,inputFile);
-            this.content = this.prepareQuestionAnswerStr();
-            FileUtils.stringToFile(this.content, questionAnswerFile);
-        } else if (type.contains(".csv")) {
-            //FileUtils.stringToCSVFile(this.csvRows, questionAnswerFile);
-            try {
-                csvWriter = new CSVWriter(new FileWriter(questionAnswerFile));
-                //csvRows.add(header);
-                this.csvWriter.writeNext(header);
-                this.readQuestionAnswers(inputFileDir,inputFile);
-                //this.readQuestionAnswers(list);
-            } catch (IOException ex) {
-                System.out.println("writing csv file failed!!!" + ex.getMessage());
-            }
-        }
-
+    public ReadAndWriteQuestions(String questionAnswerFile) throws Exception {
+       this.questionAnswerFile=questionAnswerFile;
     }
 
-    private void readQuestionAnswers(String inputFileDir,String inputFile) throws Exception {
+    public void readQuestionAnswers(String inputFileDir, String inputFile) throws Exception {
         String sparql = null;
         Integer index = 0;
+
+            this.csvWriter = new CSVWriter(new FileWriter(questionAnswerFile));
+            this.csvWriter.writeNext(header);
+        
+        
         List<File> fileList = FileUtils.getFiles(inputFileDir, inputFile, ".json");
         if (fileList.isEmpty()) {
             throw new Exception("No files to process for question answering system!!");
-        } 
-        
+        }
+
         for (File file : fileList) {
             index = index + 1;
             ObjectMapper mapper = new ObjectMapper();
@@ -79,7 +70,7 @@ public class ReadAndWriteQuestions {
             Integer total = grammarEntries.getGrammarEntries().size();
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
                 sparql = grammarEntryUnit.getSparqlQuery();
-                String returnVairable=grammarEntryUnit.getReturnVariable();
+                String returnVairable = grammarEntryUnit.getReturnVariable();
                 Map<String, Pair<String, String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, returnVairable);
                 this.makeQuestionAnswer(grammarEntryUnit.getId(), grammarEntryUnit.getSentences(), uriAnswer, sparql);
                 System.out.println("Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
@@ -115,17 +106,39 @@ public class ReadAndWriteQuestions {
                     sparql = sparql.replace("\n", "");
                     sparql = sparql.replace(" ", "+");
                     sparql = sparql.replace("+", " ");
-                    if (type.contains(".csv")) {
-                        String[] record = {id.toString(), questionT, sparql, answer};
-                        this.csvWriter.writeNext(record);
-                    } else if (type.contains(".txt")) {
-                        questionAnswers.put(questionT, answer);
-                    }
-                    //csvRows.add(record);
+                    String[] record = {id.toString(), questionT, sparql, answer};
+                    this.csvWriter.writeNext(record);
                 } catch (Exception ex) {
-                    System.err.println(ex.getMessage()+" "+id.toString() + " " + questionT + " " + sparql + " " + answer);
+                    System.err.println(ex.getMessage() + " " + id.toString() + " " + questionT + " " + sparql + " " + answer);
                 }
             }
+        }
+    }
+    
+    public void createTrieCsv() {
+        List<String[]> rows = new ArrayList<String[]>();
+        CSVReader reader;
+        Integer index = 0;
+        try {
+            reader = new CSVReader(new FileReader(this.questionAnswerFile));
+            rows = reader.readAll();
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(ReadAndWriteQuestions.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(ReadAndWriteQuestions.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (CsvException ex) {
+            Logger.getLogger(ReadAndWriteQuestions.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        for (String[] row : rows) {
+            String question = null;
+            if (index == 0) {
+                index = index + 1;
+                continue;
+            }
+            question = row[1].trim().strip();
+            trie.insert(question);
+            index = index + 1;
         }
     }
 
@@ -145,14 +158,14 @@ public class ReadAndWriteQuestions {
         String answer = null;
         SparqlQuery sparqlQuery = null;
         property = StringUtils.substringBetween(sparql, "<", ">");
-        sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER,returnType);
+        sparqlQuery = new SparqlQuery(subjProp, property, SparqlQuery.FIND_ANY_ANSWER, returnType);
         //System.out.println("original sparql:: "+sparql);
         //System.out.println("sparqlQuery:: "+sparqlQuery.getSparqlQuery());
         answer = sparqlQuery.getObject();
         if (answer != null) {
             if (answer.contains("http:")) {
                 //System.out.println(answer);
-                SparqlQuery sparqlQueryLabel = new SparqlQuery(answer, property, SparqlQuery.FIND_LABEL,null);
+                SparqlQuery sparqlQueryLabel = new SparqlQuery(answer, property, SparqlQuery.FIND_LABEL, null);
                 answer = sparqlQueryLabel.getObject();
                 //System.out.println(answer);
 
@@ -161,45 +174,12 @@ public class ReadAndWriteQuestions {
         } else {
             return new Pair<String, String>(sparqlQuery.sparqlQuery, "no answer found");
         }
-
-        //return new SparqlQuery(subjProp, property,SparqlQuery.FIND_ANY_ANSWER).getObject();
     }
 
-    private String prepareQuestionAnswerStr() {
-        String quesAnsStr = "";
-        Integer totalLimit = questionAnswers.size();
-        for (String question : questionAnswers.keySet()) {
-            String line = question + "=" + questionAnswers.get(question) + "\n";
-            quesAnsStr += line;
-        }
-        return quesAnsStr;
+    
+
+    public Trie getTrie() {
+        return trie;
     }
-
-    public String getContent() {
-        return content;
-    }
-
-    /*private void replaceVariables(String question, List<UriLabel> uriLabels, String sparql, String frameType) {
-        String result = null;
-        if (question.contains("(") && question.contains(")")) {
-            result = StringUtils.substringBetween(question, "(", ")");
-            question = question.replace(result, "X");
-        } else if (question.contains("$x")) {
-            //System.out.println(question);
-
-        }
-        Integer index = 0;
-        for (UriLabel uriLabel : uriLabels) {
-            Boolean flag = false;
-            index = index + 1;
-            String questionT = question.replaceAll("(X)", uriLabel.getLabel());
-            questionT = questionT.replace("(", "");
-            questionT = questionT.replace(")", "");
-            questionT = questionT.replace("$x", uriLabel.getLabel());
-            String answer = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
-            System.out.println("questionT:" + questionT + " answer:" + answer);
-            questionAnswers.put(questionT, answer);
-        }
-
-    }*/
+    
 }
