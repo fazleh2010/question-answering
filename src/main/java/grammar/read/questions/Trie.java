@@ -13,17 +13,17 @@ import java.util.List;
  * @author elahi
  */
 public class Trie {
-    private TrieNode root;
+    private TrieNode rootNode;
  
     public Trie() {
-        root = new TrieNode(' '); 
+        rootNode = new TrieNode(' '); 
     }
  
-    public void insert(String word) {
-        if (search(word) == true) 
+    public void insertNode(String word) {
+        if (searchNode(word) == true) 
             return;    
         
-        TrieNode current = root; 
+        TrieNode current = rootNode; 
         TrieNode pre ;
         for (char ch : word.toCharArray()) {
         	pre = current;
@@ -40,8 +40,8 @@ public class Trie {
         current.isEnd = true;
     }
     
-    public boolean search(String word) {
-        TrieNode current = root;      
+    public boolean searchNode(String word) {
+        TrieNode current = rootNode;      
         for (char ch : word.toCharArray()) {
             if (current.getChild(ch) == null)
                 return false;
@@ -55,8 +55,8 @@ public class Trie {
         return false;
     }
     
-    public List autocomplete(String prefix) {     
-       TrieNode lastNode = root;
+    public List performAutocomplete(String prefix) {     
+       TrieNode lastNode = rootNode;
        for (int i = 0; i< prefix.length(); i++) {
 	       lastNode = lastNode.getChild(prefix.charAt(i));	     
 	       if (lastNode == null) 

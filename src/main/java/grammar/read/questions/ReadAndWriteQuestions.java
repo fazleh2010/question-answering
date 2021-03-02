@@ -137,7 +137,7 @@ public class ReadAndWriteQuestions {
                 continue;
             }
             question = row[1].trim().strip();
-            trie.insert(question);
+            trie.insertNode(question);
             index = index + 1;
         }
     }

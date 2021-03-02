@@ -78,7 +78,7 @@ public class QueGG {
                 try {
                     readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
                     readAndWriteQuestions.createTrieCsv();
-                    List autoCompletionList = readAndWriteQuestions.getTrie().autocomplete("Give me");
+                    List autoCompletionList = readAndWriteQuestions.getTrie().performAutocomplete("Give me");
                     for (int i = 0; i < autoCompletionList.size(); i++) {
                         System.out.println(i + " " + autoCompletionList.get(i));
                     }
