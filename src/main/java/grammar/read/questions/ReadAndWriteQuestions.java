@@ -288,7 +288,7 @@ public class ReadAndWriteQuestions {
                 String sparql = row[1];
                 String answer = row[2];
                 //System.out.println("id::" + id + " uriLabel::" + uriLabel + " question::" + questionT + " sparql::" + sparql + " answer::" + answer);
-                String[] record = {id, question, sparql, answer};
+                String[] record = {id, questionT, sparql, answer};
                 this.csvWriter.writeNext(record);
                 rowIndex = rowIndex + 1;
             }
