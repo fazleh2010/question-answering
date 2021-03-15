@@ -40,26 +40,32 @@ public class QueGG {
     private static String inputDir = "src/main/resources/test/input/";
     private static String BaseDir = "";
     private static String outputDir = BaseDir + "src/main/resources/test/output/";
-    public static String QUESTION_ANSWER_LOCATION = BaseDir + "src/main/resources/";
+    //main source location :"src/main/resources/"
+    public static String QUESTION_ANSWER_LOCATION = BaseDir + "questions/";
     public static String QUESTION_ANSWER_FILE = "questions.txt";
     public static String QUESTION_ANSWER_CSV_FILE = "questions.csv";
+    public static String GENERATE = "generate";
+    public static String CREATE = "create";
+    public static String SEARCH = "search";
 
     public static void main(String[] args) {
         QueGG queGG = new QueGG();
         Language language = Language.stringToLanguage("EN");
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
-        Integer task = 3;
+        Integer task = 1;
         String content = "";
-        String search =args[0];
+        String search=null;
+        //search=GENERATE+" "+CREATE;
+        search=CREATE;
 
-        if (task.equals(1)) {
+        if (search.contains(GENERATE)) {
             try {
                 queGG.init(language, inputDir, outputDir);
             } catch (Exception ex) {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
             }
 
-        }/* else if (task.equals(2)) {
+        }if (search.contains(CREATE)) {
             try {
                 ReadAndWriteQuestions readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
                 readAndWriteQuestions.readQuestionAnswers(outputDir, "grammar_FULL_DATASET_EN");
@@ -67,7 +73,7 @@ public class QueGG {
                 java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
             }
 
-        }*/ else if (search.contains("search")) {
+        } else if (search.contains(SEARCH)) {
             if (args.length < 3) {
                 System.out.println("less number of parameters!!");
             } else {
@@ -78,10 +84,10 @@ public class QueGG {
                 try {
                     readAndWriteQuestions = new ReadAndWriteQuestions(questionAnswerFile);
                     readAndWriteQuestions.createTrieCsv();
-                    List autoCompletionList = readAndWriteQuestions.getTrie().performAutocomplete("Give me");
+                    /*List autoCompletionList = readAndWriteQuestions.getTrie().performAutocomplete("Give me");
                     for (int i = 0; i < autoCompletionList.size(); i++) {
                         System.out.println(i + " " + autoCompletionList.get(i));
-                    }
+                    }*/
                 } catch (Exception ex) {
                     java.util.logging.Logger.getLogger(QueGG.class.getName()).log(Level.SEVERE, null, ex);
                 }

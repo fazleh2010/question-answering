@@ -3,38 +3,638 @@
             "id": "1",
             "language": "EN",
             "type": "SENTENCE",
-            "bindingType": "RIVER",
-            "returnType": "THING",
+            "bindingType": "PERSON",
+            "returnType": "COUNTRY",
             "frameType": "NPP",
-            "sentences": ["Give me the discharge of ($x | RIVER_NP)?", "Tell me the discharge of ($x | RIVER_NP)?", "What is the discharge of ($x | RIVER_NP)?", "What was the discharge of ($x | RIVER_NP)?"],
+            "sentences": ["Give me the nationality of ($x | PERSON_NP)?", "Tell me the nationality of ($x | PERSON_NP)?", "What is the nationality of ($x | PERSON_NP)?", "What was the nationality of ($x | PERSON_NP)?", "Which country is the nationality of ($x | PERSON_NP)?", "Which country was the nationality of ($x | PERSON_NP)?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/discharge> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
             "returnVariable": "objOfProp",
             "sentenceBindings": {
                 "bindingVariableName": "$x",
-                "bindingList": []
+                "bindingList": [{
+                        "label": "2013 Hialeah shooting",
+                        "uri": "http://dbpedia.org/resource/2013_Hialeah_shooting"
+                    }, {
+                        "label": "2014 Isla Vista killings",
+                        "uri": "http://dbpedia.org/resource/2014_Isla_Vista_killings"
+                    }, {
+                        "label": "2014 Las Vegas shootings",
+                        "uri": "http://dbpedia.org/resource/2014_Las_Vegas_shootings"
+                    }, {
+                        "label": "2014 shootings at Parliament Hill, Ottawa",
+                        "uri": "http://dbpedia.org/resource/2014_shootings_at_Parliament_Hill,_Ottawa"
+                    }, {
+                        "label": "2016 Munich shooting",
+                        "uri": "http://dbpedia.org/resource/2016_Munich_shooting"
+                    }, {
+                        "label": "2017 New York City truck attack",
+                        "uri": "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
+                    }, {
+                        "label": "A-ca-oo-mah-ca-ye",
+                        "uri": "http://dbpedia.org/resource/A-ca-oo-mah-ca-ye"
+                    }, {
+                        "label": "A.D.M. Cooper",
+                        "uri": "http://dbpedia.org/resource/A.D.M._Cooper"
+                    }, {
+                        "label": "A. A. Aziz",
+                        "uri": "http://dbpedia.org/resource/A._A._Aziz"
+                    }, {
+                        "label": "A. B. MacDonald",
+                        "uri": "http://dbpedia.org/resource/A._B._MacDonald"
+                    }, {
+                        "label": "A. Baha Balantekin",
+                        "uri": "http://dbpedia.org/resource/A._Baha_Balantekin"
+                    }, {
+                        "label": "A. Brown Moore",
+                        "uri": "http://dbpedia.org/resource/A._Brown_Moore"
+                    }, {
+                        "label": "A. Clifford Jones",
+                        "uri": "http://dbpedia.org/resource/A._Clifford_Jones"
+                    }, {
+                        "label": "A. D. Matheson",
+                        "uri": "http://dbpedia.org/resource/A._D._Matheson"
+                    }, {
+                        "label": "A. Fredric Leopold",
+                        "uri": "http://dbpedia.org/resource/A._Fredric_Leopold"
+                    }, {
+                        "label": "A. G. Cocksedge",
+                        "uri": "http://dbpedia.org/resource/A._G._Cocksedge"
+                    }, {
+                        "label": "A. Ganeshkumar",
+                        "uri": "http://dbpedia.org/resource/A._Ganeshkumar"
+                    }, {
+                        "label": "A. Gilbert Wright",
+                        "uri": "http://dbpedia.org/resource/A._Gilbert_Wright"
+                    }, {
+                        "label": "A. H. Sheriffdeen",
+                        "uri": "http://dbpedia.org/resource/A._H._Sheriffdeen"
+                    }, {
+                        "label": "A. Harry Griffin",
+                        "uri": "http://dbpedia.org/resource/A._Harry_Griffin"
+                    }, {
+                        "label": "A. J. Healy",
+                        "uri": "http://dbpedia.org/resource/A._J._Healy"
+                    }, {
+                        "label": "A. J. S. Lakshmi Shree",
+                        "uri": "http://dbpedia.org/resource/A._J._S._Lakshmi_Shree"
+                    }, {
+                        "label": "A. J. Smith (writer)",
+                        "uri": "http://dbpedia.org/resource/A._J._Smith_(writer)"
+                    }, {
+                        "label": "A. James Kerley",
+                        "uri": "http://dbpedia.org/resource/A._James_Kerley"
+                    }, {
+                        "label": "A. L. Rees",
+                        "uri": "http://dbpedia.org/resource/A._L._Rees"
+                    }, {
+                        "label": "A. Lakshmanaswami Mudaliar",
+                        "uri": "http://dbpedia.org/resource/A._Lakshmanaswami_Mudaliar"
+                    }, {
+                        "label": "A. Minor Griswold",
+                        "uri": "http://dbpedia.org/resource/A._Minor_Griswold"
+                    }, {
+                        "label": "A. N. Tiwari",
+                        "uri": "http://dbpedia.org/resource/A._N._Tiwari"
+                    }, {
+                        "label": "A. Owen Aldridge",
+                        "uri": "http://dbpedia.org/resource/A._Owen_Aldridge"
+                    }, {
+                        "label": "A. P. Mda",
+                        "uri": "http://dbpedia.org/resource/A._P._Mda"
+                    }, {
+                        "label": "A. P. Patro",
+                        "uri": "http://dbpedia.org/resource/A._P._Patro"
+                    }, {
+                        "label": "A. P. Wadsworth",
+                        "uri": "http://dbpedia.org/resource/A._P._Wadsworth"
+                    }, {
+                        "label": "A. Pradeepkumar",
+                        "uri": "http://dbpedia.org/resource/A._Pradeepkumar"
+                    }, {
+                        "label": "A. R. Krishnashastry",
+                        "uri": "http://dbpedia.org/resource/A._R._Krishnashastry"
+                    }, {
+                        "label": "A. Roberto Frisancho",
+                        "uri": "http://dbpedia.org/resource/A._Roberto_Frisancho"
+                    }, {
+                        "label": "A. S. Baylinson",
+                        "uri": "http://dbpedia.org/resource/A._S._Baylinson"
+                    }, {
+                        "label": "A. Sakunthala",
+                        "uri": "http://dbpedia.org/resource/A._Sakunthala"
+                    }, {
+                        "label": "A. Santha Kumar",
+                        "uri": "http://dbpedia.org/resource/A._Santha_Kumar"
+                    }, {
+                        "label": "A. Sumru Özsoy",
+                        "uri": "http://dbpedia.org/resource/A._Sumru_Özsoy"
+                    }, {
+                        "label": "A. T. George",
+                        "uri": "http://dbpedia.org/resource/A._T._George"
+                    }, {
+                        "label": "A. T. M. Shamsul Huda",
+                        "uri": "http://dbpedia.org/resource/A._T._M._Shamsul_Huda"
+                    }, {
+                        "label": "A. T. Pannirselvam",
+                        "uri": "http://dbpedia.org/resource/A._T._Pannirselvam"
+                    }, {
+                        "label": "A. T. Raghu",
+                        "uri": "http://dbpedia.org/resource/A._T._Raghu"
+                    }, {
+                        "label": "A. Tort Nicolau",
+                        "uri": "http://dbpedia.org/resource/A._Tort_Nicolau"
+                    }, {
+                        "label": "A. V. Gurava Reddy",
+                        "uri": "http://dbpedia.org/resource/A._V._Gurava_Reddy"
+                    }, {
+                        "label": "A. Veerappan",
+                        "uri": "http://dbpedia.org/resource/A._Veerappan"
+                    }, {
+                        "label": "A. Walton Litz",
+                        "uri": "http://dbpedia.org/resource/A._Walton_Litz"
+                    }, {
+                        "label": "A. Wyatt Tilby",
+                        "uri": "http://dbpedia.org/resource/A._Wyatt_Tilby"
+                    }, {
+                        "label": "A. Y. G. Campbell",
+                        "uri": "http://dbpedia.org/resource/A._Y._G._Campbell"
+                    }, {
+                        "label": "ABM Sohel Rashid",
+                        "uri": "http://dbpedia.org/resource/ABM_Sohel_Rashid"
+                    }, {
+                        "label": "AKM Gouach Uddin",
+                        "uri": "http://dbpedia.org/resource/AKM_Gouach_Uddin"
+                    }, {
+                        "label": "AKM Sarwar Jahan Badsha",
+                        "uri": "http://dbpedia.org/resource/AKM_Sarwar_Jahan_Badsha"
+                    }, {
+                        "label": "Amar Shankar Sable",
+                        "uri": "http://dbpedia.org/resource/Amar_Shankar_Sable"
+                    }, {
+                        "label": "Love Allotey",
+                        "uri": "http://dbpedia.org/resource/Love_Allotey"
+                    }, {
+                        "label": "Loveleen Kaur Sasan",
+                        "uri": "http://dbpedia.org/resource/Loveleen_Kaur_Sasan"
+                    }, {
+                        "label": "Loveline Obiji",
+                        "uri": "http://dbpedia.org/resource/Loveline_Obiji"
+                    }, {
+                        "label": "Lovelite Detenamo",
+                        "uri": "http://dbpedia.org/resource/Lovelite_Detenamo"
+                    }, {
+                        "label": "Lovely Rivero",
+                        "uri": "http://dbpedia.org/resource/Lovely_Rivero"
+                    }, {
+                        "label": "Lovie Olivia",
+                        "uri": "http://dbpedia.org/resource/Lovie_Olivia"
+                    }, {
+                        "label": "Lovinsky Pierre-Antoine",
+                        "uri": "http://dbpedia.org/resource/Lovinsky_Pierre-Antoine"
+                    }, {
+                        "label": "Low Ngai Yuen",
+                        "uri": "http://dbpedia.org/resource/Low_Ngai_Yuen"
+                    }, {
+                        "label": "Low Yen Ling",
+                        "uri": "http://dbpedia.org/resource/Low_Yen_Ling"
+                    }, {
+                        "label": "Lowell Blair Nesbitt",
+                        "uri": "http://dbpedia.org/resource/Lowell_Blair_Nesbitt"
+                    }, {
+                        "label": "Lowell Cunningham",
+                        "uri": "http://dbpedia.org/resource/Lowell_Cunningham"
+                    }, {
+                        "label": "Lowell Reed",
+                        "uri": "http://dbpedia.org/resource/Lowell_Reed"
+                    }, {
+                        "label": "Lowell Schoenfeld",
+                        "uri": "http://dbpedia.org/resource/Lowell_Schoenfeld"
+                    }, {
+                        "label": "Lowie Stuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Stuer"
+                    }, {
+                        "label": "Lowri Shone",
+                        "uri": "http://dbpedia.org/resource/Lowri_Shone"
+                    }, {
+                        "label": "Lowri Tynan",
+                        "uri": "http://dbpedia.org/resource/Lowri_Tynan"
+                    }, {
+                        "label": "Lowrie Warrener",
+                        "uri": "http://dbpedia.org/resource/Lowrie_Warrener"
+                    }, {
+                        "label": "Loyal B. Stearns",
+                        "uri": "http://dbpedia.org/resource/Loyal_B._Stearns"
+                    }, {
+                        "label": "Loyal Blaine Aldrich",
+                        "uri": "http://dbpedia.org/resource/Loyal_Blaine_Aldrich"
+                    }, {
+                        "label": "Loyce Biira Bwambale",
+                        "uri": "http://dbpedia.org/resource/Loyce_Biira_Bwambale"
+                    }, {
+                        "label": "Loyola Sullivan",
+                        "uri": "http://dbpedia.org/resource/Loyola_Sullivan"
+                    }, {
+                        "label": "Loïc Bouvard",
+                        "uri": "http://dbpedia.org/resource/Loïc_Bouvard"
+                    }, {
+                        "label": "Loïc Hennekinne",
+                        "uri": "http://dbpedia.org/resource/Loïc_Hennekinne"
+                    }, {
+                        "label": "Loïc Merel",
+                        "uri": "http://dbpedia.org/resource/Loïc_Merel"
+                    }, {
+                        "label": "Loïg Chesnais-Girard",
+                        "uri": "http://dbpedia.org/resource/Loïg_Chesnais-Girard"
+                    }, {
+                        "label": "Loïk Le Floch-Prigent",
+                        "uri": "http://dbpedia.org/resource/Loïk_Le_Floch-Prigent"
+                    }, {
+                        "label": "Lu Chen (scientist)",
+                        "uri": "http://dbpedia.org/resource/Lu_Chen_(scientist)"
+                    }, {
+                        "label": "Lu Chien-soon",
+                        "uri": "http://dbpedia.org/resource/Lu_Chien-soon"
+                    }, {
+                        "label": "Lu Chunli",
+                        "uri": "http://dbpedia.org/resource/Lu_Chunli"
+                    }, {
+                        "label": "Lu Han (general)",
+                        "uri": "http://dbpedia.org/resource/Lu_Han_(general)"
+                    }, {
+                        "label": "Lu Hao (born 1967)",
+                        "uri": "http://dbpedia.org/resource/Lu_Hao_(born_1967)"
+                    }, {
+                        "label": "Lu Hsi-chuen",
+                        "uri": "http://dbpedia.org/resource/Lu_Hsi-chuen"
+                    }, {
+                        "label": "Lu Hsiu-yi",
+                        "uri": "http://dbpedia.org/resource/Lu_Hsiu-yi"
+                    }, {
+                        "label": "Lu Jeu Sham",
+                        "uri": "http://dbpedia.org/resource/Lu_Jeu_Sham"
+                    }, {
+                        "label": "Lu Jian",
+                        "uri": "http://dbpedia.org/resource/Lu_Jian"
+                    }, {
+                        "label": "Lu Liang-Huan",
+                        "uri": "http://dbpedia.org/resource/Lu_Liang-Huan"
+                    }, {
+                        "label": "Lu Ping",
+                        "uri": "http://dbpedia.org/resource/Lu_Ping"
+                    }, {
+                        "label": "Lu Qiwei",
+                        "uri": "http://dbpedia.org/resource/Lu_Qiwei"
+                    }, {
+                        "label": "Lu Shao-chuan",
+                        "uri": "http://dbpedia.org/resource/Lu_Shao-chuan"
+                    }, {
+                        "label": "Lu Shaye",
+                        "uri": "http://dbpedia.org/resource/Lu_Shaye"
+                    }, {
+                        "label": "Lu Sheng-yen",
+                        "uri": "http://dbpedia.org/resource/Lu_Sheng-yen"
+                    }, {
+                        "label": "Lu Tien-ling",
+                        "uri": "http://dbpedia.org/resource/Lu_Tien-ling"
+                    }, {
+                        "label": "Lu Tin",
+                        "uri": "http://dbpedia.org/resource/Lu_Tin"
+                    }, {
+                        "label": "Lu Wei-chih",
+                        "uri": "http://dbpedia.org/resource/Lu_Wei-chih"
+                    }, {
+                        "label": "Lu Wen-teh",
+                        "uri": "http://dbpedia.org/resource/Lu_Wen-teh"
+                    }, {
+                        "label": "Lu Xiyun",
+                        "uri": "http://dbpedia.org/resource/Lu_Xiyun"
+                    }, {
+                        "label": "Lu Yong",
+                        "uri": "http://dbpedia.org/resource/Lu_Yong"
+                    }]
             },
             "combination": false
         }, {
             "id": "2",
             "language": "EN",
             "type": "NP",
-            "bindingType": "RIVER",
-            "returnType": "THING",
+            "bindingType": "PERSON",
+            "returnType": "COUNTRY",
             "frameType": "NPP",
-            "sentences": ["the discharge of $x"],
+            "sentences": ["the nationality of $x"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/discharge> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
             "returnVariable": "objOfProp",
             "sentenceBindings": {
                 "bindingVariableName": "$x",
-                "bindingList": []
+                "bindingList": [{
+                        "label": "2013 Hialeah shooting",
+                        "uri": "http://dbpedia.org/resource/2013_Hialeah_shooting"
+                    }, {
+                        "label": "2014 Isla Vista killings",
+                        "uri": "http://dbpedia.org/resource/2014_Isla_Vista_killings"
+                    }, {
+                        "label": "2014 Las Vegas shootings",
+                        "uri": "http://dbpedia.org/resource/2014_Las_Vegas_shootings"
+                    }, {
+                        "label": "2014 shootings at Parliament Hill, Ottawa",
+                        "uri": "http://dbpedia.org/resource/2014_shootings_at_Parliament_Hill,_Ottawa"
+                    }, {
+                        "label": "2016 Munich shooting",
+                        "uri": "http://dbpedia.org/resource/2016_Munich_shooting"
+                    }, {
+                        "label": "2017 New York City truck attack",
+                        "uri": "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
+                    }, {
+                        "label": "A-ca-oo-mah-ca-ye",
+                        "uri": "http://dbpedia.org/resource/A-ca-oo-mah-ca-ye"
+                    }, {
+                        "label": "A.D.M. Cooper",
+                        "uri": "http://dbpedia.org/resource/A.D.M._Cooper"
+                    }, {
+                        "label": "A. A. Aziz",
+                        "uri": "http://dbpedia.org/resource/A._A._Aziz"
+                    }, {
+                        "label": "A. B. MacDonald",
+                        "uri": "http://dbpedia.org/resource/A._B._MacDonald"
+                    }, {
+                        "label": "A. Baha Balantekin",
+                        "uri": "http://dbpedia.org/resource/A._Baha_Balantekin"
+                    }, {
+                        "label": "A. Brown Moore",
+                        "uri": "http://dbpedia.org/resource/A._Brown_Moore"
+                    }, {
+                        "label": "A. Clifford Jones",
+                        "uri": "http://dbpedia.org/resource/A._Clifford_Jones"
+                    }, {
+                        "label": "A. D. Matheson",
+                        "uri": "http://dbpedia.org/resource/A._D._Matheson"
+                    }, {
+                        "label": "A. Fredric Leopold",
+                        "uri": "http://dbpedia.org/resource/A._Fredric_Leopold"
+                    }, {
+                        "label": "A. G. Cocksedge",
+                        "uri": "http://dbpedia.org/resource/A._G._Cocksedge"
+                    }, {
+                        "label": "A. Ganeshkumar",
+                        "uri": "http://dbpedia.org/resource/A._Ganeshkumar"
+                    }, {
+                        "label": "A. Gilbert Wright",
+                        "uri": "http://dbpedia.org/resource/A._Gilbert_Wright"
+                    }, {
+                        "label": "A. H. Sheriffdeen",
+                        "uri": "http://dbpedia.org/resource/A._H._Sheriffdeen"
+                    }, {
+                        "label": "A. Harry Griffin",
+                        "uri": "http://dbpedia.org/resource/A._Harry_Griffin"
+                    }, {
+                        "label": "A. J. Healy",
+                        "uri": "http://dbpedia.org/resource/A._J._Healy"
+                    }, {
+                        "label": "A. J. S. Lakshmi Shree",
+                        "uri": "http://dbpedia.org/resource/A._J._S._Lakshmi_Shree"
+                    }, {
+                        "label": "A. J. Smith (writer)",
+                        "uri": "http://dbpedia.org/resource/A._J._Smith_(writer)"
+                    }, {
+                        "label": "A. James Kerley",
+                        "uri": "http://dbpedia.org/resource/A._James_Kerley"
+                    }, {
+                        "label": "A. L. Rees",
+                        "uri": "http://dbpedia.org/resource/A._L._Rees"
+                    }, {
+                        "label": "A. Lakshmanaswami Mudaliar",
+                        "uri": "http://dbpedia.org/resource/A._Lakshmanaswami_Mudaliar"
+                    }, {
+                        "label": "A. Minor Griswold",
+                        "uri": "http://dbpedia.org/resource/A._Minor_Griswold"
+                    }, {
+                        "label": "A. N. Tiwari",
+                        "uri": "http://dbpedia.org/resource/A._N._Tiwari"
+                    }, {
+                        "label": "A. Owen Aldridge",
+                        "uri": "http://dbpedia.org/resource/A._Owen_Aldridge"
+                    }, {
+                        "label": "A. P. Mda",
+                        "uri": "http://dbpedia.org/resource/A._P._Mda"
+                    }, {
+                        "label": "A. P. Patro",
+                        "uri": "http://dbpedia.org/resource/A._P._Patro"
+                    }, {
+                        "label": "A. P. Wadsworth",
+                        "uri": "http://dbpedia.org/resource/A._P._Wadsworth"
+                    }, {
+                        "label": "A. Pradeepkumar",
+                        "uri": "http://dbpedia.org/resource/A._Pradeepkumar"
+                    }, {
+                        "label": "A. R. Krishnashastry",
+                        "uri": "http://dbpedia.org/resource/A._R._Krishnashastry"
+                    }, {
+                        "label": "A. Roberto Frisancho",
+                        "uri": "http://dbpedia.org/resource/A._Roberto_Frisancho"
+                    }, {
+                        "label": "A. S. Baylinson",
+                        "uri": "http://dbpedia.org/resource/A._S._Baylinson"
+                    }, {
+                        "label": "A. Sakunthala",
+                        "uri": "http://dbpedia.org/resource/A._Sakunthala"
+                    }, {
+                        "label": "A. Santha Kumar",
+                        "uri": "http://dbpedia.org/resource/A._Santha_Kumar"
+                    }, {
+                        "label": "A. Sumru Özsoy",
+                        "uri": "http://dbpedia.org/resource/A._Sumru_Özsoy"
+                    }, {
+                        "label": "A. T. George",
+                        "uri": "http://dbpedia.org/resource/A._T._George"
+                    }, {
+                        "label": "A. T. M. Shamsul Huda",
+                        "uri": "http://dbpedia.org/resource/A._T._M._Shamsul_Huda"
+                    }, {
+                        "label": "A. T. Pannirselvam",
+                        "uri": "http://dbpedia.org/resource/A._T._Pannirselvam"
+                    }, {
+                        "label": "A. T. Raghu",
+                        "uri": "http://dbpedia.org/resource/A._T._Raghu"
+                    }, {
+                        "label": "A. Tort Nicolau",
+                        "uri": "http://dbpedia.org/resource/A._Tort_Nicolau"
+                    }, {
+                        "label": "A. V. Gurava Reddy",
+                        "uri": "http://dbpedia.org/resource/A._V._Gurava_Reddy"
+                    }, {
+                        "label": "A. Veerappan",
+                        "uri": "http://dbpedia.org/resource/A._Veerappan"
+                    }, {
+                        "label": "A. Walton Litz",
+                        "uri": "http://dbpedia.org/resource/A._Walton_Litz"
+                    }, {
+                        "label": "A. Wyatt Tilby",
+                        "uri": "http://dbpedia.org/resource/A._Wyatt_Tilby"
+                    }, {
+                        "label": "A. Y. G. Campbell",
+                        "uri": "http://dbpedia.org/resource/A._Y._G._Campbell"
+                    }, {
+                        "label": "ABM Sohel Rashid",
+                        "uri": "http://dbpedia.org/resource/ABM_Sohel_Rashid"
+                    }, {
+                        "label": "AKM Gouach Uddin",
+                        "uri": "http://dbpedia.org/resource/AKM_Gouach_Uddin"
+                    }, {
+                        "label": "AKM Sarwar Jahan Badsha",
+                        "uri": "http://dbpedia.org/resource/AKM_Sarwar_Jahan_Badsha"
+                    }, {
+                        "label": "Amar Shankar Sable",
+                        "uri": "http://dbpedia.org/resource/Amar_Shankar_Sable"
+                    }, {
+                        "label": "Love Allotey",
+                        "uri": "http://dbpedia.org/resource/Love_Allotey"
+                    }, {
+                        "label": "Loveleen Kaur Sasan",
+                        "uri": "http://dbpedia.org/resource/Loveleen_Kaur_Sasan"
+                    }, {
+                        "label": "Loveline Obiji",
+                        "uri": "http://dbpedia.org/resource/Loveline_Obiji"
+                    }, {
+                        "label": "Lovelite Detenamo",
+                        "uri": "http://dbpedia.org/resource/Lovelite_Detenamo"
+                    }, {
+                        "label": "Lovely Rivero",
+                        "uri": "http://dbpedia.org/resource/Lovely_Rivero"
+                    }, {
+                        "label": "Lovie Olivia",
+                        "uri": "http://dbpedia.org/resource/Lovie_Olivia"
+                    }, {
+                        "label": "Lovinsky Pierre-Antoine",
+                        "uri": "http://dbpedia.org/resource/Lovinsky_Pierre-Antoine"
+                    }, {
+                        "label": "Low Ngai Yuen",
+                        "uri": "http://dbpedia.org/resource/Low_Ngai_Yuen"
+                    }, {
+                        "label": "Low Yen Ling",
+                        "uri": "http://dbpedia.org/resource/Low_Yen_Ling"
+                    }, {
+                        "label": "Lowell Blair Nesbitt",
+                        "uri": "http://dbpedia.org/resource/Lowell_Blair_Nesbitt"
+                    }, {
+                        "label": "Lowell Cunningham",
+                        "uri": "http://dbpedia.org/resource/Lowell_Cunningham"
+                    }, {
+                        "label": "Lowell Reed",
+                        "uri": "http://dbpedia.org/resource/Lowell_Reed"
+                    }, {
+                        "label": "Lowell Schoenfeld",
+                        "uri": "http://dbpedia.org/resource/Lowell_Schoenfeld"
+                    }, {
+                        "label": "Lowie Stuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Stuer"
+                    }, {
+                        "label": "Lowri Shone",
+                        "uri": "http://dbpedia.org/resource/Lowri_Shone"
+                    }, {
+                        "label": "Lowri Tynan",
+                        "uri": "http://dbpedia.org/resource/Lowri_Tynan"
+                    }, {
+                        "label": "Lowrie Warrener",
+                        "uri": "http://dbpedia.org/resource/Lowrie_Warrener"
+                    }, {
+                        "label": "Loyal B. Stearns",
+                        "uri": "http://dbpedia.org/resource/Loyal_B._Stearns"
+                    }, {
+                        "label": "Loyal Blaine Aldrich",
+                        "uri": "http://dbpedia.org/resource/Loyal_Blaine_Aldrich"
+                    }, {
+                        "label": "Loyce Biira Bwambale",
+                        "uri": "http://dbpedia.org/resource/Loyce_Biira_Bwambale"
+                    }, {
+                        "label": "Loyola Sullivan",
+                        "uri": "http://dbpedia.org/resource/Loyola_Sullivan"
+                    }, {
+                        "label": "Loïc Bouvard",
+                        "uri": "http://dbpedia.org/resource/Loïc_Bouvard"
+                    }, {
+                        "label": "Loïc Hennekinne",
+                        "uri": "http://dbpedia.org/resource/Loïc_Hennekinne"
+                    }, {
+                        "label": "Loïc Merel",
+                        "uri": "http://dbpedia.org/resource/Loïc_Merel"
+                    }, {
+                        "label": "Loïg Chesnais-Girard",
+                        "uri": "http://dbpedia.org/resource/Loïg_Chesnais-Girard"
+                    }, {
+                        "label": "Loïk Le Floch-Prigent",
+                        "uri": "http://dbpedia.org/resource/Loïk_Le_Floch-Prigent"
+                    }, {
+                        "label": "Lu Chen (scientist)",
+                        "uri": "http://dbpedia.org/resource/Lu_Chen_(scientist)"
+                    }, {
+                        "label": "Lu Chien-soon",
+                        "uri": "http://dbpedia.org/resource/Lu_Chien-soon"
+                    }, {
+                        "label": "Lu Chunli",
+                        "uri": "http://dbpedia.org/resource/Lu_Chunli"
+                    }, {
+                        "label": "Lu Han (general)",
+                        "uri": "http://dbpedia.org/resource/Lu_Han_(general)"
+                    }, {
+                        "label": "Lu Hao (born 1967)",
+                        "uri": "http://dbpedia.org/resource/Lu_Hao_(born_1967)"
+                    }, {
+                        "label": "Lu Hsi-chuen",
+                        "uri": "http://dbpedia.org/resource/Lu_Hsi-chuen"
+                    }, {
+                        "label": "Lu Hsiu-yi",
+                        "uri": "http://dbpedia.org/resource/Lu_Hsiu-yi"
+                    }, {
+                        "label": "Lu Jeu Sham",
+                        "uri": "http://dbpedia.org/resource/Lu_Jeu_Sham"
+                    }, {
+                        "label": "Lu Jian",
+                        "uri": "http://dbpedia.org/resource/Lu_Jian"
+                    }, {
+                        "label": "Lu Liang-Huan",
+                        "uri": "http://dbpedia.org/resource/Lu_Liang-Huan"
+                    }, {
+                        "label": "Lu Ping",
+                        "uri": "http://dbpedia.org/resource/Lu_Ping"
+                    }, {
+                        "label": "Lu Qiwei",
+                        "uri": "http://dbpedia.org/resource/Lu_Qiwei"
+                    }, {
+                        "label": "Lu Shao-chuan",
+                        "uri": "http://dbpedia.org/resource/Lu_Shao-chuan"
+                    }, {
+                        "label": "Lu Shaye",
+                        "uri": "http://dbpedia.org/resource/Lu_Shaye"
+                    }, {
+                        "label": "Lu Sheng-yen",
+                        "uri": "http://dbpedia.org/resource/Lu_Sheng-yen"
+                    }, {
+                        "label": "Lu Tien-ling",
+                        "uri": "http://dbpedia.org/resource/Lu_Tien-ling"
+                    }, {
+                        "label": "Lu Tin",
+                        "uri": "http://dbpedia.org/resource/Lu_Tin"
+                    }, {
+                        "label": "Lu Wei-chih",
+                        "uri": "http://dbpedia.org/resource/Lu_Wei-chih"
+                    }, {
+                        "label": "Lu Wen-teh",
+                        "uri": "http://dbpedia.org/resource/Lu_Wen-teh"
+                    }, {
+                        "label": "Lu Xiyun",
+                        "uri": "http://dbpedia.org/resource/Lu_Xiyun"
+                    }, {
+                        "label": "Lu Yong",
+                        "uri": "http://dbpedia.org/resource/Lu_Yong"
+                    }]
             },
             "combination": false
         }, {
