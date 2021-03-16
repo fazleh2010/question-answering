@@ -6,6 +6,7 @@
 package util.io;
 
 import com.opencsv.CSVWriter;
+import grammar.read.questions.SparqlQuery;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -16,8 +17,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -36,29 +40,27 @@ public class FileUtils {
     }
 
     public static String fileToString(String fileName) {
-        InputStream is;String fileAsString=null;
-        Integer index=0;
+        String fileAsString = null;
+        Integer index = 0;
         try {
-            is = new FileInputStream(fileName);
+            InputStream is = new FileInputStream(fileName);
             BufferedReader buf = new BufferedReader(new InputStreamReader(is));
             String line = buf.readLine();
             StringBuilder sb = new StringBuilder();
             while (line != null) {
-                System.out.println("line:"+line);
+                System.out.println("line:" + line);
                 sb.append(line).append("\n");
                 line = buf.readLine();
-                index=index+1;
+                index = index + 1;
             }
             fileAsString = sb.toString();
         } catch (Exception ex) {
             Logger.getLogger(FileUtils.class.getName()).log(Level.SEVERE, null, ex);
         }
-        System.out.println("index:"+index);
+        System.out.println("index:" + index);
 
         return fileAsString;
     }
-    
-   
 
     public static List<File> getFiles(String fileDir, String category, String extension) {
         String[] files = new File(fileDir).list();
@@ -85,7 +87,7 @@ public class FileUtils {
             System.out.println("writing csv file failed!!!" + ex.getMessage());
         }
     }
-    
+
     public static void stringToAppendCSVFile(CSVWriter writer, String[] nextLine, String questionAnswerFile) {
         if (nextLine.length < 1) {
             System.out.println("appending csv file failed!!!");
@@ -93,6 +95,44 @@ public class FileUtils {
         }
         writer.writeNext(nextLine);
     }
+
+    public static void fileToSet(String inputFileName, String outputFileName) {
+        Set<String> set = new TreeSet<String>();
+        BufferedReader reader;
+        String line = "";
+        Integer index=0;
+        try {
+            reader = new BufferedReader(new FileReader(inputFileName));
+            line = reader.readLine();
+            while (line != null) {
+                line = reader.readLine();
+                if (line != null) {
+                    line = line.strip().trim();
+                    line = line.replace("<", "");
+                    line = line.replace(">", "");
+                    line = line.strip().trim();
+                    String entityUrl = line;
+                    String sparqlQueryStr = SparqlQuery.setSparqlQueryForLabel(entityUrl);
+                    SparqlQuery sparqlQuery = new SparqlQuery(sparqlQueryStr);
+                    if (sparqlQuery.getObject() != null) {
+                        System.out.println(index+" entityUrl:" + entityUrl + " object:" + sparqlQuery.getObject());
+                        appendtoFile(outputFileName, entityUrl + "=" + sparqlQuery.getObject());
+                    }
+                }
+               index=index+1;
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
     
+    public static void appendtoFile(String fileName,String textToAppend) throws IOException {
+        FileWriter fileWriter = new FileWriter(fileName, true); //Set true for append mode
+        PrintWriter printWriter = new PrintWriter(fileWriter);
+        printWriter.println(textToAppend); 
+        printWriter.close();
+    }
 
 }

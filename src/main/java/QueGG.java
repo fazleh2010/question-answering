@@ -4,6 +4,7 @@ import grammar.generator.BindingResolver;
 import grammar.generator.GrammarRuleGeneratorRoot;
 import grammar.generator.GrammarRuleGeneratorRootImpl;
 import grammar.read.questions.ReadAndWriteQuestions;
+import grammar.read.questions.SparqlQuery;
 import grammar.read.questions.Trie;
 import grammar.structure.component.DomainOrRangeType;
 import grammar.structure.component.FrameType;
@@ -30,6 +31,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.util.Objects.isNull;
+import java.util.Set;
 import java.util.logging.Level;
 import util.io.FileUtils;
 
@@ -47,6 +49,9 @@ public class QueGG {
     public static String GENERATE = "generate";
     public static String CREATE = "create";
     public static String SEARCH = "search";
+    public static String ENTITY_LABEL_LIST = "ENTITY_LABEL_LIST";
+    private static String entityDir = "src/main/resources/test/entity/";
+    private static List<String> classNames = Arrays.asList("Actor","Country","Actor","ArchitecturalStructure","Person");;
 
     public static void main(String[] args) {
         QueGG queGG = new QueGG();
@@ -54,11 +59,20 @@ public class QueGG {
         String questionAnswerFile = QUESTION_ANSWER_LOCATION + File.separator + QUESTION_ANSWER_CSV_FILE;
         Integer task = 1;
         String content = "";
-        String search=null;
+        String search = null;
         //search=GENERATE+" "+CREATE;
-        search=CREATE;
+        search = CREATE;
+        //search = ENTITY_LABEL_LIST;
+        
+        if (search.contains(ENTITY_LABEL_LIST)) {
+            for (String className : classNames) {
+                String inputFileName = entityDir + className + ".txt";
+                String outputFileName = entityDir + className +"_UriLabel"+ ".txt";
+                FileUtils.fileToSet(inputFileName, outputFileName);
+            }
 
-        if (search.contains(GENERATE)) {
+        }
+        else if (search.contains(GENERATE)) {
             try {
                 queGG.init(language, inputDir, outputDir);
             } catch (Exception ex) {

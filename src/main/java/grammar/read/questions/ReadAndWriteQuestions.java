@@ -74,6 +74,10 @@ public class ReadAndWriteQuestions {
             Integer total = grammarEntries.getGrammarEntries().size();
             Integer idIndex = 0, noIndex = 0;
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
+                 if (idIndex > 1) {
+                    break;
+                }
+                
                 sparql = grammarEntryUnit.getSparqlQuery();
                 String returnVairable = grammarEntryUnit.getReturnVariable();
                 Map<String, Pair<String, String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, returnVairable);
@@ -81,10 +85,6 @@ public class ReadAndWriteQuestions {
                 noIndex = this.makeCsvRow(grammarEntryUnit.getSentences(), rows, grammarEntryUnit.getFrameType(), noIndex);
                 noIndex = noIndex + 1;
                 System.out.println("index:" + index + " Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
-
-                if (idIndex > 1) {
-                    break;
-                }
                 idIndex = idIndex + 1;
             }
         }
@@ -200,7 +200,8 @@ public class ReadAndWriteQuestions {
         for (UriLabel uriLabel : uriLabels) {
             if(!isKbValid(uriLabel)){
                 continue;
-            }         
+            }  
+            System.out.println("uriLabel:::"+uriLabel.getUri()+" labe::"+uriLabel.getLabel());
             Pair<String, String> pair = this.getAnswerFromWikipedia(uriLabel.getUri(), sparql, frameType);
             String sparqlQuery = pair.component1();
             String answer = pair.component2();

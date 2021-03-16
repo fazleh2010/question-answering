@@ -273,7 +273,7 @@ public class SparqlQuery {
         String subject = "http://dbpedia.org/resource/Province_of_Saxony";
         String object = "http://dbpedia.org/resource/Russia";
 
-        SparqlQuery sparqlQuery = new SparqlQuery(object, objectUrl, FIND_ANY_ANSWER, RETURN_TYPE_OBJECT);
+        SparqlQuery sparqlQuery = new SparqlQuery(subject, objectUrl, FIND_ANY_ANSWER, RETURN_TYPE_OBJECT);
         System.out.println(sparqlQuery.getSparqlQuery());
         System.out.println(sparqlQuery.getResultSparql());
          System.out.println(sparqlQuery.getObject());
