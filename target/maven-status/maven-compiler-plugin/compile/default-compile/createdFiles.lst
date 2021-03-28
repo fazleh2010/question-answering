@@ -20,6 +20,7 @@ evaluation/QALD$QALDQuestion.class
 grammar/generator/GrammarRuleGeneratorRootImpl.class
 grammar/structure/component/SentenceType.class
 grammar/generator/helper/datasets/sentencetemplates/SentenceTemplateFactoryDE.class
+SusEvaluation.class
 grammar/read/questions/ReadAndWriteQuestions.class
 grammar/generator/helper/SentenceBuilderImpl.class
 grammar/generator/GrammarRuleGenerator.class
@@ -73,6 +74,7 @@ grammar/generator/helper/datasets/questionword/QuestionWordFactory.class
 evaluation/QALD.class
 grammar/generator/helper/datasets/questionword/QuestionWordFactoryEN.class
 grammar/structure/component/Language.class
+CsvFile.class
 grammar/structure/component/SentenceBindings.class
 grammar/generator/helper/parser/SentenceTemplateParser.class
 grammar/structure/component/GrammarEntry.class

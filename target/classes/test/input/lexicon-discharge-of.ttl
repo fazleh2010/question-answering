@@ -17,7 +17,7 @@
   lemon:sense          :nationality_sense_ontomap .
 
 :nationality_form a    lemon:Form ;
-  lemon:writtenRep "nationality"@en .
+  lemon:writtenRep "left tributary"@en .
 
 :nationality_of_nounpp a           lexinfo:NounPPFrame ;
   lexinfo:copulativeArg        :arg1 ;
@@ -25,14 +25,14 @@
 
 :nationality_sense_ontomap a lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping      :nationality_sense_ontomap ;
-  lemon:reference        <http://dbpedia.org/ontology/nationality> ;
+  lemon:reference        <http://dbpedia.org/ontology/leftTributary> ;
   lemon:subjOfProp       :arg2 ;
   lemon:objOfProp        :arg1 ;
   lemon:condition        :nationality_condition .
 
 :nationality_condition a   lemon:condition ;
-  lemon:propertyDomain <http://dbpedia.org/ontology/Actor> ;
-  lemon:propertyRange  <http://dbpedia.org/ontology/Country> .
+  lemon:propertyDomain <http://dbpedia.org/ontology/River> ;
+  lemon:propertyRange  <http://dbpedia.org/ontology/River> .
 
 :arg2 lemon:marker :of .
 
