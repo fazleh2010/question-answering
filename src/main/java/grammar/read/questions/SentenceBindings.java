@@ -20,6 +20,10 @@ public class SentenceBindings {
     private String bindingVariableName;
     @JsonProperty("bindingList")
     private List<UriLabel> bindingList;
+    
+    public SentenceBindings(){
+        
+    }
 
     public String getBindingVariableName() {
         return bindingVariableName;
@@ -28,4 +32,10 @@ public class SentenceBindings {
     public List<UriLabel> getBindingList() {
         return bindingList;
     }
+
+    @Override
+    public String toString() {
+        return "SentenceBindings{" + "bindingVariableName=" + bindingVariableName + ", bindingList=" + bindingList + '}';
+    }
+    
 }

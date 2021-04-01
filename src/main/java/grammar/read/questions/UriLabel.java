@@ -20,6 +20,11 @@ public class UriLabel {
     @JsonProperty("uri")
     private String uri;
     
+     
+    public UriLabel() {
+        
+    }
+    
     public UriLabel(String uri, String label) {
         this.uri = uri;
         this.label = label;

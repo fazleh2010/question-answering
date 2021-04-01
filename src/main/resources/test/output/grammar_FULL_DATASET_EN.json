@@ -4,11 +4,11 @@
             "language": "EN",
             "type": "SENTENCE",
             "bindingType": "PERSON",
-            "returnType": "DATE",
+            "returnType": "LOCATION",
             "frameType": "NPP",
-            "sentences": ["What is the birth date of ($x | PERSON_NP)?", "What was the birth date of ($x | PERSON_NP)?"],
+            "sentences": ["Give me the birth place of ($x | PERSON_NP)?", "Tell me the birth place of ($x | PERSON_NP)?", "What is the birth place of ($x | PERSON_NP)?", "What was the birth place of ($x | PERSON_NP)?", "Which place is the birth place of ($x | PERSON_NP)?", "Which place was the birth place of ($x | PERSON_NP)?"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthPlace> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -21,9 +21,6 @@
                     }, {
                         "label": "2013 Santa Monica shooting",
                         "uri": "http://dbpedia.org/resource/2013_Santa_Monica_shooting"
-                    }, {
-                        "label": "2014 Colchester murders",
-                        "uri": "http://dbpedia.org/resource/2014_Colchester_murders"
                     }, {
                         "label": "2014 Fort Hood shooting",
                         "uri": "http://dbpedia.org/resource/2014_Fort_Hood_shooting"
@@ -55,9 +52,6 @@
                         "label": "2016 Berlin truck attack",
                         "uri": "http://dbpedia.org/resource/2016_Berlin_truck_attack"
                     }, {
-                        "label": "2016 Kalamazoo shootings",
-                        "uri": "http://dbpedia.org/resource/2016_Kalamazoo_shootings"
-                    }, {
                         "label": "2016 Munich shooting",
                         "uri": "http://dbpedia.org/resource/2016_Munich_shooting"
                     }, {
@@ -82,29 +76,50 @@
                         "label": "2017 New York City truck attack",
                         "uri": "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
                     }, {
-                        "label": "2017 Resorts World Manila attack",
-                        "uri": "http://dbpedia.org/resource/2017_Resorts_World_Manila_attack"
+                        "label": "7669 (group)",
+                        "uri": "http://dbpedia.org/resource/7669_(group)"
                     }, {
                         "label": "A.Chal",
                         "uri": "http://dbpedia.org/resource/A.Chal"
                     }, {
-                        "label": "A.D.M. Cooper",
-                        "uri": "http://dbpedia.org/resource/A.D.M._Cooper"
+                        "label": "A.D.O.R.",
+                        "uri": "http://dbpedia.org/resource/A.D.O.R."
+                    }, {
+                        "label": "A.E. Dick Howard",
+                        "uri": "http://dbpedia.org/resource/A.E._Dick_Howard"
                     }, {
                         "label": "A.E. Hanson",
                         "uri": "http://dbpedia.org/resource/A.E._Hanson"
                     }, {
+                        "label": "A.G. Syjuco",
+                        "uri": "http://dbpedia.org/resource/A.G._Syjuco"
+                    }, {
+                        "label": "A.J. Applegate",
+                        "uri": "http://dbpedia.org/resource/A.J._Applegate"
+                    }, {
+                        "label": "A.L. Monsohn Lithography",
+                        "uri": "http://dbpedia.org/resource/A.L._Monsohn_Lithography"
+                    }, {
                         "label": "A.M. Parkin",
                         "uri": "http://dbpedia.org/resource/A.M._Parkin"
+                    }, {
+                        "label": "A.M. SNiPER",
+                        "uri": "http://dbpedia.org/resource/A.M._SNiPER"
                     }, {
                         "label": "A.N.M. Ehsanul Hoque Milan",
                         "uri": "http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan"
                     }, {
-                        "label": "A. A. Englander",
-                        "uri": "http://dbpedia.org/resource/A._A._Englander"
+                        "label": "A. A. Bondy",
+                        "uri": "http://dbpedia.org/resource/A._A._Bondy"
                     }, {
-                        "label": "A. Aslam Basha",
-                        "uri": "http://dbpedia.org/resource/A._Aslam_Basha"
+                        "label": "A. A. H. Tuttle",
+                        "uri": "http://dbpedia.org/resource/A._A._H._Tuttle"
+                    }, {
+                        "label": "A. A. Khan (academic)",
+                        "uri": "http://dbpedia.org/resource/A._A._Khan_(academic)"
+                    }, {
+                        "label": "A. Andrews",
+                        "uri": "http://dbpedia.org/resource/A._Andrews"
                     }, {
                         "label": "A. B. Colton",
                         "uri": "http://dbpedia.org/resource/A._B._Colton"
@@ -115,8 +130,17 @@
                         "label": "A. B. Guthrie Jr.",
                         "uri": "http://dbpedia.org/resource/A._B._Guthrie_Jr."
                     }, {
+                        "label": "A. B. Imeson",
+                        "uri": "http://dbpedia.org/resource/A._B._Imeson"
+                    }, {
+                        "label": "A. B. Lull",
+                        "uri": "http://dbpedia.org/resource/A._B._Lull"
+                    }, {
                         "label": "A. Bernard Ackerman",
                         "uri": "http://dbpedia.org/resource/A._Bernard_Ackerman"
+                    }, {
+                        "label": "A. Blaine Bowman",
+                        "uri": "http://dbpedia.org/resource/A._Blaine_Bowman"
                     }, {
                         "label": "A. Brown Moore",
                         "uri": "http://dbpedia.org/resource/A._Brown_Moore"
@@ -124,65 +148,125 @@
                         "label": "A. C. Lyons",
                         "uri": "http://dbpedia.org/resource/A._C._Lyons"
                     }, {
+                        "label": "A. C. Shanmugam",
+                        "uri": "http://dbpedia.org/resource/A._C._Shanmugam"
+                    }, {
+                        "label": "A. C. Wise",
+                        "uri": "http://dbpedia.org/resource/A._C._Wise"
+                    }, {
+                        "label": "A. Clarence Jones",
+                        "uri": "http://dbpedia.org/resource/A._Clarence_Jones"
+                    }, {
                         "label": "A. Clifford Jones",
                         "uri": "http://dbpedia.org/resource/A._Clifford_Jones"
                     }, {
                         "label": "A. D. Patel",
                         "uri": "http://dbpedia.org/resource/A._D._Patel"
                     }, {
+                        "label": "A. DeWade Langley",
+                        "uri": "http://dbpedia.org/resource/A._DeWade_Langley"
+                    }, {
+                        "label": "A. Duncan Carse",
+                        "uri": "http://dbpedia.org/resource/A._Duncan_Carse"
+                    }, {
+                        "label": "A. E. Coleby",
+                        "uri": "http://dbpedia.org/resource/A._E._Coleby"
+                    }, {
                         "label": "A. F. K. Organski",
                         "uri": "http://dbpedia.org/resource/A._F._K._Organski"
-                    }, {
-                        "label": "A. F. N. Everett",
-                        "uri": "http://dbpedia.org/resource/A._F._N._Everett"
-                    }, {
-                        "label": "A. Fredric Leopold",
-                        "uri": "http://dbpedia.org/resource/A._Fredric_Leopold"
                     }, {
                         "label": "A. G. Harbaugh",
                         "uri": "http://dbpedia.org/resource/A._G._Harbaugh"
                     }, {
+                        "label": "A. G. K. Gokhale",
+                        "uri": "http://dbpedia.org/resource/A._G._K._Gokhale"
+                    }, {
+                        "label": "A. Ganeshkumar",
+                        "uri": "http://dbpedia.org/resource/A._Ganeshkumar"
+                    }, {
+                        "label": "A. Gilbert Wright",
+                        "uri": "http://dbpedia.org/resource/A._Gilbert_Wright"
+                    }, {
+                        "label": "A. Gnanathasan",
+                        "uri": "http://dbpedia.org/resource/A._Gnanathasan"
+                    }, {
                         "label": "A. Gordon Wetmore",
                         "uri": "http://dbpedia.org/resource/A._Gordon_Wetmore"
+                    }, {
+                        "label": "A. Grove Day",
+                        "uri": "http://dbpedia.org/resource/A._Grove_Day"
+                    }, {
+                        "label": "A. H. Albut",
+                        "uri": "http://dbpedia.org/resource/A._H._Albut"
                     }, {
                         "label": "A. H. Hornby",
                         "uri": "http://dbpedia.org/resource/A._H._Hornby"
                     }, {
+                        "label": "A. J. B. Johnston",
+                        "uri": "http://dbpedia.org/resource/A._J._B._Johnston"
+                    }, {
+                        "label": "A. J. Benza",
+                        "uri": "http://dbpedia.org/resource/A._J._Benza"
+                    }, {
+                        "label": "A. J. Bernheim Brush",
+                        "uri": "http://dbpedia.org/resource/A._J._Bernheim_Brush"
+                    }, {
                         "label": "A. J. Healy",
                         "uri": "http://dbpedia.org/resource/A._J._Healy"
                     }, {
-                        "label": "A. J. S. Lakshmi Shree",
-                        "uri": "http://dbpedia.org/resource/A._J._S._Lakshmi_Shree"
+                        "label": "A. J. Mogis",
+                        "uri": "http://dbpedia.org/resource/A._J._Mogis"
+                    }, {
+                        "label": "A. J. Preller",
+                        "uri": "http://dbpedia.org/resource/A._J._Preller"
+                    }, {
+                        "label": "A. J. Reynolds",
+                        "uri": "http://dbpedia.org/resource/A._J._Reynolds"
                     }, {
                         "label": "A. Johnkumar",
                         "uri": "http://dbpedia.org/resource/A._Johnkumar"
                     }, {
-                        "label": "A. K. M. Bahauddin",
-                        "uri": "http://dbpedia.org/resource/A._K._M._Bahauddin"
+                        "label": "A. K. Brohi",
+                        "uri": "http://dbpedia.org/resource/A._K._Brohi"
                     }, {
-                        "label": "A. K. M. Rezaul Karim Tansen",
-                        "uri": "http://dbpedia.org/resource/A._K._M._Rezaul_Karim_Tansen"
+                        "label": "A. K. M. Shahidul Haque",
+                        "uri": "http://dbpedia.org/resource/A._K._M._Shahidul_Haque"
                     }, {
-                        "label": "A. K. Mozumdar",
-                        "uri": "http://dbpedia.org/resource/A._K._Mozumdar"
+                        "label": "A. K. Narain",
+                        "uri": "http://dbpedia.org/resource/A._K._Narain"
                     }, {
                         "label": "A. K. Patel",
                         "uri": "http://dbpedia.org/resource/A._K._Patel"
                     }, {
-                        "label": "A. Lakshmanaswami Mudaliar",
-                        "uri": "http://dbpedia.org/resource/A._Lakshmanaswami_Mudaliar"
+                        "label": "A. K. Veerasami",
+                        "uri": "http://dbpedia.org/resource/A._K._Veerasami"
+                    }, {
+                        "label": "A. Karunakaran",
+                        "uri": "http://dbpedia.org/resource/A._Karunakaran"
+                    }, {
+                        "label": "A. L. Narayan",
+                        "uri": "http://dbpedia.org/resource/A._L._Narayan"
+                    }, {
+                        "label": "A. L. Raghavan",
+                        "uri": "http://dbpedia.org/resource/A._L._Raghavan"
+                    }, {
+                        "label": "A. L. Ramesh",
+                        "uri": "http://dbpedia.org/resource/A._L._Ramesh"
+                    }, {
+                        "label": "A. L. Vijay",
+                        "uri": "http://dbpedia.org/resource/A._L._Vijay"
+                    }, {
+                        "label": "A. M. M. Naushad",
+                        "uri": "http://dbpedia.org/resource/A._M._M._Naushad"
                     }, {
                         "label": "A. M. Mathai",
                         "uri": "http://dbpedia.org/resource/A._M._Mathai"
                     }, {
-                        "label": "A. M. Secrest",
-                        "uri": "http://dbpedia.org/resource/A._M._Secrest"
-                    }, {
                         "label": "A. Mangalam",
                         "uri": "http://dbpedia.org/resource/A._Mangalam"
                     }, {
-                        "label": "A. Nafeesath Beevi",
-                        "uri": "http://dbpedia.org/resource/A._Nafeesath_Beevi"
+                        "label": "A. N. Gopal",
+                        "uri": "http://dbpedia.org/resource/A._N._Gopal"
                     }, {
                         "label": "A. Oveta Fuller",
                         "uri": "http://dbpedia.org/resource/A._Oveta_Fuller"
@@ -190,17 +274,26 @@
                         "label": "A. P. Mda",
                         "uri": "http://dbpedia.org/resource/A._P._Mda"
                     }, {
-                        "label": "A. Palanisamy",
-                        "uri": "http://dbpedia.org/resource/A._Palanisamy"
+                        "label": "A. P. Patro",
+                        "uri": "http://dbpedia.org/resource/A._P._Patro"
                     }, {
-                        "label": "A. Pradeepkumar",
-                        "uri": "http://dbpedia.org/resource/A._Pradeepkumar"
+                        "label": "A. R. Krishnashastry",
+                        "uri": "http://dbpedia.org/resource/A._R._Krishnashastry"
+                    }, {
+                        "label": "A. R. Mallu",
+                        "uri": "http://dbpedia.org/resource/A._R._Mallu"
                     }, {
                         "label": "A. R. Taylor",
                         "uri": "http://dbpedia.org/resource/A._R._Taylor"
                     }, {
+                        "label": "A. Rajagopal",
+                        "uri": "http://dbpedia.org/resource/A._Rajagopal"
+                    }, {
                         "label": "A. Ranganadha Rao",
                         "uri": "http://dbpedia.org/resource/A._Ranganadha_Rao"
+                    }, {
+                        "label": "A. Rangaswami Iyengar",
+                        "uri": "http://dbpedia.org/resource/A._Rangaswami_Iyengar"
                     }, {
                         "label": "A. Roberto Frisancho",
                         "uri": "http://dbpedia.org/resource/A._Roberto_Frisancho"
@@ -211,110 +304,17 @@
                         "label": "A. S. Baylinson",
                         "uri": "http://dbpedia.org/resource/A._S._Baylinson"
                     }, {
+                        "label": "A. S. Patrić",
+                        "uri": "http://dbpedia.org/resource/A._S._Patrić"
+                    }, {
                         "label": "A. S. Rao",
                         "uri": "http://dbpedia.org/resource/A._S._Rao"
                     }, {
                         "label": "A. S. W. Rosenbach",
                         "uri": "http://dbpedia.org/resource/A._S._W._Rosenbach"
                     }, {
-                        "label": "A. Subbarayalu Reddiar",
-                        "uri": "http://dbpedia.org/resource/A._Subbarayalu_Reddiar"
-                    }, {
-                        "label": "A. T. George",
-                        "uri": "http://dbpedia.org/resource/A._T._George"
-                    }, {
-                        "label": "A. T. Hill",
-                        "uri": "http://dbpedia.org/resource/A._T._Hill"
-                    }, {
-                        "label": "A. T. M. Abdul Wahab",
-                        "uri": "http://dbpedia.org/resource/A._T._M._Abdul_Wahab"
-                    }, {
-                        "label": "A. T. M. Shamsul Huda",
-                        "uri": "http://dbpedia.org/resource/A._T._M._Shamsul_Huda"
-                    }, {
-                        "label": "A. T. Pannirselvam",
-                        "uri": "http://dbpedia.org/resource/A._T._Pannirselvam"
-                    }, {
-                        "label": "A. Thomas Doyle",
-                        "uri": "http://dbpedia.org/resource/A._Thomas_Doyle"
-                    }, {
-                        "label": "A. V. Kuttimalu Amma",
-                        "uri": "http://dbpedia.org/resource/A._V._Kuttimalu_Amma"
-                    }, {
-                        "label": "A. V. Rama Rao",
-                        "uri": "http://dbpedia.org/resource/A._V._Rama_Rao"
-                    }, {
-                        "label": "A. Vinod Bharathi",
-                        "uri": "http://dbpedia.org/resource/A._Vinod_Bharathi"
-                    }, {
-                        "label": "A. W. Baskcomb",
-                        "uri": "http://dbpedia.org/resource/A._W._Baskcomb"
-                    }, {
-                        "label": "A. Wess Mitchell",
-                        "uri": "http://dbpedia.org/resource/A._Wess_Mitchell"
-                    }, {
-                        "label": "A. Y. G. Campbell",
-                        "uri": "http://dbpedia.org/resource/A._Y._G._Campbell"
-                    }, {
-                        "label": "ABM Sohel Rashid",
-                        "uri": "http://dbpedia.org/resource/ABM_Sohel_Rashid"
-                    }, {
-                        "label": "AD Singh",
-                        "uri": "http://dbpedia.org/resource/AD_Singh"
-                    }, {
-                        "label": "AFM Solaiman Chowdhury",
-                        "uri": "http://dbpedia.org/resource/AFM_Solaiman_Chowdhury"
-                    }, {
-                        "label": "Alva Noto",
-                        "uri": "http://dbpedia.org/resource/Alva_Noto"
-                    }, {
-                        "label": "LoveRance",
-                        "uri": "http://dbpedia.org/resource/LoveRance"
-                    }, {
-                        "label": "Love (Ai Otsuka)",
-                        "uri": "http://dbpedia.org/resource/Love_(Ai_Otsuka)"
-                    }, {
-                        "label": "Love (footballer)",
-                        "uri": "http://dbpedia.org/resource/Love_(footballer)"
-                    }, {
-                        "label": "Love Ablish",
-                        "uri": "http://dbpedia.org/resource/Love_Ablish"
-                    }, {
-                        "label": "Love Allotey",
-                        "uri": "http://dbpedia.org/resource/Love_Allotey"
-                    }, {
-                        "label": "Love Antell",
-                        "uri": "http://dbpedia.org/resource/Love_Antell"
-                    }, {
-                        "label": "Love At First Sound",
-                        "uri": "http://dbpedia.org/resource/Love_At_First_Sound"
-                    }, {
-                        "label": "Love Gantt",
-                        "uri": "http://dbpedia.org/resource/Love_Gantt"
-                    }, {
-                        "label": "Love Larson",
-                        "uri": "http://dbpedia.org/resource/Love_Larson"
-                    }, {
-                        "label": "Lovebug Starski",
-                        "uri": "http://dbpedia.org/resource/Lovebug_Starski"
-                    }, {
-                        "label": "Loveday Enyinnaya",
-                        "uri": "http://dbpedia.org/resource/Loveday_Enyinnaya"
-                    }, {
-                        "label": "Lovefoxxx",
-                        "uri": "http://dbpedia.org/resource/Lovefoxxx"
-                    }, {
-                        "label": "Lovel Palmer",
-                        "uri": "http://dbpedia.org/resource/Lovel_Palmer"
-                    }, {
-                        "label": "Lovelace Ackah",
-                        "uri": "http://dbpedia.org/resource/Lovelace_Ackah"
-                    }, {
-                        "label": "Lovelace Watkins",
-                        "uri": "http://dbpedia.org/resource/Lovelace_Watkins"
-                    }, {
-                        "label": "Loveleen Kaur Sasan",
-                        "uri": "http://dbpedia.org/resource/Loveleen_Kaur_Sasan"
+                        "label": "A. Sakunthala",
+                        "uri": "http://dbpedia.org/resource/A._Sakunthala"
                     }]
             },
             "combination": false
@@ -323,11 +323,11 @@
             "language": "EN",
             "type": "NP",
             "bindingType": "PERSON",
-            "returnType": "DATE",
+            "returnType": "LOCATION",
             "frameType": "NPP",
-            "sentences": ["the birth date of $x"],
+            "sentences": ["the birth place of $x"],
             "queryType": "SELECT",
-            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp))\n",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthPlace> ?objOfProp))\n",
             "sentenceToSparqlParameterMapping": {
                 "$x": "subjOfProp"
             },
@@ -340,9 +340,6 @@
                     }, {
                         "label": "2013 Santa Monica shooting",
                         "uri": "http://dbpedia.org/resource/2013_Santa_Monica_shooting"
-                    }, {
-                        "label": "2014 Colchester murders",
-                        "uri": "http://dbpedia.org/resource/2014_Colchester_murders"
                     }, {
                         "label": "2014 Fort Hood shooting",
                         "uri": "http://dbpedia.org/resource/2014_Fort_Hood_shooting"
@@ -374,9 +371,6 @@
                         "label": "2016 Berlin truck attack",
                         "uri": "http://dbpedia.org/resource/2016_Berlin_truck_attack"
                     }, {
-                        "label": "2016 Kalamazoo shootings",
-                        "uri": "http://dbpedia.org/resource/2016_Kalamazoo_shootings"
-                    }, {
                         "label": "2016 Munich shooting",
                         "uri": "http://dbpedia.org/resource/2016_Munich_shooting"
                     }, {
@@ -401,29 +395,50 @@
                         "label": "2017 New York City truck attack",
                         "uri": "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
                     }, {
-                        "label": "2017 Resorts World Manila attack",
-                        "uri": "http://dbpedia.org/resource/2017_Resorts_World_Manila_attack"
+                        "label": "7669 (group)",
+                        "uri": "http://dbpedia.org/resource/7669_(group)"
                     }, {
                         "label": "A.Chal",
                         "uri": "http://dbpedia.org/resource/A.Chal"
                     }, {
-                        "label": "A.D.M. Cooper",
-                        "uri": "http://dbpedia.org/resource/A.D.M._Cooper"
+                        "label": "A.D.O.R.",
+                        "uri": "http://dbpedia.org/resource/A.D.O.R."
+                    }, {
+                        "label": "A.E. Dick Howard",
+                        "uri": "http://dbpedia.org/resource/A.E._Dick_Howard"
                     }, {
                         "label": "A.E. Hanson",
                         "uri": "http://dbpedia.org/resource/A.E._Hanson"
                     }, {
+                        "label": "A.G. Syjuco",
+                        "uri": "http://dbpedia.org/resource/A.G._Syjuco"
+                    }, {
+                        "label": "A.J. Applegate",
+                        "uri": "http://dbpedia.org/resource/A.J._Applegate"
+                    }, {
+                        "label": "A.L. Monsohn Lithography",
+                        "uri": "http://dbpedia.org/resource/A.L._Monsohn_Lithography"
+                    }, {
                         "label": "A.M. Parkin",
                         "uri": "http://dbpedia.org/resource/A.M._Parkin"
+                    }, {
+                        "label": "A.M. SNiPER",
+                        "uri": "http://dbpedia.org/resource/A.M._SNiPER"
                     }, {
                         "label": "A.N.M. Ehsanul Hoque Milan",
                         "uri": "http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan"
                     }, {
-                        "label": "A. A. Englander",
-                        "uri": "http://dbpedia.org/resource/A._A._Englander"
+                        "label": "A. A. Bondy",
+                        "uri": "http://dbpedia.org/resource/A._A._Bondy"
                     }, {
-                        "label": "A. Aslam Basha",
-                        "uri": "http://dbpedia.org/resource/A._Aslam_Basha"
+                        "label": "A. A. H. Tuttle",
+                        "uri": "http://dbpedia.org/resource/A._A._H._Tuttle"
+                    }, {
+                        "label": "A. A. Khan (academic)",
+                        "uri": "http://dbpedia.org/resource/A._A._Khan_(academic)"
+                    }, {
+                        "label": "A. Andrews",
+                        "uri": "http://dbpedia.org/resource/A._Andrews"
                     }, {
                         "label": "A. B. Colton",
                         "uri": "http://dbpedia.org/resource/A._B._Colton"
@@ -434,8 +449,17 @@
                         "label": "A. B. Guthrie Jr.",
                         "uri": "http://dbpedia.org/resource/A._B._Guthrie_Jr."
                     }, {
+                        "label": "A. B. Imeson",
+                        "uri": "http://dbpedia.org/resource/A._B._Imeson"
+                    }, {
+                        "label": "A. B. Lull",
+                        "uri": "http://dbpedia.org/resource/A._B._Lull"
+                    }, {
                         "label": "A. Bernard Ackerman",
                         "uri": "http://dbpedia.org/resource/A._Bernard_Ackerman"
+                    }, {
+                        "label": "A. Blaine Bowman",
+                        "uri": "http://dbpedia.org/resource/A._Blaine_Bowman"
                     }, {
                         "label": "A. Brown Moore",
                         "uri": "http://dbpedia.org/resource/A._Brown_Moore"
@@ -443,65 +467,125 @@
                         "label": "A. C. Lyons",
                         "uri": "http://dbpedia.org/resource/A._C._Lyons"
                     }, {
+                        "label": "A. C. Shanmugam",
+                        "uri": "http://dbpedia.org/resource/A._C._Shanmugam"
+                    }, {
+                        "label": "A. C. Wise",
+                        "uri": "http://dbpedia.org/resource/A._C._Wise"
+                    }, {
+                        "label": "A. Clarence Jones",
+                        "uri": "http://dbpedia.org/resource/A._Clarence_Jones"
+                    }, {
                         "label": "A. Clifford Jones",
                         "uri": "http://dbpedia.org/resource/A._Clifford_Jones"
                     }, {
                         "label": "A. D. Patel",
                         "uri": "http://dbpedia.org/resource/A._D._Patel"
                     }, {
+                        "label": "A. DeWade Langley",
+                        "uri": "http://dbpedia.org/resource/A._DeWade_Langley"
+                    }, {
+                        "label": "A. Duncan Carse",
+                        "uri": "http://dbpedia.org/resource/A._Duncan_Carse"
+                    }, {
+                        "label": "A. E. Coleby",
+                        "uri": "http://dbpedia.org/resource/A._E._Coleby"
+                    }, {
                         "label": "A. F. K. Organski",
                         "uri": "http://dbpedia.org/resource/A._F._K._Organski"
-                    }, {
-                        "label": "A. F. N. Everett",
-                        "uri": "http://dbpedia.org/resource/A._F._N._Everett"
-                    }, {
-                        "label": "A. Fredric Leopold",
-                        "uri": "http://dbpedia.org/resource/A._Fredric_Leopold"
                     }, {
                         "label": "A. G. Harbaugh",
                         "uri": "http://dbpedia.org/resource/A._G._Harbaugh"
                     }, {
+                        "label": "A. G. K. Gokhale",
+                        "uri": "http://dbpedia.org/resource/A._G._K._Gokhale"
+                    }, {
+                        "label": "A. Ganeshkumar",
+                        "uri": "http://dbpedia.org/resource/A._Ganeshkumar"
+                    }, {
+                        "label": "A. Gilbert Wright",
+                        "uri": "http://dbpedia.org/resource/A._Gilbert_Wright"
+                    }, {
+                        "label": "A. Gnanathasan",
+                        "uri": "http://dbpedia.org/resource/A._Gnanathasan"
+                    }, {
                         "label": "A. Gordon Wetmore",
                         "uri": "http://dbpedia.org/resource/A._Gordon_Wetmore"
+                    }, {
+                        "label": "A. Grove Day",
+                        "uri": "http://dbpedia.org/resource/A._Grove_Day"
+                    }, {
+                        "label": "A. H. Albut",
+                        "uri": "http://dbpedia.org/resource/A._H._Albut"
                     }, {
                         "label": "A. H. Hornby",
                         "uri": "http://dbpedia.org/resource/A._H._Hornby"
                     }, {
+                        "label": "A. J. B. Johnston",
+                        "uri": "http://dbpedia.org/resource/A._J._B._Johnston"
+                    }, {
+                        "label": "A. J. Benza",
+                        "uri": "http://dbpedia.org/resource/A._J._Benza"
+                    }, {
+                        "label": "A. J. Bernheim Brush",
+                        "uri": "http://dbpedia.org/resource/A._J._Bernheim_Brush"
+                    }, {
                         "label": "A. J. Healy",
                         "uri": "http://dbpedia.org/resource/A._J._Healy"
                     }, {
-                        "label": "A. J. S. Lakshmi Shree",
-                        "uri": "http://dbpedia.org/resource/A._J._S._Lakshmi_Shree"
+                        "label": "A. J. Mogis",
+                        "uri": "http://dbpedia.org/resource/A._J._Mogis"
+                    }, {
+                        "label": "A. J. Preller",
+                        "uri": "http://dbpedia.org/resource/A._J._Preller"
+                    }, {
+                        "label": "A. J. Reynolds",
+                        "uri": "http://dbpedia.org/resource/A._J._Reynolds"
                     }, {
                         "label": "A. Johnkumar",
                         "uri": "http://dbpedia.org/resource/A._Johnkumar"
                     }, {
-                        "label": "A. K. M. Bahauddin",
-                        "uri": "http://dbpedia.org/resource/A._K._M._Bahauddin"
+                        "label": "A. K. Brohi",
+                        "uri": "http://dbpedia.org/resource/A._K._Brohi"
                     }, {
-                        "label": "A. K. M. Rezaul Karim Tansen",
-                        "uri": "http://dbpedia.org/resource/A._K._M._Rezaul_Karim_Tansen"
+                        "label": "A. K. M. Shahidul Haque",
+                        "uri": "http://dbpedia.org/resource/A._K._M._Shahidul_Haque"
                     }, {
-                        "label": "A. K. Mozumdar",
-                        "uri": "http://dbpedia.org/resource/A._K._Mozumdar"
+                        "label": "A. K. Narain",
+                        "uri": "http://dbpedia.org/resource/A._K._Narain"
                     }, {
                         "label": "A. K. Patel",
                         "uri": "http://dbpedia.org/resource/A._K._Patel"
                     }, {
-                        "label": "A. Lakshmanaswami Mudaliar",
-                        "uri": "http://dbpedia.org/resource/A._Lakshmanaswami_Mudaliar"
+                        "label": "A. K. Veerasami",
+                        "uri": "http://dbpedia.org/resource/A._K._Veerasami"
+                    }, {
+                        "label": "A. Karunakaran",
+                        "uri": "http://dbpedia.org/resource/A._Karunakaran"
+                    }, {
+                        "label": "A. L. Narayan",
+                        "uri": "http://dbpedia.org/resource/A._L._Narayan"
+                    }, {
+                        "label": "A. L. Raghavan",
+                        "uri": "http://dbpedia.org/resource/A._L._Raghavan"
+                    }, {
+                        "label": "A. L. Ramesh",
+                        "uri": "http://dbpedia.org/resource/A._L._Ramesh"
+                    }, {
+                        "label": "A. L. Vijay",
+                        "uri": "http://dbpedia.org/resource/A._L._Vijay"
+                    }, {
+                        "label": "A. M. M. Naushad",
+                        "uri": "http://dbpedia.org/resource/A._M._M._Naushad"
                     }, {
                         "label": "A. M. Mathai",
                         "uri": "http://dbpedia.org/resource/A._M._Mathai"
                     }, {
-                        "label": "A. M. Secrest",
-                        "uri": "http://dbpedia.org/resource/A._M._Secrest"
-                    }, {
                         "label": "A. Mangalam",
                         "uri": "http://dbpedia.org/resource/A._Mangalam"
                     }, {
-                        "label": "A. Nafeesath Beevi",
-                        "uri": "http://dbpedia.org/resource/A._Nafeesath_Beevi"
+                        "label": "A. N. Gopal",
+                        "uri": "http://dbpedia.org/resource/A._N._Gopal"
                     }, {
                         "label": "A. Oveta Fuller",
                         "uri": "http://dbpedia.org/resource/A._Oveta_Fuller"
@@ -509,17 +593,26 @@
                         "label": "A. P. Mda",
                         "uri": "http://dbpedia.org/resource/A._P._Mda"
                     }, {
-                        "label": "A. Palanisamy",
-                        "uri": "http://dbpedia.org/resource/A._Palanisamy"
+                        "label": "A. P. Patro",
+                        "uri": "http://dbpedia.org/resource/A._P._Patro"
                     }, {
-                        "label": "A. Pradeepkumar",
-                        "uri": "http://dbpedia.org/resource/A._Pradeepkumar"
+                        "label": "A. R. Krishnashastry",
+                        "uri": "http://dbpedia.org/resource/A._R._Krishnashastry"
+                    }, {
+                        "label": "A. R. Mallu",
+                        "uri": "http://dbpedia.org/resource/A._R._Mallu"
                     }, {
                         "label": "A. R. Taylor",
                         "uri": "http://dbpedia.org/resource/A._R._Taylor"
                     }, {
+                        "label": "A. Rajagopal",
+                        "uri": "http://dbpedia.org/resource/A._Rajagopal"
+                    }, {
                         "label": "A. Ranganadha Rao",
                         "uri": "http://dbpedia.org/resource/A._Ranganadha_Rao"
+                    }, {
+                        "label": "A. Rangaswami Iyengar",
+                        "uri": "http://dbpedia.org/resource/A._Rangaswami_Iyengar"
                     }, {
                         "label": "A. Roberto Frisancho",
                         "uri": "http://dbpedia.org/resource/A._Roberto_Frisancho"
@@ -530,110 +623,17 @@
                         "label": "A. S. Baylinson",
                         "uri": "http://dbpedia.org/resource/A._S._Baylinson"
                     }, {
+                        "label": "A. S. Patrić",
+                        "uri": "http://dbpedia.org/resource/A._S._Patrić"
+                    }, {
                         "label": "A. S. Rao",
                         "uri": "http://dbpedia.org/resource/A._S._Rao"
                     }, {
                         "label": "A. S. W. Rosenbach",
                         "uri": "http://dbpedia.org/resource/A._S._W._Rosenbach"
                     }, {
-                        "label": "A. Subbarayalu Reddiar",
-                        "uri": "http://dbpedia.org/resource/A._Subbarayalu_Reddiar"
-                    }, {
-                        "label": "A. T. George",
-                        "uri": "http://dbpedia.org/resource/A._T._George"
-                    }, {
-                        "label": "A. T. Hill",
-                        "uri": "http://dbpedia.org/resource/A._T._Hill"
-                    }, {
-                        "label": "A. T. M. Abdul Wahab",
-                        "uri": "http://dbpedia.org/resource/A._T._M._Abdul_Wahab"
-                    }, {
-                        "label": "A. T. M. Shamsul Huda",
-                        "uri": "http://dbpedia.org/resource/A._T._M._Shamsul_Huda"
-                    }, {
-                        "label": "A. T. Pannirselvam",
-                        "uri": "http://dbpedia.org/resource/A._T._Pannirselvam"
-                    }, {
-                        "label": "A. Thomas Doyle",
-                        "uri": "http://dbpedia.org/resource/A._Thomas_Doyle"
-                    }, {
-                        "label": "A. V. Kuttimalu Amma",
-                        "uri": "http://dbpedia.org/resource/A._V._Kuttimalu_Amma"
-                    }, {
-                        "label": "A. V. Rama Rao",
-                        "uri": "http://dbpedia.org/resource/A._V._Rama_Rao"
-                    }, {
-                        "label": "A. Vinod Bharathi",
-                        "uri": "http://dbpedia.org/resource/A._Vinod_Bharathi"
-                    }, {
-                        "label": "A. W. Baskcomb",
-                        "uri": "http://dbpedia.org/resource/A._W._Baskcomb"
-                    }, {
-                        "label": "A. Wess Mitchell",
-                        "uri": "http://dbpedia.org/resource/A._Wess_Mitchell"
-                    }, {
-                        "label": "A. Y. G. Campbell",
-                        "uri": "http://dbpedia.org/resource/A._Y._G._Campbell"
-                    }, {
-                        "label": "ABM Sohel Rashid",
-                        "uri": "http://dbpedia.org/resource/ABM_Sohel_Rashid"
-                    }, {
-                        "label": "AD Singh",
-                        "uri": "http://dbpedia.org/resource/AD_Singh"
-                    }, {
-                        "label": "AFM Solaiman Chowdhury",
-                        "uri": "http://dbpedia.org/resource/AFM_Solaiman_Chowdhury"
-                    }, {
-                        "label": "Alva Noto",
-                        "uri": "http://dbpedia.org/resource/Alva_Noto"
-                    }, {
-                        "label": "LoveRance",
-                        "uri": "http://dbpedia.org/resource/LoveRance"
-                    }, {
-                        "label": "Love (Ai Otsuka)",
-                        "uri": "http://dbpedia.org/resource/Love_(Ai_Otsuka)"
-                    }, {
-                        "label": "Love (footballer)",
-                        "uri": "http://dbpedia.org/resource/Love_(footballer)"
-                    }, {
-                        "label": "Love Ablish",
-                        "uri": "http://dbpedia.org/resource/Love_Ablish"
-                    }, {
-                        "label": "Love Allotey",
-                        "uri": "http://dbpedia.org/resource/Love_Allotey"
-                    }, {
-                        "label": "Love Antell",
-                        "uri": "http://dbpedia.org/resource/Love_Antell"
-                    }, {
-                        "label": "Love At First Sound",
-                        "uri": "http://dbpedia.org/resource/Love_At_First_Sound"
-                    }, {
-                        "label": "Love Gantt",
-                        "uri": "http://dbpedia.org/resource/Love_Gantt"
-                    }, {
-                        "label": "Love Larson",
-                        "uri": "http://dbpedia.org/resource/Love_Larson"
-                    }, {
-                        "label": "Lovebug Starski",
-                        "uri": "http://dbpedia.org/resource/Lovebug_Starski"
-                    }, {
-                        "label": "Loveday Enyinnaya",
-                        "uri": "http://dbpedia.org/resource/Loveday_Enyinnaya"
-                    }, {
-                        "label": "Lovefoxxx",
-                        "uri": "http://dbpedia.org/resource/Lovefoxxx"
-                    }, {
-                        "label": "Lovel Palmer",
-                        "uri": "http://dbpedia.org/resource/Lovel_Palmer"
-                    }, {
-                        "label": "Lovelace Ackah",
-                        "uri": "http://dbpedia.org/resource/Lovelace_Ackah"
-                    }, {
-                        "label": "Lovelace Watkins",
-                        "uri": "http://dbpedia.org/resource/Lovelace_Watkins"
-                    }, {
-                        "label": "Loveleen Kaur Sasan",
-                        "uri": "http://dbpedia.org/resource/Loveleen_Kaur_Sasan"
+                        "label": "A. Sakunthala",
+                        "uri": "http://dbpedia.org/resource/A._Sakunthala"
                     }]
             },
             "combination": false

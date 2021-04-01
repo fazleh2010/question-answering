@@ -14,12 +14,22 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class SentenceToSparql {
+    
+    public SentenceToSparql(){
+        
+    }
+            
 
     @JsonProperty("x")
     private String x;
 
     public String getX() {
         return x;
+    }
+
+    @Override
+    public String toString() {
+        return "SentenceToSparql{" + "x=" + x + '}';
     }
 
 }

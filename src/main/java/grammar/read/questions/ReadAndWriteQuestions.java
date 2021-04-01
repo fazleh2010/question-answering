@@ -74,12 +74,13 @@ public class ReadAndWriteQuestions {
             Integer total = grammarEntries.getGrammarEntries().size();
             Integer idIndex = 0, noIndex = 0;
             for (GrammarEntryUnit grammarEntryUnit : grammarEntries.getGrammarEntries()) {
-                 if (idIndex > 1) {
+                 /*if (idIndex > 1) {
                     break;
-                }
+                }*/
                 
                 sparql = grammarEntryUnit.getSparqlQuery();
                 String returnVairable = grammarEntryUnit.getReturnVariable();
+                System.out.println(grammarEntryUnit);
                 Map<String, Pair<String, String>> uriAnswer = this.replaceVariables(grammarEntryUnit.getBindingList(), sparql, returnVairable);
                 List< String[]> rows = this.makeQuestionAnswer(grammarEntryUnit.getId(), uriAnswer, sparql);
                 noIndex = this.makeCsvRow(grammarEntryUnit.getSentences(), rows, grammarEntryUnit.getFrameType(), noIndex);
