@@ -1,0 +1,972 @@
+{
+    "grammarEntries": [ {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish cities?", "Which is a Spanish city?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "COUNTRY",
+            "frameType": "AA",
+            "sentences": ["a Spanish city", "Spanish cities"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },  {
+            "id": "7",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish agents?", "Which is a Spanish agent?", "Which was a Spanish agent?", "Which were Spanish agents?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "8",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish agent", "Spanish agents"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "13",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "FILM",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish movies?", "Which is a Spanish movie?", "Which was a Spanish movie?", "Which were Spanish movies?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "14",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "FILM",
+            "frameType": "AA",
+            "sentences": ["a Spanish movie", "Spanish movies"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },  {
+            "id": "19",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "ORGANISATION",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish organisations?", "Which is a Spanish organisation?", "Which was a Spanish organisation?", "Which were Spanish organisations?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Organisation>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "20",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "ORGANISATION",
+            "frameType": "AA",
+            "sentences": ["a Spanish organisation", "Spanish organisations"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Organisation>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "21",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "BUILDING",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish buildings?", "Which is a Spanish building?", "Which was a Spanish building?", "Which were Spanish buildings?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Building>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "22",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "BUILDING",
+            "frameType": "AA",
+            "sentences": ["a Spanish building", "Spanish buildings"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Building>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "36",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "BUILDING",
+            "frameType": "AA",
+            "sentences": ["a Spanish historic building", "Spanish historic buildings"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/HistoricBuilding>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "37",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "LOCATION",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish populated places?", "Which is a Spanish populated place?", "Which was a Spanish populated place?", "Which were Spanish populated places?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "38",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "LOCATION",
+            "frameType": "AA",
+            "sentences": ["a Spanish populated place", "Spanish populated places"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "49",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish towns?", "Which is a Spanish town?", "Which was a Spanish town?", "Which were Spanish towns?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Town>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "50",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["a Spanish town", "Spanish towns"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Town>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "51",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "THING",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish periodical literatures?", "Which is a Spanish periodical literature?", "Which was a Spanish periodical literature?", "Which were Spanish periodical literatures?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PeriodicalLiterature>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "53",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "TELEVISIONSHOW",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish television shows?", "Which is a Spanish television show?", "Which was a Spanish television show?", "Which were Spanish television shows?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "54",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "TELEVISIONSHOW",
+            "frameType": "AA",
+            "sentences": ["a Spanish television show", "Spanish television shows"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "55",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish athletes?", "Which is a Spanish athlete?", "Which was a Spanish athlete?", "Which were Spanish athletes?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "56",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish athlete", "Spanish athletes"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "59",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "WORK",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish works?", "Which is a Spanish work?", "Which was a Spanish work?", "Which were Spanish works?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Work>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },  {
+            "id": "71",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish persons?", "Which is a Spanish person?", "Which was a Spanish person?", "Which were Spanish persons?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "72",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish person", "Spanish persons"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "73",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish figure skaters?", "Which is a Spanish figure skater?", "Which was a Spanish figure skater?", "Which were Spanish figure skaters?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FigureSkater>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "74",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish figure skater", "Spanish figure skaters"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FigureSkater>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "83",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "LOCATION",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish regions?", "Which is a Spanish region?", "Which was a Spanish region?", "Which were Spanish regions?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "84",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "LOCATION",
+            "frameType": "AA",
+            "sentences": ["a Spanish region", "Spanish regions"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "87",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish squash players?", "Which is a Spanish squash player?", "Which was a Spanish squash player?", "Which were Spanish squash players?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SquashPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "88",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish squash player", "Spanish squash players"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SquashPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "91",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish tennis players?", "Which is a Spanish tennis player?", "Which was a Spanish tennis player?", "Which were Spanish tennis players?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TennisPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "92",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish tennis player", "Spanish tennis players"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TennisPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "97",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "BOOK",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish books?", "Which is a Spanish book?", "Which was a Spanish book?", "Which were Spanish books?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "98",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "BOOK",
+            "frameType": "AA",
+            "sentences": ["a Spanish book", "Spanish books"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "99",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish settlements?", "Which is a Spanish settlement?", "Which was a Spanish settlement?", "Which were Spanish settlements?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Settlement>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "100",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["a Spanish settlement", "Spanish settlements"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Settlement>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "103",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "AWARD",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish awards?", "Which is a Spanish award?", "Which was a Spanish award?", "Which were Spanish awards?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "104",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "AWARD",
+            "frameType": "AA",
+            "sentences": ["a Spanish award", "Spanish awards"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "111",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "ORGANISATION",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish companies?", "Which is a Spanish company?", "Which was a Spanish company?", "Which were Spanish companies?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "112",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "ORGANISATION",
+            "frameType": "AA",
+            "sentences": ["a Spanish company", "Spanish companies"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "113",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "LOCATION",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish places?", "Which is a Spanish place?", "Which was a Spanish place?", "Which were Spanish places?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "114",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "LOCATION",
+            "frameType": "AA",
+            "sentences": ["a Spanish place", "Spanish places"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "117",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish winter sport Players?", "Which is a Spanish winter sport Player?", "Which was a Spanish winter sport Player?", "Which were Spanish winter sport Players?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/WinterSportPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "118",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish winter sport Player", "Spanish winter sport Players"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/WinterSportPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "121",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish villages?", "Which is a Spanish village?", "Which was a Spanish village?", "Which were Spanish villages?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Village>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "122",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["a Spanish village", "Spanish villages"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Village>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "123",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish darts players?", "Which is a Spanish darts player?", "Which was a Spanish darts player?", "Which were Spanish darts players?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/DartsPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "124",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish darts player", "Spanish darts players"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/DartsPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "129",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "WORK",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish written works?", "Which is a Spanish written work?", "Which was a Spanish written work?", "Which were Spanish written works?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/WrittenWork>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "130",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "WORK",
+            "frameType": "AA",
+            "sentences": ["a Spanish written work", "Spanish written works"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/WrittenWork>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "135",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish politicians?", "Which is a Spanish politician?", "Which was a Spanish politician?", "Which were Spanish politicians?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "136",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Spanish politician", "Spanish politicians"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "137",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "POLITICALPARTY",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish political parties?", "Which is a Spanish political party?", "Which was a Spanish political party?", "Which were Spanish political parties?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "138",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "POLITICALPARTY",
+            "frameType": "AA",
+            "sentences": ["a Spanish political party", "Spanish political parties"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PoliticalParty>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "141",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish administrative regions?", "Which is a Spanish administrative region?", "Which was a Spanish administrative region?", "Which were Spanish administrative regions?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AdministrativeRegion>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "142",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["a Spanish administrative region", "Spanish administrative regions"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AdministrativeRegion>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "145",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "BUILDING",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish architectural structures?", "Which is a Spanish architectural structure?", "Which was a Spanish architectural structure?", "Which were Spanish architectural structures?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ArchitecturalStructure>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "146",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "BUILDING",
+            "frameType": "AA",
+            "sentences": ["a Spanish architectural structure", "Spanish architectural structures"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ArchitecturalStructure>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }]
+}

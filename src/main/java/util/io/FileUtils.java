@@ -7,6 +7,7 @@ package util.io;
 
 import com.opencsv.CSVWriter;
 import grammar.read.questions.SparqlQuery;
+import grammar.read.questions.UriLabel;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -96,7 +97,7 @@ public class FileUtils {
         writer.writeNext(nextLine);
     }
 
-    public static void fileToSet(String inputFileName, String outputFileName) {
+    public static void createEntityRdfsLevel(String inputFileName, String outputFileName,String className) {
         Set<String> set = new TreeSet<String>();
         BufferedReader reader;
         String line = "";
@@ -115,7 +116,7 @@ public class FileUtils {
                     String sparqlQueryStr = SparqlQuery.setSparqlQueryForLabel(entityUrl);
                     SparqlQuery sparqlQuery = new SparqlQuery(sparqlQueryStr);
                     if (sparqlQuery.getObject() != null) {
-                        System.out.println(index+" entityUrl:" + entityUrl + " object:" + sparqlQuery.getObject());
+                        System.out.println("className:"+className+" "+index+" entityUrl:" + entityUrl + " object:" + sparqlQuery.getObject());
                         appendtoFile(outputFileName, entityUrl + "=" + sparqlQuery.getObject());
                     }
                 }
@@ -133,6 +134,33 @@ public class FileUtils {
         PrintWriter printWriter = new PrintWriter(fileWriter);
         printWriter.println(textToAppend); 
         printWriter.close();
+    }
+
+    public static List<UriLabel> getUriLabels(File classFile) {
+        List<UriLabel> uriLabels = new ArrayList<UriLabel>();
+        Set<String> set = new TreeSet<String>();
+        BufferedReader reader;
+        String line = "";
+        try {
+            reader = new BufferedReader(new FileReader(classFile));
+            line = reader.readLine();
+            while (line != null) {
+                line = reader.readLine();
+                if (line != null) {
+                    line = line.strip().trim();
+                    if (line.contains("=")) {
+                        String uri = line.split("=")[0];
+                        String label = line.split("=")[1];
+                        UriLabel uriLabel = new UriLabel(uri, label);
+                        uriLabels.add(uriLabel);
+                    }
+                }
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return uriLabels;
     }
 
 }

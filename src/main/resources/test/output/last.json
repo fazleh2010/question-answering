@@ -1,0 +1,960 @@
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "PERSON",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["Give me the alter ego of ($x | PERSON_NP)?", "Tell me the alter ego of ($x | PERSON_NP)?", "What is the alter ego of ($x | PERSON_NP)?", "What was the alter ego of ($x | PERSON_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/property/alterEgo> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Carrie Kelley",
+                        "uri": "http://dbpedia.org/resource/Carrie_Kelley"
+                    }, {
+                        "label": "Cat-Man and Kitten",
+                        "uri": "http://dbpedia.org/resource/Cat-Man_and_Kitten"
+                    }, {
+                        "label": "Cat Claw",
+                        "uri": "http://dbpedia.org/resource/Cat_Claw"
+                    }, {
+                        "label": "Copycat (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Copycat_(Marvel_Comics)"
+                    }, {
+                        "label": "Cybernary",
+                        "uri": "http://dbpedia.org/resource/Cybernary"
+                    }, {
+                        "label": "Cyborg Superman",
+                        "uri": "http://dbpedia.org/resource/Cyborg_Superman"
+                    }, {
+                        "label": "Cyclone (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Cyclone_(Marvel_Comics)"
+                    }, {
+                        "label": "Cyclotron (character)",
+                        "uri": "http://dbpedia.org/resource/Cyclotron_(character)"
+                    }, {
+                        "label": "Damage (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Damage_(Marvel_Comics)"
+                    }, {
+                        "label": "Harper Row",
+                        "uri": "http://dbpedia.org/resource/Harper_Row"
+                    }, {
+                        "label": "Il Grande Blek",
+                        "uri": "http://dbpedia.org/resource/Il_Grande_Blek"
+                    }, {
+                        "label": "Sabretooth (comics)",
+                        "uri": "http://dbpedia.org/resource/Sabretooth_(comics)"
+                    }, {
+                        "label": "Storm (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Storm_(Marvel_Comics)"
+                    }, {
+                        "label": "The Brain (Bell comics)",
+                        "uri": "http://dbpedia.org/resource/The_Brain_(Bell_comics)"
+                    }, {
+                        "label": "Egg Fu",
+                        "uri": "http://dbpedia.org/resource/Egg_Fu"
+                    }, {
+                        "label": "Rose (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Rose_(Marvel_Comics)"
+                    }, {
+                        "label": "Sabra (comics)",
+                        "uri": "http://dbpedia.org/resource/Sabra_(comics)"
+                    }, {
+                        "label": "Samurai (Super Friends)",
+                        "uri": "http://dbpedia.org/resource/Samurai_(Super_Friends)"
+                    }, {
+                        "label": "Sandman (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Sandman_(DC_Comics)"
+                    }, {
+                        "label": "Sandy Hawkins",
+                        "uri": "http://dbpedia.org/resource/Sandy_Hawkins"
+                    }, {
+                        "label": "Saracen (comics)",
+                        "uri": "http://dbpedia.org/resource/Saracen_(comics)"
+                    }, {
+                        "label": "Scalphunter (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Scalphunter_(DC_Comics)"
+                    }, {
+                        "label": "Scarecrow (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Scarecrow_(DC_Comics)"
+                    }, {
+                        "label": "Scoop Smith",
+                        "uri": "http://dbpedia.org/resource/Scoop_Smith"
+                    }, {
+                        "label": "Scorn (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Scorn_(DC_Comics)"
+                    }, {
+                        "label": "Flygirl (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Flygirl_(Archie_Comics)"
+                    }, {
+                        "label": "Foreskin Man",
+                        "uri": "http://dbpedia.org/resource/Foreskin_Man"
+                    }, {
+                        "label": "Viking Prince",
+                        "uri": "http://dbpedia.org/resource/Viking_Prince"
+                    }, {
+                        "label": "Rockslide (comics)",
+                        "uri": "http://dbpedia.org/resource/Rockslide_(comics)"
+                    }, {
+                        "label": "Hangman (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Hangman_(Archie_Comics)"
+                    }, {
+                        "label": "Punisher 2099",
+                        "uri": "http://dbpedia.org/resource/Punisher_2099"
+                    }, {
+                        "label": "Western Kid",
+                        "uri": "http://dbpedia.org/resource/Western_Kid"
+                    }, {
+                        "label": "Valerie Perez",
+                        "uri": "http://dbpedia.org/resource/Valerie_Perez"
+                    }, {
+                        "label": "Kamala Khan",
+                        "uri": "http://dbpedia.org/resource/Kamala_Khan"
+                    }, {
+                        "label": "Manhunter (Mark Shaw)",
+                        "uri": "http://dbpedia.org/resource/Manhunter_(Mark_Shaw)"
+                    }, {
+                        "label": "Manhunter (Paul Kirk)",
+                        "uri": "http://dbpedia.org/resource/Manhunter_(Paul_Kirk)"
+                    }, {
+                        "label": "Metamorpho",
+                        "uri": "http://dbpedia.org/resource/Metamorpho"
+                    }, {
+                        "label": "Streaky the Supercat",
+                        "uri": "http://dbpedia.org/resource/Streaky_the_Supercat"
+                    }, {
+                        "label": "Miss Masque",
+                        "uri": "http://dbpedia.org/resource/Miss_Masque"
+                    }, {
+                        "label": "Miss Victory",
+                        "uri": "http://dbpedia.org/resource/Miss_Victory"
+                    }, {
+                        "label": "Minotaur (comics)",
+                        "uri": "http://dbpedia.org/resource/Minotaur_(comics)"
+                    }, {
+                        "label": "Mitchell Carson",
+                        "uri": "http://dbpedia.org/resource/Mitchell_Carson"
+                    }, {
+                        "label": "Nightveil",
+                        "uri": "http://dbpedia.org/resource/Nightveil"
+                    }, {
+                        "label": "Superduperman",
+                        "uri": "http://dbpedia.org/resource/Superduperman"
+                    }, {
+                        "label": "Black Canary",
+                        "uri": "http://dbpedia.org/resource/Black_Canary"
+                    }, {
+                        "label": "Black Canary (Dinah Drake)",
+                        "uri": "http://dbpedia.org/resource/Black_Canary_(Dinah_Drake)"
+                    }, {
+                        "label": "Black Canary (Dinah Laurel Lance)",
+                        "uri": "http://dbpedia.org/resource/Black_Canary_(Dinah_Laurel_Lance)"
+                    }, {
+                        "label": "Blockbuster (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Blockbuster_(DC_Comics)"
+                    }, {
+                        "label": "Brainiac (character)",
+                        "uri": "http://dbpedia.org/resource/Brainiac_(character)"
+                    }, {
+                        "label": "Doctor Doom",
+                        "uri": "http://dbpedia.org/resource/Doctor_Doom"
+                    }, {
+                        "label": "Doctor Spectro",
+                        "uri": "http://dbpedia.org/resource/Doctor_Spectro"
+                    }, {
+                        "label": "Donald Duck in comics",
+                        "uri": "http://dbpedia.org/resource/Donald_Duck_in_comics"
+                    }, {
+                        "label": "Angelfood McSpade",
+                        "uri": "http://dbpedia.org/resource/Angelfood_McSpade"
+                    }, {
+                        "label": "Glorian",
+                        "uri": "http://dbpedia.org/resource/Glorian"
+                    }, {
+                        "label": "Green Arrow (Connor Hawke)",
+                        "uri": "http://dbpedia.org/resource/Green_Arrow_(Connor_Hawke)"
+                    }, {
+                        "label": "Guardian Prime",
+                        "uri": "http://dbpedia.org/resource/Guardian_Prime"
+                    }, {
+                        "label": "Kid Eternity",
+                        "uri": "http://dbpedia.org/resource/Kid_Eternity"
+                    }, {
+                        "label": "Knightfall (comics)",
+                        "uri": "http://dbpedia.org/resource/Knightfall_(comics)"
+                    }, {
+                        "label": "Kraven the Hunter (Alyosha Kravinoff)",
+                        "uri": "http://dbpedia.org/resource/Kraven_the_Hunter_(Alyosha_Kravinoff)"
+                    }, {
+                        "label": "Ragman (comics)",
+                        "uri": "http://dbpedia.org/resource/Ragman_(comics)"
+                    }, {
+                        "label": "Rainbow Raider",
+                        "uri": "http://dbpedia.org/resource/Rainbow_Raider"
+                    }, {
+                        "label": "Electro (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Electro_(Marvel_Comics)"
+                    }, {
+                        "label": "Green Goblin",
+                        "uri": "http://dbpedia.org/resource/Green_Goblin"
+                    }, {
+                        "label": "List of Marvel Comics characters: B",
+                        "uri": "http://dbpedia.org/resource/List_of_Marvel_Comics_characters:_B"
+                    }, {
+                        "label": "Terra (comics)",
+                        "uri": "http://dbpedia.org/resource/Terra_(comics)"
+                    }, {
+                        "label": "Wiccan (comics)",
+                        "uri": "http://dbpedia.org/resource/Wiccan_(comics)"
+                    }, {
+                        "label": "Gladiator (Kallark)",
+                        "uri": "http://dbpedia.org/resource/Gladiator_(Kallark)"
+                    }, {
+                        "label": "Gloss (comics)",
+                        "uri": "http://dbpedia.org/resource/Gloss_(comics)"
+                    }, {
+                        "label": "Gog (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Gog_(DC_Comics)"
+                    }, {
+                        "label": "Gravity (comics)",
+                        "uri": "http://dbpedia.org/resource/Gravity_(comics)"
+                    }, {
+                        "label": "Green Arrow",
+                        "uri": "http://dbpedia.org/resource/Green_Arrow"
+                    }, {
+                        "label": "Green Hornet",
+                        "uri": "http://dbpedia.org/resource/Green_Hornet"
+                    }, {
+                        "label": "Grizzly (comics)",
+                        "uri": "http://dbpedia.org/resource/Grizzly_(comics)"
+                    }, {
+                        "label": "Guardian (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Guardian_(DC_Comics)"
+                    }, {
+                        "label": "Gunfire (comics)",
+                        "uri": "http://dbpedia.org/resource/Gunfire_(comics)"
+                    }, {
+                        "label": "Hades (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Hades_(DC_Comics)"
+                    }, {
+                        "label": "Halo (comics)",
+                        "uri": "http://dbpedia.org/resource/Halo_(comics)"
+                    }, {
+                        "label": "Harlequin (comics)",
+                        "uri": "http://dbpedia.org/resource/Harlequin_(comics)"
+                    }, {
+                        "label": "Harm (comics)",
+                        "uri": "http://dbpedia.org/resource/Harm_(comics)"
+                    }, {
+                        "label": "Harpy (Denise de Sevigne)",
+                        "uri": "http://dbpedia.org/resource/Harpy_(Denise_de_Sevigne)"
+                    }, {
+                        "label": "Harpy (Iris Phelios)",
+                        "uri": "http://dbpedia.org/resource/Harpy_(Iris_Phelios)"
+                    }, {
+                        "label": "Manhunter (comics)",
+                        "uri": "http://dbpedia.org/resource/Manhunter_(comics)"
+                    }, {
+                        "label": "Thing (comics)",
+                        "uri": "http://dbpedia.org/resource/Thing_(comics)"
+                    }, {
+                        "label": "Hellboy",
+                        "uri": "http://dbpedia.org/resource/Hellboy"
+                    }, {
+                        "label": "Hellgrammite (comics)",
+                        "uri": "http://dbpedia.org/resource/Hellgrammite_(comics)"
+                    }, {
+                        "label": "Hercules (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Hercules_(Marvel_Comics)"
+                    }, {
+                        "label": "Hitman (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Hitman_(Marvel_Comics)"
+                    }, {
+                        "label": "Hobgoblin (comics)",
+                        "uri": "http://dbpedia.org/resource/Hobgoblin_(comics)"
+                    }, {
+                        "label": "Hoppy the Marvel Bunny",
+                        "uri": "http://dbpedia.org/resource/Hoppy_the_Marvel_Bunny"
+                    }, {
+                        "label": "Human Bomb",
+                        "uri": "http://dbpedia.org/resource/Human_Bomb"
+                    }, {
+                        "label": "Human Target",
+                        "uri": "http://dbpedia.org/resource/Human_Target"
+                    }, {
+                        "label": "Hyperion (comics)",
+                        "uri": "http://dbpedia.org/resource/Hyperion_(comics)"
+                    }, {
+                        "label": "Inferno (Dante Pertuz)",
+                        "uri": "http://dbpedia.org/resource/Inferno_(Dante_Pertuz)"
+                    }, {
+                        "label": "Insect Queen (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Insect_Queen_(DC_Comics)"
+                    }, {
+                        "label": "Invisible Kid",
+                        "uri": "http://dbpedia.org/resource/Invisible_Kid"
+                    }, {
+                        "label": "Extraño",
+                        "uri": "http://dbpedia.org/resource/Extraño"
+                    }, {
+                        "label": "Nite-Wing",
+                        "uri": "http://dbpedia.org/resource/Nite-Wing"
+                    }, {
+                        "label": "Catwoman",
+                        "uri": "http://dbpedia.org/resource/Catwoman"
+                    }, {
+                        "label": "Chase (comics)",
+                        "uri": "http://dbpedia.org/resource/Chase_(comics)"
+                    }, {
+                        "label": "Film Freak",
+                        "uri": "http://dbpedia.org/resource/Film_Freak"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "PERSON",
+            "returnType": "THING",
+            "frameType": "NPP",
+            "sentences": ["the alter ego of $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/property/alterEgo> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Carrie Kelley",
+                        "uri": "http://dbpedia.org/resource/Carrie_Kelley"
+                    }, {
+                        "label": "Cat-Man and Kitten",
+                        "uri": "http://dbpedia.org/resource/Cat-Man_and_Kitten"
+                    }, {
+                        "label": "Cat Claw",
+                        "uri": "http://dbpedia.org/resource/Cat_Claw"
+                    }, {
+                        "label": "Copycat (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Copycat_(Marvel_Comics)"
+                    }, {
+                        "label": "Cybernary",
+                        "uri": "http://dbpedia.org/resource/Cybernary"
+                    }, {
+                        "label": "Cyborg Superman",
+                        "uri": "http://dbpedia.org/resource/Cyborg_Superman"
+                    }, {
+                        "label": "Cyclone (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Cyclone_(Marvel_Comics)"
+                    }, {
+                        "label": "Cyclotron (character)",
+                        "uri": "http://dbpedia.org/resource/Cyclotron_(character)"
+                    }, {
+                        "label": "Damage (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Damage_(Marvel_Comics)"
+                    }, {
+                        "label": "Harper Row",
+                        "uri": "http://dbpedia.org/resource/Harper_Row"
+                    }, {
+                        "label": "Il Grande Blek",
+                        "uri": "http://dbpedia.org/resource/Il_Grande_Blek"
+                    }, {
+                        "label": "Sabretooth (comics)",
+                        "uri": "http://dbpedia.org/resource/Sabretooth_(comics)"
+                    }, {
+                        "label": "Storm (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Storm_(Marvel_Comics)"
+                    }, {
+                        "label": "The Brain (Bell comics)",
+                        "uri": "http://dbpedia.org/resource/The_Brain_(Bell_comics)"
+                    }, {
+                        "label": "Egg Fu",
+                        "uri": "http://dbpedia.org/resource/Egg_Fu"
+                    }, {
+                        "label": "Rose (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Rose_(Marvel_Comics)"
+                    }, {
+                        "label": "Sabra (comics)",
+                        "uri": "http://dbpedia.org/resource/Sabra_(comics)"
+                    }, {
+                        "label": "Samurai (Super Friends)",
+                        "uri": "http://dbpedia.org/resource/Samurai_(Super_Friends)"
+                    }, {
+                        "label": "Sandman (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Sandman_(DC_Comics)"
+                    }, {
+                        "label": "Sandy Hawkins",
+                        "uri": "http://dbpedia.org/resource/Sandy_Hawkins"
+                    }, {
+                        "label": "Saracen (comics)",
+                        "uri": "http://dbpedia.org/resource/Saracen_(comics)"
+                    }, {
+                        "label": "Scalphunter (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Scalphunter_(DC_Comics)"
+                    }, {
+                        "label": "Scarecrow (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Scarecrow_(DC_Comics)"
+                    }, {
+                        "label": "Scoop Smith",
+                        "uri": "http://dbpedia.org/resource/Scoop_Smith"
+                    }, {
+                        "label": "Scorn (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Scorn_(DC_Comics)"
+                    }, {
+                        "label": "Flygirl (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Flygirl_(Archie_Comics)"
+                    }, {
+                        "label": "Foreskin Man",
+                        "uri": "http://dbpedia.org/resource/Foreskin_Man"
+                    }, {
+                        "label": "Viking Prince",
+                        "uri": "http://dbpedia.org/resource/Viking_Prince"
+                    }, {
+                        "label": "Rockslide (comics)",
+                        "uri": "http://dbpedia.org/resource/Rockslide_(comics)"
+                    }, {
+                        "label": "Hangman (Archie Comics)",
+                        "uri": "http://dbpedia.org/resource/Hangman_(Archie_Comics)"
+                    }, {
+                        "label": "Punisher 2099",
+                        "uri": "http://dbpedia.org/resource/Punisher_2099"
+                    }, {
+                        "label": "Western Kid",
+                        "uri": "http://dbpedia.org/resource/Western_Kid"
+                    }, {
+                        "label": "Valerie Perez",
+                        "uri": "http://dbpedia.org/resource/Valerie_Perez"
+                    }, {
+                        "label": "Kamala Khan",
+                        "uri": "http://dbpedia.org/resource/Kamala_Khan"
+                    }, {
+                        "label": "Manhunter (Mark Shaw)",
+                        "uri": "http://dbpedia.org/resource/Manhunter_(Mark_Shaw)"
+                    }, {
+                        "label": "Manhunter (Paul Kirk)",
+                        "uri": "http://dbpedia.org/resource/Manhunter_(Paul_Kirk)"
+                    }, {
+                        "label": "Metamorpho",
+                        "uri": "http://dbpedia.org/resource/Metamorpho"
+                    }, {
+                        "label": "Streaky the Supercat",
+                        "uri": "http://dbpedia.org/resource/Streaky_the_Supercat"
+                    }, {
+                        "label": "Miss Masque",
+                        "uri": "http://dbpedia.org/resource/Miss_Masque"
+                    }, {
+                        "label": "Miss Victory",
+                        "uri": "http://dbpedia.org/resource/Miss_Victory"
+                    }, {
+                        "label": "Minotaur (comics)",
+                        "uri": "http://dbpedia.org/resource/Minotaur_(comics)"
+                    }, {
+                        "label": "Mitchell Carson",
+                        "uri": "http://dbpedia.org/resource/Mitchell_Carson"
+                    }, {
+                        "label": "Nightveil",
+                        "uri": "http://dbpedia.org/resource/Nightveil"
+                    }, {
+                        "label": "Superduperman",
+                        "uri": "http://dbpedia.org/resource/Superduperman"
+                    }, {
+                        "label": "Black Canary",
+                        "uri": "http://dbpedia.org/resource/Black_Canary"
+                    }, {
+                        "label": "Black Canary (Dinah Drake)",
+                        "uri": "http://dbpedia.org/resource/Black_Canary_(Dinah_Drake)"
+                    }, {
+                        "label": "Black Canary (Dinah Laurel Lance)",
+                        "uri": "http://dbpedia.org/resource/Black_Canary_(Dinah_Laurel_Lance)"
+                    }, {
+                        "label": "Blockbuster (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Blockbuster_(DC_Comics)"
+                    }, {
+                        "label": "Brainiac (character)",
+                        "uri": "http://dbpedia.org/resource/Brainiac_(character)"
+                    }, {
+                        "label": "Doctor Doom",
+                        "uri": "http://dbpedia.org/resource/Doctor_Doom"
+                    }, {
+                        "label": "Doctor Spectro",
+                        "uri": "http://dbpedia.org/resource/Doctor_Spectro"
+                    }, {
+                        "label": "Donald Duck in comics",
+                        "uri": "http://dbpedia.org/resource/Donald_Duck_in_comics"
+                    }, {
+                        "label": "Angelfood McSpade",
+                        "uri": "http://dbpedia.org/resource/Angelfood_McSpade"
+                    }, {
+                        "label": "Glorian",
+                        "uri": "http://dbpedia.org/resource/Glorian"
+                    }, {
+                        "label": "Green Arrow (Connor Hawke)",
+                        "uri": "http://dbpedia.org/resource/Green_Arrow_(Connor_Hawke)"
+                    }, {
+                        "label": "Guardian Prime",
+                        "uri": "http://dbpedia.org/resource/Guardian_Prime"
+                    }, {
+                        "label": "Kid Eternity",
+                        "uri": "http://dbpedia.org/resource/Kid_Eternity"
+                    }, {
+                        "label": "Knightfall (comics)",
+                        "uri": "http://dbpedia.org/resource/Knightfall_(comics)"
+                    }, {
+                        "label": "Kraven the Hunter (Alyosha Kravinoff)",
+                        "uri": "http://dbpedia.org/resource/Kraven_the_Hunter_(Alyosha_Kravinoff)"
+                    }, {
+                        "label": "Ragman (comics)",
+                        "uri": "http://dbpedia.org/resource/Ragman_(comics)"
+                    }, {
+                        "label": "Rainbow Raider",
+                        "uri": "http://dbpedia.org/resource/Rainbow_Raider"
+                    }, {
+                        "label": "Electro (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Electro_(Marvel_Comics)"
+                    }, {
+                        "label": "Green Goblin",
+                        "uri": "http://dbpedia.org/resource/Green_Goblin"
+                    }, {
+                        "label": "List of Marvel Comics characters: B",
+                        "uri": "http://dbpedia.org/resource/List_of_Marvel_Comics_characters:_B"
+                    }, {
+                        "label": "Terra (comics)",
+                        "uri": "http://dbpedia.org/resource/Terra_(comics)"
+                    }, {
+                        "label": "Wiccan (comics)",
+                        "uri": "http://dbpedia.org/resource/Wiccan_(comics)"
+                    }, {
+                        "label": "Gladiator (Kallark)",
+                        "uri": "http://dbpedia.org/resource/Gladiator_(Kallark)"
+                    }, {
+                        "label": "Gloss (comics)",
+                        "uri": "http://dbpedia.org/resource/Gloss_(comics)"
+                    }, {
+                        "label": "Gog (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Gog_(DC_Comics)"
+                    }, {
+                        "label": "Gravity (comics)",
+                        "uri": "http://dbpedia.org/resource/Gravity_(comics)"
+                    }, {
+                        "label": "Green Arrow",
+                        "uri": "http://dbpedia.org/resource/Green_Arrow"
+                    }, {
+                        "label": "Green Hornet",
+                        "uri": "http://dbpedia.org/resource/Green_Hornet"
+                    }, {
+                        "label": "Grizzly (comics)",
+                        "uri": "http://dbpedia.org/resource/Grizzly_(comics)"
+                    }, {
+                        "label": "Guardian (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Guardian_(DC_Comics)"
+                    }, {
+                        "label": "Gunfire (comics)",
+                        "uri": "http://dbpedia.org/resource/Gunfire_(comics)"
+                    }, {
+                        "label": "Hades (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Hades_(DC_Comics)"
+                    }, {
+                        "label": "Halo (comics)",
+                        "uri": "http://dbpedia.org/resource/Halo_(comics)"
+                    }, {
+                        "label": "Harlequin (comics)",
+                        "uri": "http://dbpedia.org/resource/Harlequin_(comics)"
+                    }, {
+                        "label": "Harm (comics)",
+                        "uri": "http://dbpedia.org/resource/Harm_(comics)"
+                    }, {
+                        "label": "Harpy (Denise de Sevigne)",
+                        "uri": "http://dbpedia.org/resource/Harpy_(Denise_de_Sevigne)"
+                    }, {
+                        "label": "Harpy (Iris Phelios)",
+                        "uri": "http://dbpedia.org/resource/Harpy_(Iris_Phelios)"
+                    }, {
+                        "label": "Manhunter (comics)",
+                        "uri": "http://dbpedia.org/resource/Manhunter_(comics)"
+                    }, {
+                        "label": "Thing (comics)",
+                        "uri": "http://dbpedia.org/resource/Thing_(comics)"
+                    }, {
+                        "label": "Hellboy",
+                        "uri": "http://dbpedia.org/resource/Hellboy"
+                    }, {
+                        "label": "Hellgrammite (comics)",
+                        "uri": "http://dbpedia.org/resource/Hellgrammite_(comics)"
+                    }, {
+                        "label": "Hercules (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Hercules_(Marvel_Comics)"
+                    }, {
+                        "label": "Hitman (Marvel Comics)",
+                        "uri": "http://dbpedia.org/resource/Hitman_(Marvel_Comics)"
+                    }, {
+                        "label": "Hobgoblin (comics)",
+                        "uri": "http://dbpedia.org/resource/Hobgoblin_(comics)"
+                    }, {
+                        "label": "Hoppy the Marvel Bunny",
+                        "uri": "http://dbpedia.org/resource/Hoppy_the_Marvel_Bunny"
+                    }, {
+                        "label": "Human Bomb",
+                        "uri": "http://dbpedia.org/resource/Human_Bomb"
+                    }, {
+                        "label": "Human Target",
+                        "uri": "http://dbpedia.org/resource/Human_Target"
+                    }, {
+                        "label": "Hyperion (comics)",
+                        "uri": "http://dbpedia.org/resource/Hyperion_(comics)"
+                    }, {
+                        "label": "Inferno (Dante Pertuz)",
+                        "uri": "http://dbpedia.org/resource/Inferno_(Dante_Pertuz)"
+                    }, {
+                        "label": "Insect Queen (DC Comics)",
+                        "uri": "http://dbpedia.org/resource/Insect_Queen_(DC_Comics)"
+                    }, {
+                        "label": "Invisible Kid",
+                        "uri": "http://dbpedia.org/resource/Invisible_Kid"
+                    }, {
+                        "label": "Extraño",
+                        "uri": "http://dbpedia.org/resource/Extraño"
+                    }, {
+                        "label": "Nite-Wing",
+                        "uri": "http://dbpedia.org/resource/Nite-Wing"
+                    }, {
+                        "label": "Catwoman",
+                        "uri": "http://dbpedia.org/resource/Catwoman"
+                    }, {
+                        "label": "Chase (comics)",
+                        "uri": "http://dbpedia.org/resource/Chase_(comics)"
+                    }, {
+                        "label": "Film Freak",
+                        "uri": "http://dbpedia.org/resource/Film_Freak"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Luxembourg (canton)",
+                        "uri": "http://dbpedia.org/resource/Luxembourg_(canton)"
+                    }, {
+                        "label": "Luxembourg City",
+                        "uri": "http://dbpedia.org/resource/Luxembourg_City"
+                    }, {
+                        "label": "Luzon Strait",
+                        "uri": "http://dbpedia.org/resource/Luzon_Strait"
+                    }, {
+                        "label": "Madiromirafy",
+                        "uri": "http://dbpedia.org/resource/Madiromirafy"
+                    }, {
+                        "label": "Madirovalo",
+                        "uri": "http://dbpedia.org/resource/Madirovalo"
+                    }, {
+                        "label": "Maevaranohely",
+                        "uri": "http://dbpedia.org/resource/Maevaranohely"
+                    }, {
+                        "label": "Maevatanana",
+                        "uri": "http://dbpedia.org/resource/Maevatanana"
+                    }, {
+                        "label": "Maevatanana (district)",
+                        "uri": "http://dbpedia.org/resource/Maevatanana_(district)"
+                    }, {
+                        "label": "Maevatanana II",
+                        "uri": "http://dbpedia.org/resource/Maevatanana_II"
+                    }, {
+                        "label": "Mafaijijo",
+                        "uri": "http://dbpedia.org/resource/Mafaijijo"
+                    }, {
+                        "label": "Mahabako",
+                        "uri": "http://dbpedia.org/resource/Mahabako"
+                    }, {
+                        "label": "Mahabe",
+                        "uri": "http://dbpedia.org/resource/Mahabe"
+                    }, {
+                        "label": "Mahabo, Betroka",
+                        "uri": "http://dbpedia.org/resource/Mahabo,_Betroka"
+                    }, {
+                        "label": "Mahabo, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahabo,_Vohipeno"
+                    }, {
+                        "label": "Mahabo (district)",
+                        "uri": "http://dbpedia.org/resource/Mahabo_(district)"
+                    }, {
+                        "label": "Mahabo Mananivo",
+                        "uri": "http://dbpedia.org/resource/Mahabo_Mananivo"
+                    }, {
+                        "label": "Mahaboboka",
+                        "uri": "http://dbpedia.org/resource/Mahaboboka"
+                    }, {
+                        "label": "Mahaditra",
+                        "uri": "http://dbpedia.org/resource/Mahaditra"
+                    }, {
+                        "label": "Mahadrodroka",
+                        "uri": "http://dbpedia.org/resource/Mahadrodroka"
+                    }, {
+                        "label": "Mahaela",
+                        "uri": "http://dbpedia.org/resource/Mahaela"
+                    }, {
+                        "label": "Mahafasa Centre",
+                        "uri": "http://dbpedia.org/resource/Mahafasa_Centre"
+                    }, {
+                        "label": "Mahaiza",
+                        "uri": "http://dbpedia.org/resource/Mahaiza"
+                    }, {
+                        "label": "Mahajamba Usine",
+                        "uri": "http://dbpedia.org/resource/Mahajamba_Usine"
+                    }, {
+                        "label": "Mahajanga",
+                        "uri": "http://dbpedia.org/resource/Mahajanga"
+                    }, {
+                        "label": "Mahajanga II (district)",
+                        "uri": "http://dbpedia.org/resource/Mahajanga_II_(district)"
+                    }, {
+                        "label": "Mahajanga Province",
+                        "uri": "http://dbpedia.org/resource/Mahajanga_Province"
+                    }, {
+                        "label": "Mahalaza-Fanimana",
+                        "uri": "http://dbpedia.org/resource/Mahalaza-Fanimana"
+                    }, {
+                        "label": "Mahalina",
+                        "uri": "http://dbpedia.org/resource/Mahalina"
+                    }, {
+                        "label": "Mahaly",
+                        "uri": "http://dbpedia.org/resource/Mahaly"
+                    }, {
+                        "label": "Mahamaibe",
+                        "uri": "http://dbpedia.org/resource/Mahamaibe"
+                    }, {
+                        "label": "Mahambo",
+                        "uri": "http://dbpedia.org/resource/Mahambo"
+                    }, {
+                        "label": "Mahanoro",
+                        "uri": "http://dbpedia.org/resource/Mahanoro"
+                    }, {
+                        "label": "Mahanoro (district)",
+                        "uri": "http://dbpedia.org/resource/Mahanoro_(district)"
+                    }, {
+                        "label": "Mahasoa",
+                        "uri": "http://dbpedia.org/resource/Mahasoa"
+                    }, {
+                        "label": "Mahasoa Est",
+                        "uri": "http://dbpedia.org/resource/Mahasoa_Est"
+                    }, {
+                        "label": "Mahasoabe, Fianarantsoa II",
+                        "uri": "http://dbpedia.org/resource/Mahasoabe,_Fianarantsoa_II"
+                    }, {
+                        "label": "Mahasoabe, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahasoabe,_Vohipeno"
+                    }, {
+                        "label": "Mahasolo",
+                        "uri": "http://dbpedia.org/resource/Mahasolo"
+                    }, {
+                        "label": "Mahatalaky",
+                        "uri": "http://dbpedia.org/resource/Mahatalaky"
+                    }, {
+                        "label": "Mahatsara Iefaka",
+                        "uri": "http://dbpedia.org/resource/Mahatsara_Iefaka"
+                    }, {
+                        "label": "Mahatsara Sud",
+                        "uri": "http://dbpedia.org/resource/Mahatsara_Sud"
+                    }, {
+                        "label": "Mahatsinjo, Maevatanana",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo,_Maevatanana"
+                    }, {
+                        "label": "Mahatsinjo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo,_Vondrozo"
+                    }, {
+                        "label": "Mahatsinjo Est",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo_Est"
+                    }, {
+                        "label": "Mahatsinjony",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjony"
+                    }, {
+                        "label": "Mahavanona",
+                        "uri": "http://dbpedia.org/resource/Mahavanona"
+                    }, {
+                        "label": "Mahavelo, Farafangana",
+                        "uri": "http://dbpedia.org/resource/Mahavelo,_Farafangana"
+                    }, {
+                        "label": "Mahavelo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahavelo,_Vondrozo"
+                    }, {
+                        "label": "Mahavelona",
+                        "uri": "http://dbpedia.org/resource/Mahavelona"
+                    }, {
+                        "label": "Mahavelona, Soavinandriana",
+                        "uri": "http://dbpedia.org/resource/Mahavelona,_Soavinandriana"
+                    }, {
+                        "label": "Mahavoky Nord",
+                        "uri": "http://dbpedia.org/resource/Mahavoky_Nord"
+                    }, {
+                        "label": "Mahazina Ambohipierenana",
+                        "uri": "http://dbpedia.org/resource/Mahazina_Ambohipierenana"
+                    }, {
+                        "label": "Mahazoarivo, Fandriana",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Fandriana"
+                    }, {
+                        "label": "Mahazoarivo, Fianarantsoa II",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Fianarantsoa_II"
+                    }, {
+                        "label": "Mahazoarivo, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Vohipeno"
+                    }, {
+                        "label": "Mahazoarivo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Vondrozo"
+                    }, {
+                        "label": "Mahazoma",
+                        "uri": "http://dbpedia.org/resource/Mahazoma"
+                    }, {
+                        "label": "Mahazony",
+                        "uri": "http://dbpedia.org/resource/Mahazony"
+                    }, {
+                        "label": "Maheriraty",
+                        "uri": "http://dbpedia.org/resource/Maheriraty"
+                    }, {
+                        "label": "Maherivaratra",
+                        "uri": "http://dbpedia.org/resource/Maherivaratra"
+                    }, {
+                        "label": "Maintinandry",
+                        "uri": "http://dbpedia.org/resource/Maintinandry"
+                    }, {
+                        "label": "Maintirano",
+                        "uri": "http://dbpedia.org/resource/Maintirano"
+                    }, {
+                        "label": "Maintirano District",
+                        "uri": "http://dbpedia.org/resource/Maintirano_District"
+                    }, {
+                        "label": "Maintsokely",
+                        "uri": "http://dbpedia.org/resource/Maintsokely"
+                    }, {
+                        "label": "Malaimbandy",
+                        "uri": "http://dbpedia.org/resource/Malaimbandy"
+                    }, {
+                        "label": "Consthum",
+                        "uri": "http://dbpedia.org/resource/Consthum"
+                    }, {
+                        "label": "Useldange",
+                        "uri": "http://dbpedia.org/resource/Useldange"
+                    }, {
+                        "label": "Vakinankaratra",
+                        "uri": "http://dbpedia.org/resource/Vakinankaratra"
+                    }, {
+                        "label": "Valabetokana",
+                        "uri": "http://dbpedia.org/resource/Valabetokana"
+                    }, {
+                        "label": "Vallée de l'Ernz",
+                        "uri": "http://dbpedia.org/resource/Vallée_de_l'Ernz"
+                    }, {
+                        "label": "Vangaindrano (district)",
+                        "uri": "http://dbpedia.org/resource/Vangaindrano_(district)"
+                    }, {
+                        "label": "Vanono",
+                        "uri": "http://dbpedia.org/resource/Vanono"
+                    }, {
+                        "label": "Vasiana",
+                        "uri": "http://dbpedia.org/resource/Vasiana"
+                    }, {
+                        "label": "Vatana, Madagascar",
+                        "uri": "http://dbpedia.org/resource/Vatana,_Madagascar"
+                    }, {
+                        "label": "Vatanato",
+                        "uri": "http://dbpedia.org/resource/Vatanato"
+                    }, {
+                        "label": "Vatohandrina",
+                        "uri": "http://dbpedia.org/resource/Vatohandrina"
+                    }, {
+                        "label": "Vatolatsaka",
+                        "uri": "http://dbpedia.org/resource/Vatolatsaka"
+                    }, {
+                        "label": "Vatomandry",
+                        "uri": "http://dbpedia.org/resource/Vatomandry"
+                    }, {
+                        "label": "Vatomandry (district)",
+                        "uri": "http://dbpedia.org/resource/Vatomandry_(district)"
+                    }, {
+                        "label": "Vatovavy-Fitovinany",
+                        "uri": "http://dbpedia.org/resource/Vatovavy-Fitovinany"
+                    }, {
+                        "label": "Vavatenina",
+                        "uri": "http://dbpedia.org/resource/Vavatenina"
+                    }, {
+                        "label": "Vavatenina District",
+                        "uri": "http://dbpedia.org/resource/Vavatenina_District"
+                    }, {
+                        "label": "Veromanga",
+                        "uri": "http://dbpedia.org/resource/Veromanga"
+                    }, {
+                        "label": "Folschette",
+                        "uri": "http://dbpedia.org/resource/Folschette"
+                    }, {
+                        "label": "Khodoriv",
+                        "uri": "http://dbpedia.org/resource/Khodoriv"
+                    }, {
+                        "label": "Bissen",
+                        "uri": "http://dbpedia.org/resource/Bissen"
+                    }, {
+                        "label": "Biwer",
+                        "uri": "http://dbpedia.org/resource/Biwer"
+                    }, {
+                        "label": "Boanamary",
+                        "uri": "http://dbpedia.org/resource/Boanamary"
+                    }, {
+                        "label": "Bobakindro",
+                        "uri": "http://dbpedia.org/resource/Bobakindro"
+                    }, {
+                        "label": "Bobasakoa",
+                        "uri": "http://dbpedia.org/resource/Bobasakoa"
+                    }, {
+                        "label": "Boeny",
+                        "uri": "http://dbpedia.org/resource/Boeny"
+                    }, {
+                        "label": "Bongolava",
+                        "uri": "http://dbpedia.org/resource/Bongolava"
+                    }, {
+                        "label": "Boriziny-Vaovao (district)",
+                        "uri": "http://dbpedia.org/resource/Boriziny-Vaovao_(district)"
+                    }, {
+                        "label": "Borynia, Turka Raion",
+                        "uri": "http://dbpedia.org/resource/Borynia,_Turka_Raion"
+                    }, {
+                        "label": "Boulaide",
+                        "uri": "http://dbpedia.org/resource/Boulaide"
+                    }, {
+                        "label": "Bourscheid, Luxembourg",
+                        "uri": "http://dbpedia.org/resource/Bourscheid,_Luxembourg"
+                    }, {
+                        "label": "Bous, Luxembourg",
+                        "uri": "http://dbpedia.org/resource/Bous,_Luxembourg"
+                    }, {
+                        "label": "Diana Region",
+                        "uri": "http://dbpedia.org/resource/Diana_Region"
+                    }, {
+                        "label": "Didy",
+                        "uri": "http://dbpedia.org/resource/Didy"
+                    }, {
+                        "label": "Diekirch",
+                        "uri": "http://dbpedia.org/resource/Diekirch"
+                    }]
+            },
+            "combination": false
+        }]
+}

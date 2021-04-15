@@ -1,0 +1,615 @@
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian clerics?", "Which is a Belgian cleric?", "Which was a Belgian cleric?", "Which were Belgian clerics?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian cleric", "Belgian clerics"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian office holders?", "Which is a Belgian office holder?", "Which was a Belgian office holder?", "Which were Belgian office holders?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian office holder", "Belgian office holders"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "5",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian agents?", "Which is a Belgian agent?", "Which was a Belgian agent?", "Which were Belgian agents?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "6",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian agent", "Belgian agents"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "7",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian economists?", "Which is a Belgian economist?", "Which was a Belgian economist?", "Which were Belgian economists?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "8",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian economist", "Belgian economists"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "9",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian motorcycle riders?", "Which is a Belgian motorcycle rider?", "Which was a Belgian motorcycle rider?", "Which were Belgian motorcycle riders?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "10",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian motorcycle rider", "Belgian motorcycle riders"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "11",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian artists?", "Which is a Belgian artist?", "Which was a Belgian artist?", "Which were Belgian artists?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "12",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian artist", "Belgian artists"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "13",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian athletes?", "Which is a Belgian athlete?", "Which was a Belgian athlete?", "Which were Belgian athletes?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "14",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian athlete", "Belgian athletes"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "15",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian scientists?", "Which is a Belgian scientist?", "Which was a Belgian scientist?", "Which were Belgian scientists?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "16",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian scientist", "Belgian scientists"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "17",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian architects?", "Which is a Belgian architect?", "Which was a Belgian architect?", "Which were Belgian architects?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "18",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian architect", "Belgian architects"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "19",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian golf players?", "Which is a Belgian golf player?", "Which was a Belgian golf player?", "Which were Belgian golf players?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "20",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian golf player", "Belgian golf players"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "21",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian racing drivers?", "Which is a Belgian racing driver?", "Which was a Belgian racing driver?", "Which were Belgian racing drivers?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "22",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian racing driver", "Belgian racing drivers"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "23",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian politicians?", "Which is a Belgian politician?", "Which was a Belgian politician?", "Which were Belgian politicians?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "24",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian politician", "Belgian politicians"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "25",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian swimmers?", "Which is a Belgian swimmer?", "Which was a Belgian swimmer?", "Which were Belgian swimmers?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "26",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian swimmer", "Belgian swimmers"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "27",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian volleyball players?", "Which is a Belgian volleyball player?", "Which was a Belgian volleyball player?", "Which were Belgian volleyball players?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "28",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian volleyball player", "Belgian volleyball players"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "29",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "THING",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian fashion designers?", "Which is a Belgian fashion designer?", "Which was a Belgian fashion designer?", "Which were Belgian fashion designers?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FashionDesigner>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "32",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian person", "Belgian persons"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "33",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian comics creators?", "Which is a Belgian comics creator?", "Which was a Belgian comics creator?", "Which were Belgian comics creators?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "34",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian comics creator", "Belgian comics creators"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "35",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian writers?", "Which is a Belgian writer?", "Which was a Belgian writer?", "Which were Belgian writers?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "36",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian writer", "Belgian writers"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "37",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["Which are Belgian motorsport racers?", "Which is a Belgian motorsport racer?", "Which was a Belgian motorsport racer?", "Which were Belgian motorsport racers?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "38",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "PERSON",
+            "frameType": "AA",
+            "sentences": ["a Belgian motorsport racer", "Belgian motorsport racers"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }]
+}

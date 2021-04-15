@@ -1,0 +1,1279 @@
+{
+    "grammarEntries": [  {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "BUILDING",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["What is the highest ($x | BUILDING_NP)?", "What was the highest ($x | BUILDING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Building>)\n  (triple ?isA <http://dbpedia.org/ontology/height> ?objOfProp)\n)\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "2016 New York and New Jersey bombings",
+                        "uri": "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
+                    }, {
+                        "label": "680 N Lake Shore Drive",
+                        "uri": "http://dbpedia.org/resource/680_N_Lake_Shore_Drive"
+                    }, {
+                        "label": "69-71 Bondway",
+                        "uri": "http://dbpedia.org/resource/69-71_Bondway"
+                    }, {
+                        "label": "80 Flatbush",
+                        "uri": "http://dbpedia.org/resource/80_Flatbush"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "A. J. Pagano",
+                        "uri": "http://dbpedia.org/resource/A._J._Pagano"
+                    }, {
+                        "label": "AAC-1937",
+                        "uri": "http://dbpedia.org/resource/AAC-1937"
+                    }, {
+                        "label": "ADM-20 Quail",
+                        "uri": "http://dbpedia.org/resource/ADM-20_Quail"
+                    }, {
+                        "label": "AEC Matador",
+                        "uri": "http://dbpedia.org/resource/AEC_Matador"
+                    }, {
+                        "label": "AEC Regal VI",
+                        "uri": "http://dbpedia.org/resource/AEC_Regal_VI"
+                    }, {
+                        "label": "AEC Reliance",
+                        "uri": "http://dbpedia.org/resource/AEC_Reliance"
+                    }, {
+                        "label": "AEC Swift",
+                        "uri": "http://dbpedia.org/resource/AEC_Swift"
+                    }, {
+                        "label": "AIFV",
+                        "uri": "http://dbpedia.org/resource/AIFV"
+                    }, {
+                        "label": "AIL M325 Command Car",
+                        "uri": "http://dbpedia.org/resource/AIL_M325_Command_Car"
+                    }, {
+                        "label": "AMC 34",
+                        "uri": "http://dbpedia.org/resource/AMC_34"
+                    }, {
+                        "label": "AMT Lightning pistol",
+                        "uri": "http://dbpedia.org/resource/AMT_Lightning_pistol"
+                    }, {
+                        "label": "AMX-VCI",
+                        "uri": "http://dbpedia.org/resource/AMX-VCI"
+                    }, {
+                        "label": "AMZ Dzik",
+                        "uri": "http://dbpedia.org/resource/AMZ_Dzik"
+                    }, {
+                        "label": "AMZ Żubr",
+                        "uri": "http://dbpedia.org/resource/AMZ_Żubr"
+                    }, {
+                        "label": "AN/TWQ-1 Avenger",
+                        "uri": "http://dbpedia.org/resource/AN/TWQ-1_Avenger"
+                    }, {
+                        "label": "APA Building, Melbourne",
+                        "uri": "http://dbpedia.org/resource/APA_Building,_Melbourne"
+                    }, {
+                        "label": "Love (footballer)",
+                        "uri": "http://dbpedia.org/resource/Love_(footballer)"
+                    }, {
+                        "label": "Loveday Enyinnaya",
+                        "uri": "http://dbpedia.org/resource/Loveday_Enyinnaya"
+                    }, {
+                        "label": "Lovel Palmer",
+                        "uri": "http://dbpedia.org/resource/Lovel_Palmer"
+                    }, {
+                        "label": "Lovelace Ackah",
+                        "uri": "http://dbpedia.org/resource/Lovelace_Ackah"
+                    }, {
+                        "label": "Loveland Dam",
+                        "uri": "http://dbpedia.org/resource/Loveland_Dam"
+                    }, {
+                        "label": "Loveli",
+                        "uri": "http://dbpedia.org/resource/Loveli"
+                    }, {
+                        "label": "Lovelite Detenamo",
+                        "uri": "http://dbpedia.org/resource/Lovelite_Detenamo"
+                    }, {
+                        "label": "Lovell Coleman",
+                        "uri": "http://dbpedia.org/resource/Lovell_Coleman"
+                    }, {
+                        "label": "Lovelyn Enebechi",
+                        "uri": "http://dbpedia.org/resource/Lovelyn_Enebechi"
+                    }, {
+                        "label": "Lovepreet Singh",
+                        "uri": "http://dbpedia.org/resource/Lovepreet_Singh"
+                    }, {
+                        "label": "Lover's Leap Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Lover's_Leap_Lighthouse"
+                    }, {
+                        "label": "Loveth Ayila",
+                        "uri": "http://dbpedia.org/resource/Loveth_Ayila"
+                    }, {
+                        "label": "Lovett Tower",
+                        "uri": "http://dbpedia.org/resource/Lovett_Tower"
+                    }, {
+                        "label": "Lovieanne Jung",
+                        "uri": "http://dbpedia.org/resource/Lovieanne_Jung"
+                    }, {
+                        "label": "Lovisa Berndtsson",
+                        "uri": "http://dbpedia.org/resource/Lovisa_Berndtsson"
+                    }, {
+                        "label": "Lovlina Borgohain",
+                        "uri": "http://dbpedia.org/resource/Lovlina_Borgohain"
+                    }, {
+                        "label": "Lovre Brečić",
+                        "uri": "http://dbpedia.org/resource/Lovre_Brečić"
+                    }, {
+                        "label": "Lovre Kalinić",
+                        "uri": "http://dbpedia.org/resource/Lovre_Kalinić"
+                    }, {
+                        "label": "Lovre Knežević",
+                        "uri": "http://dbpedia.org/resource/Lovre_Knežević"
+                    }, {
+                        "label": "Lovre Vulin",
+                        "uri": "http://dbpedia.org/resource/Lovre_Vulin"
+                    }, {
+                        "label": "Lovre Čirjak",
+                        "uri": "http://dbpedia.org/resource/Lovre_Čirjak"
+                    }, {
+                        "label": "Lovro Benić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Benić"
+                    }, {
+                        "label": "Lovro Bizjak",
+                        "uri": "http://dbpedia.org/resource/Lovro_Bizjak"
+                    }, {
+                        "label": "Lovro Jotić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Jotić"
+                    }, {
+                        "label": "Lovro Majer",
+                        "uri": "http://dbpedia.org/resource/Lovro_Majer"
+                    }, {
+                        "label": "Lovro Medić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Medić"
+                    }, {
+                        "label": "Lovro Mihić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Mihić"
+                    }, {
+                        "label": "Lovro Paparić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Paparić"
+                    }, {
+                        "label": "Lovro Zovko",
+                        "uri": "http://dbpedia.org/resource/Lovro_Zovko"
+                    }, {
+                        "label": "Lovro Šćrbec",
+                        "uri": "http://dbpedia.org/resource/Lovro_Šćrbec"
+                    }, {
+                        "label": "Lovísa Henningsdóttir",
+                        "uri": "http://dbpedia.org/resource/Lovísa_Henningsdóttir"
+                    }, {
+                        "label": "Lovísa Thompson",
+                        "uri": "http://dbpedia.org/resource/Lovísa_Thompson"
+                    }, {
+                        "label": "Low Head Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Low_Head_Lighthouse"
+                    }, {
+                        "label": "Low Isles Light",
+                        "uri": "http://dbpedia.org/resource/Low_Isles_Light"
+                    }, {
+                        "label": "Low Ji Wen",
+                        "uri": "http://dbpedia.org/resource/Low_Ji_Wen"
+                    }, {
+                        "label": "Low Ki",
+                        "uri": "http://dbpedia.org/resource/Low_Ki"
+                    }, {
+                        "label": "Low Light of the Hook of Holland",
+                        "uri": "http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland"
+                    }, {
+                        "label": "Low Point Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Low_Point_Lighthouse"
+                    }, {
+                        "label": "Lowell Galloway",
+                        "uri": "http://dbpedia.org/resource/Lowell_Galloway"
+                    }, {
+                        "label": "Lowell Hamilton",
+                        "uri": "http://dbpedia.org/resource/Lowell_Hamilton"
+                    }, {
+                        "label": "Lowell MacDonald",
+                        "uri": "http://dbpedia.org/resource/Lowell_MacDonald"
+                    }, {
+                        "label": "Lowell Wright",
+                        "uri": "http://dbpedia.org/resource/Lowell_Wright"
+                    }, {
+                        "label": "Lower Baker Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Baker_Dam"
+                    }, {
+                        "label": "Lower Granite Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Granite_Dam"
+                    }, {
+                        "label": "Lower Grumbach Pond",
+                        "uri": "http://dbpedia.org/resource/Lower_Grumbach_Pond"
+                    }, {
+                        "label": "Lower Humbert Covered Bridge",
+                        "uri": "http://dbpedia.org/resource/Lower_Humbert_Covered_Bridge"
+                    }, {
+                        "label": "Lower Manair Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Manair_Dam"
+                    }, {
+                        "label": "Lower Monumental Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Monumental_Dam"
+                    }, {
+                        "label": "Lower Panzara Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Panzara_Dam"
+                    }, {
+                        "label": "Lower Paunglaung Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Paunglaung_Dam"
+                    }, {
+                        "label": "Lower Pus Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Pus_Dam"
+                    }, {
+                        "label": "Lower Salmon Falls Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Salmon_Falls_Dam"
+                    }, {
+                        "label": "Lower Se San 2 Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Se_San_2_Dam"
+                    }, {
+                        "label": "Lower Sre Pok 2 Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Sre_Pok_2_Dam"
+                    }, {
+                        "label": "Lower Tapi Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Tapi_Dam"
+                    }, {
+                        "label": "Lower Wardha Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Wardha_Dam"
+                    }, {
+                        "label": "Lower Wunna Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Wunna_Dam"
+                    }, {
+                        "label": "Lowes Moore",
+                        "uri": "http://dbpedia.org/resource/Lowes_Moore"
+                    }, {
+                        "label": "Lowestoft Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Lowestoft_Lighthouse"
+                    }, {
+                        "label": "Lowie Steuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Steuer"
+                    }, {
+                        "label": "Lowie Stuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Stuer"
+                    }, {
+                        "label": "Lowie van Zundert",
+                        "uri": "http://dbpedia.org/resource/Lowie_van_Zundert"
+                    }, {
+                        "label": "Loy Petersen",
+                        "uri": "http://dbpedia.org/resource/Loy_Petersen"
+                    }, {
+                        "label": "Loy Stewart",
+                        "uri": "http://dbpedia.org/resource/Loy_Stewart"
+                    }, {
+                        "label": "Loy Vaught",
+                        "uri": "http://dbpedia.org/resource/Loy_Vaught"
+                    }, {
+                        "label": "Loyal Oakley",
+                        "uri": "http://dbpedia.org/resource/Loyal_Oakley"
+                    }, {
+                        "label": "Loyd Carrier",
+                        "uri": "http://dbpedia.org/resource/Loyd_Carrier"
+                    }, {
+                        "label": "Loyd King",
+                        "uri": "http://dbpedia.org/resource/Loyd_King"
+                    }, {
+                        "label": "Loïc Abenzoar",
+                        "uri": "http://dbpedia.org/resource/Loïc_Abenzoar"
+                    }, {
+                        "label": "Loïc Akono",
+                        "uri": "http://dbpedia.org/resource/Loïc_Akono"
+                    }, {
+                        "label": "Loïc Baal",
+                        "uri": "http://dbpedia.org/resource/Loïc_Baal"
+                    }, {
+                        "label": "Loïc Badiashile",
+                        "uri": "http://dbpedia.org/resource/Loïc_Badiashile"
+                    }, {
+                        "label": "Loïc Badé",
+                        "uri": "http://dbpedia.org/resource/Loïc_Badé"
+                    }, {
+                        "label": "Loïc Chatton",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chatton"
+                    }, {
+                        "label": "Loïc Chauvet",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chauvet"
+                    }, {
+                        "label": "Loïc Chetout",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chetout"
+                    }, {
+                        "label": "Loïc Costerg",
+                        "uri": "http://dbpedia.org/resource/Loïc_Costerg"
+                    }, {
+                        "label": "Loïc Courteau",
+                        "uri": "http://dbpedia.org/resource/Loïc_Courteau"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "BUILDING",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["the highest $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Building>)\n  (triple ?isA <http://dbpedia.org/ontology/height> ?objOfProp)\n)\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "2016 New York and New Jersey bombings",
+                        "uri": "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
+                    }, {
+                        "label": "680 N Lake Shore Drive",
+                        "uri": "http://dbpedia.org/resource/680_N_Lake_Shore_Drive"
+                    }, {
+                        "label": "69-71 Bondway",
+                        "uri": "http://dbpedia.org/resource/69-71_Bondway"
+                    }, {
+                        "label": "80 Flatbush",
+                        "uri": "http://dbpedia.org/resource/80_Flatbush"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "A. J. Pagano",
+                        "uri": "http://dbpedia.org/resource/A._J._Pagano"
+                    }, {
+                        "label": "AAC-1937",
+                        "uri": "http://dbpedia.org/resource/AAC-1937"
+                    }, {
+                        "label": "ADM-20 Quail",
+                        "uri": "http://dbpedia.org/resource/ADM-20_Quail"
+                    }, {
+                        "label": "AEC Matador",
+                        "uri": "http://dbpedia.org/resource/AEC_Matador"
+                    }, {
+                        "label": "AEC Regal VI",
+                        "uri": "http://dbpedia.org/resource/AEC_Regal_VI"
+                    }, {
+                        "label": "AEC Reliance",
+                        "uri": "http://dbpedia.org/resource/AEC_Reliance"
+                    }, {
+                        "label": "AEC Swift",
+                        "uri": "http://dbpedia.org/resource/AEC_Swift"
+                    }, {
+                        "label": "AIFV",
+                        "uri": "http://dbpedia.org/resource/AIFV"
+                    }, {
+                        "label": "AIL M325 Command Car",
+                        "uri": "http://dbpedia.org/resource/AIL_M325_Command_Car"
+                    }, {
+                        "label": "AMC 34",
+                        "uri": "http://dbpedia.org/resource/AMC_34"
+                    }, {
+                        "label": "AMT Lightning pistol",
+                        "uri": "http://dbpedia.org/resource/AMT_Lightning_pistol"
+                    }, {
+                        "label": "AMX-VCI",
+                        "uri": "http://dbpedia.org/resource/AMX-VCI"
+                    }, {
+                        "label": "AMZ Dzik",
+                        "uri": "http://dbpedia.org/resource/AMZ_Dzik"
+                    }, {
+                        "label": "AMZ Żubr",
+                        "uri": "http://dbpedia.org/resource/AMZ_Żubr"
+                    }, {
+                        "label": "AN/TWQ-1 Avenger",
+                        "uri": "http://dbpedia.org/resource/AN/TWQ-1_Avenger"
+                    }, {
+                        "label": "APA Building, Melbourne",
+                        "uri": "http://dbpedia.org/resource/APA_Building,_Melbourne"
+                    }, {
+                        "label": "Love (footballer)",
+                        "uri": "http://dbpedia.org/resource/Love_(footballer)"
+                    }, {
+                        "label": "Loveday Enyinnaya",
+                        "uri": "http://dbpedia.org/resource/Loveday_Enyinnaya"
+                    }, {
+                        "label": "Lovel Palmer",
+                        "uri": "http://dbpedia.org/resource/Lovel_Palmer"
+                    }, {
+                        "label": "Lovelace Ackah",
+                        "uri": "http://dbpedia.org/resource/Lovelace_Ackah"
+                    }, {
+                        "label": "Loveland Dam",
+                        "uri": "http://dbpedia.org/resource/Loveland_Dam"
+                    }, {
+                        "label": "Loveli",
+                        "uri": "http://dbpedia.org/resource/Loveli"
+                    }, {
+                        "label": "Lovelite Detenamo",
+                        "uri": "http://dbpedia.org/resource/Lovelite_Detenamo"
+                    }, {
+                        "label": "Lovell Coleman",
+                        "uri": "http://dbpedia.org/resource/Lovell_Coleman"
+                    }, {
+                        "label": "Lovelyn Enebechi",
+                        "uri": "http://dbpedia.org/resource/Lovelyn_Enebechi"
+                    }, {
+                        "label": "Lovepreet Singh",
+                        "uri": "http://dbpedia.org/resource/Lovepreet_Singh"
+                    }, {
+                        "label": "Lover's Leap Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Lover's_Leap_Lighthouse"
+                    }, {
+                        "label": "Loveth Ayila",
+                        "uri": "http://dbpedia.org/resource/Loveth_Ayila"
+                    }, {
+                        "label": "Lovett Tower",
+                        "uri": "http://dbpedia.org/resource/Lovett_Tower"
+                    }, {
+                        "label": "Lovieanne Jung",
+                        "uri": "http://dbpedia.org/resource/Lovieanne_Jung"
+                    }, {
+                        "label": "Lovisa Berndtsson",
+                        "uri": "http://dbpedia.org/resource/Lovisa_Berndtsson"
+                    }, {
+                        "label": "Lovlina Borgohain",
+                        "uri": "http://dbpedia.org/resource/Lovlina_Borgohain"
+                    }, {
+                        "label": "Lovre Brečić",
+                        "uri": "http://dbpedia.org/resource/Lovre_Brečić"
+                    }, {
+                        "label": "Lovre Kalinić",
+                        "uri": "http://dbpedia.org/resource/Lovre_Kalinić"
+                    }, {
+                        "label": "Lovre Knežević",
+                        "uri": "http://dbpedia.org/resource/Lovre_Knežević"
+                    }, {
+                        "label": "Lovre Vulin",
+                        "uri": "http://dbpedia.org/resource/Lovre_Vulin"
+                    }, {
+                        "label": "Lovre Čirjak",
+                        "uri": "http://dbpedia.org/resource/Lovre_Čirjak"
+                    }, {
+                        "label": "Lovro Benić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Benić"
+                    }, {
+                        "label": "Lovro Bizjak",
+                        "uri": "http://dbpedia.org/resource/Lovro_Bizjak"
+                    }, {
+                        "label": "Lovro Jotić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Jotić"
+                    }, {
+                        "label": "Lovro Majer",
+                        "uri": "http://dbpedia.org/resource/Lovro_Majer"
+                    }, {
+                        "label": "Lovro Medić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Medić"
+                    }, {
+                        "label": "Lovro Mihić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Mihić"
+                    }, {
+                        "label": "Lovro Paparić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Paparić"
+                    }, {
+                        "label": "Lovro Zovko",
+                        "uri": "http://dbpedia.org/resource/Lovro_Zovko"
+                    }, {
+                        "label": "Lovro Šćrbec",
+                        "uri": "http://dbpedia.org/resource/Lovro_Šćrbec"
+                    }, {
+                        "label": "Lovísa Henningsdóttir",
+                        "uri": "http://dbpedia.org/resource/Lovísa_Henningsdóttir"
+                    }, {
+                        "label": "Lovísa Thompson",
+                        "uri": "http://dbpedia.org/resource/Lovísa_Thompson"
+                    }, {
+                        "label": "Low Head Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Low_Head_Lighthouse"
+                    }, {
+                        "label": "Low Isles Light",
+                        "uri": "http://dbpedia.org/resource/Low_Isles_Light"
+                    }, {
+                        "label": "Low Ji Wen",
+                        "uri": "http://dbpedia.org/resource/Low_Ji_Wen"
+                    }, {
+                        "label": "Low Ki",
+                        "uri": "http://dbpedia.org/resource/Low_Ki"
+                    }, {
+                        "label": "Low Light of the Hook of Holland",
+                        "uri": "http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland"
+                    }, {
+                        "label": "Low Point Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Low_Point_Lighthouse"
+                    }, {
+                        "label": "Lowell Galloway",
+                        "uri": "http://dbpedia.org/resource/Lowell_Galloway"
+                    }, {
+                        "label": "Lowell Hamilton",
+                        "uri": "http://dbpedia.org/resource/Lowell_Hamilton"
+                    }, {
+                        "label": "Lowell MacDonald",
+                        "uri": "http://dbpedia.org/resource/Lowell_MacDonald"
+                    }, {
+                        "label": "Lowell Wright",
+                        "uri": "http://dbpedia.org/resource/Lowell_Wright"
+                    }, {
+                        "label": "Lower Baker Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Baker_Dam"
+                    }, {
+                        "label": "Lower Granite Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Granite_Dam"
+                    }, {
+                        "label": "Lower Grumbach Pond",
+                        "uri": "http://dbpedia.org/resource/Lower_Grumbach_Pond"
+                    }, {
+                        "label": "Lower Humbert Covered Bridge",
+                        "uri": "http://dbpedia.org/resource/Lower_Humbert_Covered_Bridge"
+                    }, {
+                        "label": "Lower Manair Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Manair_Dam"
+                    }, {
+                        "label": "Lower Monumental Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Monumental_Dam"
+                    }, {
+                        "label": "Lower Panzara Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Panzara_Dam"
+                    }, {
+                        "label": "Lower Paunglaung Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Paunglaung_Dam"
+                    }, {
+                        "label": "Lower Pus Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Pus_Dam"
+                    }, {
+                        "label": "Lower Salmon Falls Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Salmon_Falls_Dam"
+                    }, {
+                        "label": "Lower Se San 2 Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Se_San_2_Dam"
+                    }, {
+                        "label": "Lower Sre Pok 2 Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Sre_Pok_2_Dam"
+                    }, {
+                        "label": "Lower Tapi Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Tapi_Dam"
+                    }, {
+                        "label": "Lower Wardha Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Wardha_Dam"
+                    }, {
+                        "label": "Lower Wunna Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Wunna_Dam"
+                    }, {
+                        "label": "Lowes Moore",
+                        "uri": "http://dbpedia.org/resource/Lowes_Moore"
+                    }, {
+                        "label": "Lowestoft Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Lowestoft_Lighthouse"
+                    }, {
+                        "label": "Lowie Steuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Steuer"
+                    }, {
+                        "label": "Lowie Stuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Stuer"
+                    }, {
+                        "label": "Lowie van Zundert",
+                        "uri": "http://dbpedia.org/resource/Lowie_van_Zundert"
+                    }, {
+                        "label": "Loy Petersen",
+                        "uri": "http://dbpedia.org/resource/Loy_Petersen"
+                    }, {
+                        "label": "Loy Stewart",
+                        "uri": "http://dbpedia.org/resource/Loy_Stewart"
+                    }, {
+                        "label": "Loy Vaught",
+                        "uri": "http://dbpedia.org/resource/Loy_Vaught"
+                    }, {
+                        "label": "Loyal Oakley",
+                        "uri": "http://dbpedia.org/resource/Loyal_Oakley"
+                    }, {
+                        "label": "Loyd Carrier",
+                        "uri": "http://dbpedia.org/resource/Loyd_Carrier"
+                    }, {
+                        "label": "Loyd King",
+                        "uri": "http://dbpedia.org/resource/Loyd_King"
+                    }, {
+                        "label": "Loïc Abenzoar",
+                        "uri": "http://dbpedia.org/resource/Loïc_Abenzoar"
+                    }, {
+                        "label": "Loïc Akono",
+                        "uri": "http://dbpedia.org/resource/Loïc_Akono"
+                    }, {
+                        "label": "Loïc Baal",
+                        "uri": "http://dbpedia.org/resource/Loïc_Baal"
+                    }, {
+                        "label": "Loïc Badiashile",
+                        "uri": "http://dbpedia.org/resource/Loïc_Badiashile"
+                    }, {
+                        "label": "Loïc Badé",
+                        "uri": "http://dbpedia.org/resource/Loïc_Badé"
+                    }, {
+                        "label": "Loïc Chatton",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chatton"
+                    }, {
+                        "label": "Loïc Chauvet",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chauvet"
+                    }, {
+                        "label": "Loïc Chetout",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chetout"
+                    }, {
+                        "label": "Loïc Costerg",
+                        "uri": "http://dbpedia.org/resource/Loïc_Costerg"
+                    }, {
+                        "label": "Loïc Courteau",
+                        "uri": "http://dbpedia.org/resource/Loïc_Courteau"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "5",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "BRIDGE",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["What is the highest ($x | BRIDGE_NP)?", "What is the highest ($x | BRIDGE_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Bridge>)\n  (triple ?isA <http://dbpedia.org/ontology/height> ?objOfProp)\n)\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "2016 New York and New Jersey bombings",
+                        "uri": "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
+                    }, {
+                        "label": "680 N Lake Shore Drive",
+                        "uri": "http://dbpedia.org/resource/680_N_Lake_Shore_Drive"
+                    }, {
+                        "label": "69-71 Bondway",
+                        "uri": "http://dbpedia.org/resource/69-71_Bondway"
+                    }, {
+                        "label": "80 Flatbush",
+                        "uri": "http://dbpedia.org/resource/80_Flatbush"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "A. J. Pagano",
+                        "uri": "http://dbpedia.org/resource/A._J._Pagano"
+                    }, {
+                        "label": "AAC-1937",
+                        "uri": "http://dbpedia.org/resource/AAC-1937"
+                    }, {
+                        "label": "ADM-20 Quail",
+                        "uri": "http://dbpedia.org/resource/ADM-20_Quail"
+                    }, {
+                        "label": "AEC Matador",
+                        "uri": "http://dbpedia.org/resource/AEC_Matador"
+                    }, {
+                        "label": "AEC Regal VI",
+                        "uri": "http://dbpedia.org/resource/AEC_Regal_VI"
+                    }, {
+                        "label": "AEC Reliance",
+                        "uri": "http://dbpedia.org/resource/AEC_Reliance"
+                    }, {
+                        "label": "AEC Swift",
+                        "uri": "http://dbpedia.org/resource/AEC_Swift"
+                    }, {
+                        "label": "AIFV",
+                        "uri": "http://dbpedia.org/resource/AIFV"
+                    }, {
+                        "label": "AIL M325 Command Car",
+                        "uri": "http://dbpedia.org/resource/AIL_M325_Command_Car"
+                    }, {
+                        "label": "AMC 34",
+                        "uri": "http://dbpedia.org/resource/AMC_34"
+                    }, {
+                        "label": "AMT Lightning pistol",
+                        "uri": "http://dbpedia.org/resource/AMT_Lightning_pistol"
+                    }, {
+                        "label": "AMX-VCI",
+                        "uri": "http://dbpedia.org/resource/AMX-VCI"
+                    }, {
+                        "label": "AMZ Dzik",
+                        "uri": "http://dbpedia.org/resource/AMZ_Dzik"
+                    }, {
+                        "label": "AMZ Żubr",
+                        "uri": "http://dbpedia.org/resource/AMZ_Żubr"
+                    }, {
+                        "label": "AN/TWQ-1 Avenger",
+                        "uri": "http://dbpedia.org/resource/AN/TWQ-1_Avenger"
+                    }, {
+                        "label": "APA Building, Melbourne",
+                        "uri": "http://dbpedia.org/resource/APA_Building,_Melbourne"
+                    }, {
+                        "label": "Love (footballer)",
+                        "uri": "http://dbpedia.org/resource/Love_(footballer)"
+                    }, {
+                        "label": "Loveday Enyinnaya",
+                        "uri": "http://dbpedia.org/resource/Loveday_Enyinnaya"
+                    }, {
+                        "label": "Lovel Palmer",
+                        "uri": "http://dbpedia.org/resource/Lovel_Palmer"
+                    }, {
+                        "label": "Lovelace Ackah",
+                        "uri": "http://dbpedia.org/resource/Lovelace_Ackah"
+                    }, {
+                        "label": "Loveland Dam",
+                        "uri": "http://dbpedia.org/resource/Loveland_Dam"
+                    }, {
+                        "label": "Loveli",
+                        "uri": "http://dbpedia.org/resource/Loveli"
+                    }, {
+                        "label": "Lovelite Detenamo",
+                        "uri": "http://dbpedia.org/resource/Lovelite_Detenamo"
+                    }, {
+                        "label": "Lovell Coleman",
+                        "uri": "http://dbpedia.org/resource/Lovell_Coleman"
+                    }, {
+                        "label": "Lovelyn Enebechi",
+                        "uri": "http://dbpedia.org/resource/Lovelyn_Enebechi"
+                    }, {
+                        "label": "Lovepreet Singh",
+                        "uri": "http://dbpedia.org/resource/Lovepreet_Singh"
+                    }, {
+                        "label": "Lover's Leap Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Lover's_Leap_Lighthouse"
+                    }, {
+                        "label": "Loveth Ayila",
+                        "uri": "http://dbpedia.org/resource/Loveth_Ayila"
+                    }, {
+                        "label": "Lovett Tower",
+                        "uri": "http://dbpedia.org/resource/Lovett_Tower"
+                    }, {
+                        "label": "Lovieanne Jung",
+                        "uri": "http://dbpedia.org/resource/Lovieanne_Jung"
+                    }, {
+                        "label": "Lovisa Berndtsson",
+                        "uri": "http://dbpedia.org/resource/Lovisa_Berndtsson"
+                    }, {
+                        "label": "Lovlina Borgohain",
+                        "uri": "http://dbpedia.org/resource/Lovlina_Borgohain"
+                    }, {
+                        "label": "Lovre Brečić",
+                        "uri": "http://dbpedia.org/resource/Lovre_Brečić"
+                    }, {
+                        "label": "Lovre Kalinić",
+                        "uri": "http://dbpedia.org/resource/Lovre_Kalinić"
+                    }, {
+                        "label": "Lovre Knežević",
+                        "uri": "http://dbpedia.org/resource/Lovre_Knežević"
+                    }, {
+                        "label": "Lovre Vulin",
+                        "uri": "http://dbpedia.org/resource/Lovre_Vulin"
+                    }, {
+                        "label": "Lovre Čirjak",
+                        "uri": "http://dbpedia.org/resource/Lovre_Čirjak"
+                    }, {
+                        "label": "Lovro Benić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Benić"
+                    }, {
+                        "label": "Lovro Bizjak",
+                        "uri": "http://dbpedia.org/resource/Lovro_Bizjak"
+                    }, {
+                        "label": "Lovro Jotić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Jotić"
+                    }, {
+                        "label": "Lovro Majer",
+                        "uri": "http://dbpedia.org/resource/Lovro_Majer"
+                    }, {
+                        "label": "Lovro Medić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Medić"
+                    }, {
+                        "label": "Lovro Mihić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Mihić"
+                    }, {
+                        "label": "Lovro Paparić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Paparić"
+                    }, {
+                        "label": "Lovro Zovko",
+                        "uri": "http://dbpedia.org/resource/Lovro_Zovko"
+                    }, {
+                        "label": "Lovro Šćrbec",
+                        "uri": "http://dbpedia.org/resource/Lovro_Šćrbec"
+                    }, {
+                        "label": "Lovísa Henningsdóttir",
+                        "uri": "http://dbpedia.org/resource/Lovísa_Henningsdóttir"
+                    }, {
+                        "label": "Lovísa Thompson",
+                        "uri": "http://dbpedia.org/resource/Lovísa_Thompson"
+                    }, {
+                        "label": "Low Head Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Low_Head_Lighthouse"
+                    }, {
+                        "label": "Low Isles Light",
+                        "uri": "http://dbpedia.org/resource/Low_Isles_Light"
+                    }, {
+                        "label": "Low Ji Wen",
+                        "uri": "http://dbpedia.org/resource/Low_Ji_Wen"
+                    }, {
+                        "label": "Low Ki",
+                        "uri": "http://dbpedia.org/resource/Low_Ki"
+                    }, {
+                        "label": "Low Light of the Hook of Holland",
+                        "uri": "http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland"
+                    }, {
+                        "label": "Low Point Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Low_Point_Lighthouse"
+                    }, {
+                        "label": "Lowell Galloway",
+                        "uri": "http://dbpedia.org/resource/Lowell_Galloway"
+                    }, {
+                        "label": "Lowell Hamilton",
+                        "uri": "http://dbpedia.org/resource/Lowell_Hamilton"
+                    }, {
+                        "label": "Lowell MacDonald",
+                        "uri": "http://dbpedia.org/resource/Lowell_MacDonald"
+                    }, {
+                        "label": "Lowell Wright",
+                        "uri": "http://dbpedia.org/resource/Lowell_Wright"
+                    }, {
+                        "label": "Lower Baker Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Baker_Dam"
+                    }, {
+                        "label": "Lower Granite Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Granite_Dam"
+                    }, {
+                        "label": "Lower Grumbach Pond",
+                        "uri": "http://dbpedia.org/resource/Lower_Grumbach_Pond"
+                    }, {
+                        "label": "Lower Humbert Covered Bridge",
+                        "uri": "http://dbpedia.org/resource/Lower_Humbert_Covered_Bridge"
+                    }, {
+                        "label": "Lower Manair Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Manair_Dam"
+                    }, {
+                        "label": "Lower Monumental Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Monumental_Dam"
+                    }, {
+                        "label": "Lower Panzara Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Panzara_Dam"
+                    }, {
+                        "label": "Lower Paunglaung Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Paunglaung_Dam"
+                    }, {
+                        "label": "Lower Pus Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Pus_Dam"
+                    }, {
+                        "label": "Lower Salmon Falls Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Salmon_Falls_Dam"
+                    }, {
+                        "label": "Lower Se San 2 Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Se_San_2_Dam"
+                    }, {
+                        "label": "Lower Sre Pok 2 Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Sre_Pok_2_Dam"
+                    }, {
+                        "label": "Lower Tapi Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Tapi_Dam"
+                    }, {
+                        "label": "Lower Wardha Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Wardha_Dam"
+                    }, {
+                        "label": "Lower Wunna Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Wunna_Dam"
+                    }, {
+                        "label": "Lowes Moore",
+                        "uri": "http://dbpedia.org/resource/Lowes_Moore"
+                    }, {
+                        "label": "Lowestoft Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Lowestoft_Lighthouse"
+                    }, {
+                        "label": "Lowie Steuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Steuer"
+                    }, {
+                        "label": "Lowie Stuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Stuer"
+                    }, {
+                        "label": "Lowie van Zundert",
+                        "uri": "http://dbpedia.org/resource/Lowie_van_Zundert"
+                    }, {
+                        "label": "Loy Petersen",
+                        "uri": "http://dbpedia.org/resource/Loy_Petersen"
+                    }, {
+                        "label": "Loy Stewart",
+                        "uri": "http://dbpedia.org/resource/Loy_Stewart"
+                    }, {
+                        "label": "Loy Vaught",
+                        "uri": "http://dbpedia.org/resource/Loy_Vaught"
+                    }, {
+                        "label": "Loyal Oakley",
+                        "uri": "http://dbpedia.org/resource/Loyal_Oakley"
+                    }, {
+                        "label": "Loyd Carrier",
+                        "uri": "http://dbpedia.org/resource/Loyd_Carrier"
+                    }, {
+                        "label": "Loyd King",
+                        "uri": "http://dbpedia.org/resource/Loyd_King"
+                    }, {
+                        "label": "Loïc Abenzoar",
+                        "uri": "http://dbpedia.org/resource/Loïc_Abenzoar"
+                    }, {
+                        "label": "Loïc Akono",
+                        "uri": "http://dbpedia.org/resource/Loïc_Akono"
+                    }, {
+                        "label": "Loïc Baal",
+                        "uri": "http://dbpedia.org/resource/Loïc_Baal"
+                    }, {
+                        "label": "Loïc Badiashile",
+                        "uri": "http://dbpedia.org/resource/Loïc_Badiashile"
+                    }, {
+                        "label": "Loïc Badé",
+                        "uri": "http://dbpedia.org/resource/Loïc_Badé"
+                    }, {
+                        "label": "Loïc Chatton",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chatton"
+                    }, {
+                        "label": "Loïc Chauvet",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chauvet"
+                    }, {
+                        "label": "Loïc Chetout",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chetout"
+                    }, {
+                        "label": "Loïc Costerg",
+                        "uri": "http://dbpedia.org/resource/Loïc_Costerg"
+                    }, {
+                        "label": "Loïc Courteau",
+                        "uri": "http://dbpedia.org/resource/Loïc_Courteau"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "6",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "BRIDGE",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["the highest $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Bridge>)\n  (triple ?isA <http://dbpedia.org/ontology/height> ?objOfProp)\n)\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "2016 New York and New Jersey bombings",
+                        "uri": "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
+                    }, {
+                        "label": "680 N Lake Shore Drive",
+                        "uri": "http://dbpedia.org/resource/680_N_Lake_Shore_Drive"
+                    }, {
+                        "label": "69-71 Bondway",
+                        "uri": "http://dbpedia.org/resource/69-71_Bondway"
+                    }, {
+                        "label": "80 Flatbush",
+                        "uri": "http://dbpedia.org/resource/80_Flatbush"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "A. J. Pagano",
+                        "uri": "http://dbpedia.org/resource/A._J._Pagano"
+                    }, {
+                        "label": "AAC-1937",
+                        "uri": "http://dbpedia.org/resource/AAC-1937"
+                    }, {
+                        "label": "ADM-20 Quail",
+                        "uri": "http://dbpedia.org/resource/ADM-20_Quail"
+                    }, {
+                        "label": "AEC Matador",
+                        "uri": "http://dbpedia.org/resource/AEC_Matador"
+                    }, {
+                        "label": "AEC Regal VI",
+                        "uri": "http://dbpedia.org/resource/AEC_Regal_VI"
+                    }, {
+                        "label": "AEC Reliance",
+                        "uri": "http://dbpedia.org/resource/AEC_Reliance"
+                    }, {
+                        "label": "AEC Swift",
+                        "uri": "http://dbpedia.org/resource/AEC_Swift"
+                    }, {
+                        "label": "AIFV",
+                        "uri": "http://dbpedia.org/resource/AIFV"
+                    }, {
+                        "label": "AIL M325 Command Car",
+                        "uri": "http://dbpedia.org/resource/AIL_M325_Command_Car"
+                    }, {
+                        "label": "AMC 34",
+                        "uri": "http://dbpedia.org/resource/AMC_34"
+                    }, {
+                        "label": "AMT Lightning pistol",
+                        "uri": "http://dbpedia.org/resource/AMT_Lightning_pistol"
+                    }, {
+                        "label": "AMX-VCI",
+                        "uri": "http://dbpedia.org/resource/AMX-VCI"
+                    }, {
+                        "label": "AMZ Dzik",
+                        "uri": "http://dbpedia.org/resource/AMZ_Dzik"
+                    }, {
+                        "label": "AMZ Żubr",
+                        "uri": "http://dbpedia.org/resource/AMZ_Żubr"
+                    }, {
+                        "label": "AN/TWQ-1 Avenger",
+                        "uri": "http://dbpedia.org/resource/AN/TWQ-1_Avenger"
+                    }, {
+                        "label": "APA Building, Melbourne",
+                        "uri": "http://dbpedia.org/resource/APA_Building,_Melbourne"
+                    }, {
+                        "label": "Love (footballer)",
+                        "uri": "http://dbpedia.org/resource/Love_(footballer)"
+                    }, {
+                        "label": "Loveday Enyinnaya",
+                        "uri": "http://dbpedia.org/resource/Loveday_Enyinnaya"
+                    }, {
+                        "label": "Lovel Palmer",
+                        "uri": "http://dbpedia.org/resource/Lovel_Palmer"
+                    }, {
+                        "label": "Lovelace Ackah",
+                        "uri": "http://dbpedia.org/resource/Lovelace_Ackah"
+                    }, {
+                        "label": "Loveland Dam",
+                        "uri": "http://dbpedia.org/resource/Loveland_Dam"
+                    }, {
+                        "label": "Loveli",
+                        "uri": "http://dbpedia.org/resource/Loveli"
+                    }, {
+                        "label": "Lovelite Detenamo",
+                        "uri": "http://dbpedia.org/resource/Lovelite_Detenamo"
+                    }, {
+                        "label": "Lovell Coleman",
+                        "uri": "http://dbpedia.org/resource/Lovell_Coleman"
+                    }, {
+                        "label": "Lovelyn Enebechi",
+                        "uri": "http://dbpedia.org/resource/Lovelyn_Enebechi"
+                    }, {
+                        "label": "Lovepreet Singh",
+                        "uri": "http://dbpedia.org/resource/Lovepreet_Singh"
+                    }, {
+                        "label": "Lover's Leap Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Lover's_Leap_Lighthouse"
+                    }, {
+                        "label": "Loveth Ayila",
+                        "uri": "http://dbpedia.org/resource/Loveth_Ayila"
+                    }, {
+                        "label": "Lovett Tower",
+                        "uri": "http://dbpedia.org/resource/Lovett_Tower"
+                    }, {
+                        "label": "Lovieanne Jung",
+                        "uri": "http://dbpedia.org/resource/Lovieanne_Jung"
+                    }, {
+                        "label": "Lovisa Berndtsson",
+                        "uri": "http://dbpedia.org/resource/Lovisa_Berndtsson"
+                    }, {
+                        "label": "Lovlina Borgohain",
+                        "uri": "http://dbpedia.org/resource/Lovlina_Borgohain"
+                    }, {
+                        "label": "Lovre Brečić",
+                        "uri": "http://dbpedia.org/resource/Lovre_Brečić"
+                    }, {
+                        "label": "Lovre Kalinić",
+                        "uri": "http://dbpedia.org/resource/Lovre_Kalinić"
+                    }, {
+                        "label": "Lovre Knežević",
+                        "uri": "http://dbpedia.org/resource/Lovre_Knežević"
+                    }, {
+                        "label": "Lovre Vulin",
+                        "uri": "http://dbpedia.org/resource/Lovre_Vulin"
+                    }, {
+                        "label": "Lovre Čirjak",
+                        "uri": "http://dbpedia.org/resource/Lovre_Čirjak"
+                    }, {
+                        "label": "Lovro Benić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Benić"
+                    }, {
+                        "label": "Lovro Bizjak",
+                        "uri": "http://dbpedia.org/resource/Lovro_Bizjak"
+                    }, {
+                        "label": "Lovro Jotić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Jotić"
+                    }, {
+                        "label": "Lovro Majer",
+                        "uri": "http://dbpedia.org/resource/Lovro_Majer"
+                    }, {
+                        "label": "Lovro Medić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Medić"
+                    }, {
+                        "label": "Lovro Mihić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Mihić"
+                    }, {
+                        "label": "Lovro Paparić",
+                        "uri": "http://dbpedia.org/resource/Lovro_Paparić"
+                    }, {
+                        "label": "Lovro Zovko",
+                        "uri": "http://dbpedia.org/resource/Lovro_Zovko"
+                    }, {
+                        "label": "Lovro Šćrbec",
+                        "uri": "http://dbpedia.org/resource/Lovro_Šćrbec"
+                    }, {
+                        "label": "Lovísa Henningsdóttir",
+                        "uri": "http://dbpedia.org/resource/Lovísa_Henningsdóttir"
+                    }, {
+                        "label": "Lovísa Thompson",
+                        "uri": "http://dbpedia.org/resource/Lovísa_Thompson"
+                    }, {
+                        "label": "Low Head Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Low_Head_Lighthouse"
+                    }, {
+                        "label": "Low Isles Light",
+                        "uri": "http://dbpedia.org/resource/Low_Isles_Light"
+                    }, {
+                        "label": "Low Ji Wen",
+                        "uri": "http://dbpedia.org/resource/Low_Ji_Wen"
+                    }, {
+                        "label": "Low Ki",
+                        "uri": "http://dbpedia.org/resource/Low_Ki"
+                    }, {
+                        "label": "Low Light of the Hook of Holland",
+                        "uri": "http://dbpedia.org/resource/Low_Light_of_the_Hook_of_Holland"
+                    }, {
+                        "label": "Low Point Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Low_Point_Lighthouse"
+                    }, {
+                        "label": "Lowell Galloway",
+                        "uri": "http://dbpedia.org/resource/Lowell_Galloway"
+                    }, {
+                        "label": "Lowell Hamilton",
+                        "uri": "http://dbpedia.org/resource/Lowell_Hamilton"
+                    }, {
+                        "label": "Lowell MacDonald",
+                        "uri": "http://dbpedia.org/resource/Lowell_MacDonald"
+                    }, {
+                        "label": "Lowell Wright",
+                        "uri": "http://dbpedia.org/resource/Lowell_Wright"
+                    }, {
+                        "label": "Lower Baker Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Baker_Dam"
+                    }, {
+                        "label": "Lower Granite Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Granite_Dam"
+                    }, {
+                        "label": "Lower Grumbach Pond",
+                        "uri": "http://dbpedia.org/resource/Lower_Grumbach_Pond"
+                    }, {
+                        "label": "Lower Humbert Covered Bridge",
+                        "uri": "http://dbpedia.org/resource/Lower_Humbert_Covered_Bridge"
+                    }, {
+                        "label": "Lower Manair Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Manair_Dam"
+                    }, {
+                        "label": "Lower Monumental Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Monumental_Dam"
+                    }, {
+                        "label": "Lower Panzara Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Panzara_Dam"
+                    }, {
+                        "label": "Lower Paunglaung Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Paunglaung_Dam"
+                    }, {
+                        "label": "Lower Pus Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Pus_Dam"
+                    }, {
+                        "label": "Lower Salmon Falls Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Salmon_Falls_Dam"
+                    }, {
+                        "label": "Lower Se San 2 Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Se_San_2_Dam"
+                    }, {
+                        "label": "Lower Sre Pok 2 Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Sre_Pok_2_Dam"
+                    }, {
+                        "label": "Lower Tapi Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Tapi_Dam"
+                    }, {
+                        "label": "Lower Wardha Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Wardha_Dam"
+                    }, {
+                        "label": "Lower Wunna Dam",
+                        "uri": "http://dbpedia.org/resource/Lower_Wunna_Dam"
+                    }, {
+                        "label": "Lowes Moore",
+                        "uri": "http://dbpedia.org/resource/Lowes_Moore"
+                    }, {
+                        "label": "Lowestoft Lighthouse",
+                        "uri": "http://dbpedia.org/resource/Lowestoft_Lighthouse"
+                    }, {
+                        "label": "Lowie Steuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Steuer"
+                    }, {
+                        "label": "Lowie Stuer",
+                        "uri": "http://dbpedia.org/resource/Lowie_Stuer"
+                    }, {
+                        "label": "Lowie van Zundert",
+                        "uri": "http://dbpedia.org/resource/Lowie_van_Zundert"
+                    }, {
+                        "label": "Loy Petersen",
+                        "uri": "http://dbpedia.org/resource/Loy_Petersen"
+                    }, {
+                        "label": "Loy Stewart",
+                        "uri": "http://dbpedia.org/resource/Loy_Stewart"
+                    }, {
+                        "label": "Loy Vaught",
+                        "uri": "http://dbpedia.org/resource/Loy_Vaught"
+                    }, {
+                        "label": "Loyal Oakley",
+                        "uri": "http://dbpedia.org/resource/Loyal_Oakley"
+                    }, {
+                        "label": "Loyd Carrier",
+                        "uri": "http://dbpedia.org/resource/Loyd_Carrier"
+                    }, {
+                        "label": "Loyd King",
+                        "uri": "http://dbpedia.org/resource/Loyd_King"
+                    }, {
+                        "label": "Loïc Abenzoar",
+                        "uri": "http://dbpedia.org/resource/Loïc_Abenzoar"
+                    }, {
+                        "label": "Loïc Akono",
+                        "uri": "http://dbpedia.org/resource/Loïc_Akono"
+                    }, {
+                        "label": "Loïc Baal",
+                        "uri": "http://dbpedia.org/resource/Loïc_Baal"
+                    }, {
+                        "label": "Loïc Badiashile",
+                        "uri": "http://dbpedia.org/resource/Loïc_Badiashile"
+                    }, {
+                        "label": "Loïc Badé",
+                        "uri": "http://dbpedia.org/resource/Loïc_Badé"
+                    }, {
+                        "label": "Loïc Chatton",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chatton"
+                    }, {
+                        "label": "Loïc Chauvet",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chauvet"
+                    }, {
+                        "label": "Loïc Chetout",
+                        "uri": "http://dbpedia.org/resource/Loïc_Chetout"
+                    }, {
+                        "label": "Loïc Costerg",
+                        "uri": "http://dbpedia.org/resource/Loïc_Costerg"
+                    }, {
+                        "label": "Loïc Courteau",
+                        "uri": "http://dbpedia.org/resource/Loïc_Courteau"
+                    }]
+            },
+            "combination": false
+        }]
+}

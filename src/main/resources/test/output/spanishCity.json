@@ -1,0 +1,37 @@
+{
+    "grammarEntries": [{
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["Which are Spanish cities?", "Which is a Spanish city?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }, {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "THING",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["a Spanish city", "Spanish cities"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }]
+}

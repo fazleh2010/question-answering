@@ -43,6 +43,7 @@ public class CsvFile {
     public static Integer Q1_answer_result = 6;
     private static String inputDir = "src/main/resources/";
     private static String feedbackQAFile = "FeedbackQA.xlsx";
+    
 
     private File filename = null;
     public String[] header = null;
@@ -107,11 +108,92 @@ public class CsvFile {
     public Map<String, List<String[]>> getRow() {
         return wordRows;
     }
+    
+    public static Integer readAndAppendCsv(String filename, CSVWriter csvWriter,Boolean flag,Integer count) {
+        List<String[]> rows = new ArrayList<String[]>();
+        Stack<String> stack = new Stack<String>();
+        CSVReader reader;
+        try {
+            reader = new CSVReader(new FileReader(filename));
+            rows = reader.readAll();
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (CsvException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+        Integer index = 1;
+        String word = null;
+        for (String[] row : rows) {
+            String id=modify(row[0]);
+                String question=modify(row[1]);
+                String sparql=modify(row[2]);
+                String answer=modify(row[3]);
+                System.out.println("fileName:"+filename+" id:"+id+" question:"+question+" sparql:"+sparql+" answer:"+answer);
+                if(answer.contains("no answer found"))
+                    continue;
+                if(answer.isBlank())
+                    continue;
+                 if(answer.isEmpty())
+                    continue;
+                String[] record = {id,question,sparql,answer,"nounPP"};
+            if (index == 1&& flag) {
+                 csvWriter.writeNext(record);
+            }
+            else if (index == 1&& !flag) {
+                 ;
+            }
+            
+            else {
+                csvWriter.writeNext(record);
+            }
+            index = index + 1;
+        }
+        return count+rows.size();
+    }
+    
+    private static String modify(String string) {
+        string=string.stripTrailing();
+        string=string.stripLeading();
+        return string;
+    }
 
     public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
-        File file = new File(inputDir + feedbackQAFile);
-        CsvFile csvFile=new CsvFile(file);
-        csvFile.readCsv();
+        String questionDir = "/home/elahi/grammar/new/questions/";
+        String allCsvFile = "questions.csv";
+
+        File file = new File(questionDir);
+        String[] files = file.list();
+        List<String> fileList = new ArrayList<String>();
+        for (String fileStr : files) {
+            fileList.add(fileStr);
+        }
+        CSVWriter csvWriter = new CSVWriter(new FileWriter(new File(questionDir + allCsvFile), true));
+        Integer fileNumber = 1;
+        Collections.sort(fileList);
+        Integer count = 0;
+        for (String partCsv : fileList) {
+            Boolean flag = false;
+
+            if (partCsv.equals(allCsvFile)) {
+                continue;
+            }
+            if (!partCsv.contains(".csv")) {
+                continue;
+            }
+            String readFileName = questionDir + partCsv;
+            System.out.println("readFileName:" + readFileName);
+            if (fileNumber == 1) {
+                flag = true;
+            }
+
+            count = readAndAppendCsv(readFileName, csvWriter, flag, count);
+            fileNumber = fileNumber + 1;
+        }
+         System.out.println("count::" + count);
     }
+
 
 }
