@@ -157,6 +157,7 @@ public class CsvFile {
     private static String modify(String string) {
         string=string.stripTrailing();
         string=string.stripLeading();
+        string="\""+string+"\"";
         return string;
     }
 
