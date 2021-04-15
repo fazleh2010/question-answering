@@ -1,3 +1,4 @@
+id,questions,sparq,answer
 0,Gib mir den Produzenten von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
 1,Gib mir die Produzenten von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
 2,Was ist der Produzent von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
