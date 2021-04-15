@@ -1,0 +1,1064 @@
+0,Gib mir den Produzenten von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+1,Gib mir die Produzenten von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+2,Was ist der Produzent von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+3,Was sind die Produzenten von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+4,Was war der Produzent von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+5,Was waren die Produzenten von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+6,Welche Organisation ist der Produzent von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+7,Welche Organisation war der Produzent von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+8,Welche Organisationen sind die Produzenten von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+9,Welche Organisationen waren die Produzenten von Wechselstrommotor?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+10,Gib mir den Produzenten von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+11,Gib mir die Produzenten von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+12,Was ist der Produzent von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+13,Was sind die Produzenten von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+14,Was war der Produzent von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+15,Was waren die Produzenten von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+16,Welche Organisation ist der Produzent von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+17,Welche Organisation war der Produzent von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+18,Welche Organisationen sind die Produzenten von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+19,Welche Organisationen waren die Produzenten von Lufia?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+20,Gib mir den Produzenten von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+21,Gib mir die Produzenten von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+22,Was ist der Produzent von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+23,Was sind die Produzenten von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+24,Was war der Produzent von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+25,Was waren die Produzenten von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+26,Welche Organisation ist der Produzent von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+27,Welche Organisation war der Produzent von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+28,Welche Organisationen sind die Produzenten von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+29,Welche Organisationen waren die Produzenten von Bauholz?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lumber>    },PotlatchDeltic
+30,Gib mir den Produzenten von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+31,Gib mir die Produzenten von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+32,Was ist der Produzent von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+33,Was sind die Produzenten von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+34,Was war der Produzent von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+35,Was waren die Produzenten von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+36,Welche Organisation ist der Produzent von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+37,Welche Organisation war der Produzent von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+38,Welche Organisationen sind die Produzenten von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+39,Welche Organisationen waren die Produzenten von Luxusgut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+40,Gib mir den Produzenten von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+41,Gib mir die Produzenten von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+42,Was ist der Produzent von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+43,Was sind die Produzenten von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+44,Was war der Produzent von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+45,Was waren die Produzenten von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+46,Welche Organisation ist der Produzent von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+47,Welche Organisation war der Produzent von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+48,Welche Organisationen sind die Produzenten von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+49,Welche Organisationen waren die Produzenten von M&M???s?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+50,Gib mir den Produzenten von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+51,Gib mir die Produzenten von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+52,Was ist der Produzent von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+53,Was sind die Produzenten von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+54,Was war der Produzent von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+55,Was waren die Produzenten von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+56,Welche Organisation ist der Produzent von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+57,Welche Organisation war der Produzent von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+58,Welche Organisationen sind die Produzenten von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+59,Welche Organisationen waren die Produzenten von M16 Gewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+60,Gib mir den Produzenten von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+61,Gib mir die Produzenten von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+62,Was ist der Produzent von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+63,Was sind die Produzenten von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+64,Was war der Produzent von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+65,Was waren die Produzenten von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+66,Welche Organisation ist der Produzent von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+67,Welche Organisation war der Produzent von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+68,Welche Organisationen sind die Produzenten von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+69,Welche Organisationen waren die Produzenten von M939 5-Ton-Truck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M939_series_5-ton_6x6_truck>    },AM General
+70,Gib mir den Produzenten von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+71,Gib mir die Produzenten von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+72,Was ist der Produzent von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+73,Was sind die Produzenten von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+74,Was war der Produzent von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+75,Was waren die Produzenten von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+76,Welche Organisation ist der Produzent von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+77,Welche Organisation war der Produzent von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+78,Welche Organisationen sind die Produzenten von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+79,Welche Organisationen waren die Produzenten von MAG Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+80,Gib mir den Produzenten von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+81,Gib mir die Produzenten von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+82,Was ist der Produzent von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+83,Was sind die Produzenten von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+84,Was war der Produzent von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+85,Was waren die Produzenten von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+86,Welche Organisation ist der Produzent von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+87,Welche Organisation war der Produzent von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+88,Welche Organisationen sind die Produzenten von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+89,Welche Organisationen waren die Produzenten von Matlab?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+90,Gib mir den Produzenten von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+91,Gib mir die Produzenten von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+92,Was ist der Produzent von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+93,Was sind die Produzenten von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+94,Was war der Produzent von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+95,Was waren die Produzenten von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+96,Welche Organisation ist der Produzent von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+97,Welche Organisation war der Produzent von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+98,Welche Organisationen sind die Produzenten von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+99,Welche Organisationen waren die Produzenten von MDK Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+100,Gib mir den Produzenten von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+101,Gib mir die Produzenten von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+102,Was ist der Produzent von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+103,Was sind die Produzenten von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+104,Was war der Produzent von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+105,Was waren die Produzenten von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+106,Welche Organisation ist der Produzent von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+107,Welche Organisation war der Produzent von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+108,Welche Organisationen sind die Produzenten von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+109,Welche Organisationen waren die Produzenten von MGB Auto?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+110,Gib mir den Produzenten von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+111,Gib mir die Produzenten von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+112,Was ist der Produzent von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+113,Was sind die Produzenten von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+114,Was war der Produzent von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+115,Was waren die Produzenten von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+116,Welche Organisation ist der Produzent von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+117,Welche Organisation war der Produzent von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+118,Welche Organisationen sind die Produzenten von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+119,Welche Organisationen waren die Produzenten von MG Motor UK?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+120,Gib mir den Produzenten von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+121,Gib mir die Produzenten von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+122,Was ist der Produzent von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+123,Was sind die Produzenten von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+124,Was war der Produzent von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+125,Was waren die Produzenten von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+126,Welche Organisation ist der Produzent von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+127,Welche Organisation war der Produzent von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+128,Welche Organisationen sind die Produzenten von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+129,Welche Organisationen waren die Produzenten von MIPS-Architektur?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+130,Gib mir den Produzenten von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+131,Gib mir die Produzenten von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+132,Was ist der Produzent von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+133,Was sind die Produzenten von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+134,Was war der Produzent von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+135,Was waren die Produzenten von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+136,Welche Organisation ist der Produzent von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+137,Welche Organisation war der Produzent von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+138,Welche Organisationen sind die Produzenten von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+139,Welche Organisationen waren die Produzenten von MODE32?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+140,Gib mir den Produzenten von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+141,Gib mir die Produzenten von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+142,Was ist der Produzent von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+143,Was sind die Produzenten von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+144,Was war der Produzent von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+145,Was waren die Produzenten von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+146,Welche Organisation ist der Produzent von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+147,Welche Organisation war der Produzent von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+148,Welche Organisationen sind die Produzenten von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+149,Welche Organisationen waren die Produzenten von MacDraw?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+150,Gib mir den Produzenten von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+151,Gib mir die Produzenten von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+152,Was ist der Produzent von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+153,Was sind die Produzenten von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+154,Was war der Produzent von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+155,Was waren die Produzenten von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+156,Welche Organisation ist der Produzent von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+157,Welche Organisation war der Produzent von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+158,Welche Organisationen sind die Produzenten von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+159,Welche Organisationen waren die Produzenten von MacOS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+160,Gib mir den Produzenten von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+161,Gib mir die Produzenten von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+162,Was ist der Produzent von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+163,Was sind die Produzenten von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+164,Was war der Produzent von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+165,Was waren die Produzenten von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+166,Welche Organisation ist der Produzent von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+167,Welche Organisation war der Produzent von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+168,Welche Organisationen sind die Produzenten von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+169,Welche Organisationen waren die Produzenten von Mac OS?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+170,Gib mir den Produzenten von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+171,Gib mir die Produzenten von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+172,Was ist der Produzent von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+173,Was sind die Produzenten von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+174,Was war der Produzent von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+175,Was waren die Produzenten von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+176,Welche Organisation ist der Produzent von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+177,Welche Organisation war der Produzent von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+178,Welche Organisationen sind die Produzenten von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+179,Welche Organisationen waren die Produzenten von MacWrite?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+180,Gib mir den Produzenten von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+181,Gib mir die Produzenten von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+182,Was ist der Produzent von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+183,Was sind die Produzenten von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+184,Was war der Produzent von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+185,Was waren die Produzenten von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+186,Welche Organisation ist der Produzent von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+187,Welche Organisation war der Produzent von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+188,Welche Organisationen sind die Produzenten von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+189,Welche Organisationen waren die Produzenten von Mac OS X Snow Leopard?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+190,Gib mir den Produzenten von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+191,Gib mir die Produzenten von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+192,Was ist der Produzent von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+193,Was sind die Produzenten von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+194,Was war der Produzent von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+195,Was waren die Produzenten von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+196,Welche Organisation ist der Produzent von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+197,Welche Organisation war der Produzent von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+198,Welche Organisationen sind die Produzenten von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+199,Welche Organisationen waren die Produzenten von Macaron?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macaron>    },Ladur??e
+200,Gib mir den Produzenten von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+201,Gib mir die Produzenten von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+202,Was ist der Produzent von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+203,Was sind die Produzenten von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+204,Was war der Produzent von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+205,Was waren die Produzenten von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+206,Welche Organisation ist der Produzent von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+207,Welche Organisation war der Produzent von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+208,Welche Organisationen sind die Produzenten von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+209,Welche Organisationen waren die Produzenten von Machinarium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machinarium>    },Amanita Design
+210,Gib mir den Produzenten von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+211,Gib mir die Produzenten von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+212,Was ist der Produzent von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+213,Was sind die Produzenten von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+214,Was war der Produzent von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+215,Was waren die Produzenten von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+216,Welche Organisation ist der Produzent von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+217,Welche Organisation war der Produzent von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+218,Welche Organisationen sind die Produzenten von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+219,Welche Organisationen waren die Produzenten von Maschinengewehr?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+220,Gib mir den Produzenten von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+221,Gib mir die Produzenten von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+222,Was ist der Produzent von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+223,Was sind die Produzenten von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+224,Was war der Produzent von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+225,Was waren die Produzenten von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+226,Welche Organisation ist der Produzent von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+227,Welche Organisation war der Produzent von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+228,Welche Organisationen sind die Produzenten von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+229,Welche Organisationen waren die Produzenten von Maschinelles Lernen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+230,Gib mir den Produzenten von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+231,Gib mir die Produzenten von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+232,Was ist der Produzent von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+233,Was sind die Produzenten von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+234,Was war der Produzent von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+235,Was waren die Produzenten von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+236,Welche Organisation ist der Produzent von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+237,Welche Organisation war der Produzent von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+238,Welche Organisationen sind die Produzenten von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+239,Welche Organisationen waren die Produzenten von Macintosh?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Macintosh>    },Apple Store
+240,Gib mir den Produzenten von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+241,Gib mir die Produzenten von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+242,Was ist der Produzent von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+243,Was sind die Produzenten von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+244,Was war der Produzent von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+245,Was waren die Produzenten von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+246,Welche Organisation ist der Produzent von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+247,Welche Organisation war der Produzent von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+248,Welche Organisationen sind die Produzenten von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+249,Welche Organisationen waren die Produzenten von Mad Dog McCree?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+250,Gib mir den Produzenten von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+251,Gib mir die Produzenten von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+252,Was ist der Produzent von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+253,Was sind die Produzenten von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+254,Was war der Produzent von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+255,Was waren die Produzenten von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+256,Welche Organisation ist der Produzent von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+257,Welche Organisation war der Produzent von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+258,Welche Organisationen sind die Produzenten von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+259,Welche Organisationen waren die Produzenten von Madden NFL?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+260,Gib mir den Produzenten von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+261,Gib mir die Produzenten von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+262,Was ist der Produzent von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+263,Was sind die Produzenten von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+264,Was war der Produzent von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+265,Was waren die Produzenten von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+266,Welche Organisation ist der Produzent von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+267,Welche Organisation war der Produzent von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+268,Welche Organisationen sind die Produzenten von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+269,Welche Organisationen waren die Produzenten von Mafia III?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+270,Gib mir den Produzenten von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+271,Gib mir die Produzenten von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+272,Was ist der Produzent von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+273,Was sind die Produzenten von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+274,Was war der Produzent von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+275,Was waren die Produzenten von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+276,Welche Organisation ist der Produzent von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+277,Welche Organisation war der Produzent von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+278,Welche Organisationen sind die Produzenten von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+279,Welche Organisationen waren die Produzenten von Mage Knight?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+280,Gib mir den Produzenten von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+281,Gib mir die Produzenten von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+282,Was ist der Produzent von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+283,Was sind die Produzenten von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+284,Was war der Produzent von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+285,Was waren die Produzenten von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+286,Welche Organisation ist der Produzent von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+287,Welche Organisation war der Produzent von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+288,Welche Organisationen sind die Produzenten von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+289,Welche Organisationen waren die Produzenten von Magic: The Gathering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+290,Gib mir den Produzenten von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+291,Gib mir die Produzenten von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+292,Was ist der Produzent von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+293,Was sind die Produzenten von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+294,Was war der Produzent von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+295,Was waren die Produzenten von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+296,Welche Organisation ist der Produzent von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+297,Welche Organisation war der Produzent von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+298,Welche Organisationen sind die Produzenten von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+299,Welche Organisationen waren die Produzenten von Mamfies Abenteuer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+300,Gib mir den Produzenten von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+301,Gib mir die Produzenten von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+302,Was ist der Produzent von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+303,Was sind die Produzenten von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+304,Was war der Produzent von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+305,Was waren die Produzenten von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+306,Welche Organisation ist der Produzent von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+307,Welche Organisation war der Produzent von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+308,Welche Organisationen sind die Produzenten von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+309,Welche Organisationen waren die Produzenten von Magic Carpet Computerspiel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+310,Gib mir den Produzenten von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+311,Gib mir die Produzenten von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+312,Was ist der Produzent von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+313,Was sind die Produzenten von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+314,Was war der Produzent von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+315,Was waren die Produzenten von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+316,Welche Organisation ist der Produzent von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+317,Welche Organisation war der Produzent von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+318,Welche Organisationen sind die Produzenten von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+319,Welche Organisationen waren die Produzenten von Magnesit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+320,Gib mir den Produzenten von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+321,Gib mir die Produzenten von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+322,Was ist der Produzent von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+323,Was sind die Produzenten von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+324,Was war der Produzent von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+325,Was waren die Produzenten von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+326,Welche Organisation ist der Produzent von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+327,Welche Organisation war der Produzent von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+328,Welche Organisationen sind die Produzenten von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+329,Welche Organisationen waren die Produzenten von Magnesium?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+330,Gib mir den Produzenten von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+331,Gib mir die Produzenten von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+332,Was ist der Produzent von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+333,Was sind die Produzenten von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+334,Was war der Produzent von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+335,Was waren die Produzenten von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+336,Welche Organisation ist der Produzent von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+337,Welche Organisation war der Produzent von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+338,Welche Organisationen sind die Produzenten von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+339,Welche Organisationen waren die Produzenten von Magnesiumchlorid?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+340,Gib mir den Produzenten von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+341,Gib mir die Produzenten von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+342,Was ist der Produzent von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+343,Was sind die Produzenten von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+344,Was war der Produzent von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+345,Was waren die Produzenten von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+346,Welche Organisation ist der Produzent von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+347,Welche Organisation war der Produzent von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+348,Welche Organisationen sind die Produzenten von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+349,Welche Organisationen waren die Produzenten von Magnetresonanztomographie?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+350,Gib mir den Produzenten von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+351,Gib mir die Produzenten von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+352,Was ist der Produzent von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+353,Was sind die Produzenten von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+354,Was war der Produzent von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+355,Was waren die Produzenten von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+356,Welche Organisation ist der Produzent von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+357,Welche Organisation war der Produzent von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+358,Welche Organisationen sind die Produzenten von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+359,Welche Organisationen waren die Produzenten von Mahan-Klasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+360,Gib mir den Produzenten von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+361,Gib mir die Produzenten von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+362,Was ist der Produzent von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+363,Was sind die Produzenten von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+364,Was war der Produzent von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+365,Was waren die Produzenten von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+366,Welche Organisation ist der Produzent von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+367,Welche Organisation war der Produzent von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+368,Welche Organisationen sind die Produzenten von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+369,Welche Organisationen waren die Produzenten von Briefverteilanlage?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+370,Gib mir den Produzenten von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+371,Gib mir die Produzenten von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+372,Was ist der Produzent von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+373,Was sind die Produzenten von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+374,Was war der Produzent von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+375,Was waren die Produzenten von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+376,Welche Organisation ist der Produzent von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+377,Welche Organisation war der Produzent von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+378,Welche Organisationen sind die Produzenten von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+379,Welche Organisationen waren die Produzenten von Maine Loire?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+380,Gib mir den Produzenten von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+381,Gib mir die Produzenten von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+382,Was ist der Produzent von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+383,Was sind die Produzenten von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+384,Was war der Produzent von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+385,Was waren die Produzenten von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+386,Welche Organisation ist der Produzent von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+387,Welche Organisation war der Produzent von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+388,Welche Organisationen sind die Produzenten von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+389,Welche Organisationen waren die Produzenten von Maine?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+390,Gib mir den Produzenten von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+391,Gib mir die Produzenten von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+392,Was ist der Produzent von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+393,Was sind die Produzenten von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+394,Was war der Produzent von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+395,Was waren die Produzenten von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+396,Welche Organisation ist der Produzent von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+397,Welche Organisation war der Produzent von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+398,Welche Organisationen sind die Produzenten von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+399,Welche Organisationen waren die Produzenten von Mais?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+400,Gib mir den Produzenten von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+401,Gib mir die Produzenten von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+402,Was ist der Produzent von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+403,Was sind die Produzenten von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+404,Was war der Produzent von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+405,Was waren die Produzenten von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+406,Welche Organisation ist der Produzent von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+407,Welche Organisation war der Produzent von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+408,Welche Organisationen sind die Produzenten von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+409,Welche Organisationen waren die Produzenten von Teppich?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+410,Gib mir den Produzenten von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+411,Gib mir die Produzenten von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+412,Was ist der Produzent von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+413,Was sind die Produzenten von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+414,Was war der Produzent von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+415,Was waren die Produzenten von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+416,Welche Organisation ist der Produzent von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+417,Welche Organisation war der Produzent von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+418,Welche Organisationen sind die Produzenten von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+419,Welche Organisationen waren die Produzenten von Wagen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+420,Gib mir den Produzenten von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+421,Gib mir die Produzenten von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+422,Was ist der Produzent von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+423,Was sind die Produzenten von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+424,Was war der Produzent von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+425,Was waren die Produzenten von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+426,Welche Organisation ist der Produzent von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+427,Welche Organisation war der Produzent von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+428,Welche Organisationen sind die Produzenten von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+429,Welche Organisationen waren die Produzenten von Patrone Munition?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+430,Gib mir den Produzenten von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+431,Gib mir die Produzenten von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+432,Was ist der Produzent von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+433,Was sind die Produzenten von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+434,Was war der Produzent von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+435,Was waren die Produzenten von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+436,Welche Organisation ist der Produzent von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+437,Welche Organisation war der Produzent von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+438,Welche Organisationen sind die Produzenten von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+439,Welche Organisationen waren die Produzenten von Etui?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+440,Gib mir den Produzenten von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+441,Gib mir die Produzenten von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+442,Was ist der Produzent von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+443,Was sind die Produzenten von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+444,Was war der Produzent von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+445,Was waren die Produzenten von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+446,Welche Organisation ist der Produzent von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+447,Welche Organisation war der Produzent von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+448,Welche Organisationen sind die Produzenten von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+449,Welche Organisationen waren die Produzenten von Fallrecht?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+450,Gib mir den Produzenten von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+451,Gib mir die Produzenten von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+452,Was ist der Produzent von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+453,Was sind die Produzenten von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+454,Was war der Produzent von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+455,Was waren die Produzenten von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+456,Welche Organisation ist der Produzent von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+457,Welche Organisation war der Produzent von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+458,Welche Organisationen sind die Produzenten von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+459,Welche Organisationen waren die Produzenten von Casein?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+460,Gib mir den Produzenten von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+461,Gib mir die Produzenten von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+462,Was ist der Produzent von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+463,Was sind die Produzenten von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+464,Was war der Produzent von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+465,Was waren die Produzenten von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+466,Welche Organisation ist der Produzent von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+467,Welche Organisation war der Produzent von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+468,Welche Organisationen sind die Produzenten von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+469,Welche Organisationen waren die Produzenten von Abholgro??markt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+470,Gib mir den Produzenten von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+471,Gib mir die Produzenten von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+472,Was ist der Produzent von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+473,Was sind die Produzenten von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+474,Was war der Produzent von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+475,Was waren die Produzenten von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+476,Welche Organisation ist der Produzent von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+477,Welche Organisation war der Produzent von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+478,Welche Organisationen sind die Produzenten von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+479,Welche Organisationen waren die Produzenten von Cash Crops?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+480,Gib mir den Produzenten von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+481,Gib mir die Produzenten von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+482,Was ist der Produzent von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+483,Was sind die Produzenten von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+484,Was war der Produzent von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+485,Was waren die Produzenten von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+486,Welche Organisation ist der Produzent von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+487,Welche Organisation war der Produzent von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+488,Welche Organisationen sind die Produzenten von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+489,Welche Organisationen waren die Produzenten von Cash Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+490,Gib mir den Produzenten von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+491,Gib mir die Produzenten von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+492,Was ist der Produzent von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+493,Was sind die Produzenten von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+494,Was war der Produzent von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+495,Was waren die Produzenten von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+496,Welche Organisation ist der Produzent von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+497,Welche Organisation war der Produzent von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+498,Welche Organisationen sind die Produzenten von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+499,Welche Organisationen waren die Produzenten von Treasury?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+500,Gib mir den Produzenten von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+501,Gib mir die Produzenten von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+502,Was ist der Produzent von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+503,Was sind die Produzenten von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+504,Was war der Produzent von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+505,Was waren die Produzenten von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+506,Welche Organisation ist der Produzent von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+507,Welche Organisation war der Produzent von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+508,Welche Organisationen sind die Produzenten von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+509,Welche Organisationen waren die Produzenten von Registrierkasse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+510,Gib mir den Produzenten von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+511,Gib mir die Produzenten von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+512,Was ist der Produzent von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+513,Was sind die Produzenten von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+514,Was war der Produzent von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+515,Was waren die Produzenten von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+516,Welche Organisation ist der Produzent von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+517,Welche Organisation war der Produzent von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+518,Welche Organisationen sind die Produzenten von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+519,Welche Organisationen waren die Produzenten von Cashback-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+520,Gib mir den Produzenten von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+521,Gib mir die Produzenten von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+522,Was ist der Produzent von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+523,Was sind die Produzenten von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+524,Was war der Produzent von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+525,Was waren die Produzenten von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+526,Welche Organisation ist der Produzent von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+527,Welche Organisation war der Produzent von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+528,Welche Organisationen sind die Produzenten von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+529,Welche Organisationen waren die Produzenten von Bankscheck?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashier's_check>    },MoneyGram
+530,Gib mir den Produzenten von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+531,Gib mir die Produzenten von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+532,Was ist der Produzent von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+533,Was sind die Produzenten von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+534,Was war der Produzent von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+535,Was waren die Produzenten von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+536,Welche Organisation ist der Produzent von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+537,Welche Organisation war der Produzent von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+538,Welche Organisationen sind die Produzenten von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+539,Welche Organisationen waren die Produzenten von Kaschmirwolle?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashmere_wool>    },Halcyon Days (company)
+540,Gib mir den Produzenten von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+541,Gib mir die Produzenten von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+542,Was ist der Produzent von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+543,Was sind die Produzenten von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+544,Was war der Produzent von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+545,Was waren die Produzenten von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+546,Welche Organisation ist der Produzent von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+547,Welche Organisation war der Produzent von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+548,Welche Organisationen sind die Produzenten von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+549,Welche Organisationen waren die Produzenten von Kassiterit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassiterite>    },Karuruma smelter
+550,Gib mir den Produzenten von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+551,Gib mir die Produzenten von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+552,Was ist der Produzent von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+553,Was sind die Produzenten von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+554,Was war der Produzent von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+555,Was waren die Produzenten von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+556,Welche Organisation ist der Produzent von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+557,Welche Organisation war der Produzent von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+558,Welche Organisationen sind die Produzenten von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+559,Welche Organisationen waren die Produzenten von Gusseisen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+560,Gib mir den Produzenten von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+561,Gib mir die Produzenten von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+562,Was ist der Produzent von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+563,Was sind die Produzenten von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+564,Was war der Produzent von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+565,Was waren die Produzenten von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+566,Welche Organisation ist der Produzent von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+567,Welche Organisation war der Produzent von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+568,Welche Organisationen sind die Produzenten von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+569,Welche Organisationen waren die Produzenten von Gie??barkeit?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castability>    },Solidscape
+570,Gib mir den Produzenten von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+571,Gib mir die Produzenten von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+572,Was ist der Produzent von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+573,Was sind die Produzenten von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+574,Was war der Produzent von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+575,Was waren die Produzenten von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+576,Welche Organisation ist der Produzent von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+577,Welche Organisation war der Produzent von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+578,Welche Organisationen sind die Produzenten von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+579,Welche Organisationen waren die Produzenten von Kastagnetten?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+580,Gib mir den Produzenten von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+581,Gib mir die Produzenten von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+582,Was ist der Produzent von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+583,Was sind die Produzenten von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+584,Was war der Produzent von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+585,Was waren die Produzenten von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+586,Welche Organisation ist der Produzent von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+587,Welche Organisation war der Produzent von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+588,Welche Organisationen sind die Produzenten von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+589,Welche Organisationen waren die Produzenten von Gie??en Urformen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+590,Gib mir den Produzenten von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+591,Gib mir die Produzenten von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+592,Was ist der Produzent von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+593,Was sind die Produzenten von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+594,Was war der Produzent von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+595,Was waren die Produzenten von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+596,Welche Organisation ist der Produzent von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+597,Welche Organisation war der Produzent von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+598,Welche Organisationen sind die Produzenten von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+599,Welche Organisationen waren die Produzenten von Gie??en Metall?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+600,Gib mir den Produzenten von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+601,Gib mir die Produzenten von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+602,Was ist der Produzent von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+603,Was sind die Produzenten von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+604,Was war der Produzent von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+605,Was waren die Produzenten von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+606,Welche Organisation ist der Produzent von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+607,Welche Organisation war der Produzent von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+608,Welche Organisationen sind die Produzenten von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+609,Welche Organisationen waren die Produzenten von Casual Game?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+610,Gib mir den Produzenten von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+611,Gib mir die Produzenten von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+612,Was ist der Produzent von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+613,Was sind die Produzenten von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+614,Was war der Produzent von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+615,Was waren die Produzenten von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+616,Welche Organisation ist der Produzent von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+617,Welche Organisation war der Produzent von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+618,Welche Organisationen sind die Produzenten von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+619,Welche Organisationen waren die Produzenten von Katzenauge?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+620,Gib mir den Produzenten von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+621,Gib mir die Produzenten von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+622,Was ist der Produzent von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+623,Was sind die Produzenten von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+624,Was war der Produzent von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+625,Was waren die Produzenten von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+626,Welche Organisation ist der Produzent von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+627,Welche Organisation war der Produzent von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+628,Welche Organisationen sind die Produzenten von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+629,Welche Organisationen waren die Produzenten von Katalogisierung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+630,Gib mir den Produzenten von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+631,Gib mir die Produzenten von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+632,Was ist der Produzent von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+633,Was sind die Produzenten von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+634,Was war der Produzent von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+635,Was waren die Produzenten von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+636,Welche Organisation ist der Produzent von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+637,Welche Organisation war der Produzent von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+638,Welche Organisationen sind die Produzenten von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+639,Welche Organisationen waren die Produzenten von Katalysator?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+640,Gib mir den Produzenten von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+641,Gib mir die Produzenten von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+642,Was ist der Produzent von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+643,Was sind die Produzenten von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+644,Was war der Produzent von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+645,Was waren die Produzenten von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+646,Welche Organisation ist der Produzent von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+647,Welche Organisation war der Produzent von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+648,Welche Organisationen sind die Produzenten von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+649,Welche Organisationen waren die Produzenten von Katamaran?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+650,Gib mir den Produzenten von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+651,Gib mir die Produzenten von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+652,Was ist der Produzent von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+653,Was sind die Produzenten von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+654,Was war der Produzent von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+655,Was waren die Produzenten von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+656,Welche Organisation ist der Produzent von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+657,Welche Organisation war der Produzent von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+658,Welche Organisationen sind die Produzenten von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+659,Welche Organisationen waren die Produzenten von Catering?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+660,Gib mir den Produzenten von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+661,Gib mir die Produzenten von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+662,Was ist der Produzent von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+663,Was sind die Produzenten von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+664,Was war der Produzent von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+665,Was waren die Produzenten von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+666,Welche Organisation ist der Produzent von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+667,Welche Organisation war der Produzent von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+668,Welche Organisationen sind die Produzenten von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+669,Welche Organisationen waren die Produzenten von Verbrauchsmaterial?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumables>    },Eppendorf (company)
+670,Gib mir den Produzenten von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+671,Gib mir die Produzenten von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+672,Was ist der Produzent von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+673,Was sind die Produzenten von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+674,Was war der Produzent von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+675,Was waren die Produzenten von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+676,Welche Organisation ist der Produzent von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+677,Welche Organisation war der Produzent von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+678,Welche Organisationen sind die Produzenten von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+679,Welche Organisationen waren die Produzenten von Verbraucher?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Consumer>    },T K Group of Industries
+680,Gib mir den Produzenten von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+681,Gib mir die Produzenten von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+682,Was ist der Produzent von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+683,Was sind die Produzenten von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+684,Was war der Produzent von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+685,Was waren die Produzenten von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+686,Welche Organisation ist der Produzent von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+687,Welche Organisation war der Produzent von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+688,Welche Organisationen sind die Produzenten von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+689,Welche Organisationen waren die Produzenten von Stimmf??hlungslaut?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_call>    },Duck Commander
+690,Gib mir den Produzenten von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+691,Gib mir die Produzenten von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+692,Was ist der Produzent von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+693,Was sind die Produzenten von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+694,Was war der Produzent von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+695,Was waren die Produzenten von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+696,Welche Organisation ist der Produzent von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+697,Welche Organisation war der Produzent von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+698,Welche Organisationen sind die Produzenten von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+699,Welche Organisationen waren die Produzenten von Kontaktlinse?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contact_lens>    },Johnson & Johnson Vision
+700,Gib mir den Produzenten von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+701,Gib mir die Produzenten von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+702,Was ist der Produzent von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+703,Was sind die Produzenten von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+704,Was war der Produzent von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+705,Was waren die Produzenten von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+706,Welche Organisation ist der Produzent von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+707,Welche Organisation war der Produzent von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+708,Welche Organisationen sind die Produzenten von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+709,Welche Organisationen waren die Produzenten von Kontaktloses Bezahlen?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contactless_payment>    },NETS (company)
+710,Gib mir den Produzenten von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+711,Gib mir die Produzenten von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+712,Was ist der Produzent von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+713,Was sind die Produzenten von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+714,Was war der Produzent von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+715,Was waren die Produzenten von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+716,Welche Organisation ist der Produzent von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+717,Welche Organisation war der Produzent von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+718,Welche Organisationen sind die Produzenten von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+719,Welche Organisationen waren die Produzenten von Containerbr??cke?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Container_crane>    },Mitsui Engineering & Shipbuilding
+720,Gib mir den Produzenten von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+721,Gib mir die Produzenten von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+722,Was ist der Produzent von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+723,Was sind die Produzenten von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+724,Was war der Produzent von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+725,Was waren die Produzenten von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+726,Welche Organisation ist der Produzent von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+727,Welche Organisation war der Produzent von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+728,Welche Organisationen sind die Produzenten von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+729,Welche Organisationen waren die Produzenten von Contentfilter?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content-control_software>    },ScanSafe
+730,Gib mir den Produzenten von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+731,Gib mir die Produzenten von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+732,Was ist der Produzent von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+733,Was sind die Produzenten von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+734,Was war der Produzent von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+735,Was waren die Produzenten von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+736,Welche Organisation ist der Produzent von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+737,Welche Organisation war der Produzent von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+738,Welche Organisationen sind die Produzenten von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+739,Welche Organisationen waren die Produzenten von Content Delivery Network?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_delivery_network>    },MetaCDN
+740,Gib mir den Produzenten von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+741,Gib mir die Produzenten von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+742,Was ist der Produzent von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+743,Was sind die Produzenten von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+744,Was war der Produzent von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+745,Was waren die Produzenten von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+746,Welche Organisation ist der Produzent von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+747,Welche Organisation war der Produzent von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+748,Welche Organisationen sind die Produzenten von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+749,Welche Organisationen waren die Produzenten von Content-Management?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management>    },UserLand Software
+750,Gib mir den Produzenten von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+751,Gib mir die Produzenten von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+752,Was ist der Produzent von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+753,Was sind die Produzenten von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+754,Was war der Produzent von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+755,Was waren die Produzenten von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+756,Welche Organisation ist der Produzent von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+757,Welche Organisation war der Produzent von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+758,Welche Organisationen sind die Produzenten von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+759,Welche Organisationen waren die Produzenten von Content-Management-System?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Content_management_system>    },Webydo
+760,Gib mir den Produzenten von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+761,Gib mir die Produzenten von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+762,Was ist der Produzent von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+763,Was sind die Produzenten von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+764,Was war der Produzent von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+765,Was waren die Produzenten von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+766,Welche Organisation ist der Produzent von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+767,Welche Organisation war der Produzent von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+768,Welche Organisationen sind die Produzenten von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+769,Welche Organisationen waren die Produzenten von Semantisches Targeting?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contextual_advertising>    },ZergNet
+770,Gib mir den Produzenten von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+771,Gib mir die Produzenten von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+772,Was ist der Produzent von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+773,Was sind die Produzenten von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+774,Was war der Produzent von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+775,Was waren die Produzenten von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+776,Welche Organisation ist der Produzent von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+777,Welche Organisation war der Produzent von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+778,Welche Organisationen sind die Produzenten von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+779,Welche Organisationen waren die Produzenten von Stufenloses Getriebe?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Continuously_variable_transmission>    },Linde Hydraulics
+780,Gib mir den Produzenten von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+781,Gib mir die Produzenten von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+782,Was ist der Produzent von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+783,Was sind die Produzenten von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+784,Was war der Produzent von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+785,Was waren die Produzenten von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+786,Welche Organisation ist der Produzent von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+787,Welche Organisation war der Produzent von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+788,Welche Organisationen sind die Produzenten von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+789,Welche Organisationen waren die Produzenten von Kontrafagott?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contrabassoon>    },Cabart
+790,Gib mir den Produzenten von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+791,Gib mir die Produzenten von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+792,Was ist der Produzent von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+793,Was sind die Produzenten von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+794,Was war der Produzent von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+795,Was waren die Produzenten von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+796,Welche Organisation ist der Produzent von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+797,Welche Organisation war der Produzent von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+798,Welche Organisationen sind die Produzenten von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+799,Welche Organisationen waren die Produzenten von Differenzkontrakt?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_for_difference>    },Score Priority
+800,Gib mir den Produzenten von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+801,Gib mir die Produzenten von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+802,Was ist der Produzent von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+803,Was sind die Produzenten von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+804,Was war der Produzent von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+805,Was waren die Produzenten von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+806,Welche Organisation ist der Produzent von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+807,Welche Organisation war der Produzent von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+808,Welche Organisationen sind die Produzenten von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+809,Welche Organisationen waren die Produzenten von Vertragsmanagement?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Contract_management>    },Coupa
+810,Gib mir den Produzenten von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+811,Gib mir die Produzenten von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+812,Was ist der Produzent von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+813,Was sind die Produzenten von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+814,Was war der Produzent von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+815,Was waren die Produzenten von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+816,Welche Organisation ist der Produzent von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+817,Welche Organisation war der Produzent von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+818,Welche Organisationen sind die Produzenten von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+819,Welche Organisationen waren die Produzenten von Querlenker?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_arm>    },F&P Manufacturing Inc.
+820,Gib mir den Produzenten von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+821,Gib mir die Produzenten von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+822,Was ist der Produzent von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+823,Was sind die Produzenten von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+824,Was war der Produzent von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+825,Was waren die Produzenten von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+826,Welche Organisation ist der Produzent von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+827,Welche Organisation war der Produzent von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+828,Welche Organisationen sind die Produzenten von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+829,Welche Organisationen waren die Produzenten von Regelkreis?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_system>    },"Woodward, Inc."
+830,Gib mir den Produzenten von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+831,Gib mir die Produzenten von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+832,Was ist der Produzent von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+833,Was sind die Produzenten von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+834,Was war der Produzent von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+835,Was waren die Produzenten von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+836,Welche Organisation ist der Produzent von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+837,Welche Organisation war der Produzent von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+838,Welche Organisationen sind die Produzenten von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+839,Welche Organisationen waren die Produzenten von Stellventil?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Control_valve>    },Flowserve
+840,Gib mir den Produzenten von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+841,Gib mir die Produzenten von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+842,Was ist der Produzent von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+843,Was sind die Produzenten von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+844,Was war der Produzent von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+845,Was waren die Produzenten von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+846,Welche Organisation ist der Produzent von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+847,Welche Organisation war der Produzent von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+848,Welche Organisationen sind die Produzenten von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+849,Welche Organisationen waren die Produzenten von Autobahn?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Controlled-access_highway>    },Stretto di Messina
+850,Gib mir den Produzenten von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+851,Gib mir die Produzenten von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+852,Was ist der Produzent von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+853,Was sind die Produzenten von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+854,Was war der Produzent von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+855,Was waren die Produzenten von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+856,Welche Organisation ist der Produzent von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+857,Welche Organisation war der Produzent von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+858,Welche Organisationen sind die Produzenten von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+859,Welche Organisationen waren die Produzenten von Convenience Food?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_food>    },Hilcona
+860,Gib mir den Produzenten von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+861,Gib mir die Produzenten von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+862,Was ist der Produzent von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+863,Was sind die Produzenten von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+864,Was war der Produzent von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+865,Was waren die Produzenten von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+866,Welche Organisation ist der Produzent von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+867,Welche Organisation war der Produzent von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+868,Welche Organisationen sind die Produzenten von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+869,Welche Organisationen waren die Produzenten von Convenience Shop?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Convenience_store>    },Mercator (retail)
+870,Gib mir den Produzenten von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+871,Gib mir die Produzenten von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+872,Was ist der Produzent von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+873,Was sind die Produzenten von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+874,Was war der Produzent von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+875,Was waren die Produzenten von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+876,Welche Organisation ist der Produzent von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+877,Welche Organisation war der Produzent von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+878,Welche Organisationen sind die Produzenten von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+879,Welche Organisationen waren die Produzenten von F??rderband?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_belt>    },Transmin
+880,Gib mir den Produzenten von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+881,Gib mir die Produzenten von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+882,Was ist der Produzent von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+883,Was sind die Produzenten von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+884,Was war der Produzent von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+885,Was waren die Produzenten von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+886,Welche Organisation ist der Produzent von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+887,Welche Organisation war der Produzent von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+888,Welche Organisationen sind die Produzenten von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+889,Welche Organisationen waren die Produzenten von Panzerf??rderer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Conveyor_chain>    },Tsubakimoto Chain
+890,Gib mir den Produzenten von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+891,Gib mir die Produzenten von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+892,Was ist der Produzent von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+893,Was sind die Produzenten von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+894,Was war der Produzent von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+895,Was waren die Produzenten von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+896,Welche Organisation ist der Produzent von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+897,Welche Organisation war der Produzent von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+898,Welche Organisationen sind die Produzenten von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+899,Welche Organisationen waren die Produzenten von K??hlmittel?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coolant>    },Mayfran International
+900,Gib mir den Produzenten von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+901,Gib mir die Produzenten von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+902,Was ist der Produzent von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+903,Was sind die Produzenten von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+904,Was war der Produzent von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+905,Was waren die Produzenten von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+906,Welche Organisation ist der Produzent von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+907,Welche Organisation war der Produzent von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+908,Welche Organisationen sind die Produzenten von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+909,Welche Organisationen waren die Produzenten von K??hlbox?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooler>    },Pelican Products
+910,Gib mir den Produzenten von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+911,Gib mir die Produzenten von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+912,Was ist der Produzent von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+913,Was sind die Produzenten von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+914,Was war der Produzent von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+915,Was waren die Produzenten von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+916,Welche Organisation ist der Produzent von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+917,Welche Organisation war der Produzent von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+918,Welche Organisationen sind die Produzenten von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+919,Welche Organisationen waren die Produzenten von Abk??hlung?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cooling>    },Ugur Group Companies
+920,Gib mir den Produzenten von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+921,Gib mir die Produzenten von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+922,Was ist der Produzent von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+923,Was sind die Produzenten von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+924,Was war der Produzent von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+925,Was waren die Produzenten von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+926,Welche Organisation ist der Produzent von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+927,Welche Organisation war der Produzent von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+928,Welche Organisationen sind die Produzenten von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+929,Welche Organisationen waren die Produzenten von Koordinatenmessger??t?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Coordinate-measuring_machine>    },Carl Zeiss AG
+930,Gib mir den Produzenten von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+931,Gib mir die Produzenten von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+932,Was ist der Produzent von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+933,Was sind die Produzenten von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+934,Was war der Produzent von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+935,Was waren die Produzenten von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+936,Welche Organisation ist der Produzent von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+937,Welche Organisation war der Produzent von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+938,Welche Organisationen sind die Produzenten von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+939,Welche Organisationen waren die Produzenten von Kupfer?,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Copper>    },Thompson Creek Metals
+941,der Produzent von Wechselstrommotor,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+942,die Produzenten von Wechselstrommotor,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/AC_motor>    },Saietta Group
+943,der Produzent von Lufia,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+944,die Produzenten von Lufia,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Lufia>    },Natsume (company)
+945,der Produzent von Luxusgut,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+946,die Produzenten von Luxusgut,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Luxury_goods>    },Standun
+947,der Produzent von M&M???s,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+948,die Produzenten von M&M???s,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M&M's>    },"Mars, Incorporated"
+949,der Produzent von M16 (Gewehr),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+950,die Produzenten von M16 (Gewehr),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/M16_rifle>    },Sabre Defence
+951,der Produzent von MAG (Computerspiel),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+952,die Produzenten von MAG (Computerspiel),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MAG_(video_game)>    },Zipper Interactive
+953,der Produzent von Matlab,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+954,die Produzenten von Matlab,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MATLAB>    },MathWorks
+955,der Produzent von MDK (Computerspiel),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+956,die Produzenten von MDK (Computerspiel),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MDK_(video_game)>    },Shiny Entertainment
+957,der Produzent von MGB (Auto),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+958,die Produzenten von MGB (Auto),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_MGB>    },British Motor Corporation
+959,der Produzent von MG Motor UK,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+960,die Produzenten von MG Motor UK,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MG_Motor>    },Austin Motor Company
+961,der Produzent von MIPS-Architektur,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+962,die Produzenten von MIPS-Architektur,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MIPS_architecture>    },Lemote
+963,der Produzent von MODE32,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+964,die Produzenten von MODE32,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MODE32>    },Connectix
+965,der Produzent von MacDraw,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+966,die Produzenten von MacDraw,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacDraw>    },Claris
+967,der Produzent von MacOS,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+968,die Produzenten von MacOS,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+969,der Produzent von Mac OS,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+970,die Produzenten von Mac OS,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacOS>    },The Omni Group
+971,der Produzent von MacWrite,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+972,die Produzenten von MacWrite,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/MacWrite>    },Claris
+973,der Produzent von Mac OS X Snow Leopard,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+974,die Produzenten von Mac OS X Snow Leopard,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mac_OS_X_Snow_Leopard>    },SnapStream
+975,der Produzent von Maschinengewehr,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+976,die Produzenten von Maschinengewehr,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_gun>    },Maxim Nordenfelt Guns and Ammunition Company
+977,der Produzent von Maschinelles Lernen,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+978,die Produzenten von Maschinelles Lernen,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Machine_learning>    },Trace3
+979,der Produzent von Mad Dog McCree,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+980,die Produzenten von Mad Dog McCree,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mad_Dog_McCree>    },American Laser Games
+981,der Produzent von Madden NFL,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+982,die Produzenten von Madden NFL,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madden_NFL>    },EA Tiburon
+983,der Produzent von Madlax,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madlax>    },Bee Train Production
+984,die Produzenten von Madlax,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Madlax>    },Bee Train Production
+985,der Produzent von Mafia III,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+986,die Produzenten von Mafia III,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mafia_III>    },Hangar 13 (company)
+987,der Produzent von Mage Knight,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+988,die Produzenten von Mage Knight,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mage_Knight>    },WizKids
+989,der Produzent von Magic: The Gathering,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+990,die Produzenten von Magic: The Gathering,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic:_The_Gathering>    },Wizards of the Coast
+991,der Produzent von Mamfies Abenteuer,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+992,die Produzenten von Mamfies Abenteuer,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Adventures_of_Mumfie>    },Gullane Entertainment
+993,der Produzent von Magic Carpet (Computerspiel),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+994,die Produzenten von Magic Carpet (Computerspiel),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magic_Carpet_(video_game)>    },Bullfrog Productions
+995,der Produzent von Magix Music Maker,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magix_Music_Maker>    },Magix
+996,die Produzenten von Magix Music Maker,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magix_Music_Maker>    },Magix
+997,der Produzent von Magnesit,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+998,die Produzenten von Magnesit,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesite>    },National Mineral Development Corporation
+999,der Produzent von Magnesium,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+1000,die Produzenten von Magnesium,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium>    },Dead Sea Works
+1001,der Produzent von Magnesiumchlorid,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+1002,die Produzenten von Magnesiumchlorid,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnesium_chloride>    },South Bay Salt Works
+1003,der Produzent von Magnetresonanztomographie,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+1004,die Produzenten von Magnetresonanztomographie,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Magnetic_resonance_imaging>    },Esaote
+1005,der Produzent von Mahan-Klasse,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+1006,die Produzenten von Mahan-Klasse,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mahan-class_destroyer>    },Gibbs & Cox
+1007,der Produzent von Briefverteilanlage,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+1008,die Produzenten von Briefverteilanlage,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Mail_sorter>    },Pitney Bowes
+1009,der Produzent von Maine (Loire),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+1010,die Produzenten von Maine (Loire),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+1011,der Produzent von Maine,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+1012,die Produzenten von Maine,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maine>    },MaineToday Media
+1013,der Produzent von Mais,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+1014,die Produzenten von Mais,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Maize>    },Elixir Group
+1015,der Produzent von Majesty: The Fantasy Kingdom Sim,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Majesty:_The_Fantasy_Kingdom_Sim>    },HeroCraft
+1016,die Produzenten von Majesty: The Fantasy Kingdom Sim,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Majesty:_The_Fantasy_Kingdom_Sim>    },HeroCraft
+1017,der Produzent von Teppich,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+1018,die Produzenten von Teppich,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carpet>    },Menards
+1019,der Produzent von Wagen,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+1020,die Produzenten von Wagen,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Carriage>    },W.F. Stewart Company
+1021,der Produzent von Patrone (Munition),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+1022,die Produzenten von Patrone (Munition),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cartridge_(firearms)>    },Eley Brothers
+1023,der Produzent von Etui,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+1024,die Produzenten von Etui,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_(goods)>    },Hora (company)
+1025,der Produzent von Fallrecht,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+1026,die Produzenten von Fallrecht,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Case_law>    },Westlaw
+1027,der Produzent von Casein,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+1028,die Produzenten von Casein,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casein>    },Amos Dairies Uganda Limited
+1029,der Produzent von Abholgro??markt,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+1030,die Produzenten von Abholgro??markt,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_and_carry_(wholesale)>    },Metro AG
+1031,der Produzent von Cash Crops,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+1032,die Produzenten von Cash Crops,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_crop>    },London Company
+1033,der Produzent von Cash Management,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+1034,die Produzenten von Cash Management,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+1035,der Produzent von Treasury,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+1036,die Produzenten von Treasury,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_management>    },Redstone Federal Credit Union
+1037,der Produzent von Registrierkasse,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+1038,die Produzenten von Registrierkasse,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cash_register>    },Brandst??tter Group
+1039,der Produzent von Cashback-System,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+1040,die Produzenten von Cashback-System,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cashback_reward_program>    },Nubank
+1041,der Produzent von Kassettenrekorder,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassette_deck>    },Realistic (brand)
+1042,die Produzenten von Kassettenrekorder,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cassette_deck>    },Realistic (brand)
+1043,der Produzent von Gusseisen,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+1044,die Produzenten von Gusseisen,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cast_iron>    },Head Wrightson
+1045,der Produzent von Kastagnetten,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+1046,die Produzenten von Kastagnetten,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castanets>    },Meinl Percussion
+1047,der Produzent von Kastellan,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castellan>    },Runewaker Entertainment
+1048,die Produzenten von Kastellan,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Castellan>    },Runewaker Entertainment
+1049,der Produzent von Gie??en (Urformen),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+1050,die Produzenten von Gie??en (Urformen),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting>    },Doosan Heavy Industries & Construction
+1051,der Produzent von Gie??en (Metall),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+1052,die Produzenten von Gie??en (Metall),select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casting_(metalworking)>    },William Beardmore and Company
+1053,der Produzent von Casual Game,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+1054,die Produzenten von Casual Game,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Casual_game>    },HipSoft
+1055,der Produzent von Katzenauge,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+1056,die Produzenten von Katzenauge,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cat's_eye_(road)>    },Reflecting Roadstuds Ltd
+1057,der Produzent von Katalogisierung,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+1058,die Produzenten von Katalogisierung,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Cataloging>    },Nylink
+1059,der Produzent von Katalysator,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+1060,die Produzenten von Katalysator,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catalyst>    },Dow Chemical Company
+1061,der Produzent von Katamaran,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+1062,die Produzenten von Katamaran,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catamaran>    },Incat Crowther
+1063,der Produzent von Catering,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
+1064,die Produzenten von Catering,select  ?s    {   ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Catering>    },Planet Sub
