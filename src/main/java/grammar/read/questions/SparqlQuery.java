@@ -11,6 +11,8 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.DOMException;
@@ -294,13 +296,14 @@ I think first i try it and then we can discuss.
 > Best regards, */
     
     
-    public static String GRADABLE_ADJECTIVE_sparql(String sparql) {
+    public static String GRADABLE_ADJECTIVE_sparql(String sparql, UriLabel uriLabel) {
         sparql = sparql.replace("<", "\n" + "<");
         sparql = sparql.replace(">", ">" + "\n");
+        String uri = uriLabel.getUri();
 
         Integer index = 0;
         String[] lines = sparql.split(System.getProperty("line.separator"));
-        String[] kbs = new String[4];
+        String[] kbs = new String[10];
         for (String line : lines) {
             if (line.contains("<")) {
                 line = line.replace("<", "");
@@ -314,15 +317,62 @@ I think first i try it and then we can discuss.
             }
 
         }
-        System.out.println("kbs[0]:"+kbs[0]);
-        System.out.println("kbs[1]:"+kbs[1]);
-        System.out.println("kbs[2]:"+kbs[2]);
-        kbs[0] = "<http://www.w3.org/1999/02/22-rdf-syntax-ns#type/" + kbs[0] + ">";
-        kbs[1] = "<http://dbpedia.org/ontology/" + kbs[1] + ">";
-        kbs[2] = "<http://dbpedia.org/ontology/" + kbs[2] + ">";
-        
-        String newSparqlQuery = "SELECT DISTINCT ?uri WHERE {  ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Mountain> .  ?uri <http://dbpedia.org/ontology/height> ?num . } ORDER BY DESC(?num) OFFSET 0 LIMIT 1 ";
-        //String  newSparqlQuery = "SELECT DISTINCT ?uri WHERE {  ?uri "+ kbs[0]+" "+kbs[1]+" .  ?uri "+kbs[2]+" ?num . } ORDER BY DESC(?num) OFFSET 0 LIMIT 1 ";
+        System.out.println("kbs[0]:" + kbs[0]);
+        System.out.println("kbs[1]:" + kbs[1]);
+        System.out.println("kbs[2]:" + kbs[2]);
+        System.out.println("uri:" + uri);
+
+        //String newSparqlQuery = "SELECT DISTINCT ?uri WHERE {  ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#"+kbs[0]+">"+" <http://dbpedia.org/ontology/"+kbs[1]+"> .  ?uri <http://dbpedia.org/ontology/height> ?num . } ORDER BY DESC(?num) OFFSET 0 LIMIT 1 ";
+       
+        String newSparqlQuery = null;
+        //kbs[1]="Mountain";
+       
+        /*  newSparqlQuery = 
+                  "SELECT DISTINCT ?uri WHERE {"
+                  + "?uri " + "<http://www.w3.org/1999/02/22-rdf-syntax-ns#" + "type" + ">" + " " + "<http://dbpedia.org/ontology/" + "Country" + ">" + " .       "
+                + "?uri " + "<http://dbpedia.org/ontology/" + "locatedInArea" + ">" + " " + "<" + uri + ">" + " .        "
+                + "?uri " + "<http://dbpedia.org/ontology/" + "elevation" + ">" + " ?elevation .} ORDER BY ASC(?elevation) LIMIT 1";
+        */
+
+        newSparqlQuery  = "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?uri WHERE { ?uri rdf:type "+"dbo:BodyOfWater . ?uri dbo:length ?length } ORDER BY DESC(?length) LIMIT 1";
+
+
+        return newSparqlQuery;
+    }
+    
+    public static String GRADABLE_ADJECTIVE_Super_Sparql(String sparql, UriLabel uriLabel) {
+        String newSparqlQuery=null;
+        sparql = sparql.replace("<", "\n" + "<");
+        sparql = sparql.replace(">", ">" + "\n");
+        String uri = uriLabel.getUri();
+
+        Integer index = 0;
+        String[] lines = sparql.split(System.getProperty("line.separator"));
+        String[] kbs = new String[10];
+        for (String line : lines) {
+            if (line.contains("<")) {
+                line = line.replace("<", "");
+                line = line.replace(">", "");
+                line = line.replace("http://dbpedia.org/ontology/", "");
+                line = line.replace("http://www.w3.org/1999/02/22-rdf-syntax-ns#", "");
+                line = line.replace("http://dbpedia.org/resource/", "");
+
+                kbs[index] = line;
+                index = index + 1;
+            }
+
+        }
+        //kbs[0]="child";
+        //kbs[1]="birthDate";
+        kbs[0]="child";
+        kbs[1]="birthDate";
+        uri="http://dbpedia.org/resource/Meryl_Streep";
+        //System.out.println("uri:" + uri);
+
+        newSparqlQuery  = "SELECT DISTINCT ?uri WHERE { "+"<"+uri+">"+" <http://dbpedia.org/ontology/"+kbs[0]+"> ?uri . ?uri <http://dbpedia.org/ontology/"+kbs[1]+"> ?d } ORDER BY ASC(?d) OFFSET 0 LIMIT 1";
+
+        //newSparqlQuery  =  "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?loc WHERE { ?uri dbo:type dbr:Rapid_transit ; dbo:openingYear ?date ; dbo:location ?loc . ?loc rdf:type dbo:City } ORDER BY ASC(?date) LIMIT 1";
+
         return newSparqlQuery;
     }
 
@@ -403,9 +453,48 @@ I think first i try it and then we can discuss.
         
         String sparqlT="SELECT DISTINCT ?uri WHERE { ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerClub> ; <http://dbpedia.org/ontology/colour> <http://dbpedia.org/resource/Red> }";
         
+        String newSparqlQuery = "PREFIX dbo: <http://dbpedia.org/ontology/>\n"
+                + "PREFIX res: <http://dbpedia.org/resource/>\n"
+                + "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n"
+                + "SELECT DISTINCT ?uri \nWHERE {\n\t?uri rdf:type "+"<http://dbpedia.org/ontology/Mountain>"+" .\n        "
+                + "?uri dbo:locatedInArea res:Bangladesh .\n        "
+                + "?uri dbo:elevation ?elevation .\n} \nORDER BY DESC(?elevation) LIMIT 1";
         
-        SparqlQuery gradableSparqlQuery = new SparqlQuery(sparqlT);
-        System.out.println(gradableSparqlQuery.getObject());
+        newSparqlQuery  = "SELECT DISTINCT ?uri WHERE {  ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> .  ?uri <http://dbpedia.org/ontology/length> ?num . } ORDER BY DESC(?num) OFFSET 0 LIMIT 1 ";
+
+        newSparqlQuery  = "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?uri WHERE { ?uri rdf:type dbo:BodyOfWater ; dbo:length ?length } ORDER BY DESC(?length) LIMIT 1";
+
+        newSparqlQuery  = "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?uri WHERE { ?uri rdf:type "+"dbo:BodyOfWater . ?uri dbo:length ?length } ORDER BY DESC(?length) LIMIT 1";
+
+        newSparqlQuery  = "SELECT ?uri WHERE { ?uri "+"<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>"+" "+"<http://dbpedia.org/ontology/"+"Bridge"+">"+" . ?uri dbo:width ?length } ORDER BY ASC(?length) LIMIT 1";
+
+        newSparqlQuery  = "SELECT DISTINCT ?uri WHERE { ?uri a <http://dbpedia.org/ontology/River> { ?uri <http://dbpedia.org/ontology/length> ?l } UNION { ?uri <http://dbpedia.org/property/length> ?l } } ORDER BY DESC(?l) OFFSET 0 LIMIT 1";
+
+        newSparqlQuery  = "PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX dbr: <http://dbpedia.org/resource/> PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> SELECT ?loc WHERE { ?uri dbo:type dbr:Rapid_transit ; dbo:openingYear ?date ; dbo:location ?loc . ?loc rdf:type dbo:City } ORDER BY ASC(?date) LIMIT 1";
+
+        newSparqlQuery  = "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Meryl_Streep> <http://dbpedia.org/ontology/child> ?uri . ?uri <http://dbpedia.org/ontology/birthDate> ?d } ORDER BY ASC(?d) OFFSET 0 LIMIT 1";
+
+       //architectural structure
+       
+        newSparqlQuery  = "SELECT ?uri WHERE { ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "+"<http://dbpedia.org/ontology/Bridge>"+" . ?uri <http://dbpedia.org/ontology/height> ?length } ORDER BY DESC(?length) LIMIT 1";
+
+        newSparqlQuery  = "SELECT ?uri WHERE { ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "+"<http://dbpedia.org/ontology/River>"+" . ?uri <http://dbpedia.org/ontology/length> ?length } ORDER BY DESC(?length) LIMIT 1";
+
+        newSparqlQuery  ="PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX dct: <http://purl.org/dc/terms/> SELECT ?city WHERE { ?m skos:broader dbc:Cities_in_Germany . ?city dct:subject ?m ; dbo:areaTotal ?area } ORDER BY ASC (?area) LIMIT 1";
+         //http://dbpedia.org/resource/Category:Cities_in_Germany
+         
+                 
+        newSparqlQuery  ="PREFIX dbo: <http://dbpedia.org/ontology/> PREFIX skos: <http://www.w3.org/2004/02/skos/core#> PREFIX dbc: <http://dbpedia.org/resource/Category:> PREFIX dct: <http://purl.org/dc/terms/> SELECT ?city WHERE { ?m skos:broader dbc:Cities_in_Germany . ?city dct:subject ?m ; dbo:populationTotal ?area } ORDER BY ASC (?area) LIMIT 1";
+
+        
+        SparqlQuery gradableSparqlQuery = new SparqlQuery(newSparqlQuery);
+        SparqlQuery label=new SparqlQuery(gradableSparqlQuery.getObject(),"", FIND_LABEL, RETURN_TYPE_OBJECT);
+        
+        //SELECT ?Y WHERE { X dbo:seatingCapacity ?Y. }
+        
+        System.out.println(newSparqlQuery);
+        System.out.println(label.getObject());
+        //System.out.println(label.getObject());
         
 
         /*SparqlQuery sparqlQuery = new SparqlQuery(subject, objectUrl, FIND_ANY_ANSWER, RETURN_TYPE_OBJECT);
@@ -428,5 +517,15 @@ I think first i try it and then we can discuss.
        System.out.println("sparql:"+sparql.getObject());
          */
     }
+    
+    /*newSparqlQuery = "SELECT DISTINCT ?uri "
+                    + "\nWHERE {\n\t?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#" + kbs[0] + "> <http://dbpedia.org/ontology/" + kbs[1] + "> .\n        "
+                    + "?uri <http://dbpedia.org/ontology/" + property + "> <" + uri + "> .\n        "
+                    + "?uri <http://dbpedia.org/ontology/elevation> ?elevation .\n} "
+                    + "\nORDER BY DESC(?elevation) LIMIT 1";*/
+        //SparqlQuery SparqlQuery=new SparqlQuery(newSparqlQuery);
+        //System.out.println(SparqlQuery.getObject());
+        //String  newSparqlQuery = "SELECT DISTINCT ?uri WHERE {  ?uri "+ kbs[0]+" "+kbs[1]+" .  ?uri "+kbs[2]+" ?num . } ORDER BY DESC(?num) OFFSET 0 LIMIT 1 ";
+        
 
 }

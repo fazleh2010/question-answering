@@ -11,6 +11,7 @@
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/GrammarRuleGenerator.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/IntransitivePPGrammarRuleGenerator.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/read/questions/SentenceToSparql.java
+/home/elahi/grammar/new/question-answering/src/main/java/grammar/read/questions/SparqlQuery_1.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/structure/component/FrameType.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/helper/parser/SentenceTokenImpl.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/helper/datasets/questionword/QuestionWordRepository.java

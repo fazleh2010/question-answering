@@ -4,6 +4,8 @@ import grammar.generator.BindingResolver;
 import grammar.generator.GrammarRuleGeneratorRoot;
 import grammar.generator.GrammarRuleGeneratorRootImpl;
 import grammar.read.questions.ReadAndWriteQuestions;
+import static grammar.read.questions.ReadAndWriteQuestions.ATTRIBUTE_ADJECTIVE;
+import static grammar.read.questions.ReadAndWriteQuestions.GRADABLE_ADJECTIVE_SUPERLATIVE;
 import grammar.read.questions.SparqlQuery;
 import grammar.read.questions.Trie;
 import grammar.structure.component.DomainOrRangeType;
@@ -36,6 +38,7 @@ import static java.util.Objects.isNull;
 import java.util.Set;
 import java.util.logging.Level;
 import util.io.FileUtils;
+import static grammar.read.questions.ReadAndWriteQuestions.GRADABLE_ADJECTIVE_ALL;
 
 //index location /var/www/html/
 @NoArgsConstructor
@@ -54,8 +57,6 @@ public class QueGG implements ParameterConstant{
     public static String SEARCH = "SEARCH";
     public static String ENTITY_LABEL_LIST = "ENTITY_LABEL_LIST";
     public static String COMBINED_CSV = "COMBINED_CSV";
-    public static String ATTRIBUTE_ADJECTIVE = "ATTRIBUTE_ADJECTIVE";
-    public static String GRADABLE_ADJECTIVE = "GRADABLE_ADJECTIVE";
     //private static String entityDir = "src/main/resources/test/entity/";
     public static String combinedCsvFilesDir = "/home/elahi/grammar/new/questions/";
     public static String allCsvFile = "all.csv";
@@ -80,8 +81,8 @@ public class QueGG implements ParameterConstant{
         //search=GENERATE_JSON;
         // search=ATTRIBUTE_ADJECTIVE;
         //search=GENERATE_JSON+ATTRIBUTE_ADJECTIVE;
-        search=COMBINED_CSV;
-       // search=GRADABLE_ADJECTIVE;
+        //search=COMBINED_CSV;
+        search=GRADABLE_ADJECTIVE_SUPERLATIVE;
         
      
         if (search.equals(ENTITY_LABEL_LIST)) {
@@ -132,7 +133,7 @@ public class QueGG implements ParameterConstant{
             }
 
         }
-        else if (search.equals(ATTRIBUTE_ADJECTIVE)) {
+        else if (search.equals(ATTRIBUTE_ADJECTIVE)||search.equals(GRADABLE_ADJECTIVE_SUPERLATIVE)) {
             try {
                 List<File> fileList = FileUtils.getFiles(outputDir, "grammar_FULL_DATASET_EN", ".json");
                 if (fileList.isEmpty()) {
@@ -145,7 +146,7 @@ public class QueGG implements ParameterConstant{
             }
 
         }
-         else if (search.equals(GRADABLE_ADJECTIVE)) {
+         else if (search.contains(GRADABLE_ADJECTIVE_SUPERLATIVE)) {
             try {
                 List<File> fileList = FileUtils.getFiles(outputDir, "grammar_FULL_DATASET_EN", ".json");
                 if (fileList.isEmpty()) {

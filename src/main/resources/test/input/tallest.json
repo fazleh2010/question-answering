@@ -1,0 +1,22 @@
+{
+    "grammarEntries": [{
+            "id": "5",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "MOUNTAIN",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["What is the tallest mountain in ($x | MOUNTAIN_NP)?", "What is the highest mountain in ($x | MOUNTAIN_NP)?","the tallest mountain in $x","the highest mountain in $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Mountain>)\n  (triple ?isA <http://dbpedia.org/ontology/elevation> ?objOfProp)\n)\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }]
+}

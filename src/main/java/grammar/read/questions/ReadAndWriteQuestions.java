@@ -53,7 +53,8 @@ public class ReadAndWriteQuestions {
     private Set<String> excludes=new HashSet<String>();
     private String type;
     public static String ATTRIBUTE_ADJECTIVE = "ATTRIBUTE_ADJECTIVE";
-    public static String GRADABLE_ADJECTIVE = "GRADABLE_ADJECTIVE";
+    public static String GRADABLE_ADJECTIVE_ALL = "GRADABLE_ADJECTIVE";
+    public static String GRADABLE_ADJECTIVE_SUPERLATIVE = "GRADABLE_ADJECTIVE_SUPERLATIVE";
 
 
    
@@ -95,19 +96,43 @@ public class ReadAndWriteQuestions {
                 if (type.contains(ATTRIBUTE_ADJECTIVE)) {
                     sparql = SparqlQuery.ATTRIBUTE_ADJECTIVE_sparql(sparql);
                     bindingList = new ArrayList<UriLabel>();
-                }  
-                else if (type.contains(GRADABLE_ADJECTIVE)) {
-                    sparql = SparqlQuery.GRADABLE_ADJECTIVE_sparql(sparql);
-                    bindingList = new ArrayList<UriLabel>();
+                    noIndex = this.replaceVariables(bindingList, sparql, returnVairable, grammarEntryUnit.getSentences(), noIndex);
+                    noIndex = noIndex + 1;
+                    System.out.println("index:" + index + " Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
+                    idIndex = idIndex + 1;
+                }
+                else if (type.contains(GRADABLE_ADJECTIVE_ALL)||type.contains(GRADABLE_ADJECTIVE_SUPERLATIVE)) {
+                    entityFileName = entityDir + "ENTITY_LABEL_LIST" + "_" + "actor" + ".txt";
+                    entityFile=new File(entityFileName);
+                    bindingList = this.getExtendedBindingList(new ArrayList<UriLabel>(), entityFile);
+                   
+                    for (UriLabel uriLabel : bindingList) {
+                        System.out.println("now testing:"+uriLabel.getLabel());
+                        /*if(uriLabel.getLabel().contains("Aruba")||uriLabel.getLabel().contains("Afghanistan")
+                          ||uriLabel.getLabel().contains("Azerbaijan")||uriLabel.getLabel().contains("Antigua"))
+                            continue;*/
+                        bindingList = new ArrayList<UriLabel>();
+                        bindingList.add(uriLabel);
+                        if(type.equals(GRADABLE_ADJECTIVE_ALL)){
+                           sparql = SparqlQuery.GRADABLE_ADJECTIVE_sparql(sparql,uriLabel);                            
+                        }
+                        else if(type.equals(GRADABLE_ADJECTIVE_SUPERLATIVE)){
+                           sparql = SparqlQuery.GRADABLE_ADJECTIVE_Super_Sparql(sparql,uriLabel);                            
+                        }
+                        noIndex = this.replaceVariables(bindingList, sparql, returnVairable, grammarEntryUnit.getSentences(), noIndex);
+                        noIndex = noIndex + 1;
+                        System.out.println("index:" + index + " Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
+                        idIndex = idIndex + 1;
+                        //break;
+                      
+                    }
+
                 } else {
                     //bindingList = this.getExtendedBindingList(grammarEntryUnit.getBindingList(), entityFile);
                      bindingList=new ArrayList<UriLabel>();
                 }
                     
-                noIndex =this.replaceVariables(bindingList, sparql, returnVairable,grammarEntryUnit.getSentences(),noIndex);
-                noIndex = noIndex + 1;
-                System.out.println("index:" + index + " Id:" + grammarEntryUnit.getId() + " total:" + total + " example:" + grammarEntryUnit.getSentences().iterator().next());
-                idIndex = idIndex + 1;
+                
             }
         }
 
@@ -117,19 +142,26 @@ public class ReadAndWriteQuestions {
         Integer index = 0;
         List< String[]> rows = new ArrayList<String[]>();
 
-        if (type.contains(ATTRIBUTE_ADJECTIVE)||type.contains(GRADABLE_ADJECTIVE)) {
+        if (type.equals(ATTRIBUTE_ADJECTIVE) || type.equals(GRADABLE_ADJECTIVE_ALL)|| type.equals(GRADABLE_ADJECTIVE_SUPERLATIVE)) {
             Pair<String, String> pair = this.checkAnswerFromWikipedia(sparqlOrg);
             rowIndex = rowIndex + 1;
             String sparql = pair.component1();
             String answer = pair.component2();
-            for (String question : questions) {
+            
+            for (UriLabel uriLabel : uriLabels) {
+                rowIndex = questionReplace(questions, sparql, answer,index, rowIndex, uriLabel);
+            }
+
+            /*for (String question : questions) {
                 String id = rowIndex.toString();
                 String questionT = question.stripLeading().trim();
+                sparql=sparql.replace(" ","+");
+                sparql=sparql.replace("+"," ");
                 String[] record = {id, questionT, sparql, answer,};
-                System.out.println("id::" + id + " questionT::" +questionT + " questionForShow::" + questionT + " sparql::" + sparql + " answer::" + answer);
+                System.out.println("id::" + id + " answer::" + answer+ " questionT::" +questionT + " sparql::" + sparql);
                 this.csvWriter.writeNext(record);
                 rowIndex = rowIndex + 1;
-            }
+            }*/
             return rowIndex;
         }
 
@@ -304,6 +336,7 @@ public class ReadAndWriteQuestions {
     }
 
     private Integer makeCsvRow(List<String> questions, List<String[]> rows,  Integer rowIndex) {
+        
         for (String question : questions) {
             if (question.contains("(") && question.contains(")")) {
                 String result = StringUtils.substringBetween(question, "(", ")");
@@ -352,6 +385,42 @@ public class ReadAndWriteQuestions {
         return sparql;
     }
 
-    
+    private Integer questionReplace(List<String> questions, String sparql, String answer, Integer index, Integer rowIndex, UriLabel uriLabel) {
+        if (answer != null)
+            ; 
+        else {
+            System.out.println("index::" + index + " answer::" + answer + " uriLabel::" + uriLabel.getLabel() + " sparql::" + sparql);
+            return rowIndex;
+        }
+
+        if (answer.isEmpty() || answer.contains("no answer found")) {
+            System.out.println("index::" + index + " answer::" + answer + " uriLabel::" + uriLabel.getLabel() + " sparql::" + sparql);
+            return rowIndex;
+        }
+
+        for (String question : questions) {
+            if (question.contains("(") && question.contains(")")) {
+                String result = StringUtils.substringBetween(question, "(", ")");
+                question = question.replace(result, "X");
+            } else if (question.contains("$x")) {
+                //System.out.println(question);
+
+            }
+
+            String id = rowIndex.toString();
+            //question = modifyQuestion(question, uriLabel);
+            String questionT = question.replaceAll("(X)", uriLabel.getLabel());
+            questionT = questionT.replace("(", "");
+            questionT = questionT.replace(")", "");
+            questionT = questionT.replace("$x", uriLabel.getLabel());
+            questionT = questionT.replace(",", "");
+            questionT = questionT.stripLeading().trim();
+            String[] record = {id, questionT, sparql, answer};
+            System.out.println("index::" + index + " answer::" + answer + " uriLabel::" + uriLabel.getLabel() + " questionForShow::" + questionT + " sparql::" + sparql);
+            this.csvWriter.writeNext(record);
+            rowIndex = rowIndex + 1;
+        }
+        return rowIndex;
+    }
 
 }

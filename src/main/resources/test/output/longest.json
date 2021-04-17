@@ -1,0 +1,22 @@
+{
+    "grammarEntries": [{
+            "id": "5",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "RIVER",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["What is the longest city in ($x | MOUNTAIN_NP)?", "the city in $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>)\n  (triple ?isA <http://dbpedia.org/ontology/length> ?objOfProp)\n)\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }]
+}
