@@ -74,15 +74,15 @@ public class QueGG implements ParameterConstant{
         String search = null;
         search=GENERATE_JSON+CREATE_CSV;
         String lexicalEntry=null;
-        // search=COMBINED_CSV;
+        //search=COMBINED_CSV;
         //search = CreateCsv;
         //search = ENTITY_LABEL_LIST;
         //search = CreateCsv;
-        //search=GENERATE_JSON;
+        search=GENERATE_JSON;
         // search=ATTRIBUTE_ADJECTIVE;
         //search=GENERATE_JSON+ATTRIBUTE_ADJECTIVE;
-        //search=COMBINED_CSV;
-        search=GRADABLE_ADJECTIVE_SUPERLATIVE;
+        search=COMBINED_CSV;
+        //search=GRADABLE_ADJECTIVE_SUPERLATIVE;
         
      
         if (search.equals(ENTITY_LABEL_LIST)) {

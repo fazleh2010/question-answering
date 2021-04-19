@@ -214,6 +214,7 @@ http://dbpedia.org/resource/Zambia=Zambia
 http://dbpedia.org/resource/Sparta=Sparta
 http://dbpedia.org/resource/Kingdom_of_Northumbria=Kingdom of Northumbria
 http://dbpedia.org/resource/New_Sweden=New Sweden
+http://dbpedia.org/resource/Sweden=Sweden
 http://dbpedia.org/resource/Etruscan_civilization=Etruscan civilization
 http://dbpedia.org/resource/Hoysala_Empire=Hoysala Empire
 http://dbpedia.org/resource/Viceroyalty_of_New_Granada=Viceroyalty of New Granada
