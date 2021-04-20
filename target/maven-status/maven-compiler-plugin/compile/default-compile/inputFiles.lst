@@ -2,6 +2,7 @@
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/helper/sentencetemplates/AnnotatedVerb.java
 /home/elahi/grammar/new/question-answering/src/main/java/lexicon/LexiconSearch.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/helper/sentencetemplates/AnnotatedWord.java
+/home/elahi/grammar/new/question-answering/src/main/java/QueGG.java
 /home/elahi/grammar/new/question-answering/src/main/java/util/io/FileUtils.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/helper/SentenceBuilderTransitiveVPEN.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/helper/sentencetemplates/AnnotatedPreposition.java
@@ -72,7 +73,6 @@
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/helper/sentencetemplates/AnnotatedNounOrQuestionWord.java
 /home/elahi/grammar/new/question-answering/src/main/java/evaluation/EntryComparison.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/generator/helper/SentenceBuilderIntransitivePPEN.java
-/home/elahi/grammar/new/question-answering/src/main/java/QueGGMain.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/structure/component/GrammarWrapper.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/read/questions/SparqlQuery.java
 /home/elahi/grammar/new/question-answering/src/main/java/grammar/read/questions/GrammarEntries.java
