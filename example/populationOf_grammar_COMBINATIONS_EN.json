@@ -1,0 +1,229 @@
+{
+   "grammarEntries":[
+      {
+         "id":"158",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish country?",
+            "What is the population of Spanish countries?",
+            "What was the population of a Spanish country?",
+            "What was the population of Spanish countries?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"159",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish populated place?",
+            "What is the population of Spanish populated places?",
+            "What was the population of a Spanish populated place?",
+            "What was the population of Spanish populated places?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"160",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish town?",
+            "What is the population of Spanish towns?",
+            "What was the population of a Spanish town?",
+            "What was the population of Spanish towns?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Town>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"161",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish region?",
+            "What is the population of Spanish regions?",
+            "What was the population of a Spanish region?",
+            "What was the population of Spanish regions?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"162",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish city?",
+            "What is the population of Spanish cities?",
+            "What was the population of a Spanish city?",
+            "What was the population of Spanish cities?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"163",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish settlement?",
+            "What is the population of Spanish settlements?",
+            "What was the population of a Spanish settlement?",
+            "What was the population of Spanish settlements?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Settlement>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"164",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish place?",
+            "What is the population of Spanish places?",
+            "What was the population of a Spanish place?",
+            "What was the population of Spanish places?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"165",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish village?",
+            "What is the population of Spanish villages?",
+            "What was the population of a Spanish village?",
+            "What was the population of Spanish villages?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Village>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"166",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"NUMBER",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the population of a Spanish administrative region?",
+            "What is the population of Spanish administrative regions?",
+            "What was the population of a Spanish administrative region?",
+            "What was the population of Spanish administrative regions?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/populationTotal> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AdministrativeRegion>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      }
+   ]
+}

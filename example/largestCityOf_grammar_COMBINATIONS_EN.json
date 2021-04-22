@@ -1,0 +1,236 @@
+{
+   "grammarEntries":[
+      {
+         "id":"160",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"CITY",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the largest city in a Spanish country?",
+            "What is the largest city in Spanish countries?",
+            "What was the largest city in a Spanish country?",
+            "What was the largest city in Spanish countries?",
+            "Which city is the largest city in a Spanish country?",
+            "Which city is the largest city in Spanish countries?",
+            "Which city was the largest city in a Spanish country?",
+            "Which city was the largest city in Spanish countries?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"161",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"CITY",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the largest city in a Spanish populated place?",
+            "What is the largest city in Spanish populated places?",
+            "What was the largest city in a Spanish populated place?",
+            "What was the largest city in Spanish populated places?",
+            "Which city is the largest city in a Spanish populated place?",
+            "Which city is the largest city in Spanish populated places?",
+            "Which city was the largest city in a Spanish populated place?",
+            "Which city was the largest city in Spanish populated places?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"162",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"CITY",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the largest city in a Spanish region?",
+            "What is the largest city in Spanish regions?",
+            "What was the largest city in a Spanish region?",
+            "What was the largest city in Spanish regions?",
+            "Which city is the largest city in a Spanish region?",
+            "Which city is the largest city in Spanish regions?",
+            "Which city was the largest city in a Spanish region?",
+            "Which city was the largest city in Spanish regions?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"163",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"CITY",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the largest city in a Spanish place?",
+            "What is the largest city in Spanish places?",
+            "What was the largest city in a Spanish place?",
+            "What was the largest city in Spanish places?",
+            "Which city is the largest city in a Spanish place?",
+            "Which city is the largest city in Spanish places?",
+            "Which city was the largest city in a Spanish place?",
+            "Which city was the largest city in Spanish places?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"164",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"CITY",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the largest city of a Spanish country?",
+            "What is the largest city of Spanish countries?",
+            "What was the largest city of a Spanish country?",
+            "What was the largest city of Spanish countries?",
+            "Which city is the largest city of a Spanish country?",
+            "Which city is the largest city of Spanish countries?",
+            "Which city was the largest city of a Spanish country?",
+            "Which city was the largest city of Spanish countries?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"165",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"CITY",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the largest city of a Spanish populated place?",
+            "What is the largest city of Spanish populated places?",
+            "What was the largest city of a Spanish populated place?",
+            "What was the largest city of Spanish populated places?",
+            "Which city is the largest city of a Spanish populated place?",
+            "Which city is the largest city of Spanish populated places?",
+            "Which city was the largest city of a Spanish populated place?",
+            "Which city was the largest city of Spanish populated places?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PopulatedPlace>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"166",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"CITY",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the largest city of a Spanish region?",
+            "What is the largest city of Spanish regions?",
+            "What was the largest city of a Spanish region?",
+            "What was the largest city of Spanish regions?",
+            "Which city is the largest city of a Spanish region?",
+            "Which city is the largest city of Spanish regions?",
+            "Which city was the largest city of a Spanish region?",
+            "Which city was the largest city of Spanish regions?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Region>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      },
+      {
+         "id":"167",
+         "language":"EN",
+         "type":"SENTENCE",
+         "bindingType":"THING",
+         "returnType":"CITY",
+         "frameType":"NPP",
+         "sentences":[
+            "What is the largest city of a Spanish place?",
+            "What is the largest city of Spanish places?",
+            "What was the largest city of a Spanish place?",
+            "What was the largest city of Spanish places?",
+            "Which city is the largest city of a Spanish place?",
+            "Which city is the largest city of Spanish places?",
+            "Which city was the largest city of a Spanish place?",
+            "Which city was the largest city of Spanish places?"
+         ],
+         "queryType":"SELECT",
+         "sparqlQuery":"(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n)\n",
+         "sentenceToSparqlParameterMapping":null,
+         "returnVariable":"objOfProp",
+         "sentenceBindings":{
+            "bindingVariableName":"NONE",
+            "bindingList":[
+               
+            ]
+         },
+         "combination":true
+      }
+   ]
+}
