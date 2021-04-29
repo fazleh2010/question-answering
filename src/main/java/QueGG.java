@@ -78,7 +78,7 @@ public class QueGG implements ParameterConstant{
         //search = CreateCsv;
         //search = ENTITY_LABEL_LIST;
         //search = CreateCsv;
-        search=GENERATE_JSON;
+        search=CREATE_CSV;
         // search=ATTRIBUTE_ADJECTIVE;
         //search=GENERATE_JSON+ATTRIBUTE_ADJECTIVE;
         search=COMBINED_CSV;

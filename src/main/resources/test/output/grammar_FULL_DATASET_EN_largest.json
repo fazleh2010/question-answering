@@ -1,0 +1,22 @@
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "COUNTRY",
+            "returnType": "CITY",
+            "frameType": "NPP",
+            "sentences": ["What is the largest city in ($x | COUNTRY_NP)?", "What was the largest city in ($x | COUNTRY_NP)?", "Which city is the largest city in ($x | COUNTRY_NP)?", "Which city was the largest city in ($x | COUNTRY_NP)?","What is the largest city of ($x | COUNTRY_NP)?", "What was the largest city of ($x | COUNTRY_NP)?", "Which city is the largest city of ($x | COUNTRY_NP)?", "Which city was the largest city of ($x | COUNTRY_NP)?","the largest city in ($x | COUNTRY_NP)"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/largestCity> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": []
+            },
+            "combination": false
+        }]
+}

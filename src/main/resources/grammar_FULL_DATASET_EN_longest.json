@@ -1,0 +1,3512 @@
+{
+    "grammarEntries": [{
+            "id": "1",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "Automobile",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["Give me the longest ($x | THING_NP)?", "Tell me the longest ($x | THING_NP)?", "What is the longest ($x | THING_NP)?", "What was the longest ($x | THING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "2",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Automobile",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["the longest $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "3",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "BodyOfWater",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["Give me the longest ($x | THING_NP)?", "Tell me the longest ($x | THING_NP)?", "What is the longest ($x | THING_NP)?", "What was the longest ($x | THING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "BodyOfWater",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["the longest $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "5",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LAKE",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["Give me the longest ($x | LAKE_NP)?", "Tell me the longest ($x | LAKE_NP)?", "What is the longest ($x | LAKE_NP)?", "What was the longest ($x | LAKE_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "6",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "LAKE",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["the longest $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "7",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "Ship",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["Give me the longest ($x | THING_NP)?", "Tell me the longest ($x | THING_NP)?", "What is the longest ($x | THING_NP)?", "What was the longest ($x | THING_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "8",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Ship",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["the longest $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "9",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["Give me the longest ($x | LOCATION_NP)?", "Tell me the longest ($x | LOCATION_NP)?", "What is the longest ($x | LOCATION_NP)?", "What was the longest ($x | LOCATION_NP)?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "10",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "LOCATION",
+            "returnType": "NUMBER",
+            "frameType": "NPP",
+            "sentences": ["the longest $x"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/length> ?objOfProp))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "73mm LRAC",
+                        "uri": "http://dbpedia.org/resource/73mm_LRAC"
+                    }, {
+                        "label": "80.002",
+                        "uri": "http://dbpedia.org/resource/80.002"
+                    }, {
+                        "label": "84 Street, Edmonton",
+                        "uri": "http://dbpedia.org/resource/84_Street,_Edmonton"
+                    }, {
+                        "label": "85 mm anti-tank gun D-48",
+                        "uri": "http://dbpedia.org/resource/85_mm_anti-tank_gun_D-48"
+                    }, {
+                        "label": "8th Street and St. Mark's Place",
+                        "uri": "http://dbpedia.org/resource/8th_Street_and_St._Mark's_Place"
+                    }, {
+                        "label": "90 Feet Road",
+                        "uri": "http://dbpedia.org/resource/90_Feet_Road"
+                    }, {
+                        "label": "9A-91",
+                        "uri": "http://dbpedia.org/resource/9A-91"
+                    }, {
+                        "label": "9K115-2 Metis-M",
+                        "uri": "http://dbpedia.org/resource/9K115-2_Metis-M"
+                    }, {
+                        "label": "9M133M Kornet-M",
+                        "uri": "http://dbpedia.org/resource/9M133M_Kornet-M"
+                    }, {
+                        "label": "A1000 road",
+                        "uri": "http://dbpedia.org/resource/A1000_road"
+                    }, {
+                        "label": "A1023 road",
+                        "uri": "http://dbpedia.org/resource/A1023_road"
+                    }, {
+                        "label": "A104 road (England)",
+                        "uri": "http://dbpedia.org/resource/A104_road_(England)"
+                    }, {
+                        "label": "A1098 road",
+                        "uri": "http://dbpedia.org/resource/A1098_road"
+                    }, {
+                        "label": "A10 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A10_motorway_(Portugal)"
+                    }, {
+                        "label": "A10 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A10_road_(Botswana)"
+                    }, {
+                        "label": "A1101 road",
+                        "uri": "http://dbpedia.org/resource/A1101_road"
+                    }, {
+                        "label": "A1136 road",
+                        "uri": "http://dbpedia.org/resource/A1136_road"
+                    }, {
+                        "label": "A1173 road",
+                        "uri": "http://dbpedia.org/resource/A1173_road"
+                    }, {
+                        "label": "A11 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A11_motorway_(Romania)"
+                    }, {
+                        "label": "A121 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A121_highway_(Russia)"
+                    }, {
+                        "label": "A121 road (England)",
+                        "uri": "http://dbpedia.org/resource/A121_road_(England)"
+                    }, {
+                        "label": "A128 road",
+                        "uri": "http://dbpedia.org/resource/A128_road"
+                    }, {
+                        "label": "A12 road (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A12_road_(Belgium)"
+                    }, {
+                        "label": "A132 road (England)",
+                        "uri": "http://dbpedia.org/resource/A132_road_(England)"
+                    }, {
+                        "label": "A135 road",
+                        "uri": "http://dbpedia.org/resource/A135_road"
+                    }, {
+                        "label": "A13 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A13_motorway_(Switzerland)"
+                    }, {
+                        "label": "A14 highway (Lithuania)",
+                        "uri": "http://dbpedia.org/resource/A14_highway_(Lithuania)"
+                    }, {
+                        "label": "A14 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A14_road_(Botswana)"
+                    }, {
+                        "label": "A156 road",
+                        "uri": "http://dbpedia.org/resource/A156_road"
+                    }, {
+                        "label": "A15 autoroute",
+                        "uri": "http://dbpedia.org/resource/A15_autoroute"
+                    }, {
+                        "label": "A164 highway (Russia)",
+                        "uri": "http://dbpedia.org/resource/A164_highway_(Russia)"
+                    }, {
+                        "label": "A16 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Belgium)"
+                    }, {
+                        "label": "A16 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A16_motorway_(Switzerland)"
+                    }, {
+                        "label": "A19 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A19_motorway_(Portugal)"
+                    }, {
+                        "label": "A1 autoroute (Martinique)",
+                        "uri": "http://dbpedia.org/resource/A1_autoroute_(Martinique)"
+                    }, {
+                        "label": "A1 highway (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A1_highway_(Sri_Lanka)"
+                    }, {
+                        "label": "A1 motorway (Aragon)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Aragon)"
+                    }, {
+                        "label": "A1 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Cyprus)"
+                    }, {
+                        "label": "A1 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A1_motorway_(Tunisia)"
+                    }, {
+                        "label": "A22 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A22_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A23_motorway_(Portugal)"
+                    }, {
+                        "label": "A23 road (Kenya)",
+                        "uri": "http://dbpedia.org/resource/A23_road_(Kenya)"
+                    }, {
+                        "label": "A26 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A26_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A2 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Cyprus)"
+                    }, {
+                        "label": "A2 motorway (North Macedonia)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(North_Macedonia)"
+                    }, {
+                        "label": "A2 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A2_motorway_(Romania)"
+                    }, {
+                        "label": "A2 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A2_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A308(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A308(M)_motorway"
+                    }, {
+                        "label": "A30 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A30_road_(Botswana)"
+                    }, {
+                        "label": "A3110 road",
+                        "uri": "http://dbpedia.org/resource/A3110_road"
+                    }, {
+                        "label": "A329(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A329(M)_motorway"
+                    }, {
+                        "label": "A33 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A33_road_(Botswana)"
+                    }, {
+                        "label": "A34 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A34_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A35 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A35_road_(Botswana)"
+                    }, {
+                        "label": "A36 autoroute",
+                        "uri": "http://dbpedia.org/resource/A36_autoroute"
+                    }, {
+                        "label": "A38(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A38(M)_motorway"
+                    }, {
+                        "label": "A38 autoroute",
+                        "uri": "http://dbpedia.org/resource/A38_autoroute"
+                    }, {
+                        "label": "A3 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Cyprus)"
+                    }, {
+                        "label": "A3 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Portugal)"
+                    }, {
+                        "label": "A3 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Switzerland)"
+                    }, {
+                        "label": "A3 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A3_motorway_(Tunisia)"
+                    }, {
+                        "label": "A3 road (Botswana)",
+                        "uri": "http://dbpedia.org/resource/A3_road_(Botswana)"
+                    }, {
+                        "label": "A404(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A404(M)_motorway"
+                    }, {
+                        "label": "A404 autoroute",
+                        "uri": "http://dbpedia.org/resource/A404_autoroute"
+                    }, {
+                        "label": "A4113 road",
+                        "uri": "http://dbpedia.org/resource/A4113_road"
+                    }, {
+                        "label": "A4117 road",
+                        "uri": "http://dbpedia.org/resource/A4117_road"
+                    }, {
+                        "label": "A4148 road",
+                        "uri": "http://dbpedia.org/resource/A4148_road"
+                    }, {
+                        "label": "A41 autoroute",
+                        "uri": "http://dbpedia.org/resource/A41_autoroute"
+                    }, {
+                        "label": "A430 autoroute",
+                        "uri": "http://dbpedia.org/resource/A430_autoroute"
+                    }, {
+                        "label": "A46 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A46_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A48(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A48(M)_motorway"
+                    }, {
+                        "label": "A4 (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A4_(Cyprus)"
+                    }, {
+                        "label": "A4 motorway (Belgium)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Belgium)"
+                    }, {
+                        "label": "A4 motorway (Luxembourg)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Luxembourg)"
+                    }, {
+                        "label": "A4 motorway (Portugal)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Portugal)"
+                    }, {
+                        "label": "A4 motorway (Slovenia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Slovenia)"
+                    }, {
+                        "label": "A4 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Switzerland)"
+                    }, {
+                        "label": "A4 motorway (Tunisia)",
+                        "uri": "http://dbpedia.org/resource/A4_motorway_(Tunisia)"
+                    }, {
+                        "label": "A4 road (Northern Ireland)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Northern_Ireland)"
+                    }, {
+                        "label": "A4 road (Sri Lanka)",
+                        "uri": "http://dbpedia.org/resource/A4_road_(Sri_Lanka)"
+                    }, {
+                        "label": "A5004 road",
+                        "uri": "http://dbpedia.org/resource/A5004_road"
+                    }, {
+                        "label": "A511 road",
+                        "uri": "http://dbpedia.org/resource/A511_road"
+                    }, {
+                        "label": "A52 autoroute",
+                        "uri": "http://dbpedia.org/resource/A52_autoroute"
+                    }, {
+                        "label": "A531 road",
+                        "uri": "http://dbpedia.org/resource/A531_road"
+                    }, {
+                        "label": "A584 road",
+                        "uri": "http://dbpedia.org/resource/A584_road"
+                    }, {
+                        "label": "A585 road",
+                        "uri": "http://dbpedia.org/resource/A585_road"
+                    }, {
+                        "label": "A586 road",
+                        "uri": "http://dbpedia.org/resource/A586_road"
+                    }, {
+                        "label": "A587 road",
+                        "uri": "http://dbpedia.org/resource/A587_road"
+                    }, {
+                        "label": "A58 road",
+                        "uri": "http://dbpedia.org/resource/A58_road"
+                    }, {
+                        "label": "A5 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A5_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6144(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A6144(M)_motorway"
+                    }, {
+                        "label": "A6195 road",
+                        "uri": "http://dbpedia.org/resource/A6195_road"
+                    }, {
+                        "label": "A627(M) motorway",
+                        "uri": "http://dbpedia.org/resource/A627(M)_motorway"
+                    }, {
+                        "label": "A631 road",
+                        "uri": "http://dbpedia.org/resource/A631_road"
+                    }, {
+                        "label": "A65 road",
+                        "uri": "http://dbpedia.org/resource/A65_road"
+                    }, {
+                        "label": "A66 autoroute",
+                        "uri": "http://dbpedia.org/resource/A66_autoroute"
+                    }, {
+                        "label": "A68 autoroute",
+                        "uri": "http://dbpedia.org/resource/A68_autoroute"
+                    }, {
+                        "label": "A6 motorway (Cyprus)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Cyprus)"
+                    }, {
+                        "label": "A6 motorway (Romania)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Romania)"
+                    }, {
+                        "label": "A6 motorway (Switzerland)",
+                        "uri": "http://dbpedia.org/resource/A6_motorway_(Switzerland)"
+                    }]
+            },
+            "combination": false
+        }, {
+            "id": "11",
+            "language": "EN",
+            "type": "SENTENCE",
+            "bindingType": "LOCATION",
+            "returnType": "LOCATION",
+            "frameType": "FULL_DATASET",
+            "sentences": ["Where is $x located?"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(join\n  (union\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/country> ?objOfProp))\n    (bgp (triple ?subjOfProp <http://dbpedia.org/ontology/location> ?objOfProp)))\n  (bgp\n    (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n    (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>)\n  ))\n",
+            "sentenceToSparqlParameterMapping": {
+                "$x": "subjOfProp"
+            },
+            "returnVariable": "objOfProp",
+            "sentenceBindings": {
+                "bindingVariableName": "$x",
+                "bindingList": [{
+                        "label": "Luxembourg (canton)",
+                        "uri": "http://dbpedia.org/resource/Luxembourg_(canton)"
+                    }, {
+                        "label": "Luxembourg City",
+                        "uri": "http://dbpedia.org/resource/Luxembourg_City"
+                    }, {
+                        "label": "Luzon Strait",
+                        "uri": "http://dbpedia.org/resource/Luzon_Strait"
+                    }, {
+                        "label": "Madiromirafy",
+                        "uri": "http://dbpedia.org/resource/Madiromirafy"
+                    }, {
+                        "label": "Madirovalo",
+                        "uri": "http://dbpedia.org/resource/Madirovalo"
+                    }, {
+                        "label": "Maevaranohely",
+                        "uri": "http://dbpedia.org/resource/Maevaranohely"
+                    }, {
+                        "label": "Maevatanana",
+                        "uri": "http://dbpedia.org/resource/Maevatanana"
+                    }, {
+                        "label": "Maevatanana (district)",
+                        "uri": "http://dbpedia.org/resource/Maevatanana_(district)"
+                    }, {
+                        "label": "Maevatanana II",
+                        "uri": "http://dbpedia.org/resource/Maevatanana_II"
+                    }, {
+                        "label": "Mafaijijo",
+                        "uri": "http://dbpedia.org/resource/Mafaijijo"
+                    }, {
+                        "label": "Mahabako",
+                        "uri": "http://dbpedia.org/resource/Mahabako"
+                    }, {
+                        "label": "Mahabe",
+                        "uri": "http://dbpedia.org/resource/Mahabe"
+                    }, {
+                        "label": "Mahabo, Betroka",
+                        "uri": "http://dbpedia.org/resource/Mahabo,_Betroka"
+                    }, {
+                        "label": "Mahabo, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahabo,_Vohipeno"
+                    }, {
+                        "label": "Mahabo (district)",
+                        "uri": "http://dbpedia.org/resource/Mahabo_(district)"
+                    }, {
+                        "label": "Mahabo Mananivo",
+                        "uri": "http://dbpedia.org/resource/Mahabo_Mananivo"
+                    }, {
+                        "label": "Mahaboboka",
+                        "uri": "http://dbpedia.org/resource/Mahaboboka"
+                    }, {
+                        "label": "Mahaditra",
+                        "uri": "http://dbpedia.org/resource/Mahaditra"
+                    }, {
+                        "label": "Mahadrodroka",
+                        "uri": "http://dbpedia.org/resource/Mahadrodroka"
+                    }, {
+                        "label": "Mahaela",
+                        "uri": "http://dbpedia.org/resource/Mahaela"
+                    }, {
+                        "label": "Mahafasa Centre",
+                        "uri": "http://dbpedia.org/resource/Mahafasa_Centre"
+                    }, {
+                        "label": "Mahaiza",
+                        "uri": "http://dbpedia.org/resource/Mahaiza"
+                    }, {
+                        "label": "Mahajamba Usine",
+                        "uri": "http://dbpedia.org/resource/Mahajamba_Usine"
+                    }, {
+                        "label": "Mahajanga",
+                        "uri": "http://dbpedia.org/resource/Mahajanga"
+                    }, {
+                        "label": "Mahajanga II (district)",
+                        "uri": "http://dbpedia.org/resource/Mahajanga_II_(district)"
+                    }, {
+                        "label": "Mahajanga Province",
+                        "uri": "http://dbpedia.org/resource/Mahajanga_Province"
+                    }, {
+                        "label": "Mahalaza-Fanimana",
+                        "uri": "http://dbpedia.org/resource/Mahalaza-Fanimana"
+                    }, {
+                        "label": "Mahalina",
+                        "uri": "http://dbpedia.org/resource/Mahalina"
+                    }, {
+                        "label": "Mahaly",
+                        "uri": "http://dbpedia.org/resource/Mahaly"
+                    }, {
+                        "label": "Mahamaibe",
+                        "uri": "http://dbpedia.org/resource/Mahamaibe"
+                    }, {
+                        "label": "Mahambo",
+                        "uri": "http://dbpedia.org/resource/Mahambo"
+                    }, {
+                        "label": "Mahanoro",
+                        "uri": "http://dbpedia.org/resource/Mahanoro"
+                    }, {
+                        "label": "Mahanoro (district)",
+                        "uri": "http://dbpedia.org/resource/Mahanoro_(district)"
+                    }, {
+                        "label": "Mahasoa",
+                        "uri": "http://dbpedia.org/resource/Mahasoa"
+                    }, {
+                        "label": "Mahasoa Est",
+                        "uri": "http://dbpedia.org/resource/Mahasoa_Est"
+                    }, {
+                        "label": "Mahasoabe, Fianarantsoa II",
+                        "uri": "http://dbpedia.org/resource/Mahasoabe,_Fianarantsoa_II"
+                    }, {
+                        "label": "Mahasoabe, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahasoabe,_Vohipeno"
+                    }, {
+                        "label": "Mahasolo",
+                        "uri": "http://dbpedia.org/resource/Mahasolo"
+                    }, {
+                        "label": "Mahatalaky",
+                        "uri": "http://dbpedia.org/resource/Mahatalaky"
+                    }, {
+                        "label": "Mahatsara Iefaka",
+                        "uri": "http://dbpedia.org/resource/Mahatsara_Iefaka"
+                    }, {
+                        "label": "Mahatsara Sud",
+                        "uri": "http://dbpedia.org/resource/Mahatsara_Sud"
+                    }, {
+                        "label": "Mahatsinjo, Maevatanana",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo,_Maevatanana"
+                    }, {
+                        "label": "Mahatsinjo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo,_Vondrozo"
+                    }, {
+                        "label": "Mahatsinjo Est",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjo_Est"
+                    }, {
+                        "label": "Mahatsinjony",
+                        "uri": "http://dbpedia.org/resource/Mahatsinjony"
+                    }, {
+                        "label": "Mahavanona",
+                        "uri": "http://dbpedia.org/resource/Mahavanona"
+                    }, {
+                        "label": "Mahavelo, Farafangana",
+                        "uri": "http://dbpedia.org/resource/Mahavelo,_Farafangana"
+                    }, {
+                        "label": "Mahavelo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahavelo,_Vondrozo"
+                    }, {
+                        "label": "Mahavelona",
+                        "uri": "http://dbpedia.org/resource/Mahavelona"
+                    }, {
+                        "label": "Mahavelona, Soavinandriana",
+                        "uri": "http://dbpedia.org/resource/Mahavelona,_Soavinandriana"
+                    }, {
+                        "label": "Mahavoky Nord",
+                        "uri": "http://dbpedia.org/resource/Mahavoky_Nord"
+                    }, {
+                        "label": "Mahazina Ambohipierenana",
+                        "uri": "http://dbpedia.org/resource/Mahazina_Ambohipierenana"
+                    }, {
+                        "label": "Mahazoarivo, Fandriana",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Fandriana"
+                    }, {
+                        "label": "Mahazoarivo, Fianarantsoa II",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Fianarantsoa_II"
+                    }, {
+                        "label": "Mahazoarivo, Vohipeno",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Vohipeno"
+                    }, {
+                        "label": "Mahazoarivo, Vondrozo",
+                        "uri": "http://dbpedia.org/resource/Mahazoarivo,_Vondrozo"
+                    }, {
+                        "label": "Mahazoma",
+                        "uri": "http://dbpedia.org/resource/Mahazoma"
+                    }, {
+                        "label": "Mahazony",
+                        "uri": "http://dbpedia.org/resource/Mahazony"
+                    }, {
+                        "label": "Maheriraty",
+                        "uri": "http://dbpedia.org/resource/Maheriraty"
+                    }, {
+                        "label": "Maherivaratra",
+                        "uri": "http://dbpedia.org/resource/Maherivaratra"
+                    }, {
+                        "label": "Maintinandry",
+                        "uri": "http://dbpedia.org/resource/Maintinandry"
+                    }, {
+                        "label": "Maintirano",
+                        "uri": "http://dbpedia.org/resource/Maintirano"
+                    }, {
+                        "label": "Maintirano District",
+                        "uri": "http://dbpedia.org/resource/Maintirano_District"
+                    }, {
+                        "label": "Maintsokely",
+                        "uri": "http://dbpedia.org/resource/Maintsokely"
+                    }, {
+                        "label": "Malaimbandy",
+                        "uri": "http://dbpedia.org/resource/Malaimbandy"
+                    }, {
+                        "label": "Consthum",
+                        "uri": "http://dbpedia.org/resource/Consthum"
+                    }, {
+                        "label": "Useldange",
+                        "uri": "http://dbpedia.org/resource/Useldange"
+                    }, {
+                        "label": "Vakinankaratra",
+                        "uri": "http://dbpedia.org/resource/Vakinankaratra"
+                    }, {
+                        "label": "Valabetokana",
+                        "uri": "http://dbpedia.org/resource/Valabetokana"
+                    }, {
+                        "label": "Vallée de l'Ernz",
+                        "uri": "http://dbpedia.org/resource/Vallée_de_l'Ernz"
+                    }, {
+                        "label": "Vangaindrano (district)",
+                        "uri": "http://dbpedia.org/resource/Vangaindrano_(district)"
+                    }, {
+                        "label": "Vanono",
+                        "uri": "http://dbpedia.org/resource/Vanono"
+                    }, {
+                        "label": "Vasiana",
+                        "uri": "http://dbpedia.org/resource/Vasiana"
+                    }, {
+                        "label": "Vatana, Madagascar",
+                        "uri": "http://dbpedia.org/resource/Vatana,_Madagascar"
+                    }, {
+                        "label": "Vatanato",
+                        "uri": "http://dbpedia.org/resource/Vatanato"
+                    }, {
+                        "label": "Vatohandrina",
+                        "uri": "http://dbpedia.org/resource/Vatohandrina"
+                    }, {
+                        "label": "Vatolatsaka",
+                        "uri": "http://dbpedia.org/resource/Vatolatsaka"
+                    }, {
+                        "label": "Vatomandry",
+                        "uri": "http://dbpedia.org/resource/Vatomandry"
+                    }, {
+                        "label": "Vatomandry (district)",
+                        "uri": "http://dbpedia.org/resource/Vatomandry_(district)"
+                    }, {
+                        "label": "Vatovavy-Fitovinany",
+                        "uri": "http://dbpedia.org/resource/Vatovavy-Fitovinany"
+                    }, {
+                        "label": "Vavatenina",
+                        "uri": "http://dbpedia.org/resource/Vavatenina"
+                    }, {
+                        "label": "Vavatenina District",
+                        "uri": "http://dbpedia.org/resource/Vavatenina_District"
+                    }, {
+                        "label": "Veromanga",
+                        "uri": "http://dbpedia.org/resource/Veromanga"
+                    }, {
+                        "label": "Folschette",
+                        "uri": "http://dbpedia.org/resource/Folschette"
+                    }, {
+                        "label": "Khodoriv",
+                        "uri": "http://dbpedia.org/resource/Khodoriv"
+                    }, {
+                        "label": "Bissen",
+                        "uri": "http://dbpedia.org/resource/Bissen"
+                    }, {
+                        "label": "Biwer",
+                        "uri": "http://dbpedia.org/resource/Biwer"
+                    }, {
+                        "label": "Boanamary",
+                        "uri": "http://dbpedia.org/resource/Boanamary"
+                    }, {
+                        "label": "Bobakindro",
+                        "uri": "http://dbpedia.org/resource/Bobakindro"
+                    }, {
+                        "label": "Bobasakoa",
+                        "uri": "http://dbpedia.org/resource/Bobasakoa"
+                    }, {
+                        "label": "Boeny",
+                        "uri": "http://dbpedia.org/resource/Boeny"
+                    }, {
+                        "label": "Bongolava",
+                        "uri": "http://dbpedia.org/resource/Bongolava"
+                    }, {
+                        "label": "Boriziny-Vaovao (district)",
+                        "uri": "http://dbpedia.org/resource/Boriziny-Vaovao_(district)"
+                    }, {
+                        "label": "Borynia, Turka Raion",
+                        "uri": "http://dbpedia.org/resource/Borynia,_Turka_Raion"
+                    }, {
+                        "label": "Boulaide",
+                        "uri": "http://dbpedia.org/resource/Boulaide"
+                    }, {
+                        "label": "Bourscheid, Luxembourg",
+                        "uri": "http://dbpedia.org/resource/Bourscheid,_Luxembourg"
+                    }, {
+                        "label": "Bous, Luxembourg",
+                        "uri": "http://dbpedia.org/resource/Bous,_Luxembourg"
+                    }, {
+                        "label": "Diana Region",
+                        "uri": "http://dbpedia.org/resource/Diana_Region"
+                    }, {
+                        "label": "Didy",
+                        "uri": "http://dbpedia.org/resource/Didy"
+                    }, {
+                        "label": "Diekirch",
+                        "uri": "http://dbpedia.org/resource/Diekirch"
+                    }]
+            },
+            "combination": false
+        }]
+}

@@ -1,0 +1,556 @@
+{
+    "grammarEntries": [
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "BodyOfWater",
+            "returnType": "NUMBER",
+            "frameType": "AA",
+            "sentences": ["body of water in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BodyOfWater>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "lake",
+            "returnType": "NUMBER",
+            "frameType": "AA",
+            "sentences": ["lake in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Ancient_lake>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },{
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Automobile",
+            "returnType": "NUMBER",
+            "frameType": "AA",
+            "sentences": ["automobile in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Automobile>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },{
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Ship",
+            "returnType": "NUMBER",
+            "frameType": "AA",
+            "sentences": ["ship in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Ship>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },{
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Location",
+            "returnType": "NUMBER",
+            "frameType": "AA",
+            "sentences": ["location in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Location>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },{
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "ArchitecturalStructure",
+            "returnType": "ArchitecturalStructure",
+            "frameType": "AA",
+            "sentences": ["architecture structure in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ArchitecturalStructure>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Building",
+            "returnType": "Building",
+            "frameType": "AA",
+            "sentences": ["building in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Building>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Bridge",
+            "returnType": "Bridge",
+            "frameType": "AA",
+            "sentences": ["bridge in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Bridge>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Mountain",
+            "returnType": "Mountain",
+            "frameType": "AA",
+            "sentences": ["mountain in the world"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Mountain>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "CITY",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["German city"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "CITY",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["city in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Mountain",
+            "returnType": "Mountain",
+            "frameType": "AA",
+            "sentences": ["mountain in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/locatedInArea> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Mountain>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "ArchitecturalStructure",
+            "returnType": "ArchitecturalStructure",
+            "frameType": "AA",
+            "sentences": ["architectural structure in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ArchitecturalStructure>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Building",
+            "returnType": "Building",
+            "frameType": "AA",
+            "sentences": ["building in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Building>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "bridge",
+            "returnType": "bridge",
+            "frameType": "AA",
+            "sentences": ["bridge in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Bridge>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "BodyOfWater",
+            "returnType": "BodyOfWater",
+            "frameType": "AA",
+            "sentences": ["body of water in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BodyOfWater>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "lake",
+            "returnType": "lake",
+            "frameType": "AA",
+            "sentences": ["lake in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Ancient_lake>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Automobile",
+            "returnType": "Automobile",
+            "frameType": "AA",
+            "sentences": ["automobile in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Automobile>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Ship",
+            "returnType": "Ship",
+            "frameType": "AA",
+            "sentences": ["ship in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Ship>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Location",
+            "returnType": "Location",
+            "frameType": "AA",
+            "sentences": ["location in Germany"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Germany>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Location>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "CITY",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["Spainish city"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+    {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "CITY",
+            "returnType": "CITY",
+            "frameType": "AA",
+            "sentences": ["city in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },{
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Mountain",
+            "returnType": "Mountain",
+            "frameType": "AA",
+            "sentences": ["mountain in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/locatedInArea> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Mountain>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "ArchitecturalStructure",
+            "returnType": "ArchitecturalStructure",
+            "frameType": "AA",
+            "sentences": ["architectural structure in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ArchitecturalStructure>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Building",
+            "returnType": "Building",
+            "frameType": "AA",
+            "sentences": ["building in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Building>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "bridge",
+            "returnType": "bridge",
+            "frameType": "AA",
+            "sentences": ["bridge in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Bridge>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "BodyOfWater",
+            "returnType": "BodyOfWater",
+            "frameType": "AA",
+            "sentences": ["body of water in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BodyOfWater>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Ancient_lake",
+            "returnType": "Ancient_lake",
+            "frameType": "AA",
+            "sentences": ["lake in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Ancient_lake>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Automobile",
+            "returnType": "Automobile",
+            "frameType": "AA",
+            "sentences": ["automobile in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Automobile>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Ship",
+            "returnType": "Ship",
+            "frameType": "AA",
+            "sentences": ["ship in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Ship>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        },
+        {
+            "id": "4",
+            "language": "EN",
+            "type": "NP",
+            "bindingType": "Location",
+            "returnType": "Location",
+            "frameType": "AA",
+            "sentences": ["location in Spain"],
+            "queryType": "SELECT",
+            "sparqlQuery": "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/country> <http://dbpedia.org/resource/Spain>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Location>)\n)\n",
+            "sentenceToSparqlParameterMapping": null,
+            "returnVariable": "isA",
+            "sentenceBindings": {
+                "bindingVariableName": "NONE",
+                "bindingList": []
+            },
+            "combination": false
+        }]
+}
